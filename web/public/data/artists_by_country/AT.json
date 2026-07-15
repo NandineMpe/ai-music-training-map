@@ -1,7 +1,7 @@
 {
   "country_code": "AT",
-  "artist_count": 8,
-  "track_count": 16920,
+  "artist_count": 13,
+  "track_count": 18310,
   "artists": [
     {
       "name": "Wolfgang Amadeus Mozart",
@@ -24,6 +24,22 @@
       "track_count": 1004
     },
     {
+      "name": "Gustav Mahler",
+      "track_count": 516
+    },
+    {
+      "name": "Lolita",
+      "track_count": 430
+    },
+    {
+      "name": "Monika",
+      "track_count": 338
+    },
+    {
+      "name": "LOLITA",
+      "track_count": 105
+    },
+    {
       "name": "Herbert Von Karajan",
       "track_count": 22
     },
@@ -34,6 +50,10 @@
     {
       "name": "WOLFGANG AMADEUS MOZART",
       "track_count": 5
+    },
+    {
+      "name": "MoniKa",
+      "track_count": 1
     }
   ]
 }

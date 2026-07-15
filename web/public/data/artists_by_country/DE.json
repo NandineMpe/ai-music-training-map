@@ -1,7 +1,7 @@
 {
   "country_code": "DE",
-  "artist_count": 8,
-  "track_count": 26046,
+  "artist_count": 24,
+  "track_count": 29272,
   "artists": [
     {
       "name": "Johann Sebastian Bach",
@@ -32,8 +32,72 @@
       "track_count": 618
     },
     {
+      "name": "Dietrich Fischer-Dieskau",
+      "track_count": 476
+    },
+    {
+      "name": "Georg Philipp Telemann",
+      "track_count": 459
+    },
+    {
+      "name": "Felix",
+      "track_count": 403
+    },
+    {
+      "name": "Laura",
+      "track_count": 372
+    },
+    {
+      "name": "Staatskapelle Dresden",
+      "track_count": 366
+    },
+    {
+      "name": "Nicole",
+      "track_count": 353
+    },
+    {
+      "name": "Claudia",
+      "track_count": 343
+    },
+    {
+      "name": "Capo",
+      "track_count": 342
+    },
+    {
+      "name": "FELIX",
+      "track_count": 24
+    },
+    {
+      "name": "CLAUDIA",
+      "track_count": 23
+    },
+    {
+      "name": "capo",
+      "track_count": 21
+    },
+    {
+      "name": "CAPO",
+      "track_count": 20
+    },
+    {
+      "name": "NICOLE",
+      "track_count": 17
+    },
+    {
       "name": "Johannes brahms",
       "track_count": 4
+    },
+    {
+      "name": "LAURA",
+      "track_count": 4
+    },
+    {
+      "name": "felix",
+      "track_count": 2
+    },
+    {
+      "name": "GEORG PHILIPP TELEMANN",
+      "track_count": 1
     }
   ]
 }

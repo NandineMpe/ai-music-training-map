@@ -1,7 +1,7 @@
 {
   "country_code": "FR",
-  "artist_count": 7,
-  "track_count": 7007,
+  "artist_count": 17,
+  "track_count": 10582,
   "artists": [
     {
       "name": "Claude Debussy",
@@ -26,6 +26,46 @@
     {
       "name": "Yo-Yo Ma",
       "track_count": 572
+    },
+    {
+      "name": "Leo",
+      "track_count": 559
+    },
+    {
+      "name": "Jacques Offenbach",
+      "track_count": 464
+    },
+    {
+      "name": "David Guetta",
+      "track_count": 429
+    },
+    {
+      "name": "Mano",
+      "track_count": 410
+    },
+    {
+      "name": "Hector Berlioz",
+      "track_count": 394
+    },
+    {
+      "name": "Django Reinhardt",
+      "track_count": 383
+    },
+    {
+      "name": "Francis Poulenc",
+      "track_count": 381
+    },
+    {
+      "name": "Kaysha",
+      "track_count": 360
+    },
+    {
+      "name": "LEO",
+      "track_count": 186
+    },
+    {
+      "name": "leo",
+      "track_count": 9
     },
     {
       "name": "Camille Saint-saëns",

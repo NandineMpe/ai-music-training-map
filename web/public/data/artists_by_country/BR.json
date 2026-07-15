@@ -1,7 +1,7 @@
 {
   "country_code": "BR",
-  "artist_count": 21,
-  "track_count": 7398,
+  "artist_count": 65,
+  "track_count": 12707,
   "artists": [
     {
       "name": "Mc Gw",
@@ -28,12 +28,52 @@
       "track_count": 601
     },
     {
+      "name": "Heitor Villa-Lobos",
+      "track_count": 532
+    },
+    {
+      "name": "MC Renatinho Falcão",
+      "track_count": 506
+    },
+    {
+      "name": "Mc Magrinho",
+      "track_count": 493
+    },
+    {
+      "name": "Yuri Redicopa",
+      "track_count": 478
+    },
+    {
+      "name": "MC RD",
+      "track_count": 450
+    },
+    {
       "name": "Mc Mn",
       "track_count": 429
     },
     {
+      "name": "Furacão 2000",
+      "track_count": 427
+    },
+    {
       "name": "MC Delux",
       "track_count": 420
+    },
+    {
+      "name": "MC PR",
+      "track_count": 388
+    },
+    {
+      "name": "Macaco Gordo",
+      "track_count": 367
+    },
+    {
+      "name": "MC BN",
+      "track_count": 351
+    },
+    {
+      "name": "Mc Vuk Vuk",
+      "track_count": 338
     },
     {
       "name": "MC Gw",
@@ -44,16 +84,64 @@
       "track_count": 275
     },
     {
+      "name": "Mc Rd",
+      "track_count": 204
+    },
+    {
       "name": "mc gw",
       "track_count": 159
+    },
+    {
+      "name": "MC Magrinho",
+      "track_count": 128
+    },
+    {
+      "name": "Mc Renatinho Falcão",
+      "track_count": 113
     },
     {
       "name": "MC DELUX",
       "track_count": 111
     },
     {
+      "name": "MC VUK VUK",
+      "track_count": 69
+    },
+    {
+      "name": "MC MAGRINHO",
+      "track_count": 54
+    },
+    {
+      "name": "MC Vuk Vuk",
+      "track_count": 52
+    },
+    {
+      "name": "MC Rd",
+      "track_count": 49
+    },
+    {
+      "name": "mc rd",
+      "track_count": 40
+    },
+    {
+      "name": "MC Vuk vuk",
+      "track_count": 34
+    },
+    {
+      "name": "Mc PR",
+      "track_count": 33
+    },
+    {
+      "name": "Mc RD",
+      "track_count": 32
+    },
+    {
       "name": "MC Mn",
       "track_count": 28
+    },
+    {
+      "name": "Mc Pr",
+      "track_count": 27
     },
     {
       "name": "mc mn",
@@ -64,20 +152,88 @@
       "track_count": 24
     },
     {
+      "name": "mc vuk vuk",
+      "track_count": 24
+    },
+    {
       "name": "Mc gw",
       "track_count": 19
+    },
+    {
+      "name": "MC RENATINHO FALCÃO",
+      "track_count": 18
+    },
+    {
+      "name": "YURI REDICOPA",
+      "track_count": 14
+    },
+    {
+      "name": "Yuri redicopa",
+      "track_count": 14
     },
     {
       "name": "mc delux",
       "track_count": 13
     },
     {
+      "name": "Heitor Villa-lobos",
+      "track_count": 12
+    },
+    {
+      "name": "mc magrinho",
+      "track_count": 12
+    },
+    {
+      "name": "MC Pr",
+      "track_count": 11
+    },
+    {
+      "name": "mc pr",
+      "track_count": 9
+    },
+    {
+      "name": "Mc Bn",
+      "track_count": 6
+    },
+    {
+      "name": "Mc rd",
+      "track_count": 5
+    },
+    {
       "name": "Ct",
       "track_count": 4
     },
     {
+      "name": "Mc renatinho falcão",
+      "track_count": 4
+    },
+    {
+      "name": "Mc pr",
+      "track_count": 3
+    },
+    {
+      "name": "yuri redicopa",
+      "track_count": 2
+    },
+    {
+      "name": "mc bn",
+      "track_count": 2
+    },
+    {
       "name": "Mc delux",
       "track_count": 2
+    },
+    {
+      "name": "Mc Vuk VuK",
+      "track_count": 1
+    },
+    {
+      "name": "Mc Renatinho falcão",
+      "track_count": 1
+    },
+    {
+      "name": "Mc BN",
+      "track_count": 1
     },
     {
       "name": "Mc mn",
@@ -85,6 +241,26 @@
     },
     {
       "name": "Mc gW",
+      "track_count": 1
+    },
+    {
+      "name": "mc renatinho falcão",
+      "track_count": 1
+    },
+    {
+      "name": "mc Vuk Vuk",
+      "track_count": 1
+    },
+    {
+      "name": "MC magrinho",
+      "track_count": 1
+    },
+    {
+      "name": "Mc Vuk vuk",
+      "track_count": 1
+    },
+    {
+      "name": "MC vuk vuk",
       "track_count": 1
     }
   ]

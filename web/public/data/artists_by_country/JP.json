@@ -1,15 +1,47 @@
 {
   "country_code": "JP",
-  "artist_count": 2,
-  "track_count": 752,
+  "artist_count": 10,
+  "track_count": 2683,
   "artists": [
     {
       "name": "SEGA",
       "track_count": 641
     },
     {
+      "name": "Bandai Namco Game Music",
+      "track_count": 515
+    },
+    {
+      "name": "Luna",
+      "track_count": 388
+    },
+    {
+      "name": "Boris",
+      "track_count": 377
+    },
+    {
+      "name": "Exile",
+      "track_count": 370
+    },
+    {
+      "name": "EXILE",
+      "track_count": 152
+    },
+    {
+      "name": "LUNA",
+      "track_count": 124
+    },
+    {
       "name": "Sega",
       "track_count": 111
+    },
+    {
+      "name": "luna",
+      "track_count": 3
+    },
+    {
+      "name": "LuNa",
+      "track_count": 2
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "country_code": "IL",
+  "artist_count": 3,
+  "track_count": 464,
+  "artists": [
+    {
+      "name": "Angel",
+      "track_count": 420
+    },
+    {
+      "name": "ANGEL",
+      "track_count": 41
+    },
+    {
+      "name": "angel",
+      "track_count": 3
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "country_code": "CH",
+  "artist_count": 3,
+  "track_count": 444,
+  "artists": [
+    {
+      "name": "Frost",
+      "track_count": 439
+    },
+    {
+      "name": "FROST",
+      "track_count": 4
+    },
+    {
+      "name": "frost",
+      "track_count": 1
+    }
+  ]
+}

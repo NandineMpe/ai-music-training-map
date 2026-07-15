@@ -1,0 +1,11 @@
+{
+  "country_code": "GR",
+  "artist_count": 1,
+  "track_count": 503,
+  "artists": [
+    {
+      "name": "Maria Callas",
+      "track_count": 503
+    }
+  ]
+}

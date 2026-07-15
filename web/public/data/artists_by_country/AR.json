@@ -1,0 +1,35 @@
+{
+  "country_code": "AR",
+  "artist_count": 7,
+  "track_count": 1493,
+  "artists": [
+    {
+      "name": "Daniel Barenboim",
+      "track_count": 516
+    },
+    {
+      "name": "Karina",
+      "track_count": 447
+    },
+    {
+      "name": "Daniel",
+      "track_count": 430
+    },
+    {
+      "name": "DANIEL",
+      "track_count": 74
+    },
+    {
+      "name": "KARINA",
+      "track_count": 23
+    },
+    {
+      "name": "daniel",
+      "track_count": 2
+    },
+    {
+      "name": "karina",
+      "track_count": 1
+    }
+  ]
+}

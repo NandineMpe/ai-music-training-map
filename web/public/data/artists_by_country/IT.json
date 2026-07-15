@@ -1,7 +1,7 @@
 {
   "country_code": "IT",
-  "artist_count": 11,
-  "track_count": 8344,
+  "artist_count": 39,
+  "track_count": 13754,
   "artists": [
     {
       "name": "Antonio Vivaldi",
@@ -24,16 +24,84 @@
       "track_count": 615
     },
     {
+      "name": "Luciano Pavarotti",
+      "track_count": 563
+    },
+    {
+      "name": "Franco",
+      "track_count": 540
+    },
+    {
+      "name": "Massimo",
+      "track_count": 431
+    },
+    {
+      "name": "Gaetano Donizetti",
+      "track_count": 410
+    },
+    {
+      "name": "I Musici",
+      "track_count": 402
+    },
+    {
+      "name": "Savage",
+      "track_count": 399
+    },
+    {
+      "name": "Luciano",
+      "track_count": 371
+    },
+    {
+      "name": "Domenico Scarlatti",
+      "track_count": 371
+    },
+    {
+      "name": "Nino",
+      "track_count": 349
+    },
+    {
+      "name": "Mina",
+      "track_count": 348
+    },
+    {
+      "name": "Marcello",
+      "track_count": 340
+    },
+    {
+      "name": "Erika",
+      "track_count": 339
+    },
+    {
+      "name": "Mango",
+      "track_count": 337
+    },
+    {
       "name": "ZERO",
       "track_count": 130
+    },
+    {
+      "name": "NINO",
+      "track_count": 96
     },
     {
       "name": "Giuseppe VERDI",
       "track_count": 78
     },
     {
+      "name": "ERIKA",
+      "track_count": 41
+    },
+    {
       "name": "Antonio vivaldi",
       "track_count": 26
+    },
+    {
+      "name": "FRANCO",
+      "track_count": 24
+    },
+    {
+      "name": "mina",
+      "track_count": 18
     },
     {
       "name": "zero",
@@ -44,7 +112,51 @@
       "track_count": 11
     },
     {
+      "name": "MINA",
+      "track_count": 7
+    },
+    {
+      "name": "SAVAGE",
+      "track_count": 6
+    },
+    {
+      "name": "MinA",
+      "track_count": 3
+    },
+    {
+      "name": "i Musici",
+      "track_count": 3
+    },
+    {
+      "name": "nino",
+      "track_count": 3
+    },
+    {
+      "name": "NiNo",
+      "track_count": 2
+    },
+    {
+      "name": "savage",
+      "track_count": 2
+    },
+    {
+      "name": "MANGO",
+      "track_count": 2
+    },
+    {
+      "name": "MINa",
+      "track_count": 1
+    },
+    {
+      "name": "FranCo",
+      "track_count": 1
+    },
+    {
       "name": "GIACOMO PUCCINI",
+      "track_count": 1
+    },
+    {
+      "name": "gaetano Donizetti",
       "track_count": 1
     }
   ]

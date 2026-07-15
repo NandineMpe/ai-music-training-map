@@ -1,0 +1,19 @@
+{
+  "country_code": "JM",
+  "artist_count": 3,
+  "track_count": 499,
+  "artists": [
+    {
+      "name": "Rico",
+      "track_count": 449
+    },
+    {
+      "name": "RICO",
+      "track_count": 49
+    },
+    {
+      "name": "rico",
+      "track_count": 1
+    }
+  ]
+}

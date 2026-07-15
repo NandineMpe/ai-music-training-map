@@ -1,15 +1,43 @@
 {
   "country_code": "RO",
-  "artist_count": 2,
-  "track_count": 618,
+  "artist_count": 9,
+  "track_count": 1727,
   "artists": [
     {
       "name": "Nicolae Guta",
       "track_count": 600
     },
     {
+      "name": "Iris",
+      "track_count": 473
+    },
+    {
+      "name": "Florin Salam",
+      "track_count": 444
+    },
+    {
+      "name": "IRIS",
+      "track_count": 116
+    },
+    {
+      "name": "iris",
+      "track_count": 61
+    },
+    {
       "name": "NICOLAE GUTA",
       "track_count": 18
+    },
+    {
+      "name": "IRiS",
+      "track_count": 10
+    },
+    {
+      "name": "FLORIN SALAM",
+      "track_count": 4
+    },
+    {
+      "name": "Florin salam",
+      "track_count": 1
     }
   ]
 }

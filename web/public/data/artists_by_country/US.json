@@ -1,7 +1,7 @@
 {
   "country_code": "US",
-  "artist_count": 15,
-  "track_count": 5356,
+  "artist_count": 115,
+  "track_count": 24235,
   "artists": [
     {
       "name": "Frank Sinatra",
@@ -36,31 +36,431 @@
       "track_count": 571
     },
     {
+      "name": "Ella Fitzgerald",
+      "track_count": 562
+    },
+    {
+      "name": "Hans Zimmer",
+      "track_count": 524
+    },
+    {
+      "name": "Tony",
+      "track_count": 512
+    },
+    {
+      "name": "Chet Baker",
+      "track_count": 493
+    },
+    {
+      "name": "Charlie",
+      "track_count": 485
+    },
+    {
+      "name": "Billie Holiday",
+      "track_count": 472
+    },
+    {
+      "name": "Marvin",
+      "track_count": 452
+    },
+    {
+      "name": "Randy",
+      "track_count": 445
+    },
+    {
+      "name": "Danny",
+      "track_count": 443
+    },
+    {
+      "name": "Stan Getz",
+      "track_count": 435
+    },
+    {
+      "name": "His Orchestra",
+      "track_count": 433
+    },
+    {
+      "name": "Dean Evenson",
+      "track_count": 424
+    },
+    {
+      "name": "Friends",
+      "track_count": 423
+    },
+    {
+      "name": "Fuego",
+      "track_count": 412
+    },
+    {
+      "name": "Nina",
+      "track_count": 405
+    },
+    {
+      "name": "Alice",
+      "track_count": 403
+    },
+    {
+      "name": "Leonard Bernstein",
+      "track_count": 402
+    },
+    {
+      "name": "AG",
+      "track_count": 396
+    },
+    {
+      "name": "Vega",
+      "track_count": 395
+    },
+    {
+      "name": "Samuel Barber",
+      "track_count": 395
+    },
+    {
+      "name": "James Levine",
+      "track_count": 391
+    },
+    {
+      "name": "Ice",
+      "track_count": 383
+    },
+    {
+      "name": "Diana",
+      "track_count": 378
+    },
+    {
+      "name": "Alex",
+      "track_count": 374
+    },
+    {
+      "name": "Jordan",
+      "track_count": 374
+    },
+    {
+      "name": "King James",
+      "track_count": 373
+    },
+    {
+      "name": "John Coltrane",
+      "track_count": 369
+    },
+    {
+      "name": "André Previn",
+      "track_count": 367
+    },
+    {
+      "name": "Simone",
+      "track_count": 366
+    },
+    {
+      "name": "Ian Urbina",
+      "track_count": 365
+    },
+    {
+      "name": "Sabrina",
+      "track_count": 364
+    },
+    {
+      "name": "Brian Tyler",
+      "track_count": 358
+    },
+    {
+      "name": "Lotus",
+      "track_count": 357
+    },
+    {
+      "name": "Disney",
+      "track_count": 354
+    },
+    {
+      "name": "Dexter",
+      "track_count": 353
+    },
+    {
+      "name": "Jade",
+      "track_count": 353
+    },
+    {
+      "name": "Chicago Symphony Orchestra",
+      "track_count": 352
+    },
+    {
+      "name": "David Newman",
+      "track_count": 352
+    },
+    {
+      "name": "Continental",
+      "track_count": 352
+    },
+    {
+      "name": "Lobo",
+      "track_count": 349
+    },
+    {
+      "name": "Karma",
+      "track_count": 342
+    },
+    {
+      "name": "Nadia",
+      "track_count": 339
+    },
+    {
+      "name": "Tommy",
+      "track_count": 338
+    },
+    {
+      "name": "Itzhak Perlman",
+      "track_count": 338
+    },
+    {
+      "name": "Melody",
+      "track_count": 338
+    },
+    {
+      "name": "ICE",
+      "track_count": 161
+    },
+    {
+      "name": "ALEX",
+      "track_count": 145
+    },
+    {
+      "name": "NINA",
+      "track_count": 130
+    },
+    {
       "name": "KALI",
       "track_count": 81
+    },
+    {
+      "name": "FRIENDS",
+      "track_count": 77
+    },
+    {
+      "name": "KARMA",
+      "track_count": 56
+    },
+    {
+      "name": "JADE",
+      "track_count": 37
     },
     {
       "name": "JUNIOR",
       "track_count": 31
     },
     {
+      "name": "ALICE",
+      "track_count": 26
+    },
+    {
+      "name": "DIANA",
+      "track_count": 25
+    },
+    {
+      "name": "DEXTER",
+      "track_count": 24
+    },
+    {
+      "name": "NiNA",
+      "track_count": 23
+    },
+    {
+      "name": "Ag",
+      "track_count": 21
+    },
+    {
+      "name": "DANNY",
+      "track_count": 21
+    },
+    {
+      "name": "LOTUS",
+      "track_count": 21
+    },
+    {
+      "name": "NADIA",
+      "track_count": 20
+    },
+    {
+      "name": "HIS ORCHESTRA",
+      "track_count": 19
+    },
+    {
+      "name": "ice",
+      "track_count": 18
+    },
+    {
+      "name": "alex",
+      "track_count": 17
+    },
+    {
       "name": "MIles Davis",
       "track_count": 13
+    },
+    {
+      "name": "KING James",
+      "track_count": 12
+    },
+    {
+      "name": "jordan",
+      "track_count": 10
+    },
+    {
+      "name": "ag",
+      "track_count": 10
+    },
+    {
+      "name": "TONY",
+      "track_count": 9
+    },
+    {
+      "name": "TOMMY",
+      "track_count": 9
+    },
+    {
+      "name": "tommy",
+      "track_count": 8
     },
     {
       "name": "Frank sinatra",
       "track_count": 8
     },
     {
+      "name": "FUEGO",
+      "track_count": 7
+    },
+    {
+      "name": "jade",
+      "track_count": 6
+    },
+    {
+      "name": "MELODY",
+      "track_count": 6
+    },
+    {
+      "name": "karma",
+      "track_count": 6
+    },
+    {
+      "name": "JORDAN",
+      "track_count": 5
+    },
+    {
+      "name": "ToMMy",
+      "track_count": 5
+    },
+    {
+      "name": "dexter",
+      "track_count": 5
+    },
+    {
+      "name": "LoBo",
+      "track_count": 5
+    },
+    {
+      "name": "LOBO",
+      "track_count": 5
+    },
+    {
       "name": "junior",
       "track_count": 4
+    },
+    {
+      "name": "marvin",
+      "track_count": 4
+    },
+    {
+      "name": "VEGA",
+      "track_count": 4
+    },
+    {
+      "name": "CHARLIE",
+      "track_count": 4
+    },
+    {
+      "name": "RANDY",
+      "track_count": 3
+    },
+    {
+      "name": "lobo",
+      "track_count": 3
+    },
+    {
+      "name": "icE",
+      "track_count": 2
+    },
+    {
+      "name": "nina",
+      "track_count": 2
+    },
+    {
+      "name": "BILLIE HOLIDAY",
+      "track_count": 2
+    },
+    {
+      "name": "MARVIN",
+      "track_count": 2
+    },
+    {
+      "name": "ELLA FITZGERALD",
+      "track_count": 1
+    },
+    {
+      "name": "CONTINENTAL",
+      "track_count": 1
+    },
+    {
+      "name": "NIna",
+      "track_count": 1
+    },
+    {
+      "name": "JorDan",
+      "track_count": 1
+    },
+    {
+      "name": "his Orchestra",
+      "track_count": 1
+    },
+    {
+      "name": "samuel Barber",
+      "track_count": 1
+    },
+    {
+      "name": "randy",
+      "track_count": 1
+    },
+    {
+      "name": "charlie",
+      "track_count": 1
     },
     {
       "name": "JunioR",
       "track_count": 1
     },
     {
+      "name": "nadia",
+      "track_count": 1
+    },
+    {
+      "name": "tony",
+      "track_count": 1
+    },
+    {
+      "name": "ChArLiE",
+      "track_count": 1
+    },
+    {
+      "name": "aleX",
+      "track_count": 1
+    },
+    {
+      "name": "DiAna",
+      "track_count": 1
+    },
+    {
       "name": "jUNiOr",
+      "track_count": 1
+    },
+    {
+      "name": "DannY",
       "track_count": 1
     }
   ]

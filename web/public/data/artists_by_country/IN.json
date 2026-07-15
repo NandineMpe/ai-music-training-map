@@ -1,7 +1,7 @@
 {
   "country_code": "IN",
-  "artist_count": 28,
-  "track_count": 10444,
+  "artist_count": 65,
+  "track_count": 19558,
   "artists": [
     {
       "name": "Shilpi Raj",
@@ -44,6 +44,90 @@
       "track_count": 578
     },
     {
+      "name": "Ilaiyaraaja",
+      "track_count": 567
+    },
+    {
+      "name": "Mohammed Rafi",
+      "track_count": 559
+    },
+    {
+      "name": "Miss Pooja",
+      "track_count": 492
+    },
+    {
+      "name": "Pritam",
+      "track_count": 472
+    },
+    {
+      "name": "Meena Rana",
+      "track_count": 462
+    },
+    {
+      "name": "SAMEER",
+      "track_count": 452
+    },
+    {
+      "name": "Anirudh Ravichander",
+      "track_count": 448
+    },
+    {
+      "name": "DJ MHD IND",
+      "track_count": 446
+    },
+    {
+      "name": "Suresh Wadkar",
+      "track_count": 445
+    },
+    {
+      "name": "Sonu Nigam",
+      "track_count": 427
+    },
+    {
+      "name": "Khushi Kakkar",
+      "track_count": 426
+    },
+    {
+      "name": "Sadhana Sargam",
+      "track_count": 417
+    },
+    {
+      "name": "Sunidhi Chauhan",
+      "track_count": 405
+    },
+    {
+      "name": "Mukesh",
+      "track_count": 404
+    },
+    {
+      "name": "Amit Kumar",
+      "track_count": 384
+    },
+    {
+      "name": "Shankar Mahadevan",
+      "track_count": 367
+    },
+    {
+      "name": "Pawan Singh",
+      "track_count": 365
+    },
+    {
+      "name": "Shivani Singh",
+      "track_count": 363
+    },
+    {
+      "name": "Zubeen Garg",
+      "track_count": 348
+    },
+    {
+      "name": "P Susheela",
+      "track_count": 340
+    },
+    {
+      "name": "SONU NIGAM",
+      "track_count": 163
+    },
+    {
       "name": "ANURADHA PAUDWAL",
       "track_count": 160
     },
@@ -54,6 +138,18 @@
     {
       "name": "ALKA YAGNIK",
       "track_count": 121
+    },
+    {
+      "name": "Khushi kakkar",
+      "track_count": 109
+    },
+    {
+      "name": "SUNIDHI CHAUHAN",
+      "track_count": 88
+    },
+    {
+      "name": "PRITAM",
+      "track_count": 48
     },
     {
       "name": "SHREYA GHOSHAL",
@@ -68,8 +164,28 @@
       "track_count": 36
     },
     {
+      "name": "SHANKAR MAHADEVAN",
+      "track_count": 35
+    },
+    {
+      "name": "Sameer",
+      "track_count": 17
+    },
+    {
+      "name": "AMIT KUMAR",
+      "track_count": 16
+    },
+    {
+      "name": "MISS POOJA",
+      "track_count": 14
+    },
+    {
       "name": "SHILPI RAJ",
       "track_count": 13
+    },
+    {
+      "name": "SURESH WADKAR",
+      "track_count": 12
     },
     {
       "name": "Shilpi raj",
@@ -78,6 +194,14 @@
     {
       "name": "LATA MANGESHKAR",
       "track_count": 12
+    },
+    {
+      "name": "Shivani singh",
+      "track_count": 8
+    },
+    {
+      "name": "SADHANA SARGAM",
+      "track_count": 6
     },
     {
       "name": "neha raj",
@@ -90,6 +214,14 @@
     {
       "name": "shilpi raj",
       "track_count": 3
+    },
+    {
+      "name": "ZUBEEN GARG",
+      "track_count": 3
+    },
+    {
+      "name": "khushi Kakkar",
+      "track_count": 2
     },
     {
       "name": "NEHA RAJ",
@@ -108,7 +240,23 @@
       "track_count": 1
     },
     {
+      "name": "Shankar mahadevan",
+      "track_count": 1
+    },
+    {
       "name": "shilpi Raj",
+      "track_count": 1
+    },
+    {
+      "name": "Pawan SIngh",
+      "track_count": 1
+    },
+    {
+      "name": "Miss pooja",
+      "track_count": 1
+    },
+    {
+      "name": "Shivani SIngh",
       "track_count": 1
     },
     {

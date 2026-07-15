@@ -1,11 +1,23 @@
 {
   "country_code": "ES",
-  "artist_count": 1,
-  "track_count": 685,
+  "artist_count": 4,
+  "track_count": 1993,
   "artists": [
     {
       "name": "Jordi Savall",
       "track_count": 685
+    },
+    {
+      "name": "Plácido Domingo",
+      "track_count": 534
+    },
+    {
+      "name": "Joan Chamorro",
+      "track_count": 422
+    },
+    {
+      "name": "Isaac Albéniz",
+      "track_count": 352
     }
   ]
 }

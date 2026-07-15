@@ -1,0 +1,19 @@
+{
+  "country_code": "BD",
+  "artist_count": 3,
+  "track_count": 713,
+  "artists": [
+    {
+      "name": "Andrew Kishore",
+      "track_count": 345
+    },
+    {
+      "name": "Mila",
+      "track_count": 342
+    },
+    {
+      "name": "MILA",
+      "track_count": 26
+    }
+  ]
+}

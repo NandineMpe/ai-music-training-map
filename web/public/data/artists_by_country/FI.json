@@ -1,11 +1,35 @@
 {
   "country_code": "FI",
-  "artist_count": 1,
-  "track_count": 616,
+  "artist_count": 7,
+  "track_count": 1471,
   "artists": [
     {
       "name": "Jean Sibelius",
       "track_count": 616
+    },
+    {
+      "name": "Zen",
+      "track_count": 449
+    },
+    {
+      "name": "Nemesis",
+      "track_count": 365
+    },
+    {
+      "name": "NEMESIS",
+      "track_count": 18
+    },
+    {
+      "name": "ZEN",
+      "track_count": 18
+    },
+    {
+      "name": "zen",
+      "track_count": 3
+    },
+    {
+      "name": "ZeN",
+      "track_count": 2
     }
   ]
 }
