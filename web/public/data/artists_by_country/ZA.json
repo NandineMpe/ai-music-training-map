@@ -1,35 +1,15 @@
 {
   "country_code": "ZA",
-  "artist_count": 392,
-  "track_count": 28383,
+  "artist_count": 362,
+  "track_count": 25779,
   "artists": [
-    {
-      "name": "Adam",
-      "track_count": 362
-    },
-    {
-      "name": "Eden",
-      "track_count": 322
-    },
     {
       "name": "Kabza De Small",
       "track_count": 283
     },
     {
-      "name": "Jay",
-      "track_count": 241
-    },
-    {
-      "name": "Zahara",
-      "track_count": 236
-    },
-    {
       "name": "Zee",
       "track_count": 224
-    },
-    {
-      "name": "Rebecca",
-      "track_count": 204
     },
     {
       "name": "Hawk",
@@ -52,10 +32,6 @@
       "track_count": 185
     },
     {
-      "name": "Slug",
-      "track_count": 182
-    },
-    {
       "name": "Psalm Trees",
       "track_count": 168
     },
@@ -74,10 +50,6 @@
     {
       "name": "Lira",
       "track_count": 163
-    },
-    {
-      "name": "Zola",
-      "track_count": 162
     },
     {
       "name": "Steve Hofmeyr",
@@ -198,10 +170,6 @@
     {
       "name": "Black Motion",
       "track_count": 147
-    },
-    {
-      "name": "Hugo",
-      "track_count": 146
     },
     {
       "name": "Jannie Du Toit",
@@ -428,10 +396,6 @@
       "track_count": 114
     },
     {
-      "name": "ADAM",
-      "track_count": 114
-    },
-    {
       "name": "Vigro Deep",
       "track_count": 114
     },
@@ -481,10 +445,6 @@
     },
     {
       "name": "The Flames",
-      "track_count": 105
-    },
-    {
-      "name": "Damage",
       "track_count": 105
     },
     {
@@ -720,10 +680,6 @@
       "track_count": 68
     },
     {
-      "name": "DAMAGE",
-      "track_count": 67
-    },
-    {
       "name": "Karlien Van Jaarsveld",
       "track_count": 67
     },
@@ -777,10 +733,6 @@
     },
     {
       "name": "Frozen Ghost",
-      "track_count": 62
-    },
-    {
-      "name": "Anders",
       "track_count": 62
     },
     {
@@ -852,10 +804,6 @@
       "track_count": 55
     },
     {
-      "name": "Hi-5",
-      "track_count": 55
-    },
-    {
       "name": "FETISH",
       "track_count": 55
     },
@@ -873,10 +821,6 @@
     },
     {
       "name": "Lebo Mathosa",
-      "track_count": 53
-    },
-    {
-      "name": "EDEN",
       "track_count": 53
     },
     {
@@ -932,14 +876,6 @@
       "track_count": 47
     },
     {
-      "name": "anders",
-      "track_count": 46
-    },
-    {
-      "name": "HUGO",
-      "track_count": 45
-    },
-    {
       "name": "Cornelius SA",
       "track_count": 45
     },
@@ -961,10 +897,6 @@
     },
     {
       "name": "Senyaka",
-      "track_count": 43
-    },
-    {
-      "name": "Plush",
       "track_count": 43
     },
     {
@@ -1022,10 +954,6 @@
     {
       "name": "ZEE",
       "track_count": 39
-    },
-    {
-      "name": "Roberto",
-      "track_count": 38
     },
     {
       "name": "Glenys Lynne",
@@ -1124,14 +1052,6 @@
       "track_count": 26
     },
     {
-      "name": "Tyla",
-      "track_count": 25
-    },
-    {
-      "name": "JAY",
-      "track_count": 25
-    },
-    {
       "name": "VAN PLETZEN",
       "track_count": 24
     },
@@ -1145,10 +1065,6 @@
     },
     {
       "name": "ANATII",
-      "track_count": 23
-    },
-    {
-      "name": "REBECCA",
       "track_count": 23
     },
     {
@@ -1268,15 +1184,7 @@
       "track_count": 12
     },
     {
-      "name": "ROBERTO",
-      "track_count": 12
-    },
-    {
       "name": "Mark Allnutt",
-      "track_count": 11
-    },
-    {
-      "name": "Headroom",
       "track_count": 11
     },
     {
@@ -1308,19 +1216,11 @@
       "track_count": 8
     },
     {
-      "name": "StingRay",
-      "track_count": 8
-    },
-    {
       "name": "The Dalom Kids",
       "track_count": 8
     },
     {
       "name": "HAEZER",
-      "track_count": 7
-    },
-    {
-      "name": "jay",
       "track_count": 7
     },
     {
@@ -1352,10 +1252,6 @@
       "track_count": 4
     },
     {
-      "name": "adam",
-      "track_count": 4
-    },
-    {
       "name": "Sathima Bea Benjamin",
       "track_count": 4
     },
@@ -1366,10 +1262,6 @@
     {
       "name": "SHIFT",
       "track_count": 4
-    },
-    {
-      "name": "TYLA",
-      "track_count": 3
     },
     {
       "name": "Dj Zinhle",
@@ -1492,23 +1384,11 @@
       "track_count": 1
     },
     {
-      "name": "eden",
-      "track_count": 1
-    },
-    {
-      "name": "ANDERS",
-      "track_count": 1
-    },
-    {
       "name": "Pierre De Charmoy",
       "track_count": 1
     },
     {
       "name": "CLOUT",
-      "track_count": 1
-    },
-    {
-      "name": "Inferno",
       "track_count": 1
     },
     {

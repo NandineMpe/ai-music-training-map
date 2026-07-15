@@ -1,7 +1,7 @@
 {
   "country_code": "US",
-  "artist_count": 681,
-  "track_count": 109873,
+  "artist_count": 683,
+  "track_count": 110098,
   "artists": [
     {
       "name": "Frank Sinatra",
@@ -1644,6 +1644,10 @@
       "track_count": 191
     },
     {
+      "name": "Slug",
+      "track_count": 182
+    },
+    {
       "name": "ICE",
       "track_count": 161
     },
@@ -1738,6 +1742,10 @@
     {
       "name": "the Jacka",
       "track_count": 47
+    },
+    {
+      "name": "Plush",
+      "track_count": 43
     },
     {
       "name": "Isis",

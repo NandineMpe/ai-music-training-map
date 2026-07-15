@@ -1,7 +1,7 @@
 {
   "country_code": "GB",
-  "artist_count": 253,
-  "track_count": 45370,
+  "artist_count": 257,
+  "track_count": 45570,
   "artists": [
     {
       "name": "London Symphony Orchestra",
@@ -560,6 +560,10 @@
       "track_count": 110
     },
     {
+      "name": "Damage",
+      "track_count": 105
+    },
+    {
       "name": "ren",
       "track_count": 104
     },
@@ -586,6 +590,10 @@
     {
       "name": "REN",
       "track_count": 69
+    },
+    {
+      "name": "DAMAGE",
+      "track_count": 67
     },
     {
       "name": "HENRY",
@@ -658,6 +666,10 @@
     {
       "name": "KINO",
       "track_count": 28
+    },
+    {
+      "name": "Tyla",
+      "track_count": 25
     },
     {
       "name": "raven",
@@ -821,6 +833,10 @@
     },
     {
       "name": "noel",
+      "track_count": 3
+    },
+    {
+      "name": "TYLA",
       "track_count": 3
     },
     {

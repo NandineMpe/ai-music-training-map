@@ -1,7 +1,7 @@
 {
   "country_code": "ES",
-  "artist_count": 54,
-  "track_count": 9890,
+  "artist_count": 55,
+  "track_count": 10126,
   "artists": [
     {
       "name": "Jordi Savall",
@@ -62,6 +62,10 @@
     {
       "name": "Raphael",
       "track_count": 246
+    },
+    {
+      "name": "Zahara",
+      "track_count": 236
     },
     {
       "name": "Yung Beef",

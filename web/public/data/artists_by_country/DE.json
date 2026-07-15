@@ -1,7 +1,7 @@
 {
   "country_code": "DE",
-  "artist_count": 166,
-  "track_count": 48779,
+  "artist_count": 167,
+  "track_count": 48780,
   "artists": [
     {
       "name": "Johann Sebastian Bach",
@@ -617,6 +617,10 @@
     },
     {
       "name": "CASANOVA",
+      "track_count": 1
+    },
+    {
+      "name": "Inferno",
       "track_count": 1
     },
     {

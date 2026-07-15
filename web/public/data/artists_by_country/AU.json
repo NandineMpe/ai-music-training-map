@@ -1,7 +1,7 @@
 {
   "country_code": "AU",
-  "artist_count": 25,
-  "track_count": 3933,
+  "artist_count": 26,
+  "track_count": 3988,
   "artists": [
     {
       "name": "Richard Bonynge",
@@ -66,6 +66,10 @@
     {
       "name": "The Seventies",
       "track_count": 197
+    },
+    {
+      "name": "Hi-5",
+      "track_count": 55
     },
     {
       "name": "midnight",

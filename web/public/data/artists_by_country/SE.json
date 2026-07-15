@@ -1,7 +1,7 @@
 {
   "country_code": "SE",
-  "artist_count": 18,
-  "track_count": 3077,
+  "artist_count": 19,
+  "track_count": 3088,
   "artists": [
     {
       "name": "Ghost",
@@ -62,6 +62,10 @@
     {
       "name": "TALISMAN",
       "track_count": 17
+    },
+    {
+      "name": "Headroom",
+      "track_count": 11
     },
     {
       "name": "SOLAR",

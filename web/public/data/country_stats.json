@@ -1,8 +1,8 @@
 [
   {
     "country_code": "US",
-    "track_count": 109873,
-    "artist_count": 681,
+    "track_count": 110098,
+    "artist_count": 683,
     "top_artists": [
       "Frank Sinatra",
       "Kali",
@@ -13,8 +13,8 @@
   },
   {
     "country_code": "DE",
-    "track_count": 48779,
-    "artist_count": 166,
+    "track_count": 48780,
+    "artist_count": 167,
     "top_artists": [
       "Johann Sebastian Bach",
       "Ludwig van Beethoven",
@@ -25,8 +25,8 @@
   },
   {
     "country_code": "GB",
-    "track_count": 45370,
-    "artist_count": 253,
+    "track_count": 45570,
+    "artist_count": 257,
     "top_artists": [
       "London Symphony Orchestra",
       "George Frideric Handel",
@@ -49,14 +49,14 @@
   },
   {
     "country_code": "ZA",
-    "track_count": 28383,
-    "artist_count": 392,
+    "track_count": 25779,
+    "artist_count": 362,
     "top_artists": [
-      "Adam",
-      "Eden",
       "Kabza De Small",
-      "Jay",
-      "Zahara"
+      "Zee",
+      "Hawk",
+      "DJ Maphorisa",
+      "Black Coffee"
     ]
   },
   {
@@ -97,8 +97,8 @@
   },
   {
     "country_code": "FR",
-    "track_count": 18311,
-    "artist_count": 67,
+    "track_count": 18473,
+    "artist_count": 68,
     "top_artists": [
       "Claude Debussy",
       "Maurice Ravel",
@@ -109,8 +109,8 @@
   },
   {
     "country_code": "ES",
-    "track_count": 9890,
-    "artist_count": 54,
+    "track_count": 10126,
+    "artist_count": 55,
     "top_artists": [
       "Jordi Savall",
       "Plácido Domingo",
@@ -121,8 +121,8 @@
   },
   {
     "country_code": "JP",
-    "track_count": 8554,
-    "artist_count": 57,
+    "track_count": 8781,
+    "artist_count": 59,
     "top_artists": [
       "SEGA",
       "Bandai Namco Game Music",
@@ -133,8 +133,8 @@
   },
   {
     "country_code": "NL",
-    "track_count": 7058,
-    "artist_count": 40,
+    "track_count": 7066,
+    "artist_count": 41,
     "top_artists": [
       "Armin van Buuren",
       "Luke",
@@ -181,8 +181,8 @@
   },
   {
     "country_code": "AU",
-    "track_count": 3933,
-    "artist_count": 25,
+    "track_count": 3988,
+    "artist_count": 26,
     "top_artists": [
       "Richard Bonynge",
       "Joan Sutherland",
@@ -229,8 +229,8 @@
   },
   {
     "country_code": "SE",
-    "track_count": 3077,
-    "artist_count": 18,
+    "track_count": 3088,
+    "artist_count": 19,
     "top_artists": [
       "Ghost",
       "Pandora",
@@ -499,6 +499,18 @@
     ]
   },
   {
+    "country_code": "IE",
+    "track_count": 725,
+    "artist_count": 6,
+    "top_artists": [
+      "Eden",
+      "Derek",
+      "EDEN",
+      "DEREK",
+      "derek"
+    ]
+  },
+  {
     "country_code": "PK",
     "track_count": 682,
     "artist_count": 6,
@@ -648,16 +660,6 @@
     "top_artists": [
       "Rome",
       "ROME"
-    ]
-  },
-  {
-    "country_code": "IE",
-    "track_count": 349,
-    "artist_count": 3,
-    "top_artists": [
-      "Derek",
-      "DEREK",
-      "derek"
     ]
   },
   {

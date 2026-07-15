@@ -1,7 +1,7 @@
 {
   "country_code": "FR",
-  "artist_count": 67,
-  "track_count": 18311,
+  "artist_count": 68,
+  "track_count": 18473,
   "artists": [
     {
       "name": "Claude Debussy",
@@ -190,6 +190,10 @@
     {
       "name": "LEO",
       "track_count": 186
+    },
+    {
+      "name": "Zola",
+      "track_count": 162
     },
     {
       "name": "TINO",
