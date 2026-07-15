@@ -1,0 +1,27 @@
+{
+  "country_code": "GB",
+  "artist_count": 42000,
+  "track_count": 1850000,
+  "artists": [
+    {"name": "Adele", "track_count": 534},
+    {"name": "Ed Sheeran", "track_count": 512},
+    {"name": "Dua Lipa", "track_count": 487},
+    {"name": "Coldplay", "track_count": 465},
+    {"name": "Arctic Monkeys", "track_count": 421},
+    {"name": "Harry Styles", "track_count": 398},
+    {"name": "Radiohead", "track_count": 376},
+    {"name": "The Beatles", "track_count": 354},
+    {"name": "David Bowie", "track_count": 332},
+    {"name": "Queen", "track_count": 310},
+    {"name": "Charli XCX", "track_count": 298},
+    {"name": "Sam Smith", "track_count": 276},
+    {"name": "Stormzy", "track_count": 254},
+    {"name": "Little Simz", "track_count": 232},
+    {"name": "The 1975", "track_count": 210},
+    {"name": "PinkPantheress", "track_count": 198},
+    {"name": "Florence + The Machine", "track_count": 187},
+    {"name": "Amy Winehouse", "track_count": 176},
+    {"name": "Skepta", "track_count": 165},
+    {"name": "FKA twigs", "track_count": 154}
+  ]
+}

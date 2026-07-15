@@ -1,0 +1,5 @@
+datasets==3.1.0
+pandas==2.2.3
+musicbrainzngs==0.7.1
+tqdm==4.67.1
+pyarrow==18.1.0

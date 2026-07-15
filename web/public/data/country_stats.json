@@ -1,0 +1,22 @@
+[
+  {"country_code": "US", "track_count": 3250000, "artist_count": 85000, "top_artists": ["Taylor Swift", "Drake", "Beyoncé", "Kendrick Lamar", "Billie Eilish"]},
+  {"country_code": "GB", "track_count": 1850000, "artist_count": 42000, "top_artists": ["Adele", "Ed Sheeran", "Dua Lipa", "Coldplay", "Arctic Monkeys"]},
+  {"country_code": "CA", "track_count": 620000, "artist_count": 15000, "top_artists": ["The Weeknd", "Justin Bieber", "Drake", "Alanis Morissette", "Celine Dion"]},
+  {"country_code": "DE", "track_count": 480000, "artist_count": 12000, "top_artists": ["Rammstein", "Kraftwerk", "Scorpions", "Tokio Hotel", "Milky Chance"]},
+  {"country_code": "FR", "track_count": 390000, "artist_count": 9800, "top_artists": ["Daft Punk", "David Guetta", "Stromae", "Edith Piaf", "Christine and the Queens"]},
+  {"country_code": "AU", "track_count": 350000, "artist_count": 8500, "top_artists": ["Tame Impala", "Sia", "Flume", "AC/DC", "INXS"]},
+  {"country_code": "SE", "track_count": 320000, "artist_count": 7200, "top_artists": ["ABBA", "Robyn", "Avicii", "Swedish House Mafia", "Zara Larsson"]},
+  {"country_code": "JP", "track_count": 290000, "artist_count": 6800, "top_artists": ["YOASOBI", "Kenshi Yonezu", "ONE OK ROCK", "Utada Hikaru", "LiSA"]},
+  {"country_code": "KR", "track_count": 270000, "artist_count": 5900, "top_artists": ["BTS", "BLACKPINK", "Stray Kids", "NewJeans", "IU"]},
+  {"country_code": "BR", "track_count": 240000, "artist_count": 5500, "top_artists": ["Anitta", "Seu Jorge", "Gilberto Gil", "Caetano Veloso", "Tom Jobim"]},
+  {"country_code": "NG", "track_count": 180000, "artist_count": 4200, "top_artists": ["Burna Boy", "Wizkid", "Davido", "Tems", "Rema"]},
+  {"country_code": "ZA", "track_count": 95000, "artist_count": 2800, "top_artists": ["Black Coffee", "Tyla", "Die Antwoord", "Ladysmith Black Mambazo", "Nasty C"]},
+  {"country_code": "IN", "track_count": 210000, "artist_count": 4800, "top_artists": ["A.R. Rahman", "Arijit Singh", "Shreya Ghoshal", "Pritam", "Badshah"]},
+  {"country_code": "MX", "track_count": 195000, "artist_count": 4100, "top_artists": ["Carlos Santana", "Natalia Lafourcade", "Peso Pluma", "Luis Miguel", "Café Tacvba"]},
+  {"country_code": "CO", "track_count": 150000, "artist_count": 3200, "top_artists": ["Shakira", "J Balvin", "Karol G", "Juanes", "Maluma"]},
+  {"country_code": "ES", "track_count": 165000, "artist_count": 3600, "top_artists": ["Rosalía", "Enrique Iglesias", "Julio Iglesias", "Alejandro Sanz", "C. Tangana"]},
+  {"country_code": "IT", "track_count": 140000, "artist_count": 3100, "top_artists": ["Måneskin", "Andrea Bocelli", "Laura Pausini", "Eros Ramazzotti", "Zucchero"]},
+  {"country_code": "NZ", "track_count": 85000, "artist_count": 2400, "top_artists": ["Lorde", "Aldous Harding", "Fat Freddy's Drop", "Six60", "Kimbra"]},
+  {"country_code": "JM", "track_count": 120000, "artist_count": 2900, "top_artists": ["Bob Marley", "Sean Paul", "Shaggy", "Protoje", "Koffee"]},
+  {"country_code": "IE", "track_count": 110000, "artist_count": 2600, "top_artists": ["U2", "Hozier", "The Cranberries", "Sinead O'Connor", "Fontaines D.C."]}
+]

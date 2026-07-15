@@ -1,0 +1,27 @@
+{
+  "country_code": "US",
+  "artist_count": 85000,
+  "track_count": 3250000,
+  "artists": [
+    {"name": "Taylor Swift", "track_count": 892},
+    {"name": "Drake", "track_count": 756},
+    {"name": "Beyoncé", "track_count": 612},
+    {"name": "Kendrick Lamar", "track_count": 534},
+    {"name": "Billie Eilish", "track_count": 487},
+    {"name": "Post Malone", "track_count": 465},
+    {"name": "Ariana Grande", "track_count": 443},
+    {"name": "Travis Scott", "track_count": 421},
+    {"name": "The Weeknd", "track_count": 398},
+    {"name": "Kanye West", "track_count": 387},
+    {"name": "Eminem", "track_count": 372},
+    {"name": "Doja Cat", "track_count": 356},
+    {"name": "SZA", "track_count": 341},
+    {"name": "Lana Del Rey", "track_count": 328},
+    {"name": "Bruno Mars", "track_count": 315},
+    {"name": "Olivia Rodrigo", "track_count": 298},
+    {"name": "Dua Lipa", "track_count": 287},
+    {"name": "Bad Bunny", "track_count": 276},
+    {"name": "Justin Bieber", "track_count": 265},
+    {"name": "Rihanna", "track_count": 254}
+  ]
+}
