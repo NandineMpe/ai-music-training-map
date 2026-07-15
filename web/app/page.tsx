@@ -37,7 +37,7 @@ export default function Home() {
               <div className="h-full bg-orange-500 rounded-full transition-all" style={{ width: "3.4%" }} />
             </div>
           </div>
-          <span className="text-xs text-slate-500">~417,000 tracks mapped across 73 countries (2,206 artists) — processing continues</span>
+          <span className="text-xs text-slate-500">~460,000 tracks mapped across 77 countries (2,683 artists) — processing continues</span>
         </div>
       </div>
 
