@@ -34,7 +34,7 @@ export async function GET() {
   acrFormData.append("signature_version", signatureVersion);
   acrFormData.append(
     "sample",
-    new Blob([wavBuffer], { type: "audio/wav" }),
+    new Blob([new Uint8Array(wavBuffer)], { type: "audio/wav" }),
     "test.wav"
   );
 
