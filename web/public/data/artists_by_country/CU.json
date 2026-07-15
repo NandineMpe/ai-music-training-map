@@ -1,0 +1,23 @@
+{
+  "country_code": "CU",
+  "artist_count": 4,
+  "track_count": 594,
+  "artists": [
+    {
+      "name": "La Sonora Matancera",
+      "track_count": 332
+    },
+    {
+      "name": "Celia Cruz",
+      "track_count": 258
+    },
+    {
+      "name": "La sonora matancera",
+      "track_count": 3
+    },
+    {
+      "name": "la sonora Matancera",
+      "track_count": 1
+    }
+  ]
+}

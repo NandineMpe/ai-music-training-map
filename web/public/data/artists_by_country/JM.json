@@ -1,18 +1,138 @@
 {
   "country_code": "JM",
-  "artist_count": 3,
-  "track_count": 499,
+  "artist_count": 33,
+  "track_count": 4691,
   "artists": [
     {
       "name": "Rico",
       "track_count": 449
     },
     {
+      "name": "Christopher Martin",
+      "track_count": 313
+    },
+    {
+      "name": "Don Carlos",
+      "track_count": 311
+    },
+    {
+      "name": "Pablo",
+      "track_count": 307
+    },
+    {
+      "name": "Vybz Kartel",
+      "track_count": 290
+    },
+    {
+      "name": "Half Pint",
+      "track_count": 279
+    },
+    {
+      "name": "Major",
+      "track_count": 274
+    },
+    {
+      "name": "Romeo",
+      "track_count": 253
+    },
+    {
+      "name": "Sly & Robbie",
+      "track_count": 250
+    },
+    {
+      "name": "The Wailers",
+      "track_count": 236
+    },
+    {
+      "name": "Beenie Man",
+      "track_count": 233
+    },
+    {
+      "name": "Sizzla",
+      "track_count": 230
+    },
+    {
+      "name": "The Aggrovators",
+      "track_count": 226
+    },
+    {
+      "name": "King Tubby",
+      "track_count": 224
+    },
+    {
+      "name": "The Inspirations",
+      "track_count": 222
+    },
+    {
+      "name": "Bounty Killer",
+      "track_count": 219
+    },
+    {
+      "name": "Trinity",
+      "track_count": 216
+    },
+    {
       "name": "RICO",
       "track_count": 49
     },
     {
+      "name": "PABLO",
+      "track_count": 41
+    },
+    {
+      "name": "TRiNITY",
+      "track_count": 23
+    },
+    {
+      "name": "TRINITY",
+      "track_count": 20
+    },
+    {
+      "name": "MAJOR",
+      "track_count": 6
+    },
+    {
+      "name": "vybz kartel",
+      "track_count": 4
+    },
+    {
+      "name": "major",
+      "track_count": 2
+    },
+    {
+      "name": "Christopher martin",
+      "track_count": 2
+    },
+    {
+      "name": "VYBZ KARTEL",
+      "track_count": 2
+    },
+    {
+      "name": "SIZZLA",
+      "track_count": 2
+    },
+    {
+      "name": "beenie man",
+      "track_count": 2
+    },
+    {
+      "name": "romeo",
+      "track_count": 2
+    },
+    {
+      "name": "sizzla",
+      "track_count": 1
+    },
+    {
+      "name": "RomeO",
+      "track_count": 1
+    },
+    {
       "name": "rico",
+      "track_count": 1
+    },
+    {
+      "name": "DON CARLOS",
       "track_count": 1
     }
   ]

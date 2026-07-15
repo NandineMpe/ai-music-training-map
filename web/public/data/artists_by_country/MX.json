@@ -1,0 +1,35 @@
+{
+  "country_code": "MX",
+  "artist_count": 7,
+  "track_count": 1259,
+  "artists": [
+    {
+      "name": "Relajante",
+      "track_count": 305
+    },
+    {
+      "name": "Chalino Sanchez",
+      "track_count": 262
+    },
+    {
+      "name": "RBD",
+      "track_count": 234
+    },
+    {
+      "name": "Rojo",
+      "track_count": 221
+    },
+    {
+      "name": "Pepe",
+      "track_count": 220
+    },
+    {
+      "name": "PEPE",
+      "track_count": 15
+    },
+    {
+      "name": "RoJO",
+      "track_count": 2
+    }
+  ]
+}

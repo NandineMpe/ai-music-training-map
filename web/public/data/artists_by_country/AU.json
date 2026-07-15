@@ -1,0 +1,63 @@
+{
+  "country_code": "AU",
+  "artist_count": 14,
+  "track_count": 2470,
+  "artists": [
+    {
+      "name": "Richard Bonynge",
+      "track_count": 320
+    },
+    {
+      "name": "Joan Sutherland",
+      "track_count": 302
+    },
+    {
+      "name": "Q",
+      "track_count": 301
+    },
+    {
+      "name": "Midnight",
+      "track_count": 296
+    },
+    {
+      "name": "Hillsong Worship",
+      "track_count": 270
+    },
+    {
+      "name": "The Angels",
+      "track_count": 247
+    },
+    {
+      "name": "AC",
+      "track_count": 232
+    },
+    {
+      "name": "Paul Kelly",
+      "track_count": 227
+    },
+    {
+      "name": "Lisa Gerrard",
+      "track_count": 219
+    },
+    {
+      "name": "midnight",
+      "track_count": 20
+    },
+    {
+      "name": "Ac",
+      "track_count": 18
+    },
+    {
+      "name": "PAUL KELLY",
+      "track_count": 7
+    },
+    {
+      "name": "q",
+      "track_count": 7
+    },
+    {
+      "name": "MidNight",
+      "track_count": 4
+    }
+  ]
+}

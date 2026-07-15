@@ -1,0 +1,15 @@
+{
+  "country_code": "NZ",
+  "artist_count": 2,
+  "track_count": 320,
+  "artists": [
+    {
+      "name": "Finn",
+      "track_count": 312
+    },
+    {
+      "name": "FINN",
+      "track_count": 8
+    }
+  ]
+}

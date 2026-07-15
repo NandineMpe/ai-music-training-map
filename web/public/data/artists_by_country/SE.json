@@ -1,0 +1,59 @@
+{
+  "country_code": "SE",
+  "artist_count": 13,
+  "track_count": 2262,
+  "artists": [
+    {
+      "name": "Ghost",
+      "track_count": 335
+    },
+    {
+      "name": "Pandora",
+      "track_count": 332
+    },
+    {
+      "name": "Sunita",
+      "track_count": 280
+    },
+    {
+      "name": "Lars Danielsson",
+      "track_count": 273
+    },
+    {
+      "name": "Solar",
+      "track_count": 265
+    },
+    {
+      "name": "Emilia",
+      "track_count": 246
+    },
+    {
+      "name": "Ludwig Göransson",
+      "track_count": 237
+    },
+    {
+      "name": "Jay Jay",
+      "track_count": 231
+    },
+    {
+      "name": "GHOST",
+      "track_count": 31
+    },
+    {
+      "name": "PANDORA",
+      "track_count": 23
+    },
+    {
+      "name": "SOLAR",
+      "track_count": 5
+    },
+    {
+      "name": "SolaR",
+      "track_count": 3
+    },
+    {
+      "name": "EMILIA",
+      "track_count": 1
+    }
+  ]
+}

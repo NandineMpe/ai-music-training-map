@@ -1,0 +1,19 @@
+{
+  "country_code": "CL",
+  "artist_count": 3,
+  "track_count": 333,
+  "artists": [
+    {
+      "name": "Saiko",
+      "track_count": 304
+    },
+    {
+      "name": "SAIKO",
+      "track_count": 19
+    },
+    {
+      "name": "saiko",
+      "track_count": 10
+    }
+  ]
+}

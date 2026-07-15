@@ -1,11 +1,63 @@
 {
   "country_code": "CA",
-  "artist_count": 1,
-  "track_count": 482,
+  "artist_count": 14,
+  "track_count": 2515,
   "artists": [
     {
       "name": "Dog Music",
       "track_count": 482
+    },
+    {
+      "name": "Oscar Peterson",
+      "track_count": 320
+    },
+    {
+      "name": "Neil Young",
+      "track_count": 314
+    },
+    {
+      "name": "Michael Jones",
+      "track_count": 292
+    },
+    {
+      "name": "TR",
+      "track_count": 259
+    },
+    {
+      "name": "Saga",
+      "track_count": 249
+    },
+    {
+      "name": "Pinchas Zukerman",
+      "track_count": 247
+    },
+    {
+      "name": "Sara",
+      "track_count": 246
+    },
+    {
+      "name": "SARA",
+      "track_count": 46
+    },
+    {
+      "name": "Tr",
+      "track_count": 30
+    },
+    {
+      "name": "SAGA",
+      "track_count": 16
+    },
+    {
+      "name": "sarA",
+      "track_count": 9
+    },
+    {
+      "name": "sara",
+      "track_count": 4
+    },
+    {
+      "name": "SaRa",
+      "track_count": 1
     }
   ]
 }

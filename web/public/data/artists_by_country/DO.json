@@ -1,0 +1,51 @@
+{
+  "country_code": "DO",
+  "artist_count": 11,
+  "track_count": 740,
+  "artists": [
+    {
+      "name": "Yomel El Meloso",
+      "track_count": 239
+    },
+    {
+      "name": "Rochy RD",
+      "track_count": 236
+    },
+    {
+      "name": "Ceky Viciny",
+      "track_count": 226
+    },
+    {
+      "name": "Yomel el Meloso",
+      "track_count": 20
+    },
+    {
+      "name": "Rochy Rd",
+      "track_count": 6
+    },
+    {
+      "name": "YOMEL EL MELOSO",
+      "track_count": 4
+    },
+    {
+      "name": "Yomel el meloso",
+      "track_count": 3
+    },
+    {
+      "name": "yomel el meloso",
+      "track_count": 3
+    },
+    {
+      "name": "Rochy rd",
+      "track_count": 1
+    },
+    {
+      "name": "rochy rd",
+      "track_count": 1
+    },
+    {
+      "name": "ROCHY RD",
+      "track_count": 1
+    }
+  ]
+}

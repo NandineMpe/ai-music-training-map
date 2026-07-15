@@ -1,7 +1,7 @@
 {
   "country_code": "ES",
-  "artist_count": 4,
-  "track_count": 1993,
+  "artist_count": 40,
+  "track_count": 7868,
   "artists": [
     {
       "name": "Jordi Savall",
@@ -18,6 +18,150 @@
     {
       "name": "Isaac Albéniz",
       "track_count": 352
+    },
+    {
+      "name": "Dorian",
+      "track_count": 321
+    },
+    {
+      "name": "Enrique Granados",
+      "track_count": 311
+    },
+    {
+      "name": "Joaquín Rodrigo",
+      "track_count": 291
+    },
+    {
+      "name": "Rodrigo",
+      "track_count": 287
+    },
+    {
+      "name": "Ilegales",
+      "track_count": 275
+    },
+    {
+      "name": "Potato",
+      "track_count": 273
+    },
+    {
+      "name": "Marisol",
+      "track_count": 269
+    },
+    {
+      "name": "Pablo de Sarasate",
+      "track_count": 255
+    },
+    {
+      "name": "Francisco",
+      "track_count": 248
+    },
+    {
+      "name": "Baron",
+      "track_count": 246
+    },
+    {
+      "name": "Raphael",
+      "track_count": 246
+    },
+    {
+      "name": "Zahara",
+      "track_count": 236
+    },
+    {
+      "name": "Yung Beef",
+      "track_count": 234
+    },
+    {
+      "name": "Manuel",
+      "track_count": 232
+    },
+    {
+      "name": "Revolver",
+      "track_count": 226
+    },
+    {
+      "name": "Alaska",
+      "track_count": 225
+    },
+    {
+      "name": "Fernando Sor",
+      "track_count": 225
+    },
+    {
+      "name": "Rosana",
+      "track_count": 225
+    },
+    {
+      "name": "Morad",
+      "track_count": 219
+    },
+    {
+      "name": "Narciso Yepes",
+      "track_count": 217
+    },
+    {
+      "name": "Mariano",
+      "track_count": 215
+    },
+    {
+      "name": "Paco",
+      "track_count": 215
+    },
+    {
+      "name": "Sharif",
+      "track_count": 215
+    },
+    {
+      "name": "FRANCISCO",
+      "track_count": 56
+    },
+    {
+      "name": "MANUEL",
+      "track_count": 49
+    },
+    {
+      "name": "PACO",
+      "track_count": 26
+    },
+    {
+      "name": "POTATO",
+      "track_count": 11
+    },
+    {
+      "name": "ALASKA",
+      "track_count": 6
+    },
+    {
+      "name": "potato",
+      "track_count": 6
+    },
+    {
+      "name": "DORIAN",
+      "track_count": 4
+    },
+    {
+      "name": "Pablo De Sarasate",
+      "track_count": 4
+    },
+    {
+      "name": "RAPHAEL",
+      "track_count": 2
+    },
+    {
+      "name": "rodrigo",
+      "track_count": 2
+    },
+    {
+      "name": "yung beef",
+      "track_count": 1
+    },
+    {
+      "name": "BaRoN",
+      "track_count": 1
+    },
+    {
+      "name": "REVOLVER",
+      "track_count": 1
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "country_code": "DK",
+  "artist_count": 10,
+  "track_count": 1670,
+  "artists": [
+    {
+      "name": "creamy",
+      "track_count": 321
+    },
+    {
+      "name": "Bliss",
+      "track_count": 297
+    },
+    {
+      "name": "Medina",
+      "track_count": 291
+    },
+    {
+      "name": "Orion",
+      "track_count": 277
+    },
+    {
+      "name": "Michala Petri",
+      "track_count": 232
+    },
+    {
+      "name": "Søren Bødker Madsen",
+      "track_count": 229
+    },
+    {
+      "name": "ORION",
+      "track_count": 15
+    },
+    {
+      "name": "Creamy",
+      "track_count": 4
+    },
+    {
+      "name": "orion",
+      "track_count": 2
+    },
+    {
+      "name": "BLISS",
+      "track_count": 2
+    }
+  ]
+}

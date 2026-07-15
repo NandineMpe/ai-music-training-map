@@ -1,7 +1,7 @@
 {
   "country_code": "JP",
-  "artist_count": 10,
-  "track_count": 2683,
+  "artist_count": 43,
+  "track_count": 6997,
   "artists": [
     {
       "name": "SEGA",
@@ -24,8 +24,68 @@
       "track_count": 370
     },
     {
+      "name": "Eve",
+      "track_count": 324
+    },
+    {
+      "name": "Hiro",
+      "track_count": 318
+    },
+    {
+      "name": "TK",
+      "track_count": 281
+    },
+    {
+      "name": "Juice",
+      "track_count": 275
+    },
+    {
+      "name": "angela",
+      "track_count": 267
+    },
+    {
+      "name": "dai",
+      "track_count": 262
+    },
+    {
+      "name": "Feel",
+      "track_count": 245
+    },
+    {
+      "name": "Lia",
+      "track_count": 239
+    },
+    {
+      "name": "Cali",
+      "track_count": 238
+    },
+    {
+      "name": "Candy",
+      "track_count": 236
+    },
+    {
+      "name": "Kaya",
+      "track_count": 228
+    },
+    {
+      "name": "Maki",
+      "track_count": 224
+    },
+    {
+      "name": "SPEED",
+      "track_count": 217
+    },
+    {
+      "name": "CTS",
+      "track_count": 215
+    },
+    {
       "name": "EXILE",
       "track_count": 152
+    },
+    {
+      "name": "Angela",
+      "track_count": 145
     },
     {
       "name": "LUNA",
@@ -36,12 +96,84 @@
       "track_count": 111
     },
     {
+      "name": "hiro",
+      "track_count": 96
+    },
+    {
+      "name": "HIRO",
+      "track_count": 92
+    },
+    {
+      "name": "FEEL",
+      "track_count": 85
+    },
+    {
+      "name": "Dai",
+      "track_count": 71
+    },
+    {
+      "name": "KAYA",
+      "track_count": 63
+    },
+    {
+      "name": "LIA",
+      "track_count": 38
+    },
+    {
+      "name": "EVE",
+      "track_count": 29
+    },
+    {
+      "name": "Tk",
+      "track_count": 27
+    },
+    {
+      "name": "DAI",
+      "track_count": 25
+    },
+    {
+      "name": "DAi",
+      "track_count": 24
+    },
+    {
+      "name": "CALI",
+      "track_count": 20
+    },
+    {
+      "name": "Speed",
+      "track_count": 20
+    },
+    {
+      "name": "CANDY",
+      "track_count": 4
+    },
+    {
       "name": "luna",
       "track_count": 3
     },
     {
       "name": "LuNa",
       "track_count": 2
+    },
+    {
+      "name": "HiRO",
+      "track_count": 2
+    },
+    {
+      "name": "FeeL",
+      "track_count": 1
+    },
+    {
+      "name": "tk",
+      "track_count": 1
+    },
+    {
+      "name": "MAKI",
+      "track_count": 1
+    },
+    {
+      "name": "lia",
+      "track_count": 1
     }
   ]
 }

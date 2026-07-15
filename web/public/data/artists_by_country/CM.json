@@ -1,0 +1,19 @@
+{
+  "country_code": "CM",
+  "artist_count": 3,
+  "track_count": 333,
+  "artists": [
+    {
+      "name": "Manu",
+      "track_count": 251
+    },
+    {
+      "name": "manu",
+      "track_count": 47
+    },
+    {
+      "name": "MANU",
+      "track_count": 35
+    }
+  ]
+}

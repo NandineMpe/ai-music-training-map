@@ -1,7 +1,7 @@
 {
   "country_code": "NL",
-  "artist_count": 9,
-  "track_count": 2391,
+  "artist_count": 26,
+  "track_count": 5212,
   "artists": [
     {
       "name": "Armin van Buuren",
@@ -24,8 +24,56 @@
       "track_count": 348
     },
     {
+      "name": "DRS",
+      "track_count": 297
+    },
+    {
+      "name": "George Baker",
+      "track_count": 278
+    },
+    {
+      "name": "Tiësto",
+      "track_count": 270
+    },
+    {
+      "name": "Ton Koopman",
+      "track_count": 262
+    },
+    {
+      "name": "Focus",
+      "track_count": 256
+    },
+    {
+      "name": "Stella",
+      "track_count": 253
+    },
+    {
+      "name": "R3HAB",
+      "track_count": 224
+    },
+    {
+      "name": "Yellow Claw",
+      "track_count": 223
+    },
+    {
+      "name": "Laidback Luke",
+      "track_count": 223
+    },
+    {
+      "name": "André Rieu",
+      "track_count": 222
+    },
+    {
+      "name": "Metropole Orkest",
+      "track_count": 219
+    },
+    {
       "name": "LUKE",
       "track_count": 62
+    },
+    {
+      "name": "R3hab",
+      "track_count": 59
     },
     {
       "name": "Ram",
@@ -36,8 +84,28 @@
       "track_count": 38
     },
     {
+      "name": "Drs",
+      "track_count": 9
+    },
+    {
+      "name": "stella",
+      "track_count": 9
+    },
+    {
+      "name": "STELLA",
+      "track_count": 9
+    },
+    {
+      "name": "StellA",
+      "track_count": 7
+    },
+    {
       "name": "Armin Van Buuren",
       "track_count": 2
+    },
+    {
+      "name": "FOCUS",
+      "track_count": 1
     }
   ]
 }

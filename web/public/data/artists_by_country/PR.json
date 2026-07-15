@@ -1,0 +1,47 @@
+{
+  "country_code": "PR",
+  "artist_count": 10,
+  "track_count": 1691,
+  "artists": [
+    {
+      "name": "Farruko",
+      "track_count": 290
+    },
+    {
+      "name": "Miguelito",
+      "track_count": 283
+    },
+    {
+      "name": "Arcangel",
+      "track_count": 235
+    },
+    {
+      "name": "Myke Towers",
+      "track_count": 219
+    },
+    {
+      "name": "Rosa",
+      "track_count": 217
+    },
+    {
+      "name": "Ismael Rivera",
+      "track_count": 217
+    },
+    {
+      "name": "Ñengo Flow",
+      "track_count": 214
+    },
+    {
+      "name": "MIGUELITO",
+      "track_count": 9
+    },
+    {
+      "name": "ROSA",
+      "track_count": 5
+    },
+    {
+      "name": "Ñengo flow",
+      "track_count": 2
+    }
+  ]
+}

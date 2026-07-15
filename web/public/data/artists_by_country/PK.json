@@ -1,0 +1,23 @@
+{
+  "country_code": "PK",
+  "artist_count": 4,
+  "track_count": 486,
+  "artists": [
+    {
+      "name": "Naseebo Lal",
+      "track_count": 239
+    },
+    {
+      "name": "Sajjad Ali",
+      "track_count": 221
+    },
+    {
+      "name": "SAJJAD ALI",
+      "track_count": 25
+    },
+    {
+      "name": "Naseebo lal",
+      "track_count": 1
+    }
+  ]
+}

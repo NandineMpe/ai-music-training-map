@@ -1,7 +1,7 @@
 {
   "country_code": "BR",
-  "artist_count": 65,
-  "track_count": 12707,
+  "artist_count": 120,
+  "track_count": 18564,
   "artists": [
     {
       "name": "Mc Gw",
@@ -80,8 +80,96 @@
       "track_count": 309
     },
     {
+      "name": "MC Pipokinha",
+      "track_count": 282
+    },
+    {
+      "name": "Maysa",
+      "track_count": 279
+    },
+    {
       "name": "Mc GW",
       "track_count": 275
+    },
+    {
+      "name": "MC VN Cria",
+      "track_count": 261
+    },
+    {
+      "name": "José Augusto",
+      "track_count": 253
+    },
+    {
+      "name": "Mc DDSV",
+      "track_count": 249
+    },
+    {
+      "name": "Mc Kitinho",
+      "track_count": 249
+    },
+    {
+      "name": "Indie Space",
+      "track_count": 244
+    },
+    {
+      "name": "Alok",
+      "track_count": 237
+    },
+    {
+      "name": "Toquinho",
+      "track_count": 235
+    },
+    {
+      "name": "Rashid",
+      "track_count": 234
+    },
+    {
+      "name": "Milionário & José Rico",
+      "track_count": 234
+    },
+    {
+      "name": "Marcelo",
+      "track_count": 234
+    },
+    {
+      "name": "Léo Casa 1",
+      "track_count": 233
+    },
+    {
+      "name": "Rap Box",
+      "track_count": 232
+    },
+    {
+      "name": "Violins",
+      "track_count": 229
+    },
+    {
+      "name": "Caetano Veloso",
+      "track_count": 225
+    },
+    {
+      "name": "DJ Marlboro",
+      "track_count": 221
+    },
+    {
+      "name": "Leonardo",
+      "track_count": 220
+    },
+    {
+      "name": "MC Menor MT",
+      "track_count": 216
+    },
+    {
+      "name": "Ana Gabriela",
+      "track_count": 215
+    },
+    {
+      "name": "DJ Vilão DS",
+      "track_count": 215
+    },
+    {
+      "name": "Da Silva",
+      "track_count": 214
     },
     {
       "name": "Mc Rd",
@@ -90,6 +178,10 @@
     {
       "name": "mc gw",
       "track_count": 159
+    },
+    {
+      "name": "MC Kitinho",
+      "track_count": 139
     },
     {
       "name": "MC Magrinho",
@@ -104,8 +196,20 @@
       "track_count": 111
     },
     {
+      "name": "Mc Pipokinha",
+      "track_count": 92
+    },
+    {
+      "name": "MC VN CRIA",
+      "track_count": 84
+    },
+    {
       "name": "MC VUK VUK",
       "track_count": 69
+    },
+    {
+      "name": "MC DDSV",
+      "track_count": 56
     },
     {
       "name": "MC MAGRINHO",
@@ -118,6 +222,14 @@
     {
       "name": "MC Rd",
       "track_count": 49
+    },
+    {
+      "name": "Mc Menor MT",
+      "track_count": 47
+    },
+    {
+      "name": "MC KITINHO",
+      "track_count": 44
     },
     {
       "name": "mc rd",
@@ -136,6 +248,10 @@
       "track_count": 32
     },
     {
+      "name": "mc kitinho",
+      "track_count": 29
+    },
+    {
       "name": "MC Mn",
       "track_count": 28
     },
@@ -144,7 +260,15 @@
       "track_count": 27
     },
     {
+      "name": "mc pipokinha",
+      "track_count": 26
+    },
+    {
       "name": "mc mn",
+      "track_count": 25
+    },
+    {
+      "name": "MC PIPOKINHA",
       "track_count": 25
     },
     {
@@ -188,15 +312,59 @@
       "track_count": 11
     },
     {
+      "name": "MARCELO",
+      "track_count": 11
+    },
+    {
+      "name": "LEONARDO",
+      "track_count": 11
+    },
+    {
+      "name": "DA SILVA",
+      "track_count": 11
+    },
+    {
       "name": "mc pr",
       "track_count": 9
+    },
+    {
+      "name": "Mc Menor Mt",
+      "track_count": 9
+    },
+    {
+      "name": "ana gabriela",
+      "track_count": 7
+    },
+    {
+      "name": "mc vn cria",
+      "track_count": 7
+    },
+    {
+      "name": "mc menor mt",
+      "track_count": 7
     },
     {
       "name": "Mc Bn",
       "track_count": 6
     },
     {
+      "name": "Mc pipokinha",
+      "track_count": 5
+    },
+    {
+      "name": "Mc Vn Cria",
+      "track_count": 5
+    },
+    {
       "name": "Mc rd",
+      "track_count": 5
+    },
+    {
+      "name": "MC Vn Cria",
+      "track_count": 5
+    },
+    {
+      "name": "MC VN cria",
       "track_count": 5
     },
     {
@@ -208,8 +376,20 @@
       "track_count": 4
     },
     {
+      "name": "mc menor Mt",
+      "track_count": 4
+    },
+    {
       "name": "Mc pr",
       "track_count": 3
+    },
+    {
+      "name": "Mc vn cria",
+      "track_count": 3
+    },
+    {
+      "name": "Mc kitinho",
+      "track_count": 2
     },
     {
       "name": "yuri redicopa",
@@ -217,6 +397,14 @@
     },
     {
       "name": "mc bn",
+      "track_count": 2
+    },
+    {
+      "name": "MC MENOR MT",
+      "track_count": 2
+    },
+    {
+      "name": "leonardo",
       "track_count": 2
     },
     {
@@ -236,11 +424,31 @@
       "track_count": 1
     },
     {
+      "name": "Dj Vilão DS",
+      "track_count": 1
+    },
+    {
+      "name": "Mc menor mt",
+      "track_count": 1
+    },
+    {
       "name": "Mc mn",
       "track_count": 1
     },
     {
+      "name": "DJ VIlão DS",
+      "track_count": 1
+    },
+    {
       "name": "Mc gW",
+      "track_count": 1
+    },
+    {
+      "name": "MC kitinho",
+      "track_count": 1
+    },
+    {
+      "name": "TOQUINHO",
       "track_count": 1
     },
     {
@@ -256,7 +464,19 @@
       "track_count": 1
     },
     {
+      "name": "marcelo",
+      "track_count": 1
+    },
+    {
+      "name": "dj vilão ds",
+      "track_count": 1
+    },
+    {
       "name": "Mc Vuk vuk",
+      "track_count": 1
+    },
+    {
+      "name": "mc ddsv",
       "track_count": 1
     },
     {

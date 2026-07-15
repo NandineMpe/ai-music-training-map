@@ -1,11 +1,35 @@
 {
   "country_code": "BE",
-  "artist_count": 1,
-  "track_count": 443,
+  "artist_count": 7,
+  "track_count": 1501,
   "artists": [
     {
       "name": "Philippe Herreweghe",
       "track_count": 443
+    },
+    {
+      "name": "Balthazar",
+      "track_count": 335
+    },
+    {
+      "name": "Natalia",
+      "track_count": 258
+    },
+    {
+      "name": "Arthur Grumiaux",
+      "track_count": 226
+    },
+    {
+      "name": "Collegium Vocale Gent",
+      "track_count": 225
+    },
+    {
+      "name": "NATALIA",
+      "track_count": 13
+    },
+    {
+      "name": "balthazar",
+      "track_count": 1
     }
   ]
 }

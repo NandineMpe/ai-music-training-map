@@ -1,7 +1,7 @@
 {
   "country_code": "DE",
-  "artist_count": 24,
-  "track_count": 29272,
+  "artist_count": 117,
+  "track_count": 42546,
   "artists": [
     {
       "name": "Johann Sebastian Bach",
@@ -64,12 +64,252 @@
       "track_count": 342
     },
     {
+      "name": "Sandra",
+      "track_count": 333
+    },
+    {
+      "name": "Blanco",
+      "track_count": 325
+    },
+    {
+      "name": "Fresh",
+      "track_count": 319
+    },
+    {
+      "name": "Johann Pachelbel",
+      "track_count": 305
+    },
+    {
+      "name": "Karl Richter",
+      "track_count": 295
+    },
+    {
+      "name": "MAX",
+      "track_count": 291
+    },
+    {
+      "name": "James",
+      "track_count": 286
+    },
+    {
+      "name": "Faust",
+      "track_count": 284
+    },
+    {
+      "name": "Rocco",
+      "track_count": 284
+    },
+    {
+      "name": "Emanuel",
+      "track_count": 277
+    },
+    {
+      "name": "Sinclair",
+      "track_count": 276
+    },
+    {
+      "name": "Nico",
+      "track_count": 274
+    },
+    {
+      "name": "Markus Becker",
+      "track_count": 270
+    },
+    {
+      "name": "Elisabeth Schwarzkopf",
+      "track_count": 269
+    },
+    {
+      "name": "Roland",
+      "track_count": 267
+    },
+    {
+      "name": "Richard Strauss",
+      "track_count": 262
+    },
+    {
+      "name": "Pala",
+      "track_count": 262
+    },
+    {
+      "name": "Epic Music World",
+      "track_count": 260
+    },
+    {
+      "name": "Reinhard Goebel",
+      "track_count": 258
+    },
+    {
+      "name": "Fritz Wunderlich",
+      "track_count": 257
+    },
+    {
+      "name": "Michael Maas",
+      "track_count": 256
+    },
+    {
+      "name": "BHZ",
+      "track_count": 253
+    },
+    {
+      "name": "Casanova",
+      "track_count": 250
+    },
+    {
+      "name": "Carl Philipp Emanuel Bach",
+      "track_count": 247
+    },
+    {
+      "name": "ANNA",
+      "track_count": 242
+    },
+    {
+      "name": "Alexandra",
+      "track_count": 241
+    },
+    {
+      "name": "Bianca",
+      "track_count": 240
+    },
+    {
+      "name": "Element",
+      "track_count": 239
+    },
+    {
+      "name": "Simon",
+      "track_count": 238
+    },
+    {
+      "name": "Blokkmonsta",
+      "track_count": 238
+    },
+    {
+      "name": "Kollegah",
+      "track_count": 238
+    },
+    {
+      "name": "Sultan",
+      "track_count": 237
+    },
+    {
+      "name": "Markus",
+      "track_count": 234
+    },
+    {
+      "name": "Markus Schulz",
+      "track_count": 230
+    },
+    {
+      "name": "Münchener Bach-Orchester",
+      "track_count": 230
+    },
+    {
+      "name": "Maria",
+      "track_count": 228
+    },
+    {
+      "name": "Blues Company",
+      "track_count": 226
+    },
+    {
+      "name": "Los Santos",
+      "track_count": 225
+    },
+    {
+      "name": "Naomi",
+      "track_count": 224
+    },
+    {
+      "name": "102 Boyz",
+      "track_count": 223
+    },
+    {
+      "name": "Freiburger Barockorchester",
+      "track_count": 221
+    },
+    {
+      "name": "Propaganda",
+      "track_count": 221
+    },
+    {
+      "name": "Christian",
+      "track_count": 220
+    },
+    {
+      "name": "Adel Tawil",
+      "track_count": 220
+    },
+    {
+      "name": "Relax",
+      "track_count": 219
+    },
+    {
+      "name": "Gio",
+      "track_count": 218
+    },
+    {
+      "name": "Zate",
+      "track_count": 217
+    },
+    {
+      "name": "Carl Maria von Weber",
+      "track_count": 217
+    },
+    {
+      "name": "Endel",
+      "track_count": 216
+    },
+    {
+      "name": "Samra",
+      "track_count": 213
+    },
+    {
+      "name": "Anna",
+      "track_count": 104
+    },
+    {
+      "name": "BLANCO",
+      "track_count": 77
+    },
+    {
+      "name": "GIO",
+      "track_count": 65
+    },
+    {
+      "name": "MARIA",
+      "track_count": 59
+    },
+    {
+      "name": "SIMON",
+      "track_count": 53
+    },
+    {
+      "name": "Max",
+      "track_count": 36
+    },
+    {
+      "name": "NAOMI",
+      "track_count": 34
+    },
+    {
+      "name": "relax",
+      "track_count": 32
+    },
+    {
+      "name": "PALA",
+      "track_count": 29
+    },
+    {
       "name": "FELIX",
       "track_count": 24
     },
     {
       "name": "CLAUDIA",
       "track_count": 23
+    },
+    {
+      "name": "RELAX",
+      "track_count": 22
     },
     {
       "name": "capo",
@@ -80,8 +320,72 @@
       "track_count": 20
     },
     {
+      "name": "fresh",
+      "track_count": 18
+    },
+    {
       "name": "NICOLE",
       "track_count": 17
+    },
+    {
+      "name": "naomi",
+      "track_count": 17
+    },
+    {
+      "name": "SINCLAIR",
+      "track_count": 16
+    },
+    {
+      "name": "SULTAN",
+      "track_count": 16
+    },
+    {
+      "name": "gio",
+      "track_count": 15
+    },
+    {
+      "name": "Carl Maria Von Weber",
+      "track_count": 13
+    },
+    {
+      "name": "ReLaX",
+      "track_count": 12
+    },
+    {
+      "name": "FRESH",
+      "track_count": 10
+    },
+    {
+      "name": "MarkUs",
+      "track_count": 8
+    },
+    {
+      "name": "EMANUEL",
+      "track_count": 8
+    },
+    {
+      "name": "maria",
+      "track_count": 6
+    },
+    {
+      "name": "sinclair",
+      "track_count": 5
+    },
+    {
+      "name": "ROLAND",
+      "track_count": 5
+    },
+    {
+      "name": "BLUES COMPANY",
+      "track_count": 5
+    },
+    {
+      "name": "simon",
+      "track_count": 5
+    },
+    {
+      "name": "ELEMENT",
+      "track_count": 4
     },
     {
       "name": "Johannes brahms",
@@ -92,11 +396,79 @@
       "track_count": 4
     },
     {
+      "name": "rocco",
+      "track_count": 3
+    },
+    {
+      "name": "NICO",
+      "track_count": 3
+    },
+    {
+      "name": "max",
+      "track_count": 2
+    },
+    {
+      "name": "SANDRA",
+      "track_count": 2
+    },
+    {
+      "name": "markus",
+      "track_count": 2
+    },
+    {
       "name": "felix",
       "track_count": 2
     },
     {
+      "name": "ALEXANDRA",
+      "track_count": 2
+    },
+    {
+      "name": "FaUSt",
+      "track_count": 1
+    },
+    {
+      "name": "ELement",
+      "track_count": 1
+    },
+    {
+      "name": "CASANOVA",
+      "track_count": 1
+    },
+    {
+      "name": "GiO",
+      "track_count": 1
+    },
+    {
+      "name": "Freiburger BarockOrchester",
+      "track_count": 1
+    },
+    {
+      "name": "MARKUS",
+      "track_count": 1
+    },
+    {
+      "name": "PropaGanda",
+      "track_count": 1
+    },
+    {
+      "name": "JAMES",
+      "track_count": 1
+    },
+    {
+      "name": "roland",
+      "track_count": 1
+    },
+    {
       "name": "GEORG PHILIPP TELEMANN",
+      "track_count": 1
+    },
+    {
+      "name": "BIANCA",
+      "track_count": 1
+    },
+    {
+      "name": "NaoMi",
       "track_count": 1
     }
   ]

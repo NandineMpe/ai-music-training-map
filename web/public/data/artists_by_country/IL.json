@@ -1,18 +1,38 @@
 {
   "country_code": "IL",
-  "artist_count": 3,
-  "track_count": 464,
+  "artist_count": 8,
+  "track_count": 1074,
   "artists": [
     {
       "name": "Angel",
       "track_count": 420
     },
     {
+      "name": "Avishai Cohen",
+      "track_count": 229
+    },
+    {
+      "name": "Noa",
+      "track_count": 228
+    },
+    {
+      "name": "NOA",
+      "track_count": 128
+    },
+    {
       "name": "ANGEL",
       "track_count": 41
     },
     {
+      "name": "noa",
+      "track_count": 22
+    },
+    {
       "name": "angel",
+      "track_count": 3
+    },
+    {
+      "name": "NoA",
       "track_count": 3
     }
   ]

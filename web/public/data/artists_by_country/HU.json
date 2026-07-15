@@ -1,7 +1,7 @@
 {
   "country_code": "HU",
-  "artist_count": 8,
-  "track_count": 2796,
+  "artist_count": 12,
+  "track_count": 3516,
   "artists": [
     {
       "name": "Franz Liszt",
@@ -20,6 +20,18 @@
       "track_count": 346
     },
     {
+      "name": "Bali",
+      "track_count": 246
+    },
+    {
+      "name": "Ferenc Fricsay",
+      "track_count": 244
+    },
+    {
+      "name": "András Schiff",
+      "track_count": 228
+    },
+    {
       "name": "NEO",
       "track_count": 86
     },
@@ -33,6 +45,10 @@
     },
     {
       "name": "NeO",
+      "track_count": 2
+    },
+    {
+      "name": "BALI",
       "track_count": 2
     }
   ]

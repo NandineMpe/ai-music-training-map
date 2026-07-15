@@ -1,0 +1,19 @@
+{
+  "country_code": "HR",
+  "artist_count": 3,
+  "track_count": 246,
+  "artists": [
+    {
+      "name": "Jinx",
+      "track_count": 230
+    },
+    {
+      "name": "JINX",
+      "track_count": 15
+    },
+    {
+      "name": "jinx",
+      "track_count": 1
+    }
+  ]
+}

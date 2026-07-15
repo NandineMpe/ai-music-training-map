@@ -1,0 +1,15 @@
+{
+  "country_code": "TR",
+  "artist_count": 2,
+  "track_count": 432,
+  "artists": [
+    {
+      "name": "Erol Köker",
+      "track_count": 218
+    },
+    {
+      "name": "Engin Arslan",
+      "track_count": 214
+    }
+  ]
+}

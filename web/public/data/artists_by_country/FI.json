@@ -1,7 +1,7 @@
 {
   "country_code": "FI",
-  "artist_count": 7,
-  "track_count": 1471,
+  "artist_count": 12,
+  "track_count": 2139,
   "artists": [
     {
       "name": "Jean Sibelius",
@@ -14,6 +14,18 @@
     {
       "name": "Nemesis",
       "track_count": 365
+    },
+    {
+      "name": "Frederik",
+      "track_count": 234
+    },
+    {
+      "name": "DJ FKU",
+      "track_count": 216
+    },
+    {
+      "name": "TT",
+      "track_count": 216
     },
     {
       "name": "NEMESIS",
@@ -30,6 +42,14 @@
     {
       "name": "ZeN",
       "track_count": 2
+    },
+    {
+      "name": "FREDERIK",
+      "track_count": 1
+    },
+    {
+      "name": "Tt",
+      "track_count": 1
     }
   ]
 }

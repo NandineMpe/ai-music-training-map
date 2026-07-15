@@ -1,15 +1,67 @@
 {
   "country_code": "CH",
-  "artist_count": 3,
-  "track_count": 444,
+  "artist_count": 16,
+  "track_count": 2207,
   "artists": [
     {
       "name": "Frost",
       "track_count": 439
     },
     {
+      "name": "Charles Dutoit",
+      "track_count": 322
+    },
+    {
+      "name": "Turner",
+      "track_count": 296
+    },
+    {
+      "name": "Heinz Holliger",
+      "track_count": 269
+    },
+    {
+      "name": "Dodo",
+      "track_count": 252
+    },
+    {
+      "name": "Emmanuel Pahud",
+      "track_count": 233
+    },
+    {
+      "name": "Diego",
+      "track_count": 232
+    },
+    {
+      "name": "dodo",
+      "track_count": 76
+    },
+    {
+      "name": "DODO",
+      "track_count": 52
+    },
+    {
+      "name": "DIEGO",
+      "track_count": 13
+    },
+    {
+      "name": "diego",
+      "track_count": 13
+    },
+    {
       "name": "FROST",
       "track_count": 4
+    },
+    {
+      "name": "TURNER",
+      "track_count": 2
+    },
+    {
+      "name": "turner",
+      "track_count": 2
+    },
+    {
+      "name": "DiEGO",
+      "track_count": 1
     },
     {
       "name": "frost",

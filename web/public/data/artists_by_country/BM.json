@@ -1,0 +1,19 @@
+{
+  "country_code": "BM",
+  "artist_count": 3,
+  "track_count": 262,
+  "artists": [
+    {
+      "name": "Nova",
+      "track_count": 256
+    },
+    {
+      "name": "NOVA",
+      "track_count": 3
+    },
+    {
+      "name": "nova",
+      "track_count": 3
+    }
+  ]
+}

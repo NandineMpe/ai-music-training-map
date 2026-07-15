@@ -1,7 +1,7 @@
 {
   "country_code": "NO",
-  "artist_count": 3,
-  "track_count": 1599,
+  "artist_count": 5,
+  "track_count": 1820,
   "artists": [
     {
       "name": "Edvard Grieg",
@@ -12,8 +12,16 @@
       "track_count": 361
     },
     {
+      "name": "Emperor",
+      "track_count": 219
+    },
+    {
       "name": "Tnt",
       "track_count": 64
+    },
+    {
+      "name": "EMPEROR",
+      "track_count": 2
     }
   ]
 }

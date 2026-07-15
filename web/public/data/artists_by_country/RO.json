@@ -1,7 +1,7 @@
 {
   "country_code": "RO",
-  "artist_count": 9,
-  "track_count": 1727,
+  "artist_count": 12,
+  "track_count": 2184,
   "artists": [
     {
       "name": "Nicolae Guta",
@@ -14,6 +14,14 @@
     {
       "name": "Florin Salam",
       "track_count": 444
+    },
+    {
+      "name": "Geo Da Silva",
+      "track_count": 241
+    },
+    {
+      "name": "Dan Ciotoi",
+      "track_count": 215
     },
     {
       "name": "IRIS",
@@ -34,6 +42,10 @@
     {
       "name": "FLORIN SALAM",
       "track_count": 4
+    },
+    {
+      "name": "Dan ciotoi",
+      "track_count": 1
     },
     {
       "name": "Florin salam",

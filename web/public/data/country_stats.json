@@ -1,20 +1,8 @@
 [
   {
-    "country_code": "DE",
-    "track_count": 29272,
-    "artist_count": 24,
-    "top_artists": [
-      "Johann Sebastian Bach",
-      "Ludwig van Beethoven",
-      "Johannes Brahms",
-      "Robert Schumann",
-      "Felix Mendelssohn"
-    ]
-  },
-  {
     "country_code": "US",
-    "track_count": 24235,
-    "artist_count": 115,
+    "track_count": 79811,
+    "artist_count": 472,
     "top_artists": [
       "Frank Sinatra",
       "Kali",
@@ -24,33 +12,21 @@
     ]
   },
   {
-    "country_code": "IN",
-    "track_count": 19558,
-    "artist_count": 65,
+    "country_code": "DE",
+    "track_count": 42546,
+    "artist_count": 117,
     "top_artists": [
-      "Shilpi Raj",
-      "Lata Mangeshkar",
-      "Alka Yagnik",
-      "Kishore Kumar",
-      "Udit Narayan"
-    ]
-  },
-  {
-    "country_code": "AT",
-    "track_count": 18310,
-    "artist_count": 13,
-    "top_artists": [
-      "Wolfgang Amadeus Mozart",
-      "Franz Schubert",
-      "Wiener Philharmoniker",
-      "Joseph Haydn",
-      "Herbert von Karajan"
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Johannes Brahms",
+      "Robert Schumann",
+      "Felix Mendelssohn"
     ]
   },
   {
     "country_code": "GB",
-    "track_count": 17976,
-    "artist_count": 44,
+    "track_count": 38532,
+    "artist_count": 196,
     "top_artists": [
       "London Symphony Orchestra",
       "George Frideric Handel",
@@ -60,9 +36,21 @@
     ]
   },
   {
+    "country_code": "IN",
+    "track_count": 28786,
+    "artist_count": 131,
+    "top_artists": [
+      "Shilpi Raj",
+      "Lata Mangeshkar",
+      "Alka Yagnik",
+      "Kishore Kumar",
+      "Udit Narayan"
+    ]
+  },
+  {
     "country_code": "IT",
-    "track_count": 13754,
-    "artist_count": 39,
+    "track_count": 21276,
+    "artist_count": 86,
     "top_artists": [
       "Antonio Vivaldi",
       "Giuseppe Verdi",
@@ -72,9 +60,21 @@
     ]
   },
   {
+    "country_code": "AT",
+    "track_count": 19557,
+    "artist_count": 21,
+    "top_artists": [
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert",
+      "Wiener Philharmoniker",
+      "Joseph Haydn",
+      "Herbert von Karajan"
+    ]
+  },
+  {
     "country_code": "BR",
-    "track_count": 12707,
-    "artist_count": 65,
+    "track_count": 18564,
+    "artist_count": 120,
     "top_artists": [
       "Mc Gw",
       "MC GW",
@@ -85,8 +85,8 @@
   },
   {
     "country_code": "FR",
-    "track_count": 10582,
-    "artist_count": 17,
+    "track_count": 16055,
+    "artist_count": 50,
     "top_artists": [
       "Claude Debussy",
       "Maurice Ravel",
@@ -96,21 +96,21 @@
     ]
   },
   {
-    "country_code": "HU",
-    "track_count": 2796,
-    "artist_count": 8,
+    "country_code": "ES",
+    "track_count": 7868,
+    "artist_count": 40,
     "top_artists": [
-      "Franz Liszt",
-      "Omega",
-      "Sir Georg Solti",
-      "Neo",
-      "NEO"
+      "Jordi Savall",
+      "Plácido Domingo",
+      "Joan Chamorro",
+      "Isaac Albéniz",
+      "Dorian"
     ]
   },
   {
     "country_code": "JP",
-    "track_count": 2683,
-    "artist_count": 10,
+    "track_count": 6997,
+    "artist_count": 43,
     "top_artists": [
       "SEGA",
       "Bandai Namco Game Music",
@@ -121,8 +121,8 @@
   },
   {
     "country_code": "NL",
-    "track_count": 2391,
-    "artist_count": 9,
+    "track_count": 5212,
+    "artist_count": 26,
     "top_artists": [
       "Armin van Buuren",
       "Luke",
@@ -132,68 +132,265 @@
     ]
   },
   {
-    "country_code": "ES",
-    "track_count": 1993,
-    "artist_count": 4,
+    "country_code": "ZA",
+    "track_count": 4729,
+    "artist_count": 56,
     "top_artists": [
-      "Jordi Savall",
-      "Plácido Domingo",
-      "Joan Chamorro",
-      "Isaac Albéniz"
+      "Kabza De Small",
+      "Zee",
+      "DJ Maphorisa",
+      "Black Coffee",
+      "Miriam Makeba"
     ]
   },
   {
-    "country_code": "RO",
-    "track_count": 1727,
-    "artist_count": 9,
+    "country_code": "JM",
+    "track_count": 4691,
+    "artist_count": 33,
     "top_artists": [
-      "Nicolae Guta",
-      "Iris",
-      "Florin Salam",
-      "IRIS",
-      "iris"
-    ]
-  },
-  {
-    "country_code": "NO",
-    "track_count": 1599,
-    "artist_count": 3,
-    "top_artists": [
-      "Edvard Grieg",
-      "TNT",
-      "Tnt"
+      "Rico",
+      "Christopher Martin",
+      "Don Carlos",
+      "Pablo",
+      "Vybz Kartel"
     ]
   },
   {
     "country_code": "AR",
-    "track_count": 1493,
-    "artist_count": 7,
+    "track_count": 3710,
+    "artist_count": 18,
     "top_artists": [
       "Daniel Barenboim",
       "Karina",
       "Daniel",
-      "DANIEL",
-      "KARINA"
+      "Martha Argerich",
+      "Carlos Gardel"
+    ]
+  },
+  {
+    "country_code": "HU",
+    "track_count": 3516,
+    "artist_count": 12,
+    "top_artists": [
+      "Franz Liszt",
+      "Omega",
+      "Sir Georg Solti",
+      "Neo",
+      "Bali"
+    ]
+  },
+  {
+    "country_code": "CO",
+    "track_count": 2593,
+    "artist_count": 14,
+    "top_artists": [
+      "Diomedes Díaz",
+      "Jorge Oñate",
+      "Silvio Brito",
+      "Beto Zabaleta",
+      "Ivan Villazon"
+    ]
+  },
+  {
+    "country_code": "CA",
+    "track_count": 2515,
+    "artist_count": 14,
+    "top_artists": [
+      "Dog Music",
+      "Oscar Peterson",
+      "Neil Young",
+      "Michael Jones",
+      "TR"
+    ]
+  },
+  {
+    "country_code": "AU",
+    "track_count": 2470,
+    "artist_count": 14,
+    "top_artists": [
+      "Richard Bonynge",
+      "Joan Sutherland",
+      "Q",
+      "Midnight",
+      "Hillsong Worship"
+    ]
+  },
+  {
+    "country_code": "SE",
+    "track_count": 2262,
+    "artist_count": 13,
+    "top_artists": [
+      "Ghost",
+      "Pandora",
+      "Sunita",
+      "Lars Danielsson",
+      "Solar"
+    ]
+  },
+  {
+    "country_code": "CH",
+    "track_count": 2207,
+    "artist_count": 16,
+    "top_artists": [
+      "Frost",
+      "Charles Dutoit",
+      "Turner",
+      "Heinz Holliger",
+      "Dodo"
+    ]
+  },
+  {
+    "country_code": "RO",
+    "track_count": 2184,
+    "artist_count": 12,
+    "top_artists": [
+      "Nicolae Guta",
+      "Iris",
+      "Florin Salam",
+      "Geo Da Silva",
+      "Dan Ciotoi"
     ]
   },
   {
     "country_code": "FI",
-    "track_count": 1471,
-    "artist_count": 7,
+    "track_count": 2139,
+    "artist_count": 12,
     "top_artists": [
       "Jean Sibelius",
       "Zen",
       "Nemesis",
-      "NEMESIS",
-      "ZEN"
+      "Frederik",
+      "DJ FKU"
+    ]
+  },
+  {
+    "country_code": "PL",
+    "track_count": 1929,
+    "artist_count": 10,
+    "top_artists": [
+      "Chorus",
+      "Zeus",
+      "Białas",
+      "Instrumental Core",
+      "A'Vista"
+    ]
+  },
+  {
+    "country_code": "NO",
+    "track_count": 1820,
+    "artist_count": 5,
+    "top_artists": [
+      "Edvard Grieg",
+      "TNT",
+      "Emperor",
+      "Tnt",
+      "EMPEROR"
     ]
   },
   {
     "country_code": "LK",
-    "track_count": 1316,
-    "artist_count": 1,
+    "track_count": 1790,
+    "artist_count": 3,
     "top_artists": [
-      "Rohana Weerasinghe"
+      "Rohana Weerasinghe",
+      "Kasun Kalhara",
+      "Sarath De Alwis"
+    ]
+  },
+  {
+    "country_code": "PR",
+    "track_count": 1691,
+    "artist_count": 10,
+    "top_artists": [
+      "Farruko",
+      "Miguelito",
+      "Arcangel",
+      "Myke Towers",
+      "Rosa"
+    ]
+  },
+  {
+    "country_code": "BD",
+    "track_count": 1679,
+    "artist_count": 7,
+    "top_artists": [
+      "Andrew Kishore",
+      "Mila",
+      "Sabina Yasmin",
+      "Kanak Chapa",
+      "Runa Laila"
+    ]
+  },
+  {
+    "country_code": "DK",
+    "track_count": 1670,
+    "artist_count": 10,
+    "top_artists": [
+      "creamy",
+      "Bliss",
+      "Medina",
+      "Orion",
+      "Michala Petri"
+    ]
+  },
+  {
+    "country_code": "CZ",
+    "track_count": 1567,
+    "artist_count": 7,
+    "top_artists": [
+      "Karel Gott",
+      "The City of Prague Philharmonic Orchestra",
+      "Václav Neckář",
+      "Hana Zagorová",
+      "Antonín Dvořák"
+    ]
+  },
+  {
+    "country_code": "BE",
+    "track_count": 1501,
+    "artist_count": 7,
+    "top_artists": [
+      "Philippe Herreweghe",
+      "Balthazar",
+      "Natalia",
+      "Arthur Grumiaux",
+      "Collegium Vocale Gent"
+    ]
+  },
+  {
+    "country_code": "KR",
+    "track_count": 1496,
+    "artist_count": 10,
+    "top_artists": [
+      "Pinkfong",
+      "TWICE",
+      "softy",
+      "Crush",
+      "Dept"
+    ]
+  },
+  {
+    "country_code": "VN",
+    "track_count": 1343,
+    "artist_count": 6,
+    "top_artists": [
+      "HHD",
+      "Tuấn Vũ",
+      "Nguyên Khang",
+      "Ngọc Sơn",
+      "Nguyễn Văn Chung"
+    ]
+  },
+  {
+    "country_code": "MX",
+    "track_count": 1259,
+    "artist_count": 7,
+    "top_artists": [
+      "Relajante",
+      "Chalino Sanchez",
+      "RBD",
+      "Rojo",
+      "Pepe"
     ]
   },
   {
@@ -207,24 +404,80 @@
     ]
   },
   {
-    "country_code": "PL",
-    "track_count": 796,
-    "artist_count": 4,
+    "country_code": "IL",
+    "track_count": 1074,
+    "artist_count": 8,
     "top_artists": [
-      "Chorus",
-      "Zeus",
-      "ZEUS",
-      "CHORUS"
+      "Angel",
+      "Avishai Cohen",
+      "Noa",
+      "NOA",
+      "ANGEL"
     ]
   },
   {
-    "country_code": "BD",
-    "track_count": 713,
-    "artist_count": 3,
+    "country_code": "RU",
+    "track_count": 774,
+    "artist_count": 7,
     "top_artists": [
-      "Andrew Kishore",
-      "Mila",
-      "MILA"
+      "Horus",
+      "Слава КПСС",
+      "Anima",
+      "ANIMA",
+      "horus"
+    ]
+  },
+  {
+    "country_code": "DO",
+    "track_count": 740,
+    "artist_count": 11,
+    "top_artists": [
+      "Yomel El Meloso",
+      "Rochy RD",
+      "Ceky Viciny",
+      "Yomel el Meloso",
+      "Rochy Rd"
+    ]
+  },
+  {
+    "country_code": "IE",
+    "track_count": 725,
+    "artist_count": 6,
+    "top_artists": [
+      "Eden",
+      "Derek",
+      "EDEN",
+      "DEREK",
+      "derek"
+    ]
+  },
+  {
+    "country_code": "VE",
+    "track_count": 607,
+    "artist_count": 2,
+    "top_artists": [
+      "Billo's Caracas Boys",
+      "Gustavo Dudamel"
+    ]
+  },
+  {
+    "country_code": "CU",
+    "track_count": 594,
+    "artist_count": 4,
+    "top_artists": [
+      "La Sonora Matancera",
+      "Celia Cruz",
+      "La sonora matancera",
+      "la sonora Matancera"
+    ]
+  },
+  {
+    "country_code": "EE",
+    "track_count": 569,
+    "artist_count": 2,
+    "top_artists": [
+      "Neeme Järvi",
+      "Paavo Järvi"
     ]
   },
   {
@@ -236,30 +489,24 @@
     ]
   },
   {
-    "country_code": "JM",
+    "country_code": "XE",
     "track_count": 499,
     "artist_count": 3,
     "top_artists": [
-      "Rico",
-      "RICO",
-      "rico"
+      "Chamber Orchestra of Europe",
+      "Victor Romero",
+      "VICTOR ROMERO"
     ]
   },
   {
-    "country_code": "KR",
-    "track_count": 488,
-    "artist_count": 2,
+    "country_code": "PK",
+    "track_count": 486,
+    "artist_count": 4,
     "top_artists": [
-      "Pinkfong",
-      "pinkfong"
-    ]
-  },
-  {
-    "country_code": "CA",
-    "track_count": 482,
-    "artist_count": 1,
-    "top_artists": [
-      "Dog Music"
+      "Naseebo Lal",
+      "Sajjad Ali",
+      "SAJJAD ALI",
+      "Naseebo lal"
     ]
   },
   {
@@ -271,47 +518,12 @@
     ]
   },
   {
-    "country_code": "CO",
-    "track_count": 475,
-    "artist_count": 1,
+    "country_code": "TR",
+    "track_count": 432,
+    "artist_count": 2,
     "top_artists": [
-      "Diomedes Díaz"
-    ]
-  },
-  {
-    "country_code": "IL",
-    "track_count": 464,
-    "artist_count": 3,
-    "top_artists": [
-      "Angel",
-      "ANGEL",
-      "angel"
-    ]
-  },
-  {
-    "country_code": "CH",
-    "track_count": 444,
-    "artist_count": 3,
-    "top_artists": [
-      "Frost",
-      "FROST",
-      "frost"
-    ]
-  },
-  {
-    "country_code": "BE",
-    "track_count": 443,
-    "artist_count": 1,
-    "top_artists": [
-      "Philippe Herreweghe"
-    ]
-  },
-  {
-    "country_code": "VE",
-    "track_count": 386,
-    "artist_count": 1,
-    "top_artists": [
-      "Billo's Caracas Boys"
+      "Erol Köker",
+      "Engin Arslan"
     ]
   },
   {
@@ -325,19 +537,175 @@
     ]
   },
   {
-    "country_code": "VN",
-    "track_count": 365,
+    "country_code": "XC",
+    "track_count": 334,
     "artist_count": 1,
     "top_artists": [
-      "HHD"
+      "Sbor Lubomíra Pánka"
     ]
   },
   {
-    "country_code": "EE",
-    "track_count": 356,
+    "country_code": "CL",
+    "track_count": 333,
+    "artist_count": 3,
+    "top_artists": [
+      "Saiko",
+      "SAIKO",
+      "saiko"
+    ]
+  },
+  {
+    "country_code": "CM",
+    "track_count": 333,
+    "artist_count": 3,
+    "top_artists": [
+      "Manu",
+      "manu",
+      "MANU"
+    ]
+  },
+  {
+    "country_code": "NZ",
+    "track_count": 320,
+    "artist_count": 2,
+    "top_artists": [
+      "Finn",
+      "FINN"
+    ]
+  },
+  {
+    "country_code": "PA",
+    "track_count": 310,
+    "artist_count": 4,
+    "top_artists": [
+      "Flex",
+      "FLEX",
+      "FleX",
+      "flex"
+    ]
+  },
+  {
+    "country_code": "MS",
+    "track_count": 299,
+    "artist_count": 3,
+    "top_artists": [
+      "Arrow",
+      "ARROW",
+      "arrow"
+    ]
+  },
+  {
+    "country_code": "PH",
+    "track_count": 285,
+    "artist_count": 5,
+    "top_artists": [
+      "Freestyle",
+      "freestyle",
+      "FREESTYLE",
+      "FReestyle",
+      "FreeStyle"
+    ]
+  },
+  {
+    "country_code": "BA",
+    "track_count": 283,
+    "artist_count": 2,
+    "top_artists": [
+      "Valentino",
+      "VALENTINO"
+    ]
+  },
+  {
+    "country_code": "CN",
+    "track_count": 276,
     "artist_count": 1,
     "top_artists": [
-      "Neeme Järvi"
+      "HOYO-MiX"
+    ]
+  },
+  {
+    "country_code": "MY",
+    "track_count": 270,
+    "artist_count": 2,
+    "top_artists": [
+      "Saleem",
+      "SALEEM"
+    ]
+  },
+  {
+    "country_code": "BM",
+    "track_count": 262,
+    "artist_count": 3,
+    "top_artists": [
+      "Nova",
+      "NOVA",
+      "nova"
+    ]
+  },
+  {
+    "country_code": "TT",
+    "track_count": 254,
+    "artist_count": 1,
+    "top_artists": [
+      "Machel Montano"
+    ]
+  },
+  {
+    "country_code": "HR",
+    "track_count": 246,
+    "artist_count": 3,
+    "top_artists": [
+      "Jinx",
+      "JINX",
+      "jinx"
+    ]
+  },
+  {
+    "country_code": "HK",
+    "track_count": 241,
+    "artist_count": 1,
+    "top_artists": [
+      "葉振棠"
+    ]
+  },
+  {
+    "country_code": "PG",
+    "track_count": 237,
+    "artist_count": 1,
+    "top_artists": [
+      "David Andrew"
+    ]
+  },
+  {
+    "country_code": "LV",
+    "track_count": 233,
+    "artist_count": 1,
+    "top_artists": [
+      "Mischa Maisky"
+    ]
+  },
+  {
+    "country_code": "CD",
+    "track_count": 223,
+    "artist_count": 1,
+    "top_artists": [
+      "Papa Wemba"
+    ]
+  },
+  {
+    "country_code": "SK",
+    "track_count": 219,
+    "artist_count": 1,
+    "top_artists": [
+      "Peter Nagy"
+    ]
+  },
+  {
+    "country_code": "EC",
+    "track_count": 217,
+    "artist_count": 1,
+    "top_artists": [
+      "Julio Jaramillo"
     ]
   }
 ]

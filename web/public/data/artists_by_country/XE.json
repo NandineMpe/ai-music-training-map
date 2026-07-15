@@ -1,0 +1,19 @@
+{
+  "country_code": "XE",
+  "artist_count": 3,
+  "track_count": 499,
+  "artists": [
+    {
+      "name": "Chamber Orchestra of Europe",
+      "track_count": 244
+    },
+    {
+      "name": "Victor Romero",
+      "track_count": 242
+    },
+    {
+      "name": "VICTOR ROMERO",
+      "track_count": 13
+    }
+  ]
+}

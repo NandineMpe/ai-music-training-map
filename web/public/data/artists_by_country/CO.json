@@ -1,11 +1,63 @@
 {
   "country_code": "CO",
-  "artist_count": 1,
-  "track_count": 475,
+  "artist_count": 14,
+  "track_count": 2593,
   "artists": [
     {
       "name": "Diomedes Díaz",
       "track_count": 475
+    },
+    {
+      "name": "Jorge Oñate",
+      "track_count": 319
+    },
+    {
+      "name": "Silvio Brito",
+      "track_count": 308
+    },
+    {
+      "name": "Beto Zabaleta",
+      "track_count": 299
+    },
+    {
+      "name": "Ivan Villazon",
+      "track_count": 256
+    },
+    {
+      "name": "Álvaro López",
+      "track_count": 248
+    },
+    {
+      "name": "Silvestre Dangond",
+      "track_count": 239
+    },
+    {
+      "name": "Diaz",
+      "track_count": 218
+    },
+    {
+      "name": "Rolando Ochoa",
+      "track_count": 215
+    },
+    {
+      "name": "DIAZ",
+      "track_count": 12
+    },
+    {
+      "name": "Ivan villazon",
+      "track_count": 1
+    },
+    {
+      "name": "diaZ",
+      "track_count": 1
+    },
+    {
+      "name": "diaz",
+      "track_count": 1
+    },
+    {
+      "name": "silvio brito",
+      "track_count": 1
     }
   ]
 }

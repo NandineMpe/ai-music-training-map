@@ -1,0 +1,35 @@
+{
+  "country_code": "RU",
+  "artist_count": 7,
+  "track_count": 774,
+  "artists": [
+    {
+      "name": "Horus",
+      "track_count": 262
+    },
+    {
+      "name": "Слава КПСС",
+      "track_count": 256
+    },
+    {
+      "name": "Anima",
+      "track_count": 251
+    },
+    {
+      "name": "ANIMA",
+      "track_count": 2
+    },
+    {
+      "name": "horus",
+      "track_count": 1
+    },
+    {
+      "name": "ANiMA",
+      "track_count": 1
+    },
+    {
+      "name": "СЛАВА КПСС",
+      "track_count": 1
+    }
+  ]
+}

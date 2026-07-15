@@ -1,7 +1,7 @@
 {
   "country_code": "IN",
-  "artist_count": 65,
-  "track_count": 19558,
+  "artist_count": 131,
+  "track_count": 28786,
   "artists": [
     {
       "name": "Shilpi Raj",
@@ -124,11 +124,147 @@
       "track_count": 340
     },
     {
+      "name": "Himesh Reshammiya",
+      "track_count": 335
+    },
+    {
+      "name": "Kalpana",
+      "track_count": 331
+    },
+    {
+      "name": "Kavita Krishnamurthy",
+      "track_count": 329
+    },
+    {
+      "name": "DJ Harshit Shah",
+      "track_count": 307
+    },
+    {
+      "name": "S. Janaki",
+      "track_count": 306
+    },
+    {
+      "name": "Santhosh Narayanan",
+      "track_count": 296
+    },
+    {
+      "name": "Hariharan",
+      "track_count": 292
+    },
+    {
+      "name": "Mahendra Kapoor",
+      "track_count": 285
+    },
+    {
+      "name": "Manna Dey",
+      "track_count": 284
+    },
+    {
+      "name": "Haricharan",
+      "track_count": 280
+    },
+    {
+      "name": "Ravi",
+      "track_count": 280
+    },
+    {
+      "name": "Shaan",
+      "track_count": 277
+    },
+    {
+      "name": "Surinder Kaur",
+      "track_count": 276
+    },
+    {
+      "name": "Kavita Yadav",
+      "track_count": 267
+    },
+    {
+      "name": "Anup Jalota",
+      "track_count": 263
+    },
+    {
+      "name": "Divya",
+      "track_count": 260
+    },
+    {
+      "name": "Nanditha",
+      "track_count": 254
+    },
+    {
+      "name": "Usha Yadav",
+      "track_count": 248
+    },
+    {
+      "name": "Benny Dayal",
+      "track_count": 244
+    },
+    {
+      "name": "Amar Singh Chamkila",
+      "track_count": 240
+    },
+    {
+      "name": "Usha Mangeshkar",
+      "track_count": 239
+    },
+    {
+      "name": "Raju Punjabi",
+      "track_count": 239
+    },
+    {
+      "name": "Anand Shinde",
+      "track_count": 237
+    },
+    {
+      "name": "Babul Supriyo",
+      "track_count": 233
+    },
+    {
+      "name": "Swarnalatha",
+      "track_count": 231
+    },
+    {
+      "name": "Jagjit Singh",
+      "track_count": 231
+    },
+    {
+      "name": "Javed Ali",
+      "track_count": 229
+    },
+    {
+      "name": "Sukhwinder Singh",
+      "track_count": 229
+    },
+    {
+      "name": "Jubin Nautiyal",
+      "track_count": 227
+    },
+    {
+      "name": "Asees Kaur",
+      "track_count": 220
+    },
+    {
+      "name": "Mohammed Aziz",
+      "track_count": 215
+    },
+    {
+      "name": "Badshah",
+      "track_count": 214
+    },
+    {
+      "name": "Neha Kakkar",
+      "track_count": 214
+    },
+    {
       "name": "SONU NIGAM",
       "track_count": 163
     },
     {
       "name": "ANURADHA PAUDWAL",
+      "track_count": 160
+    },
+    {
+      "name": "HIMESH RESHAMMIYA",
       "track_count": 160
     },
     {
@@ -148,12 +284,32 @@
       "track_count": 88
     },
     {
+      "name": "RAVI",
+      "track_count": 87
+    },
+    {
+      "name": "Dj Harshit Shah",
+      "track_count": 79
+    },
+    {
+      "name": "SHAAN",
+      "track_count": 57
+    },
+    {
       "name": "PRITAM",
       "track_count": 48
     },
     {
       "name": "SHREYA GHOSHAL",
       "track_count": 46
+    },
+    {
+      "name": "KAVITA KRISHNAMURTHY",
+      "track_count": 42
+    },
+    {
+      "name": "SUKHWINDER SINGH",
+      "track_count": 39
     },
     {
       "name": "KUMAR SANU",
@@ -168,12 +324,24 @@
       "track_count": 35
     },
     {
+      "name": "MOHAMMED AZIZ",
+      "track_count": 31
+    },
+    {
       "name": "Sameer",
       "track_count": 17
     },
     {
       "name": "AMIT KUMAR",
       "track_count": 16
+    },
+    {
+      "name": "HARIHARAN",
+      "track_count": 15
+    },
+    {
+      "name": "BABUL SUPRIYO",
+      "track_count": 14
     },
     {
       "name": "MISS POOJA",
@@ -196,11 +364,35 @@
       "track_count": 12
     },
     {
+      "name": "JAVED ALI",
+      "track_count": 10
+    },
+    {
+      "name": "BENNY DAYAL",
+      "track_count": 8
+    },
+    {
       "name": "Shivani singh",
       "track_count": 8
     },
     {
+      "name": "NEHA KAKKAR",
+      "track_count": 8
+    },
+    {
+      "name": "USHA YADAV",
+      "track_count": 8
+    },
+    {
+      "name": "kavita yadav",
+      "track_count": 7
+    },
+    {
       "name": "SADHANA SARGAM",
+      "track_count": 6
+    },
+    {
+      "name": "DJ HARSHIT SHAH",
       "track_count": 6
     },
     {
@@ -208,15 +400,55 @@
       "track_count": 6
     },
     {
+      "name": "BADSHAH",
+      "track_count": 5
+    },
+    {
       "name": "Neha raj",
       "track_count": 5
+    },
+    {
+      "name": "SANTHOSH NARAYANAN",
+      "track_count": 5
+    },
+    {
+      "name": "DIVYA",
+      "track_count": 4
+    },
+    {
+      "name": "JAGJIT SINGH",
+      "track_count": 4
     },
     {
       "name": "shilpi raj",
       "track_count": 3
     },
     {
+      "name": "JUBIN NAUTIYAL",
+      "track_count": 3
+    },
+    {
+      "name": "KALPANA",
+      "track_count": 3
+    },
+    {
+      "name": "KAVITA YADAV",
+      "track_count": 3
+    },
+    {
+      "name": "divya",
+      "track_count": 3
+    },
+    {
+      "name": "Kavita yadav",
+      "track_count": 3
+    },
+    {
       "name": "ZUBEEN GARG",
+      "track_count": 3
+    },
+    {
+      "name": "MANNA DEY",
       "track_count": 3
     },
     {
@@ -225,6 +457,10 @@
     },
     {
       "name": "NEHA RAJ",
+      "track_count": 2
+    },
+    {
+      "name": "S. JANAKI",
       "track_count": 2
     },
     {
@@ -240,6 +476,10 @@
       "track_count": 1
     },
     {
+      "name": "surinder kaur",
+      "track_count": 1
+    },
+    {
       "name": "Shankar mahadevan",
       "track_count": 1
     },
@@ -248,11 +488,27 @@
       "track_count": 1
     },
     {
+      "name": "jagjit singh",
+      "track_count": 1
+    },
+    {
       "name": "Pawan SIngh",
       "track_count": 1
     },
     {
+      "name": "babul Supriyo",
+      "track_count": 1
+    },
+    {
       "name": "Miss pooja",
+      "track_count": 1
+    },
+    {
+      "name": "javed ali",
+      "track_count": 1
+    },
+    {
+      "name": "Anup jalota",
       "track_count": 1
     },
     {
@@ -261,6 +517,14 @@
     },
     {
       "name": "Kumar sanu",
+      "track_count": 1
+    },
+    {
+      "name": "ANUP JALOTA",
+      "track_count": 1
+    },
+    {
+      "name": "MAHENDRA KAPOOR",
       "track_count": 1
     }
   ]

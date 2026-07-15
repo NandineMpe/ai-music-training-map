@@ -1,11 +1,43 @@
 {
   "country_code": "KR",
-  "artist_count": 2,
-  "track_count": 488,
+  "artist_count": 10,
+  "track_count": 1496,
   "artists": [
     {
       "name": "Pinkfong",
       "track_count": 487
+    },
+    {
+      "name": "TWICE",
+      "track_count": 299
+    },
+    {
+      "name": "softy",
+      "track_count": 237
+    },
+    {
+      "name": "Crush",
+      "track_count": 222
+    },
+    {
+      "name": "Dept",
+      "track_count": 219
+    },
+    {
+      "name": "CRUSH",
+      "track_count": 16
+    },
+    {
+      "name": "Softy",
+      "track_count": 8
+    },
+    {
+      "name": "Twice",
+      "track_count": 6
+    },
+    {
+      "name": "crush",
+      "track_count": 1
     },
     {
       "name": "pinkfong",

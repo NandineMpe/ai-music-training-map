@@ -1,0 +1,27 @@
+{
+  "country_code": "PH",
+  "artist_count": 5,
+  "track_count": 285,
+  "artists": [
+    {
+      "name": "Freestyle",
+      "track_count": 267
+    },
+    {
+      "name": "freestyle",
+      "track_count": 15
+    },
+    {
+      "name": "FREESTYLE",
+      "track_count": 1
+    },
+    {
+      "name": "FReestyle",
+      "track_count": 1
+    },
+    {
+      "name": "FreeStyle",
+      "track_count": 1
+    }
+  ]
+}

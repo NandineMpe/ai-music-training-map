@@ -1,7 +1,7 @@
 {
   "country_code": "FR",
-  "artist_count": 17,
-  "track_count": 10582,
+  "artist_count": 50,
+  "track_count": 16055,
   "artists": [
     {
       "name": "Claude Debussy",
@@ -60,12 +60,144 @@
       "track_count": 360
     },
     {
+      "name": "Amina",
+      "track_count": 317
+    },
+    {
+      "name": "Logos",
+      "track_count": 315
+    },
+    {
+      "name": "ATK",
+      "track_count": 300
+    },
+    {
+      "name": "Caterina Valente",
+      "track_count": 297
+    },
+    {
+      "name": "Pascal Rogé",
+      "track_count": 297
+    },
+    {
+      "name": "Miro",
+      "track_count": 285
+    },
+    {
+      "name": "Renaud Capuçon",
+      "track_count": 283
+    },
+    {
+      "name": "Zebra",
+      "track_count": 262
+    },
+    {
+      "name": "César Franck",
+      "track_count": 262
+    },
+    {
+      "name": "Voyage",
+      "track_count": 259
+    },
+    {
+      "name": "Camille",
+      "track_count": 257
+    },
+    {
+      "name": "Jules Massenet",
+      "track_count": 251
+    },
+    {
+      "name": "Marc Minkowski",
+      "track_count": 242
+    },
+    {
+      "name": "HK",
+      "track_count": 240
+    },
+    {
+      "name": "Isabelle",
+      "track_count": 234
+    },
+    {
+      "name": "Michel",
+      "track_count": 228
+    },
+    {
+      "name": "William Christie",
+      "track_count": 220
+    },
+    {
+      "name": "Philippe Jaroussky",
+      "track_count": 219
+    },
+    {
+      "name": "Pierre Boulez",
+      "track_count": 218
+    },
+    {
+      "name": "Jean-Yves Thibaudet",
+      "track_count": 217
+    },
+    {
+      "name": "Olivier Messiaen",
+      "track_count": 216
+    },
+    {
       "name": "LEO",
       "track_count": 186
     },
     {
+      "name": "MIRO",
+      "track_count": 11
+    },
+    {
+      "name": "isabelle",
+      "track_count": 10
+    },
+    {
       "name": "leo",
       "track_count": 9
+    },
+    {
+      "name": "MiRo",
+      "track_count": 9
+    },
+    {
+      "name": "MICHEL",
+      "track_count": 5
+    },
+    {
+      "name": "Hk",
+      "track_count": 4
+    },
+    {
+      "name": "michel",
+      "track_count": 4
+    },
+    {
+      "name": "MIro",
+      "track_count": 3
+    },
+    {
+      "name": "AMINA",
+      "track_count": 2
+    },
+    {
+      "name": "Atk",
+      "track_count": 2
+    },
+    {
+      "name": "voyage",
+      "track_count": 2
+    },
+    {
+      "name": "zebra",
+      "track_count": 1
+    },
+    {
+      "name": "miro",
+      "track_count": 1
     },
     {
       "name": "Camille Saint-saëns",

@@ -1,7 +1,7 @@
 {
   "country_code": "IT",
-  "artist_count": 39,
-  "track_count": 13754,
+  "artist_count": 86,
+  "track_count": 21276,
   "artists": [
     {
       "name": "Antonio Vivaldi",
@@ -76,8 +76,124 @@
       "track_count": 337
     },
     {
+      "name": "Arcangelo Corelli",
+      "track_count": 331
+    },
+    {
+      "name": "Andrea Bocelli",
+      "track_count": 318
+    },
+    {
+      "name": "Gioachino Rossini",
+      "track_count": 313
+    },
+    {
+      "name": "Alexia",
+      "track_count": 297
+    },
+    {
+      "name": "Massimo Faraò Trio",
+      "track_count": 290
+    },
+    {
+      "name": "Vincenzo Bellini",
+      "track_count": 286
+    },
+    {
+      "name": "Cecilia Bartoli",
+      "track_count": 286
+    },
+    {
+      "name": "Rei",
+      "track_count": 283
+    },
+    {
+      "name": "Giovanni",
+      "track_count": 282
+    },
+    {
+      "name": "Ramirez",
+      "track_count": 281
+    },
+    {
+      "name": "Ennio Morricone",
+      "track_count": 273
+    },
+    {
+      "name": "Music For Sleep",
+      "track_count": 267
+    },
+    {
+      "name": "Gianni",
+      "track_count": 258
+    },
+    {
+      "name": "Matteo",
+      "track_count": 256
+    },
+    {
+      "name": "Loredana",
+      "track_count": 255
+    },
+    {
+      "name": "Claudio Monteverdi",
+      "track_count": 252
+    },
+    {
+      "name": "Accademia Bizantina",
+      "track_count": 252
+    },
+    {
+      "name": "Bruno",
+      "track_count": 245
+    },
+    {
+      "name": "Alessio",
+      "track_count": 241
+    },
+    {
+      "name": "Ottavio Dantone",
+      "track_count": 237
+    },
+    {
+      "name": "Ludovico Einaudi",
+      "track_count": 234
+    },
+    {
+      "name": "Corona",
+      "track_count": 232
+    },
+    {
+      "name": "Papik",
+      "track_count": 225
+    },
+    {
+      "name": "Fausto",
+      "track_count": 222
+    },
+    {
+      "name": "Fabio Cobelli",
+      "track_count": 221
+    },
+    {
+      "name": "Stefano",
+      "track_count": 220
+    },
+    {
+      "name": "Nek",
+      "track_count": 218
+    },
+    {
+      "name": "Dante",
+      "track_count": 216
+    },
+    {
       "name": "ZERO",
       "track_count": 130
+    },
+    {
+      "name": "Music for Sleep",
+      "track_count": 107
     },
     {
       "name": "NINO",
@@ -92,12 +208,24 @@
       "track_count": 41
     },
     {
+      "name": "NEK",
+      "track_count": 28
+    },
+    {
       "name": "Antonio vivaldi",
       "track_count": 26
     },
     {
+      "name": "ALESSIO",
+      "track_count": 25
+    },
+    {
       "name": "FRANCO",
       "track_count": 24
+    },
+    {
+      "name": "BRUNO",
+      "track_count": 21
     },
     {
       "name": "mina",
@@ -112,6 +240,18 @@
       "track_count": 11
     },
     {
+      "name": "bruno",
+      "track_count": 10
+    },
+    {
+      "name": "GIOVANNI",
+      "track_count": 9
+    },
+    {
+      "name": "RAMIREZ",
+      "track_count": 8
+    },
+    {
       "name": "MINA",
       "track_count": 7
     },
@@ -120,7 +260,15 @@
       "track_count": 6
     },
     {
+      "name": "MATTEO",
+      "track_count": 6
+    },
+    {
       "name": "MinA",
+      "track_count": 3
+    },
+    {
+      "name": "matteo",
       "track_count": 3
     },
     {
@@ -130,6 +278,18 @@
     {
       "name": "nino",
       "track_count": 3
+    },
+    {
+      "name": "REi",
+      "track_count": 3
+    },
+    {
+      "name": "fausto",
+      "track_count": 2
+    },
+    {
+      "name": "claudio monteverdi",
+      "track_count": 2
     },
     {
       "name": "NiNo",
@@ -152,11 +312,39 @@
       "track_count": 1
     },
     {
+      "name": "Massimo Faraò trio",
+      "track_count": 1
+    },
+    {
       "name": "GIACOMO PUCCINI",
       "track_count": 1
     },
     {
+      "name": "nek",
+      "track_count": 1
+    },
+    {
+      "name": "DANTE",
+      "track_count": 1
+    },
+    {
+      "name": "FAUSTO",
+      "track_count": 1
+    },
+    {
+      "name": "giovanni",
+      "track_count": 1
+    },
+    {
       "name": "gaetano Donizetti",
+      "track_count": 1
+    },
+    {
+      "name": "rei",
+      "track_count": 1
+    },
+    {
+      "name": "REI",
       "track_count": 1
     }
   ]

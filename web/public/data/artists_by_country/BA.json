@@ -1,0 +1,15 @@
+{
+  "country_code": "BA",
+  "artist_count": 2,
+  "track_count": 283,
+  "artists": [
+    {
+      "name": "Valentino",
+      "track_count": 282
+    },
+    {
+      "name": "VALENTINO",
+      "track_count": 1
+    }
+  ]
+}
