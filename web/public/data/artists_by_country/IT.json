@@ -1,0 +1,51 @@
+{
+  "country_code": "IT",
+  "artist_count": 11,
+  "track_count": 8344,
+  "artists": [
+    {
+      "name": "Antonio Vivaldi",
+      "track_count": 3902
+    },
+    {
+      "name": "Giuseppe Verdi",
+      "track_count": 1531
+    },
+    {
+      "name": "Giacomo Puccini",
+      "track_count": 1288
+    },
+    {
+      "name": "Claudio Abbado",
+      "track_count": 744
+    },
+    {
+      "name": "Zero",
+      "track_count": 615
+    },
+    {
+      "name": "ZERO",
+      "track_count": 130
+    },
+    {
+      "name": "Giuseppe VERDI",
+      "track_count": 78
+    },
+    {
+      "name": "Antonio vivaldi",
+      "track_count": 26
+    },
+    {
+      "name": "zero",
+      "track_count": 18
+    },
+    {
+      "name": "ZeRO",
+      "track_count": 11
+    },
+    {
+      "name": "GIACOMO PUCCINI",
+      "track_count": 1
+    }
+  ]
+}

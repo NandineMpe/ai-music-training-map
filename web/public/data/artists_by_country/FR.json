@@ -1,0 +1,35 @@
+{
+  "country_code": "FR",
+  "artist_count": 7,
+  "track_count": 7007,
+  "artists": [
+    {
+      "name": "Claude Debussy",
+      "track_count": 2161
+    },
+    {
+      "name": "Maurice Ravel",
+      "track_count": 1553
+    },
+    {
+      "name": "Camille Saint-Saëns",
+      "track_count": 920
+    },
+    {
+      "name": "Gabriel Fauré",
+      "track_count": 911
+    },
+    {
+      "name": "Erik Satie",
+      "track_count": 889
+    },
+    {
+      "name": "Yo-Yo Ma",
+      "track_count": 572
+    },
+    {
+      "name": "Camille Saint-saëns",
+      "track_count": 1
+    }
+  ]
+}

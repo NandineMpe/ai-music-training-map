@@ -1,0 +1,15 @@
+{
+  "country_code": "JP",
+  "artist_count": 2,
+  "track_count": 752,
+  "artists": [
+    {
+      "name": "SEGA",
+      "track_count": 641
+    },
+    {
+      "name": "Sega",
+      "track_count": 111
+    }
+  ]
+}

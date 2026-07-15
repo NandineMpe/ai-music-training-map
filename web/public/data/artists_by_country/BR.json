@@ -1,0 +1,91 @@
+{
+  "country_code": "BR",
+  "artist_count": 21,
+  "track_count": 7398,
+  "artists": [
+    {
+      "name": "Mc Gw",
+      "track_count": 1665
+    },
+    {
+      "name": "MC GW",
+      "track_count": 1217
+    },
+    {
+      "name": "Mc Delux",
+      "track_count": 752
+    },
+    {
+      "name": "Showlivre",
+      "track_count": 737
+    },
+    {
+      "name": "MC MN",
+      "track_count": 606
+    },
+    {
+      "name": "CT",
+      "track_count": 601
+    },
+    {
+      "name": "Mc Mn",
+      "track_count": 429
+    },
+    {
+      "name": "MC Delux",
+      "track_count": 420
+    },
+    {
+      "name": "MC Gw",
+      "track_count": 309
+    },
+    {
+      "name": "Mc GW",
+      "track_count": 275
+    },
+    {
+      "name": "mc gw",
+      "track_count": 159
+    },
+    {
+      "name": "MC DELUX",
+      "track_count": 111
+    },
+    {
+      "name": "MC Mn",
+      "track_count": 28
+    },
+    {
+      "name": "mc mn",
+      "track_count": 25
+    },
+    {
+      "name": "Mc MN",
+      "track_count": 24
+    },
+    {
+      "name": "Mc gw",
+      "track_count": 19
+    },
+    {
+      "name": "mc delux",
+      "track_count": 13
+    },
+    {
+      "name": "Ct",
+      "track_count": 4
+    },
+    {
+      "name": "Mc delux",
+      "track_count": 2
+    },
+    {
+      "name": "Mc mn",
+      "track_count": 1
+    },
+    {
+      "name": "Mc gW",
+      "track_count": 1
+    }
+  ]
+}

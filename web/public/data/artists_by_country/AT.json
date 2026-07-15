@@ -1,0 +1,39 @@
+{
+  "country_code": "AT",
+  "artist_count": 8,
+  "track_count": 16920,
+  "artists": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "track_count": 10433
+    },
+    {
+      "name": "Franz Schubert",
+      "track_count": 2549
+    },
+    {
+      "name": "Wiener Philharmoniker",
+      "track_count": 1697
+    },
+    {
+      "name": "Joseph Haydn",
+      "track_count": 1203
+    },
+    {
+      "name": "Herbert von Karajan",
+      "track_count": 1004
+    },
+    {
+      "name": "Herbert Von Karajan",
+      "track_count": 22
+    },
+    {
+      "name": "Wolfgang Amadeus MOZART",
+      "track_count": 7
+    },
+    {
+      "name": "WOLFGANG AMADEUS MOZART",
+      "track_count": 5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country_code": "NL",
+  "artist_count": 2,
+  "track_count": 625,
+  "artists": [
+    {
+      "name": "Armin van Buuren",
+      "track_count": 623
+    },
+    {
+      "name": "Armin Van Buuren",
+      "track_count": 2
+    }
+  ]
+}

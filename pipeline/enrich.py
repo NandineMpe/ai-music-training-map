@@ -1,101 +1,26 @@
 """
 LAION-DISCO-12M Country Enrichment Pipeline
 
-Downloads the LAION-DISCO-12M metadata from Hugging Face,
-looks up artist countries via MusicBrainz, and outputs
-aggregated JSON for the interactive map.
+1. Downloads LAION-DISCO-12M metadata from Hugging Face (12.3M tracks)
+2. Downloads GlobalDISCO dataset for country mappings (MusicBrainz-sourced)
+3. Cross-references artists to countries
+4. Outputs aggregated JSON for the interactive map
 
-Rate-limited to respect MusicBrainz's 1 req/sec policy.
-Caches results to avoid redundant lookups on re-runs.
+No API rate-limiting needed — uses pre-existing country data from GlobalDISCO.
 """
 
 import json
 import os
-import time
-import hashlib
 from pathlib import Path
+from collections import defaultdict
 
 import pandas as pd
-import musicbrainzngs
 from tqdm import tqdm
 from datasets import load_dataset
 
 # --- Configuration ---
 OUTPUT_DIR = Path(__file__).parent.parent / "web" / "public" / "data"
-CACHE_DIR = Path(__file__).parent / ".cache"
-CACHE_FILE = CACHE_DIR / "artist_country_cache.json"
-MUSICBRAINZ_APP = "ai-music-map"
-MUSICBRAINZ_VERSION = "1.0"
-MUSICBRAINZ_CONTACT = "nandi@augentik.com"
-
-# How many artists to process (set to None for all)
-# MusicBrainz rate limit: 1 req/sec, so 250k artists = ~3 days
-# Start with a sample, then scale up
-MAX_ARTISTS = None  # Set to e.g. 5000 for testing
-
-
-def setup():
-    """Initialize MusicBrainz client and directories."""
-    musicbrainzngs.set_useragent(
-        MUSICBRAINZ_APP, MUSICBRAINZ_VERSION, MUSICBRAINZ_CONTACT
-    )
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-
-
-def load_cache() -> dict:
-    """Load cached artist -> country mappings."""
-    if CACHE_FILE.exists():
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_cache(cache: dict):
-    """Persist cache to disk."""
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False)
-
-
-def lookup_artist_country(artist_name: str, cache: dict) -> str | None:
-    """
-    Look up an artist's country via MusicBrainz.
-    Returns ISO country code or None if not found.
-    Uses cache to avoid redundant API calls.
-    """
-    # Check cache first
-    cache_key = artist_name.lower().strip()
-    if cache_key in cache:
-        return cache[cache_key]
-
-    try:
-        result = musicbrainzngs.search_artists(artist=artist_name, limit=1)
-        artists = result.get("artist-list", [])
-
-        if artists:
-            artist = artists[0]
-            # Try 'country' field first, then 'area'
-            country = artist.get("country")
-            if not country and "area" in artist:
-                area = artist["area"]
-                # area has iso-3166-1-code-list sometimes
-                codes = area.get("iso-3166-1-code-list", [])
-                if codes:
-                    country = codes[0]
-
-            cache[cache_key] = country
-            return country
-
-        cache[cache_key] = None
-        return None
-
-    except musicbrainzngs.WebServiceError as e:
-        print(f"  MusicBrainz error for '{artist_name}': {e}")
-        cache[cache_key] = None
-        return None
-    except Exception as e:
-        print(f"  Unexpected error for '{artist_name}': {e}")
-        return None
+ARTISTS_DIR = OUTPUT_DIR / "artists_by_country"
 
 
 def main():
@@ -103,131 +28,174 @@ def main():
     print("AI Music Training Data Map - Country Enrichment Pipeline")
     print("=" * 60)
 
-    setup()
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    ARTISTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # --- Step 1: Load LAION-DISCO-12M metadata ---
-    print("\n[1/4] Loading LAION-DISCO-12M dataset from Hugging Face...")
-    print("       (This downloads ~750MB of Parquet metadata on first run)")
+    # --- Step 1: Load GlobalDISCO for country mappings ---
+    print("\n[1/4] Loading GlobalDISCO dataset for country mappings...")
+    print("       (This provides artist_id -> country from MusicBrainz)")
 
-    ds = load_dataset("laion/LAION-DISCO-12M", split="train")
-    df = ds.to_pandas()
+    global_disco = load_dataset("disco-eth/GlobalDISCO", split="train")
+    gd_df = global_disco.to_pandas()
 
-    print(f"       Loaded {len(df):,} tracks")
-    print(f"       Columns: {list(df.columns)}")
+    print(f"       Loaded {len(gd_df):,} rows from GlobalDISCO")
+    print(f"       Columns: {list(gd_df.columns)}")
 
-    # --- Step 2: Extract unique artists ---
-    print("\n[2/4] Extracting unique artists...")
+    # Build mapping: we need to extract artist references
+    # GlobalDISCO has: artist_id, country, musical_style, laion_song_ids
+    # laion_song_ids links back to LAION-DISCO-12M
+    # country is the artist's country from MusicBrainz
 
-    # The dataset has 'artist_names' which may be a list or string
-    # Flatten and deduplicate
-    all_artists = []
-    for names in df["artist_names"]:
-        if isinstance(names, list):
-            all_artists.extend(names)
-        elif isinstance(names, str):
-            # Could be JSON array or single name
+    # Build artist_id -> country mapping
+    artist_country_map = {}
+    for _, row in tqdm(gd_df.iterrows(), total=len(gd_df), desc="Building country map"):
+        artist_id = row.get("artist_id")
+        country = row.get("country")
+        if artist_id is not None and country:
+            artist_country_map[str(artist_id)] = country
+
+    print(f"       Unique artist->country mappings: {len(artist_country_map):,}")
+    print(f"       Countries represented: {len(set(artist_country_map.values()))}")
+
+    # --- Step 2: Load LAION-DISCO-12M ---
+    print("\n[2/4] Loading LAION-DISCO-12M dataset from Hugging Face...")
+    print("       (This is ~750MB of Parquet metadata, may take a few minutes)")
+
+    laion = load_dataset("laion/LAION-DISCO-12M", split="train")
+    laion_df = laion.to_pandas()
+
+    print(f"       Loaded {len(laion_df):,} tracks")
+    print(f"       Columns: {list(laion_df.columns)}")
+
+    # --- Step 3: Cross-reference ---
+    print("\n[3/4] Cross-referencing artists with country data...")
+
+    # LAION-DISCO-12M has: song_id, title, artist_names, artist_ids, album_name, etc.
+    # artist_ids connects to GlobalDISCO's artist references via laion_song_ids
+
+    # Strategy: 
+    # - Use artist_names from LAION directly for display
+    # - Try to match via artist_ids to GlobalDISCO's artist_id for country
+    # - Also try matching by song_id to GlobalDISCO's laion_song_ids
+
+    # First, build a song_id -> country mapping from GlobalDISCO's laion_song_ids
+    song_country_map = {}
+    for _, row in tqdm(gd_df.iterrows(), total=len(gd_df), desc="Building song->country map"):
+        country = row.get("country")
+        laion_ids = row.get("laion_song_ids")
+        if not country:
+            continue
+        if laion_ids is not None:
+            if isinstance(laion_ids, list):
+                for sid in laion_ids:
+                    song_country_map[str(sid)] = country
+            elif isinstance(laion_ids, str):
+                try:
+                    parsed = json.loads(laion_ids)
+                    if isinstance(parsed, list):
+                        for sid in parsed:
+                            song_country_map[str(sid)] = country
+                    else:
+                        song_country_map[laion_ids] = country
+                except (json.JSONDecodeError, TypeError):
+                    song_country_map[laion_ids] = country
+
+    print(f"       Song->country mappings: {len(song_country_map):,}")
+
+    # Now process LAION tracks
+    # Count tracks per artist, and assign country
+    artist_data = defaultdict(lambda: {"track_count": 0, "country": None})
+    tracks_with_country = 0
+    tracks_without_country = 0
+
+    for _, row in tqdm(laion_df.iterrows(), total=len(laion_df), desc="Processing tracks"):
+        song_id = str(row.get("song_id", ""))
+        artist_names_raw = row.get("artist_names")
+        artist_ids_raw = row.get("artist_ids")
+
+        # Parse artist names
+        if isinstance(artist_names_raw, list):
+            artist_names = artist_names_raw
+        elif isinstance(artist_names_raw, str):
             try:
-                parsed = json.loads(names)
-                if isinstance(parsed, list):
-                    all_artists.extend(parsed)
-                else:
-                    all_artists.append(names)
+                parsed = json.loads(artist_names_raw)
+                artist_names = parsed if isinstance(parsed, list) else [artist_names_raw]
             except (json.JSONDecodeError, TypeError):
-                all_artists.append(names)
+                artist_names = [artist_names_raw]
+        else:
+            continue
 
-    unique_artists = list(set(a.strip() for a in all_artists if a and a.strip()))
-    unique_artists.sort()
+        # Parse artist IDs
+        if isinstance(artist_ids_raw, list):
+            artist_ids = [str(x) for x in artist_ids_raw]
+        elif isinstance(artist_ids_raw, str):
+            try:
+                parsed = json.loads(artist_ids_raw)
+                artist_ids = [str(x) for x in parsed] if isinstance(parsed, list) else [artist_ids_raw]
+            except (json.JSONDecodeError, TypeError):
+                artist_ids = [artist_ids_raw]
+        else:
+            artist_ids = []
 
-    if MAX_ARTISTS:
-        unique_artists = unique_artists[:MAX_ARTISTS]
+        # Try to find country
+        country = None
 
-    print(f"       Found {len(unique_artists):,} unique artists")
+        # Method 1: via song_id -> GlobalDISCO laion_song_ids
+        if song_id in song_country_map:
+            country = song_country_map[song_id]
 
-    # --- Step 3: Look up countries via MusicBrainz ---
-    print("\n[3/4] Looking up artist countries via MusicBrainz...")
-    print("       (Rate limited to 1 request/second)")
+        # Method 2: via artist_ids -> GlobalDISCO artist_id
+        if not country:
+            for aid in artist_ids:
+                if aid in artist_country_map:
+                    country = artist_country_map[aid]
+                    break
 
-    cache = load_cache()
-    cached_count = sum(1 for a in unique_artists if a.lower().strip() in cache)
-    print(f"       {cached_count:,} already cached, {len(unique_artists) - cached_count:,} to look up")
+        if country:
+            tracks_with_country += 1
+        else:
+            tracks_without_country += 1
 
-    artist_countries = {}
-    save_interval = 100  # Save cache every N lookups
+        # Record each artist
+        for name in artist_names:
+            name = name.strip() if isinstance(name, str) else str(name)
+            if not name:
+                continue
+            artist_data[name]["track_count"] += 1
+            if country and not artist_data[name]["country"]:
+                artist_data[name]["country"] = country
 
-    for i, artist_name in enumerate(tqdm(unique_artists, desc="Looking up artists")):
-        country = lookup_artist_country(artist_name, cache)
-        artist_countries[artist_name] = country
-
-        # Rate limit (only if we actually hit the API)
-        if artist_name.lower().strip() not in cache:
-            time.sleep(1.1)  # Slightly over 1 sec to be safe
-
-        # Periodic cache save
-        if (i + 1) % save_interval == 0:
-            save_cache(cache)
-
-    save_cache(cache)
+    print(f"\n       Tracks with country: {tracks_with_country:,}")
+    print(f"       Tracks without country: {tracks_without_country:,}")
+    print(f"       Unique artists: {len(artist_data):,}")
 
     # --- Step 4: Aggregate and output ---
     print("\n[4/4] Aggregating data and writing output...")
 
-    # Count tracks per artist
-    artist_track_counts = {}
-    for _, row in df.iterrows():
-        names = row["artist_names"]
-        if isinstance(names, list):
-            artists_in_row = names
-        elif isinstance(names, str):
-            try:
-                parsed = json.loads(names)
-                artists_in_row = parsed if isinstance(parsed, list) else [names]
-            except (json.JSONDecodeError, TypeError):
-                artists_in_row = [names]
-        else:
-            continue
-
-        for name in artists_in_row:
-            name = name.strip()
-            if name:
-                artist_track_counts[name] = artist_track_counts.get(name, 0) + 1
-
-    # Build country stats
-    country_stats = {}  # {country_code: {track_count, artist_count, artists: [...]}}
-
-    for artist_name, country in artist_countries.items():
-        if not country:
-            country = "UNKNOWN"
-
-        if country not in country_stats:
-            country_stats[country] = {
-                "country_code": country,
-                "track_count": 0,
-                "artist_count": 0,
-                "artists": [],
-            }
-
-        track_count = artist_track_counts.get(artist_name, 0)
-        country_stats[country]["track_count"] += track_count
-        country_stats[country]["artist_count"] += 1
-        country_stats[country]["artists"].append({
+    # Group by country
+    country_artists = defaultdict(list)
+    for artist_name, data in artist_data.items():
+        country = data["country"] or "UNKNOWN"
+        country_artists[country].append({
             "name": artist_name,
-            "track_count": track_count,
+            "track_count": data["track_count"],
         })
 
-    # Sort artists within each country by track count (descending)
-    for country in country_stats.values():
-        country["artists"].sort(key=lambda a: a["track_count"], reverse=True)
+    # Sort artists within each country
+    for country in country_artists:
+        country_artists[country].sort(key=lambda a: a["track_count"], reverse=True)
 
-    # Write country_stats.json (summary for map coloring)
+    # Write country_stats.json
     summary = []
-    for code, data in country_stats.items():
+    for code, artists in country_artists.items():
         if code == "UNKNOWN":
             continue
+        total_tracks = sum(a["track_count"] for a in artists)
         summary.append({
             "country_code": code,
-            "track_count": data["track_count"],
-            "artist_count": data["artist_count"],
-            "top_artists": [a["name"] for a in data["artists"][:5]],
+            "track_count": total_tracks,
+            "artist_count": len(artists),
+            "top_artists": [a["name"] for a in artists[:5]],
         })
 
     summary.sort(key=lambda x: x["track_count"], reverse=True)
@@ -235,35 +203,40 @@ def main():
     with open(OUTPUT_DIR / "country_stats.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
-    # Write artists_by_country/{country_code}.json for drill-down
-    artists_dir = OUTPUT_DIR / "artists_by_country"
-    artists_dir.mkdir(parents=True, exist_ok=True)
-
-    for code, data in country_stats.items():
+    # Write per-country files
+    for code, artists in country_artists.items():
         if code == "UNKNOWN":
             continue
-        with open(artists_dir / f"{code}.json", "w", encoding="utf-8") as f:
+        total_tracks = sum(a["track_count"] for a in artists)
+        with open(ARTISTS_DIR / f"{code}.json", "w", encoding="utf-8") as f:
             json.dump({
                 "country_code": code,
-                "artist_count": data["artist_count"],
-                "track_count": data["track_count"],
-                "artists": data["artists"],
+                "artist_count": len(artists),
+                "track_count": total_tracks,
+                "artists": artists,
             }, f, ensure_ascii=False, indent=2)
 
-    # Also write unknown artists
-    if "UNKNOWN" in country_stats:
-        with open(artists_dir / "UNKNOWN.json", "w", encoding="utf-8") as f:
-            json.dump(country_stats["UNKNOWN"], f, ensure_ascii=False, indent=2)
+    # Write unknown
+    if "UNKNOWN" in country_artists:
+        unknown = country_artists["UNKNOWN"]
+        with open(ARTISTS_DIR / "UNKNOWN.json", "w", encoding="utf-8") as f:
+            json.dump({
+                "country_code": "UNKNOWN",
+                "artist_count": len(unknown),
+                "track_count": sum(a["track_count"] for a in unknown),
+                "artists": unknown[:1000],  # Cap at 1000 for file size
+            }, f, ensure_ascii=False, indent=2)
 
     print(f"\n       Done! Output written to: {OUTPUT_DIR}")
     print(f"       Countries found: {len(summary)}")
-    print(f"       Total tracks mapped: {sum(s['track_count'] for s in summary):,}")
-    print(f"       Unknown country: {country_stats.get('UNKNOWN', {}).get('artist_count', 0):,} artists")
+    print(f"       Total tracks mapped to countries: {sum(s['track_count'] for s in summary):,}")
+    unknown_count = len(country_artists.get('UNKNOWN', []))
+    print(f"       Artists without country: {unknown_count:,}")
 
-    # Print top 10 countries
-    print("\n       Top 10 countries by track count:")
-    for i, s in enumerate(summary[:10], 1):
+    print("\n       Top 15 countries by track count:")
+    for i, s in enumerate(summary[:15], 1):
         print(f"       {i:2}. {s['country_code']}: {s['track_count']:,} tracks, {s['artist_count']:,} artists")
+        print(f"           Top: {', '.join(s['top_artists'][:3])}")
 
 
 if __name__ == "__main__":

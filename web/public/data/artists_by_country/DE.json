@@ -1,0 +1,39 @@
+{
+  "country_code": "DE",
+  "artist_count": 8,
+  "track_count": 26046,
+  "artists": [
+    {
+      "name": "Johann Sebastian Bach",
+      "track_count": 11292
+    },
+    {
+      "name": "Ludwig van Beethoven",
+      "track_count": 6658
+    },
+    {
+      "name": "Johannes Brahms",
+      "track_count": 3142
+    },
+    {
+      "name": "Robert Schumann",
+      "track_count": 2411
+    },
+    {
+      "name": "Felix Mendelssohn",
+      "track_count": 1046
+    },
+    {
+      "name": "Richard Wagner",
+      "track_count": 875
+    },
+    {
+      "name": "Ludwig Van Beethoven",
+      "track_count": 618
+    },
+    {
+      "name": "Johannes brahms",
+      "track_count": 4
+    }
+  ]
+}

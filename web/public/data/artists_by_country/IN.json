@@ -1,0 +1,119 @@
+{
+  "country_code": "IN",
+  "artist_count": 28,
+  "track_count": 10444,
+  "artists": [
+    {
+      "name": "Shilpi Raj",
+      "track_count": 2211
+    },
+    {
+      "name": "Lata Mangeshkar",
+      "track_count": 1373
+    },
+    {
+      "name": "Alka Yagnik",
+      "track_count": 997
+    },
+    {
+      "name": "Kishore Kumar",
+      "track_count": 973
+    },
+    {
+      "name": "Udit Narayan",
+      "track_count": 968
+    },
+    {
+      "name": "Kumar Sanu",
+      "track_count": 748
+    },
+    {
+      "name": "Anuradha Paudwal",
+      "track_count": 701
+    },
+    {
+      "name": "Neha Raj",
+      "track_count": 642
+    },
+    {
+      "name": "Arijit Singh",
+      "track_count": 638
+    },
+    {
+      "name": "Shreya Ghoshal",
+      "track_count": 578
+    },
+    {
+      "name": "ANURADHA PAUDWAL",
+      "track_count": 160
+    },
+    {
+      "name": "UDIT NARAYAN",
+      "track_count": 157
+    },
+    {
+      "name": "ALKA YAGNIK",
+      "track_count": 121
+    },
+    {
+      "name": "SHREYA GHOSHAL",
+      "track_count": 46
+    },
+    {
+      "name": "KUMAR SANU",
+      "track_count": 36
+    },
+    {
+      "name": "ARIJIT SINGH",
+      "track_count": 36
+    },
+    {
+      "name": "SHILPI RAJ",
+      "track_count": 13
+    },
+    {
+      "name": "Shilpi raj",
+      "track_count": 12
+    },
+    {
+      "name": "LATA MANGESHKAR",
+      "track_count": 12
+    },
+    {
+      "name": "neha raj",
+      "track_count": 6
+    },
+    {
+      "name": "Neha raj",
+      "track_count": 5
+    },
+    {
+      "name": "shilpi raj",
+      "track_count": 3
+    },
+    {
+      "name": "NEHA RAJ",
+      "track_count": 2
+    },
+    {
+      "name": "KISHORE KUMAR",
+      "track_count": 2
+    },
+    {
+      "name": "Udit narayan",
+      "track_count": 1
+    },
+    {
+      "name": "SHILPI Raj",
+      "track_count": 1
+    },
+    {
+      "name": "shilpi Raj",
+      "track_count": 1
+    },
+    {
+      "name": "Kumar sanu",
+      "track_count": 1
+    }
+  ]
+}
