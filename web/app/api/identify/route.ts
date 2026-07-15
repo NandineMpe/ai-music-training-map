@@ -3,8 +3,10 @@ import crypto from "crypto";
 
 const ACCESS_KEY = "5aa990706d6b3744528ee64cc86ae342";
 const ACCESS_SECRET = "54VvG3x6bti00ubtWtlmQ5QZsc7qJHWICikYT1jU";
-// ACRCloud hosts: identify-eu-west-1, identify-us-west-2, identify-ap-southeast-1
 const HOST = "https://identify-eu-west-1.acrcloud.com";
+
+// ACRCloud recommends < 1MB files. We'll cap at 1MB.
+const MAX_SAMPLE_SIZE = 1 * 1024 * 1024;
 
 export async function POST(request: NextRequest) {
   try {
@@ -18,9 +20,30 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const audioBuffer = Buffer.from(await audioFile.arrayBuffer());
+    // Read the audio file, cap at MAX_SAMPLE_SIZE
+    let audioBuffer = Buffer.from(await audioFile.arrayBuffer());
+    if (audioBuffer.length > MAX_SAMPLE_SIZE) {
+      audioBuffer = audioBuffer.subarray(0, MAX_SAMPLE_SIZE);
+    }
+
     const sampleBytes = audioBuffer.length;
 
+    // Determine mime type from filename
+    const filename = audioFile.name || "sample.audio";
+    const ext = filename.split(".").pop()?.toLowerCase() || "webm";
+    const mimeMap: Record<string, string> = {
+      mp3: "audio/mpeg",
+      wav: "audio/wav",
+      m4a: "audio/mp4",
+      ogg: "audio/ogg",
+      flac: "audio/flac",
+      aac: "audio/aac",
+      wma: "audio/x-ms-wma",
+      webm: "audio/webm",
+    };
+    const mimeType = mimeMap[ext] || "audio/mpeg";
+
+    // Build ACRCloud signature
     const httpMethod = "POST";
     const httpUri = "/v1/identify";
     const dataType = "audio";
@@ -44,10 +67,11 @@ export async function POST(request: NextRequest) {
     acrFormData.append("signature_version", signatureVersion);
     acrFormData.append(
       "sample",
-      new Blob([audioBuffer], { type: "audio/webm" }),
-      "sample.webm"
+      new Blob([audioBuffer], { type: mimeType }),
+      filename
     );
 
+    // Send to ACRCloud
     const response = await fetch(`${HOST}/v1/identify`, {
       method: "POST",
       body: acrFormData,
@@ -55,16 +79,19 @@ export async function POST(request: NextRequest) {
 
     const result = await response.json();
 
-    // Always log the response for debugging
-    console.log("ACRCloud response code:", result.status?.code, "msg:", result.status?.msg);
-    if (result.metadata) {
-      console.log("Has music:", !!(result.metadata.music?.length));
-      console.log("Has humming:", !!(result.metadata.humming?.length));
-    }
+    // Log for debugging
+    console.log("ACRCloud:", {
+      code: result.status?.code,
+      msg: result.status?.msg,
+      sampleBytes,
+      mimeType,
+      hasMusic: !!(result.metadata?.music?.length),
+      hasHumming: !!(result.metadata?.humming?.length),
+    });
 
     return NextResponse.json(result);
   } catch (error) {
-    console.error("ACRCloud identification error:", error);
+    console.error("ACRCloud error:", error);
     return NextResponse.json(
       { error: "Failed to identify audio", details: String(error) },
       { status: 500 }
