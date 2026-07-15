@@ -1,4 +1,4 @@
-"""Deploy whatever we have in the cache right now."""
+"""Deploy whatever we have in the cache right now, including artist metadata."""
 import json
 from pathlib import Path
 from collections import defaultdict
@@ -6,6 +6,7 @@ from collections import defaultdict
 OUTPUT_DIR = Path(__file__).parent.parent / "web" / "public" / "data"
 ARTISTS_DIR = OUTPUT_DIR / "artists_by_country"
 CACHE_DIR = Path(__file__).parent / ".cache"
+META_FILE = CACHE_DIR / "artist_meta_cache.json"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 ARTISTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -17,8 +18,15 @@ with open(CACHE_DIR / "artist_track_counts.json", "r", encoding="utf-8") as f:
 with open(CACHE_DIR / "artist_country_cache.json", "r", encoding="utf-8") as f:
     country_cache = json.load(f)
 
+# Load meta cache if available
+meta_cache = {}
+if META_FILE.exists():
+    with open(META_FILE, "r", encoding="utf-8") as f:
+        meta_cache = json.load(f)
+
 print(f"Artist counts: {len(all_counts):,}")
 print(f"Country cache entries: {len(country_cache):,}")
+print(f"Meta cache entries: {len(meta_cache):,}")
 
 # Build country data
 sorted_artists = sorted(all_counts.items(), key=lambda x: x[1], reverse=True)
@@ -30,7 +38,19 @@ for name, count in sorted_artists:
     key = name.lower().strip()
     country = country_cache.get(key)
     if country:
-        country_data[country]["artists"].append({"name": name, "track_count": count})
+        artist_entry = {"name": name, "track_count": count}
+
+        # Add metadata if available
+        meta = meta_cache.get(key)
+        if meta:
+            if meta.get("total_recordings"):
+                artist_entry["total_recordings"] = meta["total_recordings"]
+            if meta.get("label"):
+                artist_entry["label"] = meta["label"]
+            if meta.get("type"):
+                artist_entry["type"] = meta["type"]
+
+        country_data[country]["artists"].append(artist_entry)
         country_data[country]["track_count"] += count
         country_data[country]["artist_count"] += 1
     else:

@@ -5,55 +5,94 @@
   "artists": [
     {
       "name": "Kabza De Small",
-      "track_count": 283
+      "track_count": 283,
+      "total_recordings": 284,
+      "label": "[no label], BestByFar",
+      "type": "Person"
     },
     {
       "name": "Zee",
-      "track_count": 224
+      "track_count": 224,
+      "total_recordings": 92,
+      "label": "[no label], Zee Worldwide",
+      "type": "Person"
     },
     {
       "name": "Hawk",
-      "track_count": 200
+      "track_count": 200,
+      "total_recordings": 53,
+      "label": "Fresh Music, Parlophone",
+      "type": "Group"
     },
     {
       "name": "DJ Maphorisa",
-      "track_count": 193
+      "track_count": 193,
+      "total_recordings": 227,
+      "label": "Sound African Recordings, Ultra Records, LLC",
+      "type": "Person"
     },
     {
       "name": "Black Coffee",
-      "track_count": 190
+      "track_count": 190,
+      "total_recordings": 253,
+      "label": "Soulistic Music, Kronologik",
+      "type": "Person"
     },
     {
       "name": "Monique",
-      "track_count": 186
+      "track_count": 186,
+      "total_recordings": 74,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Kurt Darren",
-      "track_count": 185
+      "track_count": 185,
+      "total_recordings": 523,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Psalm Trees",
-      "track_count": 168
+      "track_count": 168,
+      "total_recordings": 256,
+      "label": "Hip Dozer, Chillhop Records",
+      "type": "Person"
     },
     {
       "name": "Miriam Makeba",
-      "track_count": 168
+      "track_count": 168,
+      "total_recordings": 1327,
+      "label": "RCA, RCA Victor",
+      "type": "Person"
     },
     {
       "name": "Soweto Gospel Choir",
-      "track_count": 166
+      "track_count": 166,
+      "total_recordings": 264,
+      "label": "ABC Music, Shanachie",
+      "type": "Choir"
     },
     {
       "name": "Ray Dylan",
-      "track_count": 165
+      "track_count": 165,
+      "total_recordings": 297,
+      "label": "Archive Publications, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Lira",
-      "track_count": 163
+      "track_count": 163,
+      "total_recordings": 125,
+      "label": "Sound African Recordings, Sony BMG Music Entertainment",
+      "type": "Person"
     },
     {
       "name": "Steve Hofmeyr",
-      "track_count": 161
+      "track_count": 161,
+      "total_recordings": 610,
+      "label": "Steel Street Records, EMI Music South Africa",
+      "type": "Person"
     },
     {
       "name": "Stef Bos",
@@ -61,991 +100,1731 @@
     },
     {
       "name": "Theuns Jordaan",
-      "track_count": 156
+      "track_count": 156,
+      "total_recordings": 270,
+      "label": "EMI Music South Africa, Theuns Jordaan Productions",
+      "type": "Person"
     },
     {
       "name": "Lucky Dube",
-      "track_count": 155
+      "track_count": 155,
+      "total_recordings": 314,
+      "label": "Teal Record Company, Gallo",
+      "type": "Person"
     },
     {
       "name": "The Blue Notes",
-      "track_count": 154
+      "track_count": 154,
+      "total_recordings": 40,
+      "label": "Ogun Recordings, OTOroku",
+      "type": "Group"
     },
     {
       "name": "Anton Goosen",
-      "track_count": 152
+      "track_count": 152,
+      "total_recordings": 381,
+      "label": "RPM, Gallo Records",
+      "type": "Person"
     },
     {
       "name": "Joyous Celebration",
-      "track_count": 151
+      "track_count": 151,
+      "total_recordings": 74,
+      "label": "Sony BMG Music Entertainment, Sony Music",
+      "type": "Group"
     },
     {
       "name": "Louis Brittz",
-      "track_count": 151
+      "track_count": 151,
+      "total_recordings": 207,
+      "label": "Brettian Productions, Maranatha Record Company",
+      "type": "Person"
     },
     {
       "name": "Die Campbells",
-      "track_count": 151
+      "track_count": 151,
+      "total_recordings": 444,
+      "label": "South Africa – Sony Music Entertainment Africa (Pty) Ltd, Select Musiek",
+      "type": "Group"
     },
     {
       "name": "Steve Kekana",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 92,
+      "label": "EMI-Brigadiers, La Voix de son maître",
+      "type": "Person"
     },
     {
       "name": "Carike Keuzenkamp",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 296,
+      "label": "Music for Pleasure, Decibel Music",
+      "type": "Person"
     },
     {
       "name": "Sonja Herholdt",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 200,
+      "label": "EMI-Brigadiers, Music for Pleasure",
+      "type": "Person"
     },
     {
       "name": "Bhekumuzi Luthuli",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 39,
+      "label": "GMP, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Alan Ladd",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 224,
+      "label": "Fantasia",
+      "type": "Person"
     },
     {
       "name": "The Parlotones",
-      "track_count": 150
+      "track_count": 150,
+      "total_recordings": 377,
+      "label": "Universal Music Ireland, Sovereign Entertainment",
+      "type": "Group"
     },
     {
       "name": "Bobby Angel",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 223,
+      "label": "Vat 5 Musiek, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Soul Brothers",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 126,
+      "label": "Virgin, Masterpiece",
+      "type": "Group"
     },
     {
       "name": "Laurika Rauch",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 378,
+      "label": "RPM, Panorama",
+      "type": "Person"
     },
     {
       "name": "Splash",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 85,
+      "label": "Gallo Music Productions, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "Valiant Swart",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 305,
+      "label": "Wildebeest Records, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Danny Williams",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 96,
+      "label": "His Master’s Voice, Philips",
+      "type": "Person"
     },
     {
       "name": "Gene Rockwell",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 103,
+      "label": "RPM, Vat 5 Musiek",
+      "type": "Person"
     },
     {
       "name": "Wynand Strydom",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 126,
+      "label": "Vonk Musiek, Maroela Musiek",
+      "type": "Person"
     },
     {
       "name": "Spoek Mathambo",
-      "track_count": 149
+      "track_count": 149,
+      "total_recordings": 274,
+      "label": "Exponential, Trunkfunk Records",
+      "type": "Person"
     },
     {
       "name": "Adam Tas",
-      "track_count": 148
+      "track_count": 148,
+      "total_recordings": 151,
+      "label": "Ramkat Musiek, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Karen Zoid",
-      "track_count": 148
+      "track_count": 148,
+      "total_recordings": 325,
+      "label": "Universal Music, EMI",
+      "type": "Person"
     },
     {
       "name": "Hugh Masekela",
-      "track_count": 148
+      "track_count": 148,
+      "total_recordings": 862,
+      "label": "MGM Records, Mercury Records",
+      "type": "Person"
     },
     {
       "name": "Trevor Rabin",
-      "track_count": 147
+      "track_count": 147,
+      "total_recordings": 877,
+      "label": "Chrysalis",
+      "type": "Person"
     },
     {
       "name": "Mandoza",
-      "track_count": 147
+      "track_count": 147,
+      "total_recordings": 92,
+      "label": "ccp Record Company, EMI Music South Africa (Pty) Ltd.",
+      "type": "Person"
     },
     {
       "name": "Black Motion",
-      "track_count": 147
+      "track_count": 147,
+      "total_recordings": 39,
+      "label": "SME Africa",
+      "type": "Group"
     },
     {
       "name": "Jannie Du Toit",
-      "track_count": 146
+      "track_count": 146,
+      "total_recordings": 109,
+      "label": "JNS Musiek, KOSMOS",
+      "type": "Person"
     },
     {
       "name": "The Movers",
-      "track_count": 145
+      "track_count": 145,
+      "total_recordings": 38,
+      "label": "Analog Africa, Soundway",
+      "type": "Group"
     },
     {
       "name": "Kyle Watson",
-      "track_count": 145
+      "track_count": 145,
+      "total_recordings": 78,
+      "label": "DIRTYBIRD, Simma Black",
+      "type": "Person"
     },
     {
       "name": "Mzwakhe Mbuli",
-      "track_count": 145
+      "track_count": 145,
+      "total_recordings": 127,
+      "label": "Shifty Records, Earthworks",
+      "type": "Person"
     },
     {
       "name": "Robbie Wessels",
-      "track_count": 144
+      "track_count": 144,
+      "total_recordings": 211,
+      "label": "Select, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Mbongeni Ngema",
-      "track_count": 144
+      "track_count": 144,
+      "total_recordings": 73,
+      "label": "Shanachie, Gallo",
+      "type": "Person"
     },
     {
       "name": "Willie Joubert",
-      "track_count": 143
+      "track_count": 143,
+      "total_recordings": 194,
+      "label": "Maranatha Record Company, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Counterstrike",
-      "track_count": 143
+      "track_count": 143,
+      "total_recordings": 399,
+      "label": "Allied Recordings, Core Productions",
+      "type": "Group"
     },
     {
       "name": "Brenda Fassie",
-      "track_count": 143
+      "track_count": 143,
+      "total_recordings": 457,
+      "label": "ccp Record Company, Family Records",
+      "type": "Person"
     },
     {
       "name": "Ringo Madlingozi",
-      "track_count": 142
+      "track_count": 142,
+      "total_recordings": 97,
+      "label": "ccp Record Company, CCP Records",
+      "type": "Person"
     },
     {
       "name": "Agro",
-      "track_count": 142
+      "track_count": 142,
+      "total_recordings": 48,
+      "label": "Independent",
+      "type": "Group"
     },
     {
       "name": "Protoculture",
-      "track_count": 142
+      "track_count": 142,
+      "total_recordings": 510,
+      "label": "Nano Records",
+      "type": "Person"
     },
     {
       "name": "Spoegwolf",
-      "track_count": 141
+      "track_count": 141,
+      "total_recordings": 152,
+      "label": "[no label]",
+      "type": "Group"
     },
     {
       "name": "Gé Korsten",
-      "track_count": 141
+      "track_count": 141,
+      "total_recordings": 342,
+      "label": "Gallo Record Company, EMI",
+      "type": "Person"
     },
     {
       "name": "Abdullah Ibrahim",
-      "track_count": 140
+      "track_count": 140,
+      "total_recordings": 768,
+      "label": "Togetherness, Spectator Records",
+      "type": "Person"
     },
     {
       "name": "Gerhard Steyn",
-      "track_count": 140
+      "track_count": 140,
+      "total_recordings": 141,
+      "label": "Vonk Musiek",
+      "type": "Person"
     },
     {
       "name": "Abstract Truth",
-      "track_count": 138
+      "track_count": 138,
+      "total_recordings": 48,
+      "label": "Uptight, Mason Records",
+      "type": "Group"
     },
     {
       "name": "Stimela",
-      "track_count": 137
+      "track_count": 137,
+      "total_recordings": 226,
+      "label": "Gallo Music Productions, Gallo",
+      "type": "Group"
     },
     {
       "name": "Die Heuwels Fantasties",
-      "track_count": 136
+      "track_count": 136,
+      "total_recordings": 211,
+      "label": "Supra Familias",
+      "type": "Group"
     },
     {
       "name": "Koos Kombuis",
-      "track_count": 136
+      "track_count": 136,
+      "total_recordings": 300,
+      "label": "Next Music, Shifty Records",
+      "type": "Person"
     },
     {
       "name": "Cassper Nyovest",
-      "track_count": 135
+      "track_count": 135,
+      "total_recordings": 81,
+      "label": "Loops Music, Family Tree",
+      "type": "Person"
     },
     {
       "name": "Jimmy Dludlu",
-      "track_count": 133
+      "track_count": 133,
+      "total_recordings": 146,
+      "label": "PolyGram SA, Universal Music",
+      "type": "Person"
     },
     {
       "name": "Nicholis Louw",
-      "track_count": 132
+      "track_count": 132,
+      "total_recordings": 222,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Nasty C",
-      "track_count": 132
+      "track_count": 132,
+      "total_recordings": 208,
+      "label": "Universal Music South Africa, Select Play Music",
+      "type": "Person"
     },
     {
       "name": "Brendan Peyper",
-      "track_count": 132
+      "track_count": 132,
+      "total_recordings": 67,
+      "label": "SME Africa, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Zain Bhikha",
-      "track_count": 132
+      "track_count": 132,
+      "total_recordings": 111,
+      "label": "[no label], Jamal Records",
+      "type": "Person"
     },
     {
       "name": "Sipho Gumede",
-      "track_count": 131
+      "track_count": 131,
+      "total_recordings": 135,
+      "label": "African Echoes, Kalamazoo",
+      "type": "Person"
     },
     {
       "name": "DJ Ossewa",
-      "track_count": 131
+      "track_count": 131,
+      "total_recordings": 163,
+      "label": "Next Music, Maroela Musiek",
+      "type": "Group"
     },
     {
       "name": "Mafikizolo",
-      "track_count": 131
+      "track_count": 131,
+      "total_recordings": 160,
+      "type": "Group"
     },
     {
       "name": "Springbok Nude Girls",
-      "track_count": 130
+      "track_count": 130,
+      "total_recordings": 220,
+      "label": "Epic, Sony BMG Music Entertainment",
+      "type": "Group"
     },
     {
       "name": "Four Jacks and a Jill",
-      "track_count": 130
+      "track_count": 130,
+      "total_recordings": 226,
+      "label": "RCA, RCA Victor",
+      "type": "Group"
     },
     {
       "name": "Onbeskaamd",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 42,
+      "label": "Maranatha Record Company",
+      "type": "Group"
     },
     {
       "name": "Jakkie Louw",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 153,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Trevor Jones",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 965,
+      "label": "Warner Bros. Records, Milan",
+      "type": "Person"
     },
     {
       "name": "Ricus Nel",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 131,
+      "label": "SME Africa",
+      "type": "Person"
     },
     {
       "name": "Juanita du Plessis",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 619,
+      "label": "Gallo Record Company, Maroela Musiek",
+      "type": "Person"
     },
     {
       "name": "Romanz",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 78,
+      "label": "Select Musiek",
+      "type": "Group"
     },
     {
       "name": "Lazarusman",
-      "track_count": 129
+      "track_count": 129,
+      "total_recordings": 114,
+      "label": "Get Physical Music, Electronical Reeds",
+      "type": "Person"
     },
     {
       "name": "Prime Circle",
-      "track_count": 128
+      "track_count": 128,
+      "total_recordings": 259,
+      "label": "Gresham Records, David Gresham Records",
+      "type": "Group"
     },
     {
       "name": "Elvis Blue",
-      "track_count": 127
+      "track_count": 127,
+      "total_recordings": 104,
+      "label": "Universal Music Group, 19 Recordings",
+      "type": "Person"
     },
     {
       "name": "Snotkop",
-      "track_count": 127
+      "track_count": 127,
+      "total_recordings": 157,
+      "label": "Next Music, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Louise Carver",
-      "track_count": 127
+      "track_count": 127,
+      "total_recordings": 167,
+      "label": "Sony BMG Music Entertainment, Silver Tulip Music",
+      "type": "Person"
     },
     {
       "name": "Chris Chameleon",
-      "track_count": 126
+      "track_count": 126,
+      "total_recordings": 152,
+      "label": "Rhythm Records",
+      "type": "Person"
     },
     {
       "name": "Arno Carstens",
-      "track_count": 125
+      "track_count": 125,
+      "total_recordings": 160,
+      "label": "Epic, Sony BMG Music Entertainment",
+      "type": "Person"
     },
     {
       "name": "Fredi Nest",
-      "track_count": 125
+      "track_count": 125,
+      "total_recordings": 199,
+      "label": "Select Musiek, Trio Records",
+      "type": "Person"
     },
     {
       "name": "Die Antwoord",
-      "track_count": 124
+      "track_count": 124,
+      "total_recordings": 208,
+      "label": "[no label], Interscope Records",
+      "type": "Group"
     },
     {
       "name": "Anneli Van Rooyen",
-      "track_count": 123
+      "track_count": 123,
+      "total_recordings": 213,
+      "label": "EMI-Brigadiers, Decibel Musiek",
+      "type": "Person"
     },
     {
       "name": "Oskido",
-      "track_count": 121
+      "track_count": 121,
+      "total_recordings": 38,
+      "label": "House Afrika Records, Kalawa Jazmee Records",
+      "type": "Person"
     },
     {
       "name": "Sorina",
-      "track_count": 119
+      "track_count": 119,
+      "total_recordings": 46,
+      "label": "EMI Music South Africa, EMI Music South Africa (Pty) Ltd.",
+      "type": "Person"
     },
     {
       "name": "Mi Casa",
-      "track_count": 118
+      "track_count": 118,
+      "total_recordings": 107,
+      "label": "Soul Candi, Universal Music (Pty) Ltd.",
+      "type": "Group"
     },
     {
       "name": "Bles Bridges",
-      "track_count": 117
+      "track_count": 117,
+      "total_recordings": 541,
+      "label": "EMI Music South Africa (Pty) Ltd.",
+      "type": "Person"
     },
     {
       "name": "Letta Mbulu",
-      "track_count": 117
+      "track_count": 117,
+      "total_recordings": 165,
+      "label": "Fantasy, Tamla Motown",
+      "type": "Person"
     },
     {
       "name": "Heinz Winckler",
-      "track_count": 116
+      "track_count": 116,
+      "total_recordings": 89,
+      "label": "BMG Records Africa, Colossal",
+      "type": "Person"
     },
     {
       "name": "Makhadzi",
-      "track_count": 116
+      "track_count": 116,
+      "total_recordings": 92,
+      "label": "Open Mic Productions, Makhadzi Entertainment",
+      "type": "Person"
     },
     {
       "name": "Fokofpolisiekar",
-      "track_count": 115
+      "track_count": 115,
+      "total_recordings": 184,
+      "label": "Punkskelm Plate, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Don Laka",
-      "track_count": 114
+      "track_count": 114,
+      "total_recordings": 118,
+      "label": "Columbia, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Vigro Deep",
-      "track_count": 114
+      "track_count": 114,
+      "total_recordings": 138,
+      "label": "Digital Money, Kalawa Jazmee Records",
+      "type": "Unknown"
     },
     {
       "name": "Jack Parow",
-      "track_count": 112
+      "track_count": 112,
+      "total_recordings": 170,
+      "label": "[no label], Top Notch",
+      "type": "Person"
     },
     {
       "name": "Wouter Kellerman",
-      "track_count": 112
+      "track_count": 112,
+      "total_recordings": 51,
+      "label": "Next Music, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Nduduzo Makhathini",
-      "track_count": 111
+      "track_count": 111,
+      "total_recordings": 207,
+      "label": "Gundu Entertainment, Zimology",
+      "type": "Person"
     },
     {
       "name": "A-Reece",
-      "track_count": 111
+      "track_count": 111,
+      "total_recordings": 53,
+      "label": "Next Level Entertainment",
+      "type": "Person"
     },
     {
       "name": "Chicco",
-      "track_count": 110
+      "track_count": 110,
+      "total_recordings": 59,
+      "label": "Phonogram, Rebl Records",
+      "type": "Person"
     },
     {
       "name": "AKA",
-      "track_count": 109
+      "track_count": 109,
+      "total_recordings": 107,
+      "label": "Universal Music South Africa, Showlove Music",
+      "type": "Person"
     },
     {
       "name": "Lize Beekman",
-      "track_count": 108
+      "track_count": 108,
+      "total_recordings": 62,
+      "label": "Bowline Music",
+      "type": "Person"
     },
     {
       "name": "Nádine",
-      "track_count": 108
+      "track_count": 108,
+      "total_recordings": 239,
+      "label": "Select Music Distribution, Universal Music South Africa",
+      "type": "Person"
     },
     {
       "name": "Tommy Dell",
-      "track_count": 107
+      "track_count": 107,
+      "total_recordings": 130,
+      "label": "Teal Records, Gallo",
+      "type": "Person"
     },
     {
       "name": "Jan Blohm",
-      "track_count": 106
+      "track_count": 106,
+      "total_recordings": 224,
+      "label": "Wildebeest Records, Bowline Music",
+      "type": "Person"
     },
     {
       "name": "Danny K",
-      "track_count": 106
+      "track_count": 106,
+      "total_recordings": 101,
+      "label": "Gallo Record Company, J23 Records",
+      "type": "Person"
     },
     {
       "name": "The Flames",
-      "track_count": 105
+      "track_count": 105,
+      "total_recordings": 130,
+      "label": "Rave, Brother Records",
+      "type": "Group"
     },
     {
       "name": "Coenie de Villiers",
-      "track_count": 104
+      "track_count": 104,
+      "total_recordings": 190,
+      "label": "Artone, JNS Musiek",
+      "type": "Person"
     },
     {
       "name": "Arno Jordaan",
-      "track_count": 104
+      "track_count": 104,
+      "total_recordings": 163,
+      "label": "EMI Music South Africa, Ramkat Musiek",
+      "type": "Person"
     },
     {
       "name": "GentleBeatz",
-      "track_count": 102
+      "track_count": 102,
+      "total_recordings": 82,
+      "label": "[no label]",
+      "type": "Person"
     },
     {
       "name": "Kevin Leo",
-      "track_count": 101
+      "track_count": 101,
+      "total_recordings": 58,
+      "label": "Leoness Musique",
+      "type": "Person"
     },
     {
       "name": "Vusi Mahlasela",
-      "track_count": 100
+      "track_count": 100,
+      "total_recordings": 231,
+      "label": "BMG Records Africa, Shifty Records",
+      "type": "Person"
     },
     {
       "name": "Dewald Wasserfall",
-      "track_count": 99
+      "track_count": 99,
+      "total_recordings": 60,
+      "label": "Inhoud Huis, Coleske Artists",
+      "type": "Person"
     },
     {
       "name": "Hot Water",
-      "track_count": 99
+      "track_count": 99,
+      "total_recordings": 40,
+      "label": "SikiSiki Records",
+      "type": "Group"
     },
     {
       "name": "Emtee",
-      "track_count": 97
+      "track_count": 97,
+      "total_recordings": 75,
+      "label": "[no label], Ambitiouz Entertainment",
+      "type": "Person"
     },
     {
       "name": "Riana Nel",
-      "track_count": 97
+      "track_count": 97,
+      "total_recordings": 117,
+      "label": "Coleske Artists",
+      "type": "Person"
     },
     {
       "name": "Big Nuz",
-      "track_count": 96
+      "track_count": 96,
+      "total_recordings": 106,
+      "label": "Universal, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "No Limits",
-      "track_count": 96
+      "track_count": 96,
+      "total_recordings": 71,
+      "label": "No Limits, SAMTSO",
+      "type": "Group"
     },
     {
       "name": "Yvonne Chaka Chaka",
-      "track_count": 95
+      "track_count": 95,
+      "total_recordings": 87,
+      "label": "Universal Music, Chrysalis",
+      "type": "Person"
     },
     {
       "name": "Matthew Mole",
-      "track_count": 95
+      "track_count": 95,
+      "total_recordings": 93,
+      "label": "Just Music",
+      "type": "Person"
     },
     {
       "name": "Tree63",
-      "track_count": 95
+      "track_count": 95,
+      "total_recordings": 192,
+      "label": "LUSH Records",
+      "type": "Group"
     },
     {
       "name": "Patricia Lewis",
-      "track_count": 94
+      "track_count": 94,
+      "total_recordings": 137,
+      "label": "BMG Records Africa",
+      "type": "Person"
     },
     {
       "name": "Pieter Koen",
-      "track_count": 93
+      "track_count": 93,
+      "total_recordings": 132,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Sjava",
-      "track_count": 93
+      "track_count": 93,
+      "total_recordings": 21,
+      "label": "1020 Cartel",
+      "type": "Person"
     },
     {
       "name": "Soweto String Quartet",
-      "track_count": 92
+      "track_count": 92,
+      "total_recordings": 152,
+      "label": "BMG Records Africa, Colossal",
+      "type": "Group"
     },
     {
       "name": "Watershed",
-      "track_count": 92
+      "track_count": 92,
+      "total_recordings": 220,
+      "label": "EMI Music South Africa, EMI",
+      "type": "Group"
     },
     {
       "name": "Johnny Clegg",
-      "track_count": 90
+      "track_count": 90,
+      "total_recordings": 230,
+      "label": "[no label], MINC",
+      "type": "Person"
     },
     {
       "name": "Anna Davel",
-      "track_count": 90
+      "track_count": 90,
+      "total_recordings": 74,
+      "label": "JNS Musiek, Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Worsie Visser",
-      "track_count": 90
+      "track_count": 90,
+      "total_recordings": 175,
+      "label": "Gazania Records, Trio Records",
+      "type": "Person"
     },
     {
       "name": "Batuk",
-      "track_count": 89
+      "track_count": 89,
+      "total_recordings": 55,
+      "label": "Teka Music",
+      "type": "Group"
     },
     {
       "name": "Mango Groove",
-      "track_count": 89
+      "track_count": 89,
+      "total_recordings": 242,
+      "label": "Sonovision, MINC",
+      "type": "Group"
     },
     {
       "name": "Yoav",
-      "track_count": 89
+      "track_count": 89,
+      "total_recordings": 110,
+      "label": "Verve Forecast",
+      "type": "Person"
     },
     {
       "name": "Blxckie",
-      "track_count": 88
+      "track_count": 88,
+      "total_recordings": 93,
+      "label": "M4 Entertainment, Content Connect Africa",
+      "type": "Person"
     },
     {
       "name": "Lianie May",
-      "track_count": 88
+      "track_count": 88,
+      "total_recordings": 181,
+      "label": "Coleske Artists, Mozi Musiek",
+      "type": "Person"
     },
     {
       "name": "ZIA",
-      "track_count": 87
+      "track_count": 87,
+      "total_recordings": 32,
+      "label": "Teal Records, Gallo Records",
+      "type": "Group"
     },
     {
       "name": "Mathys Roets",
-      "track_count": 87
+      "track_count": 87,
+      "total_recordings": 196,
+      "label": "Select Music Distribution, Music for Africa",
+      "type": "Person"
     },
     {
       "name": "Freshlyground",
-      "track_count": 85
+      "track_count": 85,
+      "total_recordings": 156,
+      "label": "Sony BMG Music Entertainment, Instinct Africaine",
+      "type": "Group"
     },
     {
       "name": "David Fourie",
-      "track_count": 84
+      "track_count": 84,
+      "total_recordings": 84,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Mfaz' Omnyama",
-      "track_count": 84
+      "track_count": 84,
+      "total_recordings": 91,
+      "label": "Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Klopjag",
-      "track_count": 83
+      "track_count": 83,
+      "total_recordings": 69,
+      "label": "Ramkat Musiek, Bowline Music",
+      "type": "Group"
     },
     {
       "name": "Simphiwe Dana",
-      "track_count": 83
+      "track_count": 83,
+      "total_recordings": 76,
+      "label": "Gallo Records, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Locnville",
-      "track_count": 83
+      "track_count": 83,
+      "total_recordings": 136,
+      "label": "Epic, Just Music",
+      "type": "Group"
     },
     {
       "name": "Sibongile Khumalo",
-      "track_count": 82
+      "track_count": 82,
+      "total_recordings": 59,
+      "label": "Sony BMG Music Entertainment, Magnolia Vision Records",
+      "type": "Person"
     },
     {
       "name": "Die Lofkleuters",
-      "track_count": 82
+      "track_count": 82,
+      "total_recordings": 140,
+      "label": "Maranatha Record Company",
+      "type": "Group"
     },
     {
       "name": "Tyler ICU",
-      "track_count": 82
+      "track_count": 82,
+      "total_recordings": 67,
+      "label": "Sony Music, South Africa – Sony Music Entertainment Africa (Pty) Ltd",
+      "type": "Person"
     },
     {
       "name": "Bucie",
-      "track_count": 80
+      "track_count": 80,
+      "total_recordings": 74,
+      "label": "Demor Music, GOGO",
+      "type": "Person"
     },
     {
       "name": "Jullian Gomes",
-      "track_count": 80
+      "track_count": 80,
+      "total_recordings": 58,
+      "label": "Atjazz Record Company",
+      "type": "Person"
     },
     {
       "name": "Msaki",
-      "track_count": 80
+      "track_count": 80,
+      "total_recordings": 104,
+      "label": "Ultra Records, Ultra Records, LLC",
+      "type": "Person"
     },
     {
       "name": "The Narrow",
-      "track_count": 80
+      "track_count": 80,
+      "total_recordings": 144,
+      "label": "Intervention Arts, Alter Ego",
+      "type": "Group"
     },
     {
       "name": "Charlize Berg",
-      "track_count": 79
+      "track_count": 79,
+      "total_recordings": 52,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Goldfish",
-      "track_count": 79
+      "track_count": 79,
+      "total_recordings": 340,
+      "label": "Amabala Music, PACHA Ibiza",
+      "type": "Group"
     },
     {
       "name": "Shift",
-      "track_count": 79
+      "track_count": 79,
+      "total_recordings": 136,
+      "label": "Crystal Matrix Records, Timecode Records",
+      "type": "Person"
     },
     {
       "name": "Felix Laband",
-      "track_count": 78
+      "track_count": 78,
+      "total_recordings": 125,
+      "label": "Compost Records, African Dope Records",
+      "type": "Person"
     },
     {
       "name": "Tellaman",
-      "track_count": 77
+      "track_count": 77,
+      "total_recordings": 79,
+      "label": "Tellaman Music, Universal Music South Africa",
+      "type": "Person"
     },
     {
       "name": "David Kramer",
-      "track_count": 76
+      "track_count": 76,
+      "total_recordings": 190,
+      "label": "EMI Music South Africa, Blik Music",
+      "type": "Person"
     },
     {
       "name": "Jan De Wet",
-      "track_count": 75
+      "track_count": 75,
+      "total_recordings": 247,
+      "label": "Maranatha Record Company",
+      "type": "Person"
     },
     {
       "name": "Jan de Wet",
-      "track_count": 73
+      "track_count": 73,
+      "total_recordings": 247,
+      "label": "Maranatha Record Company",
+      "type": "Person"
     },
     {
       "name": "Demi Lee Moore",
-      "track_count": 72
+      "track_count": 72,
+      "total_recordings": 92,
+      "label": "Warner Music Africa, Universal Music",
+      "type": "Person"
     },
     {
       "name": "Penny Penny",
-      "track_count": 72
+      "track_count": 72,
+      "total_recordings": 42,
+      "label": "Awesome Tapes From Africa",
+      "type": "Person"
     },
     {
       "name": "The Big Hash",
-      "track_count": 71
+      "track_count": 71,
+      "total_recordings": 65,
+      "label": "Sound African Recordings",
+      "type": "Person"
     },
     {
       "name": "Master KG",
-      "track_count": 71
+      "track_count": 71,
+      "total_recordings": 67,
+      "label": "Warner Music France, Open Mic Productions",
+      "type": "Person"
     },
     {
       "name": "Sun-EL Musician",
-      "track_count": 71
+      "track_count": 71,
+      "total_recordings": 74,
+      "label": "[no label], El-World",
+      "type": "Person"
     },
     {
       "name": "DJ Cleo",
-      "track_count": 71
+      "track_count": 71,
+      "total_recordings": 121,
+      "label": "Will of Steel Productions",
+      "type": "Person"
     },
     {
       "name": "Elandré",
-      "track_count": 70
+      "track_count": 70,
+      "total_recordings": 54,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Busi Mhlongo",
-      "track_count": 68
+      "track_count": 68,
+      "total_recordings": 69,
+      "label": "M.E.L.T. 2000, Munich Records",
+      "type": "Person"
     },
     {
       "name": "Karlien Van Jaarsveld",
-      "track_count": 67
+      "track_count": 67,
+      "total_recordings": 97,
+      "label": "Coleske Artists",
+      "type": "Person"
     },
     {
       "name": "André Schwartz",
-      "track_count": 67
+      "track_count": 67,
+      "total_recordings": 210,
+      "label": "Decibel Musiek",
+      "type": "Person"
     },
     {
       "name": "Jeremy Loops",
-      "track_count": 66
+      "track_count": 66,
+      "total_recordings": 94,
+      "label": "Sheer Sound, Loops Music",
+      "type": "Person"
     },
     {
       "name": "Bongo Maffin",
-      "track_count": 65
+      "track_count": 65,
+      "total_recordings": 88,
+      "label": "House Afrika Records, Columbia",
+      "type": "Group"
     },
     {
       "name": "Bok van Blerk",
-      "track_count": 65
+      "track_count": 65,
+      "total_recordings": 176,
+      "label": "MOZI RECORDS, Mozi Musiek",
+      "type": "Person"
     },
     {
       "name": "Johannes Kerkorrel",
-      "track_count": 65
+      "track_count": 65,
+      "total_recordings": 190,
+      "label": "HKM Records, Tic Tic Bang",
+      "type": "Person"
     },
     {
       "name": "Bmike",
-      "track_count": 65
+      "track_count": 65,
+      "total_recordings": 38,
+      "label": "Independent",
+      "type": "Person"
     },
     {
       "name": "Caitlin De Ville",
-      "track_count": 64
+      "track_count": 64,
+      "total_recordings": 64,
+      "label": "Independent",
+      "type": "Person"
     },
     {
       "name": "The Constructus Corporation",
-      "track_count": 63
+      "track_count": 63,
+      "total_recordings": 104,
+      "label": "African Dope Records",
+      "type": "Group"
     },
     {
       "name": "Tasha Baxter",
-      "track_count": 63
+      "track_count": 63,
+      "total_recordings": 142,
+      "label": "Static Jack, EMI",
+      "type": "Person"
     },
     {
       "name": "Leon Schuster",
-      "track_count": 63
+      "track_count": 63,
+      "total_recordings": 299,
+      "label": "RPM, EMI Music South Africa",
+      "type": "Person"
     },
     {
       "name": "Jody Wayne",
-      "track_count": 63
+      "track_count": 63,
+      "total_recordings": 88,
+      "label": "Gallo, Transistor",
+      "type": "Person"
     },
     {
       "name": "Civil Twilight",
-      "track_count": 63
+      "track_count": 63,
+      "total_recordings": 104,
+      "label": "Wind‐up",
+      "type": "Group"
     },
     {
       "name": "Frozen Ghost",
-      "track_count": 62
+      "track_count": 62,
+      "total_recordings": 45,
+      "label": "Disasterpeace Records, Yabai Records",
+      "type": "Person"
     },
     {
       "name": "Kwesta",
-      "track_count": 62
+      "track_count": 62,
+      "total_recordings": 87,
+      "label": "Sound African Recordings, South Africa – Sony Music Entertainment Africa (Pty) Ltd",
+      "type": "Person"
     },
     {
       "name": "Dennis East",
-      "track_count": 61
+      "track_count": 61,
+      "total_recordings": 44,
+      "label": "Hansa International, Gresham Records",
+      "type": "Person"
     },
     {
       "name": "Vulvodynia",
-      "track_count": 61
+      "track_count": 61,
+      "total_recordings": 171,
+      "label": "Vicious Instinct Records, Brutal Gear",
+      "type": "Group"
     },
     {
       "name": "Brenda & The Big Dudes",
-      "track_count": 60
+      "track_count": 60,
+      "total_recordings": 89,
+      "label": "Universal Music (Pty) Ltd., Family Records",
+      "type": "Group"
     },
     {
       "name": "Jeff Maluleke",
-      "track_count": 60
+      "track_count": 60,
+      "total_recordings": 68,
+      "label": "Sheer Sound, ccp Record Company",
+      "type": "Person"
     },
     {
       "name": "4Werke",
-      "track_count": 59
+      "track_count": 59,
+      "total_recordings": 68,
+      "label": "Select Musiek",
+      "type": "Group"
     },
     {
       "name": "Bongeziwe Mabandla",
-      "track_count": 59
+      "track_count": 59,
+      "total_recordings": 102,
+      "label": "Good Noise Productions, Universal",
+      "type": "Person"
     },
     {
       "name": "Haezer",
-      "track_count": 59
+      "track_count": 59,
+      "total_recordings": 90,
+      "label": "Onion Records",
+      "type": "Person"
     },
     {
       "name": "Moonchild Sanelly",
-      "track_count": 58
+      "track_count": 58,
+      "total_recordings": 105,
+      "label": "[no label], Mouthwatering Records",
+      "type": "Person"
     },
     {
       "name": "GoodLuck",
-      "track_count": 58
+      "track_count": 58,
+      "total_recordings": 68,
+      "label": "Armada Music, Just Music",
+      "type": "Group"
     },
     {
       "name": "Zoë Modiga",
-      "track_count": 58
+      "track_count": 58,
+      "total_recordings": 46,
+      "label": "[no label], Yelloëwax",
+      "type": "Person"
     },
     {
       "name": "Jabu Khanyile",
-      "track_count": 58
+      "track_count": 58,
+      "total_recordings": 69,
+      "label": "Teal Records, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Zebra & Giraffe",
-      "track_count": 57
+      "track_count": 57,
+      "total_recordings": 66,
+      "label": "Just Music",
+      "type": "Group"
     },
     {
       "name": "Zim Ngqawana",
-      "track_count": 56
+      "track_count": 56,
+      "total_recordings": 65,
+      "label": "Sheer Sound, Zimology",
+      "type": "Person"
     },
     {
       "name": "Bheki Mseleku",
-      "track_count": 56
+      "track_count": 56,
+      "total_recordings": 75,
+      "label": "World Circuit, Verve",
+      "type": "Person"
     },
     {
       "name": "Amanda Black",
-      "track_count": 56
+      "track_count": 56,
+      "total_recordings": 44,
+      "label": "Ambitiouz Entertainment",
+      "type": "Person"
     },
     {
       "name": "Koos Du Plessis",
-      "track_count": 55
+      "track_count": 55,
+      "total_recordings": 49,
+      "label": "Warner Bros. Records, Incline House",
+      "type": "Person"
     },
     {
       "name": "FETISH",
-      "track_count": 55
+      "track_count": 55,
+      "total_recordings": 61,
+      "label": "Virgin, Just Music",
+      "type": "Group"
     },
     {
       "name": "Bittereinder",
-      "track_count": 55
+      "track_count": 55,
+      "total_recordings": 65,
+      "label": "Sleeproom Studios, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Zinkplaat",
-      "track_count": 54
+      "track_count": 54,
+      "total_recordings": 59,
+      "label": "De Plate Kompanjie",
+      "type": "Group"
     },
     {
       "name": "GoldFish",
-      "track_count": 54
+      "track_count": 54,
+      "total_recordings": 340,
+      "label": "Amabala Music, PACHA Ibiza",
+      "type": "Group"
     },
     {
       "name": "Lebo Mathosa",
-      "track_count": 53
+      "track_count": 53,
+      "total_recordings": 57,
+      "label": "ccp Record Company, EMI",
+      "type": "Person"
     },
     {
       "name": "Jonas Gwangwa",
-      "track_count": 53
+      "track_count": 53,
+      "total_recordings": 36,
+      "label": "Sony Classical, Sony BMG Music Entertainment",
+      "type": "Person"
     },
     {
       "name": "Joe Niemand",
-      "track_count": 52
+      "track_count": 52,
+      "total_recordings": 66,
+      "label": "NoMansLand, Transistor Music",
+      "type": "Person"
     },
     {
       "name": "Busiswa",
-      "track_count": 52
+      "track_count": 52,
+      "total_recordings": 25,
+      "label": "LOF COLLECTIVE, Innervisions",
+      "type": "Person"
     },
     {
       "name": "Beatenberg",
-      "track_count": 51
+      "track_count": 51,
+      "total_recordings": 59,
+      "label": "Island, Virgin",
+      "type": "Group"
     },
     {
       "name": "Jo Black",
-      "track_count": 51
+      "track_count": 51,
+      "total_recordings": 56,
+      "label": "Inhoud Huis Musiek, Warner Music",
+      "type": "Person"
     },
     {
       "name": "HAWK",
-      "track_count": 49
+      "track_count": 49,
+      "total_recordings": 53,
+      "label": "Fresh Music, Parlophone",
+      "type": "Group"
     },
     {
       "name": "Mahotella Queens",
-      "track_count": 49
+      "track_count": 49,
+      "total_recordings": 157,
+      "label": "Shanachie, Earthworks",
+      "type": "Group"
     },
     {
       "name": "O'Yaba",
-      "track_count": 49
+      "track_count": 49,
+      "total_recordings": 52,
+      "label": "Shanachie, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "TKZee",
-      "track_count": 48
+      "track_count": 48,
+      "total_recordings": 35,
+      "label": "J Records",
+      "type": "Group"
     },
     {
       "name": "Samthing Soweto",
-      "track_count": 48
+      "track_count": 48,
+      "total_recordings": 57,
+      "label": "Bantwanas Kollektiv, Youbuntu",
+      "type": "Person"
     },
     {
       "name": "Francois van Coke",
-      "track_count": 48
+      "track_count": 48,
+      "total_recordings": 111,
+      "label": "VCK Music, Supra Familia",
+      "type": "Person"
     },
     {
       "name": "Shane Cooper",
-      "track_count": 47
+      "track_count": 47,
+      "total_recordings": 50,
+      "label": "Zimology, Dox Records",
+      "type": "Person"
     },
     {
       "name": "Charlie Dicks",
-      "track_count": 47
+      "track_count": 47,
+      "total_recordings": 78,
+      "label": "Andante, Transistor Music",
+      "type": "Person"
     },
     {
       "name": "Cornelius SA",
-      "track_count": 45
+      "track_count": 45,
+      "total_recordings": 51,
+      "label": "mau5trap, Get Physical Music",
+      "type": "Person"
     },
     {
       "name": "The Plastics",
-      "track_count": 44
+      "track_count": 44,
+      "total_recordings": 65,
+      "label": "David Gresham Records",
+      "type": "Group"
     },
     {
       "name": "Scathanna Wept",
-      "track_count": 44
+      "track_count": 44,
+      "total_recordings": 44,
+      "label": "[no label]",
+      "type": "Group"
     },
     {
       "name": "Sean Koch",
-      "track_count": 44
+      "track_count": 44,
+      "total_recordings": 44,
+      "label": "Tic Tic Bang",
+      "type": "Person"
     },
     {
       "name": "Ami Faku",
-      "track_count": 44
+      "track_count": 44,
+      "total_recordings": 46,
+      "label": "El-World, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Senyaka",
-      "track_count": 43
+      "track_count": 43,
+      "total_recordings": 77,
+      "label": "Universal, BMG Records Africa",
+      "type": "Person"
     },
     {
       "name": "Etienne Steyn",
-      "track_count": 43
+      "track_count": 43,
+      "total_recordings": 39,
+      "label": "A.K.A. Records",
+      "type": "Person"
     },
     {
       "name": "Clout",
-      "track_count": 42
+      "track_count": 42,
+      "total_recordings": 192,
+      "label": "Carrère, EMI",
+      "type": "Group"
     },
     {
       "name": "Francois Van Coke",
-      "track_count": 42
+      "track_count": 42,
+      "total_recordings": 111,
+      "label": "VCK Music, Supra Familia",
+      "type": "Person"
     },
     {
       "name": "Petite Noir",
-      "track_count": 42
+      "track_count": 42,
+      "total_recordings": 62,
+      "label": "Domino, Double Six Records",
+      "type": "Person"
     },
     {
       "name": "Coenie De Villiers",
-      "track_count": 41
+      "track_count": 41,
+      "total_recordings": 190,
+      "label": "Artone, JNS Musiek",
+      "type": "Person"
     },
     {
       "name": "aKING",
-      "track_count": 41
+      "track_count": 41,
+      "total_recordings": 58,
+      "label": "Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Juanita Du Plessis",
-      "track_count": 40
+      "track_count": 40,
+      "total_recordings": 619,
+      "label": "Gallo Record Company, Maroela Musiek",
+      "type": "Person"
     },
     {
       "name": "Mahlathini and the Mahotella Queens",
-      "track_count": 40
+      "track_count": 40,
+      "total_recordings": 175,
+      "label": "Polydor, Virgin",
+      "type": "Group"
     },
     {
       "name": "Just Jinjer",
-      "track_count": 40
+      "track_count": 40,
+      "total_recordings": 155,
+      "label": "BMG Records Africa, Colossal",
+      "type": "Group"
     },
     {
       "name": "Izak Davel",
-      "track_count": 40
+      "track_count": 40,
+      "total_recordings": 42,
+      "label": "Ramkat Musiek, EMI Musiek Suid Afrika",
+      "type": "Person"
     },
     {
       "name": "Riky Rick",
-      "track_count": 40
+      "track_count": 40,
+      "total_recordings": 10,
+      "label": "Motif Records",
+      "type": "Person"
     },
     {
       "name": "Jannie Moolman",
-      "track_count": 39
+      "track_count": 39,
+      "total_recordings": 73,
+      "label": "RPM",
+      "type": "Person"
     },
     {
       "name": "Lebo M",
-      "track_count": 39
+      "track_count": 39,
+      "total_recordings": 134,
+      "label": "Walt Disney Records",
+      "type": "Person"
     },
     {
       "name": "ZEE",
-      "track_count": 39
+      "track_count": 39,
+      "total_recordings": 92,
+      "label": "[no label], Zee Worldwide",
+      "type": "Person"
     },
     {
       "name": "Glenys Lynne",
-      "track_count": 38
+      "track_count": 38,
+      "total_recordings": 59,
+      "label": "PolyGram SA, Gallo",
+      "type": "Person"
     },
     {
       "name": "Van Pletzen",
-      "track_count": 37
+      "track_count": 37,
+      "total_recordings": 60,
+      "label": "Planet Awesome",
+      "type": "Group"
     },
     {
       "name": "Reinhardt Buhr",
-      "track_count": 37
+      "track_count": 37,
+      "total_recordings": 233,
+      "label": "[no label]",
+      "type": "Person"
     },
     {
       "name": "Henry Ate",
-      "track_count": 36
+      "track_count": 36,
+      "total_recordings": 64,
+      "label": "Tic Tic Bang, EMI",
+      "type": "Group"
     },
     {
       "name": "Dawnay",
-      "track_count": 35
+      "track_count": 35,
+      "total_recordings": 43,
+      "label": "EMI Music South Africa (Pty) Ltd.",
+      "type": "Person"
     },
     {
       "name": "Die Melktert Kommissie",
-      "track_count": 35
+      "track_count": 35,
+      "total_recordings": 37,
+      "label": "Independent",
+      "type": "Group"
     },
     {
       "name": "Bobby van Jaarsveld",
-      "track_count": 35
+      "track_count": 35,
+      "total_recordings": 182,
+      "label": "Coleske Artists, Theuns Jordaan Productions",
+      "type": "Person"
     },
     {
       "name": "Mahlathini",
-      "track_count": 35
+      "track_count": 35,
+      "total_recordings": 43,
+      "label": "Virgin, Shanachie",
+      "type": "Person"
     },
     {
       "name": "Vicky Sampson",
-      "track_count": 34
+      "track_count": 34,
+      "total_recordings": 35,
+      "label": "One World Entertainment, Warner Music Germany",
+      "type": "Person"
     },
     {
       "name": "Zia",
-      "track_count": 34
+      "track_count": 34,
+      "total_recordings": 32,
+      "label": "Teal Records, Gallo Records",
+      "type": "Group"
     },
     {
       "name": "hawk",
-      "track_count": 34
+      "track_count": 34,
+      "total_recordings": 53,
+      "label": "Fresh Music, Parlophone",
+      "type": "Group"
     },
     {
       "name": "Dozi",
-      "track_count": 34
+      "track_count": 34,
+      "total_recordings": 307,
+      "label": "Capitol Records, EMI",
+      "type": "Person"
     },
     {
       "name": "Chereé",
-      "track_count": 33
+      "track_count": 33,
+      "total_recordings": 64,
+      "label": "Leo Music",
+      "type": "Person"
     },
     {
       "name": "PENNY PENNY",
-      "track_count": 33
+      "track_count": 33,
+      "total_recordings": 42,
+      "label": "Awesome Tapes From Africa",
+      "type": "Person"
     },
     {
       "name": "Winston Mankunku Ngozi",
-      "track_count": 32
+      "track_count": 32,
+      "total_recordings": 62,
+      "label": "Nkomo Records, Sheer Sound",
+      "type": "Person"
     },
     {
       "name": "Abel Selaocoe",
-      "track_count": 31
+      "track_count": 31,
+      "total_recordings": 59,
+      "label": "Apple Music Classical, Warner Classics",
+      "type": "Person"
     },
     {
       "name": "Prophet",
-      "track_count": 30
+      "track_count": 30,
+      "total_recordings": 95,
+      "label": "Maranatha Record Company",
+      "type": "Group"
     },
     {
       "name": "Bobby Van Jaarsveld",
-      "track_count": 29
+      "track_count": 29,
+      "total_recordings": 182,
+      "label": "Coleske Artists, Theuns Jordaan Productions",
+      "type": "Person"
     },
     {
       "name": "Sho Madjozi",
-      "track_count": 29
+      "track_count": 29,
+      "total_recordings": 49,
+      "label": "Flourish and Multiply, Through My Speakers",
+      "type": "Person"
     },
     {
       "name": "Amira Willighagen",
-      "track_count": 27
+      "track_count": 27,
+      "total_recordings": 49,
+      "label": "Coleske Artists, Masterworks",
+      "type": "Person"
     },
     {
       "name": "Foto Na Dans",
-      "track_count": 27
+      "track_count": 27,
+      "total_recordings": 39,
+      "label": "Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "The Joy",
-      "track_count": 26
+      "track_count": 26,
+      "total_recordings": 43,
+      "label": "[no label], Transgressive Records",
+      "type": "Group"
     },
     {
       "name": "The Staccatos",
-      "track_count": 26
+      "track_count": 26,
+      "total_recordings": 63,
+      "label": "Nem, Pye Records",
+      "type": "Group"
     },
     {
       "name": "Jurie Els",
@@ -1053,403 +1832,703 @@
     },
     {
       "name": "VAN PLETZEN",
-      "track_count": 24
+      "track_count": 24,
+      "total_recordings": 60,
+      "label": "Planet Awesome",
+      "type": "Group"
     },
     {
       "name": "DJ Zinhle",
-      "track_count": 24
+      "track_count": 24,
+      "total_recordings": 7,
+      "label": "Independent",
+      "type": "Person"
     },
     {
       "name": "People Like Us",
-      "track_count": 24
+      "track_count": 24,
+      "total_recordings": 36,
+      "label": "Passion, Best Choice",
+      "type": "Group"
     },
     {
       "name": "ANATII",
-      "track_count": 23
+      "track_count": 23,
+      "total_recordings": 58,
+      "label": "Universal Music South Africa, Universal",
+      "type": "Person"
     },
     {
       "name": "monique",
-      "track_count": 23
+      "track_count": 23,
+      "total_recordings": 74,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Fetish",
-      "track_count": 22
+      "track_count": 22,
+      "total_recordings": 61,
+      "label": "Virgin, Just Music",
+      "type": "Group"
     },
     {
       "name": "Simon Swerwer",
-      "track_count": 21
+      "track_count": 21,
+      "total_recordings": 43,
+      "label": "[no label], Crowskull Records",
+      "type": "Person"
     },
     {
       "name": "Bright Blue",
-      "track_count": 20
+      "track_count": 20,
+      "total_recordings": 53,
+      "label": "Jive Wire, Blue Records",
+      "type": "Group"
     },
     {
       "name": "Danie Botha",
-      "track_count": 20
+      "track_count": 20,
+      "total_recordings": 123,
+      "label": "[no label], Maranatha Record Company",
+      "type": "Person"
     },
     {
       "name": "Anneli van Rooyen",
-      "track_count": 19
+      "track_count": 19,
+      "total_recordings": 213,
+      "label": "EMI-Brigadiers, Decibel Musiek",
+      "type": "Person"
     },
     {
       "name": "Adie",
-      "track_count": 19
+      "track_count": 19,
+      "total_recordings": 43,
+      "label": "BEC Recordings",
+      "type": "Person"
     },
     {
       "name": "Bayete",
-      "track_count": 19
+      "track_count": 19,
+      "total_recordings": 110,
+      "label": "Teal Records, Mango Records",
+      "type": "Group"
     },
     {
       "name": "Goodluck",
-      "track_count": 19
+      "track_count": 19,
+      "total_recordings": 68,
+      "label": "Armada Music, Just Music",
+      "type": "Group"
     },
     {
       "name": "Thys die Bosveldklong",
-      "track_count": 18
+      "track_count": 18,
+      "total_recordings": 228,
+      "label": "Select Musiek, Fantasia Musiek",
+      "type": "Person"
     },
     {
       "name": "Four Jacks And a Jill",
-      "track_count": 17
+      "track_count": 17,
+      "total_recordings": 226,
+      "label": "RCA, RCA Victor",
+      "type": "Group"
     },
     {
       "name": "Dj Maphorisa",
-      "track_count": 17
+      "track_count": 17,
+      "total_recordings": 227,
+      "label": "Sound African Recordings, Ultra Records, LLC",
+      "type": "Person"
     },
     {
       "name": "Pro Kid",
-      "track_count": 17
+      "track_count": 17,
+      "total_recordings": 72,
+      "label": "Gallo Record Company, TS Records",
+      "type": "Person"
     },
     {
       "name": "P.J. Powers",
-      "track_count": 16
+      "track_count": 16,
+      "total_recordings": 137,
+      "label": "Teal Record Company, MFM",
+      "type": "Person"
     },
     {
       "name": "Van Coke Kartel",
-      "track_count": 15
+      "track_count": 15,
+      "total_recordings": 72,
+      "label": "Electromode, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Mel Botes",
-      "track_count": 15
+      "track_count": 15,
+      "total_recordings": 87,
+      "label": "Vat 5 Musiek, Bowline Music",
+      "type": "Person"
     },
     {
       "name": "Karlien van Jaarsveld",
-      "track_count": 15
+      "track_count": 15,
+      "total_recordings": 97,
+      "label": "Coleske Artists",
+      "type": "Person"
     },
     {
       "name": "Bok Van Blerk",
-      "track_count": 14
+      "track_count": 14,
+      "total_recordings": 176,
+      "label": "MOZI RECORDS, Mozi Musiek",
+      "type": "Person"
     },
     {
       "name": "Coleske",
-      "track_count": 14
+      "track_count": 14,
+      "total_recordings": 70,
+      "label": "WEA Records, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "Margaret Singana",
-      "track_count": 14
+      "track_count": 14,
+      "total_recordings": 140,
+      "label": "Jo'burg Records",
+      "type": "Person"
     },
     {
       "name": "Louis Mhlanga",
-      "track_count": 14
+      "track_count": 14,
+      "total_recordings": 122,
+      "label": "Sheer Sound, BMG Records Africa",
+      "type": "Person"
     },
     {
       "name": "Pat Shange",
-      "track_count": 14
+      "track_count": 14,
+      "total_recordings": 37,
+      "label": "World Record Co., [no label]",
+      "type": "Person"
     },
     {
       "name": "Gentlebeatz",
-      "track_count": 13
+      "track_count": 13,
+      "total_recordings": 82,
+      "label": "[no label]",
+      "type": "Person"
     },
     {
       "name": "Wrestlerish",
-      "track_count": 13
+      "track_count": 13,
+      "total_recordings": 40,
+      "label": "Columbia, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "DJ Mujava",
-      "track_count": 13
+      "track_count": 13,
+      "total_recordings": 48,
+      "label": "Warp, This Is Music",
+      "type": "Person"
     },
     {
       "name": "Uncle Waffles",
-      "track_count": 13
+      "track_count": 13,
+      "total_recordings": 33,
+      "label": "KO-SIGN PTY LTD., Kreativekornerr",
+      "type": "Person"
     },
     {
       "name": "aKing",
-      "track_count": 12
+      "track_count": 12,
+      "total_recordings": 58,
+      "label": "Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "TWEAK",
-      "track_count": 12
+      "track_count": 12,
+      "total_recordings": 73,
+      "label": "[no label], Tweak",
+      "type": "Group"
     },
     {
       "name": "Glaskas",
-      "track_count": 12
+      "track_count": 12,
+      "total_recordings": 49,
+      "label": "Kanada Records, Bowline Music",
+      "type": "Group"
     },
     {
       "name": "Mark Allnutt",
-      "track_count": 11
+      "track_count": 11,
+      "total_recordings": 49,
+      "label": "[no label]",
+      "type": "Person"
     },
     {
       "name": "a-reece",
-      "track_count": 11
+      "track_count": 11,
+      "total_recordings": 53,
+      "label": "Next Level Entertainment",
+      "type": "Person"
     },
     {
       "name": "Jesse Clegg",
-      "track_count": 11
+      "track_count": 11,
+      "total_recordings": 41,
+      "label": "Jesse Clegg, The David Gresham Record Company",
+      "type": "Person"
     },
     {
       "name": "Connell Cruise",
-      "track_count": 11
+      "track_count": 11,
+      "total_recordings": 49,
+      "label": "Independent",
+      "type": "Person"
     },
     {
       "name": "Terminal",
-      "track_count": 10
+      "track_count": 10,
+      "total_recordings": 41,
+      "label": "[no label], Metropolis Records",
+      "type": "Group"
     },
     {
       "name": "Tumi",
-      "track_count": 10
+      "track_count": 10,
+      "total_recordings": 94,
+      "label": "Motif Records, Nuffsaid Records",
+      "type": "Person"
     },
     {
       "name": "Aka",
-      "track_count": 9
+      "track_count": 9,
+      "total_recordings": 107,
+      "label": "Universal Music South Africa, Showlove Music",
+      "type": "Person"
     },
     {
       "name": "BCUC",
-      "track_count": 8
+      "track_count": 8,
+      "total_recordings": 42,
+      "label": "Buda Musique, Sofa Records",
+      "type": "Group"
     },
     {
       "name": "The Dalom Kids",
-      "track_count": 8
+      "track_count": 8,
+      "total_recordings": 103,
+      "label": "Gallo Music Productions, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "HAEZER",
-      "track_count": 7
+      "track_count": 7,
+      "total_recordings": 90,
+      "label": "Onion Records",
+      "type": "Person"
     },
     {
       "name": "Thandiswa Mazwai",
-      "track_count": 7
+      "track_count": 7,
+      "total_recordings": 92,
+      "label": "Gallo Records, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "Derek Gripper",
-      "track_count": 7
+      "track_count": 7,
+      "total_recordings": 134,
+      "label": "New Cape Records",
+      "type": "Person"
     },
     {
       "name": "Anatii",
-      "track_count": 6
+      "track_count": 6,
+      "total_recordings": 58,
+      "label": "Universal Music South Africa, Universal",
+      "type": "Person"
     },
     {
       "name": "Jannie du Toit",
-      "track_count": 5
+      "track_count": 5,
+      "total_recordings": 109,
+      "label": "JNS Musiek, KOSMOS",
+      "type": "Person"
     },
     {
       "name": "Jason van Wyk",
-      "track_count": 5
+      "track_count": 5,
+      "total_recordings": 134,
+      "label": "Redux Recordings, Alter Ego Records",
+      "type": "Person"
     },
     {
       "name": "Sun-El Musician",
-      "track_count": 5
+      "track_count": 5,
+      "total_recordings": 74,
+      "label": "[no label], El-World",
+      "type": "Person"
     },
     {
       "name": "trevor jones",
-      "track_count": 4
+      "track_count": 4,
+      "total_recordings": 965,
+      "label": "Warner Bros. Records, Milan",
+      "type": "Person"
     },
     {
       "name": "Sathima Bea Benjamin",
-      "track_count": 4
+      "track_count": 4,
+      "total_recordings": 62,
+      "label": "The Sun, enja",
+      "type": "Person"
     },
     {
       "name": "Aero Manyelo",
-      "track_count": 4
+      "track_count": 4,
+      "total_recordings": 43,
+      "label": "Sound Pellegrino, Get Physical Music",
+      "type": "Person"
     },
     {
       "name": "SHIFT",
-      "track_count": 4
+      "track_count": 4,
+      "total_recordings": 136,
+      "label": "Crystal Matrix Records, Timecode Records",
+      "type": "Person"
     },
     {
       "name": "Dj Zinhle",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 7,
+      "label": "Independent",
+      "type": "Person"
     },
     {
       "name": "Sarah Theron",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 51,
+      "label": "Vat 5 Musiek",
+      "type": "Person"
     },
     {
       "name": "Amampondo",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 126,
+      "label": "B&W Music, EWM Records",
+      "type": "Group"
     },
     {
       "name": "Aking",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 58,
+      "label": "Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Slaves",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 41,
+      "label": "Gallo Record Company, Quattro Records",
+      "type": "Group"
     },
     {
       "name": "A-reece",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 53,
+      "label": "Next Level Entertainment",
+      "type": "Person"
     },
     {
       "name": "Nakhane",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 58,
+      "label": "BMG Rights Management, BMG France",
+      "type": "Person"
     },
     {
       "name": "OSKIDO",
-      "track_count": 3
+      "track_count": 3,
+      "total_recordings": 38,
+      "label": "House Afrika Records, Kalawa Jazmee Records",
+      "type": "Person"
     },
     {
       "name": "Thys Die Bosveldklong",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 228,
+      "label": "Select Musiek, Fantasia Musiek",
+      "type": "Person"
     },
     {
       "name": "Muzi",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 95,
+      "label": "Columbia/Epic Label Group, WE.THE.BUNDU",
+      "type": "Person"
     },
     {
       "name": "Billy Forrest",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 58,
+      "label": "Fantasia, Gallo Record Company",
+      "type": "Person"
     },
     {
       "name": "YOAV",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 110,
+      "label": "Verve Forecast",
+      "type": "Person"
     },
     {
       "name": "Johnny Dyani",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 119,
+      "label": "Yonca, SteepleChase",
+      "type": "Person"
     },
     {
       "name": "Velile",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 41,
+      "label": "Polydor",
+      "type": "Person"
     },
     {
       "name": "gentlebeatz",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 82,
+      "label": "[no label]",
+      "type": "Person"
     },
     {
       "name": "juanita du plessis",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 619,
+      "label": "Gallo Record Company, Maroela Musiek",
+      "type": "Person"
     },
     {
       "name": "Kwela Tebza",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 57,
+      "label": "Gallo Records",
+      "type": "Group"
     },
     {
       "name": "Nianell",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 135,
+      "label": "Sony BMG Music Entertainment, Fresh Music",
+      "type": "Person"
     },
     {
       "name": "Radio Kalahari Orkes",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 64,
+      "label": "EMI Music South Africa, Rhythm Records",
+      "type": "Group"
     },
     {
       "name": "Rina Hugo",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 149,
+      "label": "EMI Music South Africa, Fantasia",
+      "type": "Person"
     },
     {
       "name": "MONIQUE",
-      "track_count": 2
+      "track_count": 2,
+      "total_recordings": 74,
+      "label": "Select Musiek",
+      "type": "Person"
     },
     {
       "name": "Yugen Blakrok",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 54,
+      "label": "I.O.T Records, Iapetus Records",
+      "type": "Person"
     },
     {
       "name": "Amor Vittone",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 110,
+      "label": "RPM, EMI Music South Africa",
+      "type": "Person"
     },
     {
       "name": "Sibot",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 95,
+      "label": "sSHADOWORKSs, African Dope Records",
+      "type": "Person"
     },
     {
       "name": "LETTA MBULU",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 165,
+      "label": "Fantasy, Tamla Motown",
+      "type": "Person"
     },
     {
       "name": "AkA",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 107,
+      "label": "Universal Music South Africa, Showlove Music",
+      "type": "Person"
     },
     {
       "name": "Ken Mullan",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 61,
+      "label": "Sting Music, Universal Music",
+      "type": "Person"
     },
     {
       "name": "sjava",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 21,
+      "label": "1020 Cartel",
+      "type": "Person"
     },
     {
       "name": "soweto gospel choir",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 264,
+      "label": "ABC Music, Shanachie",
+      "type": "Choir"
     },
     {
       "name": "EmTee",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 75,
+      "label": "[no label], Ambitiouz Entertainment",
+      "type": "Person"
     },
     {
       "name": "Pierre De Charmoy",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 75,
+      "label": "RPM",
+      "type": "Person"
     },
     {
       "name": "CLOUT",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 192,
+      "label": "Carrère, EMI",
+      "type": "Group"
     },
     {
       "name": "Monelle",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 43,
+      "label": "Redacted Music Group",
+      "type": "Person"
     },
     {
       "name": "The Benjamin Gate",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 77,
+      "label": "ForeFront Records",
+      "type": "Group"
     },
     {
       "name": "Tweak",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 73,
+      "label": "[no label], Tweak",
+      "type": "Group"
     },
     {
       "name": "André Swiegers",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 79,
+      "label": "Jeamile",
+      "type": "Person"
     },
     {
       "name": "MOONCHILD Sanelly",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 105,
+      "label": "[no label], Mouthwatering Records",
+      "type": "Person"
     },
     {
       "name": "Nelson Mandela",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 163,
+      "label": "Hoffmann und Campe, Naxos Hörbücher",
+      "type": "Person"
     },
     {
       "name": "Boo!",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 104,
+      "label": "Independent",
+      "type": "Group"
     },
     {
       "name": "Tony Cox",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 74,
+      "label": "Sheer Sound",
+      "type": "Person"
     },
     {
       "name": "A-REECE",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 53,
+      "label": "Next Level Entertainment",
+      "type": "Person"
     },
     {
       "name": "LIRA",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 125,
+      "label": "Sound African Recordings, Sony BMG Music Entertainment",
+      "type": "Person"
     },
     {
       "name": "MZWAKHE MBULI",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 127,
+      "label": "Shifty Records, Earthworks",
+      "type": "Person"
     },
     {
       "name": "Master Kg",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 67,
+      "label": "Warner Music France, Open Mic Productions",
+      "type": "Person"
     },
     {
       "name": "splash",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 85,
+      "label": "Gallo Music Productions, Gallo Record Company",
+      "type": "Group"
     },
     {
       "name": "Gian Groen",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 49,
+      "label": "Bowline Music",
+      "type": "Person"
     },
     {
       "name": "Braw",
-      "track_count": 1
+      "track_count": 1,
+      "total_recordings": 82,
+      "label": "Independent",
+      "type": "Person"
     }
   ]
 }
