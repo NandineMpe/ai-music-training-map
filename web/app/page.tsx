@@ -34,10 +34,10 @@ export default function Home() {
           </div>
           <div className="flex-1 max-w-xs">
             <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
-              <div className="h-full bg-orange-500 rounded-full transition-all" style={{ width: "3.2%" }} />
+              <div className="h-full bg-orange-500 rounded-full transition-all" style={{ width: "3.4%" }} />
             </div>
           </div>
-          <span className="text-xs text-slate-500">~4,000 of 12.3M tracks mapped to countries</span>
+          <span className="text-xs text-slate-500">~417,000 tracks mapped across 73 countries (2,206 artists) — processing continues</span>
         </div>
       </div>
 
