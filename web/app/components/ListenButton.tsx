@@ -23,6 +23,8 @@ interface IdentifyResult {
   status: { code: number; msg: string };
   metadata?: {
     music?: MusicMatch[];
+    humming?: MusicMatch[];
+    custom_files?: MusicMatch[];
   };
 }
 
