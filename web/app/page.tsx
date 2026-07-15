@@ -11,7 +11,7 @@ export default function Home() {
               AI Music Training Data Map
             </h1>
             <p className="text-sm text-slate-400 mt-1">
-              12.3 million tracks from the LAION-DISCO-12M dataset, mapped by artist country of origin
+              Tracks from the LAION-DISCO-12M dataset, mapped by artist country of origin
             </p>
           </div>
           <div className="text-right text-xs text-slate-500">
