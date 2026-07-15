@@ -1,7 +1,7 @@
 {
   "country_code": "GB",
-  "artist_count": 240,
-  "track_count": 43886,
+  "artist_count": 244,
+  "track_count": 44038,
   "artists": [
     {
       "name": "London Symphony Orchestra",
@@ -544,6 +544,10 @@
       "track_count": 98
     },
     {
+      "name": "DJ Fresh",
+      "track_count": 88
+    },
+    {
       "name": "OMAR",
       "track_count": 78
     },
@@ -616,8 +620,16 @@
       "track_count": 37
     },
     {
+      "name": "Dj Fresh",
+      "track_count": 36
+    },
+    {
       "name": "KINO",
       "track_count": 28
+    },
+    {
+      "name": "Tyla",
+      "track_count": 25
     },
     {
       "name": "raven",
@@ -769,6 +781,10 @@
     },
     {
       "name": "noel",
+      "track_count": 3
+    },
+    {
+      "name": "TYLA",
       "track_count": 3
     },
     {

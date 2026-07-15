@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import crypto from "crypto";
 
-const ACCESS_KEY = "OO3AnK9YWPL9EGnh";
-const ACCESS_SECRET = "DANwQn2sPiMm3ZY6WMTbu6VSj3hadaGq";
+const ACCESS_KEY = "5aa990706d6b3744528ee64cc86ae342";
+const ACCESS_SECRET = "54VvG3x6bti00ubtWtlmQ5QZsc7qJHWICikYT1jU";
 const HOST = "https://identify-eu-west-1.acrcloud.com";
 
 export async function GET() {

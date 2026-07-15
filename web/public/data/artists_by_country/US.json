@@ -1,7 +1,7 @@
 {
   "country_code": "US",
-  "artist_count": 618,
-  "track_count": 100659,
+  "artist_count": 619,
+  "track_count": 100799,
   "artists": [
     {
       "name": "Frank Sinatra",
@@ -1466,6 +1466,10 @@
     {
       "name": "ALEX",
       "track_count": 145
+    },
+    {
+      "name": "Seether",
+      "track_count": 140
     },
     {
       "name": "NINA",

@@ -1,7 +1,7 @@
 {
   "country_code": "ZA",
-  "artist_count": 3,
-  "track_count": 546,
+  "artist_count": 55,
+  "track_count": 4539,
   "artists": [
     {
       "name": "Kabza De Small",
@@ -12,8 +12,216 @@
       "track_count": 224
     },
     {
+      "name": "DJ Maphorisa",
+      "track_count": 193
+    },
+    {
+      "name": "Miriam Makeba",
+      "track_count": 168
+    },
+    {
+      "name": "Lira",
+      "track_count": 163
+    },
+    {
+      "name": "Lucky Dube",
+      "track_count": 155
+    },
+    {
+      "name": "Karen Zoid",
+      "track_count": 148
+    },
+    {
+      "name": "Hugh Masekela",
+      "track_count": 148
+    },
+    {
+      "name": "Black Motion",
+      "track_count": 147
+    },
+    {
+      "name": "Brenda Fassie",
+      "track_count": 143
+    },
+    {
+      "name": "Abdullah Ibrahim",
+      "track_count": 140
+    },
+    {
+      "name": "Cassper Nyovest",
+      "track_count": 135
+    },
+    {
+      "name": "Nasty C",
+      "track_count": 132
+    },
+    {
+      "name": "Mafikizolo",
+      "track_count": 131
+    },
+    {
+      "name": "Prime Circle",
+      "track_count": 128
+    },
+    {
+      "name": "Die Antwoord",
+      "track_count": 124
+    },
+    {
+      "name": "Oskido",
+      "track_count": 121
+    },
+    {
+      "name": "Mi Casa",
+      "track_count": 118
+    },
+    {
+      "name": "Makhadzi",
+      "track_count": 116
+    },
+    {
+      "name": "A-Reece",
+      "track_count": 111
+    },
+    {
+      "name": "Emtee",
+      "track_count": 97
+    },
+    {
+      "name": "Matthew Mole",
+      "track_count": 95
+    },
+    {
+      "name": "Sjava",
+      "track_count": 93
+    },
+    {
+      "name": "Johnny Clegg",
+      "track_count": 90
+    },
+    {
+      "name": "Blxckie",
+      "track_count": 88
+    },
+    {
+      "name": "Freshlyground",
+      "track_count": 85
+    },
+    {
+      "name": "Locnville",
+      "track_count": 83
+    },
+    {
+      "name": "Tyler ICU",
+      "track_count": 82
+    },
+    {
+      "name": "Goldfish",
+      "track_count": 79
+    },
+    {
+      "name": "Master KG",
+      "track_count": 71
+    },
+    {
+      "name": "Sun-EL Musician",
+      "track_count": 71
+    },
+    {
+      "name": "Jeremy Loops",
+      "track_count": 66
+    },
+    {
+      "name": "Kwesta",
+      "track_count": 62
+    },
+    {
+      "name": "Moonchild Sanelly",
+      "track_count": 58
+    },
+    {
+      "name": "GoldFish",
+      "track_count": 54
+    },
+    {
+      "name": "Busiswa",
+      "track_count": 52
+    },
+    {
+      "name": "Samthing Soweto",
+      "track_count": 48
+    },
+    {
+      "name": "Ami Faku",
+      "track_count": 44
+    },
+    {
+      "name": "Riky Rick",
+      "track_count": 40
+    },
+    {
       "name": "ZEE",
       "track_count": 39
+    },
+    {
+      "name": "Sho Madjozi",
+      "track_count": 29
+    },
+    {
+      "name": "DJ Zinhle",
+      "track_count": 24
+    },
+    {
+      "name": "Dj Maphorisa",
+      "track_count": 17
+    },
+    {
+      "name": "Uncle Waffles",
+      "track_count": 13
+    },
+    {
+      "name": "a-reece",
+      "track_count": 11
+    },
+    {
+      "name": "Sun-El Musician",
+      "track_count": 5
+    },
+    {
+      "name": "Dj Zinhle",
+      "track_count": 3
+    },
+    {
+      "name": "A-reece",
+      "track_count": 3
+    },
+    {
+      "name": "OSKIDO",
+      "track_count": 3
+    },
+    {
+      "name": "sjava",
+      "track_count": 1
+    },
+    {
+      "name": "EmTee",
+      "track_count": 1
+    },
+    {
+      "name": "MOONCHILD Sanelly",
+      "track_count": 1
+    },
+    {
+      "name": "A-REECE",
+      "track_count": 1
+    },
+    {
+      "name": "LIRA",
+      "track_count": 1
+    },
+    {
+      "name": "Master Kg",
+      "track_count": 1
     }
   ]
 }

@@ -1,8 +1,8 @@
 [
   {
     "country_code": "US",
-    "track_count": 100659,
-    "artist_count": 618,
+    "track_count": 100799,
+    "artist_count": 619,
     "top_artists": [
       "Frank Sinatra",
       "Kali",
@@ -25,8 +25,8 @@
   },
   {
     "country_code": "GB",
-    "track_count": 43886,
-    "artist_count": 240,
+    "track_count": 44038,
+    "artist_count": 244,
     "top_artists": [
       "London Symphony Orchestra",
       "George Frideric Handel",
@@ -165,6 +165,18 @@
       "Daniel",
       "Martha Argerich",
       "Carlos Gardel"
+    ]
+  },
+  {
+    "country_code": "ZA",
+    "track_count": 4539,
+    "artist_count": 55,
+    "top_artists": [
+      "Kabza De Small",
+      "Zee",
+      "DJ Maphorisa",
+      "Miriam Makeba",
+      "Lira"
     ]
   },
   {
@@ -555,16 +567,6 @@
     "top_artists": [
       "Neeme Järvi",
       "Paavo Järvi"
-    ]
-  },
-  {
-    "country_code": "ZA",
-    "track_count": 546,
-    "artist_count": 3,
-    "top_artists": [
-      "Kabza De Small",
-      "Zee",
-      "ZEE"
     ]
   },
   {
