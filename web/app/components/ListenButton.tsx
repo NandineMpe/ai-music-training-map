@@ -73,7 +73,7 @@ export default function ListenButton() {
         setError("Could not process the audio. Try uploading an MP3 or WAV file instead.");
         setState("error");
       } else {
-        setError(data.status?.msg || "Recognition failed");
+        setError(`ACRCloud response: ${data.status?.msg} (code ${data.status?.code}). Try uploading an MP3 file.`);
         setState("error");
       }
     } catch {
