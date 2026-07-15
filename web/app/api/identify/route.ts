@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
 
-const ACCESS_KEY = (process.env.ACR_ACCESS_KEY || "").trim();
-const ACCESS_SECRET = (process.env.ACR_ACCESS_SECRET || "").trim();
+const ACCESS_KEY = (process.env.ACR_ACCESS_KEY || "OO3AnK9YWPL9EGnh").trim();
+const ACCESS_SECRET = (process.env.ACR_ACCESS_SECRET || "DANwQn2sPiMm3ZY6WMTbu6VSj3hadaGq").trim();
 const HOST = "https://identify-eu-west-1.acrcloud.com";
 
 export async function POST(request: NextRequest) {
