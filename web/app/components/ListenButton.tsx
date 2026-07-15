@@ -282,7 +282,6 @@ export default function ListenButton() {
                       key={i}
                       className="bg-slate-800 rounded-xl p-4 border border-slate-700"
                     >
-                      <div className="flex items-start justify-between">
                         <div className="min-w-0 flex-1">
                           <h4 className="font-bold text-white truncate">{match.title}</h4>
                           <p className="text-orange-400 text-sm">
@@ -304,12 +303,6 @@ export default function ListenButton() {
                             </p>
                           )}
                         </div>
-                        <div className="text-right flex-shrink-0 ml-2">
-                          <span className="text-xs bg-orange-500/20 text-orange-400 px-2 py-1 rounded-full">
-                            {match.score}% match
-                          </span>
-                        </div>
-                      </div>
 
                       {/* External links */}
                       <div className="flex gap-2 mt-3 flex-wrap">
