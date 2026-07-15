@@ -1,7 +1,7 @@
 {
   "country_code": "FR",
-  "artist_count": 50,
-  "track_count": 16055,
+  "artist_count": 64,
+  "track_count": 17731,
   "artists": [
     {
       "name": "Claude Debussy",
@@ -144,8 +144,48 @@
       "track_count": 216
     },
     {
+      "name": "Radium",
+      "track_count": 204
+    },
+    {
+      "name": "Veerus",
+      "track_count": 204
+    },
+    {
+      "name": "Alexandre Desplat",
+      "track_count": 202
+    },
+    {
+      "name": "Johnny Hallyday",
+      "track_count": 201
+    },
+    {
+      "name": "Christophe Rousset",
+      "track_count": 201
+    },
+    {
+      "name": "Tino",
+      "track_count": 199
+    },
+    {
+      "name": "Kings",
+      "track_count": 199
+    },
+    {
+      "name": "Jean-Jacques Goldman",
+      "track_count": 198
+    },
+    {
       "name": "LEO",
       "track_count": 186
+    },
+    {
+      "name": "TINO",
+      "track_count": 44
+    },
+    {
+      "name": "KINGS",
+      "track_count": 16
     },
     {
       "name": "MIRO",
@@ -176,11 +216,23 @@
       "track_count": 4
     },
     {
+      "name": "TiNo",
+      "track_count": 3
+    },
+    {
       "name": "MIro",
       "track_count": 3
     },
     {
       "name": "AMINA",
+      "track_count": 2
+    },
+    {
+      "name": "RADIUM",
+      "track_count": 2
+    },
+    {
+      "name": "tino",
       "track_count": 2
     },
     {
@@ -193,6 +245,10 @@
     },
     {
       "name": "zebra",
+      "track_count": 1
+    },
+    {
+      "name": "kings",
       "track_count": 1
     },
     {

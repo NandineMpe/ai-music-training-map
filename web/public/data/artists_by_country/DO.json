@@ -1,7 +1,7 @@
 {
   "country_code": "DO",
-  "artist_count": 11,
-  "track_count": 740,
+  "artist_count": 16,
+  "track_count": 1355,
   "artists": [
     {
       "name": "Yomel El Meloso",
@@ -14,6 +14,18 @@
     {
       "name": "Ceky Viciny",
       "track_count": 226
+    },
+    {
+      "name": "Johnny Pacheco",
+      "track_count": 208
+    },
+    {
+      "name": "Quimico Ultra Mega",
+      "track_count": 203
+    },
+    {
+      "name": "El Alfa",
+      "track_count": 202
     },
     {
       "name": "Yomel el Meloso",
@@ -36,11 +48,19 @@
       "track_count": 3
     },
     {
+      "name": "quimico ultra mega",
+      "track_count": 1
+    },
+    {
       "name": "Rochy rd",
       "track_count": 1
     },
     {
       "name": "rochy rd",
+      "track_count": 1
+    },
+    {
+      "name": "Quimico Ultra mega",
       "track_count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "country_code": "PR",
-  "artist_count": 10,
-  "track_count": 1691,
+  "artist_count": 17,
+  "track_count": 2707,
   "artists": [
     {
       "name": "Farruko",
@@ -32,6 +32,26 @@
       "track_count": 214
     },
     {
+      "name": "Ozuna",
+      "track_count": 207
+    },
+    {
+      "name": "Daddy Yankee",
+      "track_count": 204
+    },
+    {
+      "name": "Wisin & Yandel",
+      "track_count": 203
+    },
+    {
+      "name": "India",
+      "track_count": 203
+    },
+    {
+      "name": "Nicky Jam",
+      "track_count": 197
+    },
+    {
       "name": "MIGUELITO",
       "track_count": 9
     },
@@ -42,6 +62,14 @@
     {
       "name": "Ñengo flow",
       "track_count": 2
+    },
+    {
+      "name": "india",
+      "track_count": 1
+    },
+    {
+      "name": "OZUNA",
+      "track_count": 1
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "country_code": "RU",
-  "artist_count": 7,
-  "track_count": 774,
+  "artist_count": 9,
+  "track_count": 1183,
   "artists": [
     {
       "name": "Horus",
@@ -14,6 +14,14 @@
     {
       "name": "Anima",
       "track_count": 251
+    },
+    {
+      "name": "Roman Messer",
+      "track_count": 211
+    },
+    {
+      "name": "Гарик Сукачёв",
+      "track_count": 198
     },
     {
       "name": "ANIMA",

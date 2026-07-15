@@ -1,7 +1,7 @@
 {
   "country_code": "VN",
-  "artist_count": 6,
-  "track_count": 1343,
+  "artist_count": 7,
+  "track_count": 1555,
   "artists": [
     {
       "name": "HHD",
@@ -22,6 +22,10 @@
     {
       "name": "Nguyễn Văn Chung",
       "track_count": 223
+    },
+    {
+      "name": "Đàm Vĩnh Hưng",
+      "track_count": 212
     },
     {
       "name": "NGUYÊN KHANG",

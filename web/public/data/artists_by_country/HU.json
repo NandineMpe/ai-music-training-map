@@ -1,7 +1,7 @@
 {
   "country_code": "HU",
-  "artist_count": 12,
-  "track_count": 3516,
+  "artist_count": 14,
+  "track_count": 3721,
   "artists": [
     {
       "name": "Franz Liszt",
@@ -32,6 +32,10 @@
       "track_count": 228
     },
     {
+      "name": "Crazibiza",
+      "track_count": 203
+    },
+    {
       "name": "NEO",
       "track_count": 86
     },
@@ -42,6 +46,10 @@
     {
       "name": "OMEGA",
       "track_count": 28
+    },
+    {
+      "name": "CRAZIBIZA",
+      "track_count": 2
     },
     {
       "name": "NeO",

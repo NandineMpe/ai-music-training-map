@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
 
-const ACCESS_KEY = (process.env.ACR_ACCESS_KEY || "OO3AnK9YWPL9EGnh").trim();
-const ACCESS_SECRET = (process.env.ACR_ACCESS_SECRET || "DANwQn2sPiMm3ZY6WMTbu6VSj3hadaGq").trim();
+const ACCESS_KEY = "OO3AnK9YWPL9EGnh";
+const ACCESS_SECRET = "DANwQn2sPiMm3ZY6WMTbu6VSj3hadaGq";
+// ACRCloud hosts: identify-eu-west-1, identify-us-west-2, identify-ap-southeast-1
 const HOST = "https://identify-eu-west-1.acrcloud.com";
 
 export async function POST(request: NextRequest) {
@@ -17,29 +18,20 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Read the audio file
     const audioBuffer = Buffer.from(await audioFile.arrayBuffer());
     const sampleBytes = audioBuffer.length;
 
-    // Build ACRCloud signature
     const httpMethod = "POST";
     const httpUri = "/v1/identify";
     const dataType = "audio";
     const signatureVersion = "1";
     const timestamp = Math.floor(Date.now() / 1000).toString();
 
-    const stringToSign = [
-      httpMethod,
-      httpUri,
-      ACCESS_KEY,
-      dataType,
-      signatureVersion,
-      timestamp,
-    ].join("\n");
+    const stringToSign = httpMethod + "\n" + httpUri + "\n" + ACCESS_KEY + "\n" + dataType + "\n" + signatureVersion + "\n" + timestamp;
 
     const signature = crypto
       .createHmac("sha1", ACCESS_SECRET)
-      .update(stringToSign)
+      .update(Buffer.from(stringToSign, "utf-8"))
       .digest("base64");
 
     // Build multipart form for ACRCloud
@@ -56,18 +48,26 @@ export async function POST(request: NextRequest) {
       "sample.wav"
     );
 
-    // Send to ACRCloud
     const response = await fetch(`${HOST}/v1/identify`, {
       method: "POST",
       body: acrFormData,
     });
 
     const result = await response.json();
+
+    // Log for debugging (visible in Vercel function logs)
+    if (result.status?.code !== 0 && result.status?.code !== 1001) {
+      console.error("ACRCloud error:", JSON.stringify(result));
+      console.error("Used access_key:", ACCESS_KEY);
+      console.error("Timestamp:", timestamp);
+      console.error("Sample bytes:", sampleBytes);
+    }
+
     return NextResponse.json(result);
   } catch (error) {
     console.error("ACRCloud identification error:", error);
     return NextResponse.json(
-      { error: "Failed to identify audio" },
+      { error: "Failed to identify audio", details: String(error) },
       { status: 500 }
     );
   }

@@ -1,7 +1,7 @@
 {
   "country_code": "JP",
-  "artist_count": 43,
-  "track_count": 6997,
+  "artist_count": 53,
+  "track_count": 8161,
   "artists": [
     {
       "name": "SEGA",
@@ -80,6 +80,26 @@
       "track_count": 215
     },
     {
+      "name": "Happy Birthday",
+      "track_count": 212
+    },
+    {
+      "name": "Sunset",
+      "track_count": 211
+    },
+    {
+      "name": "Yuji Ohno",
+      "track_count": 210
+    },
+    {
+      "name": "Dormir",
+      "track_count": 207
+    },
+    {
+      "name": "YUKI",
+      "track_count": 204
+    },
+    {
       "name": "EXILE",
       "track_count": 152
     },
@@ -116,8 +136,16 @@
       "track_count": 63
     },
     {
+      "name": "Yuki",
+      "track_count": 56
+    },
+    {
       "name": "LIA",
       "track_count": 38
+    },
+    {
+      "name": "yuki",
+      "track_count": 34
     },
     {
       "name": "EVE",
@@ -142,6 +170,18 @@
     {
       "name": "Speed",
       "track_count": 20
+    },
+    {
+      "name": "Happy birthday",
+      "track_count": 16
+    },
+    {
+      "name": "HAPPY BIRTHDAY",
+      "track_count": 9
+    },
+    {
+      "name": "SunSet",
+      "track_count": 5
     },
     {
       "name": "CANDY",

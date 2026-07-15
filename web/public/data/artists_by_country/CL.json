@@ -1,11 +1,19 @@
 {
   "country_code": "CL",
-  "artist_count": 3,
-  "track_count": 333,
+  "artist_count": 6,
+  "track_count": 733,
   "artists": [
     {
       "name": "Saiko",
       "track_count": 304
+    },
+    {
+      "name": "Hugo Ruiz",
+      "track_count": 200
+    },
+    {
+      "name": "Claudio Arrau",
+      "track_count": 196
     },
     {
       "name": "SAIKO",
@@ -14,6 +22,10 @@
     {
       "name": "saiko",
       "track_count": 10
+    },
+    {
+      "name": "HUGO RUIZ",
+      "track_count": 4
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "country_code": "LU",
+  "artist_count": 2,
+  "track_count": 373,
+  "artists": [
+    {
+      "name": "Rome",
+      "track_count": 196
+    },
+    {
+      "name": "ROME",
+      "track_count": 177
+    }
+  ]
+}

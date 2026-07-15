@@ -1,7 +1,7 @@
 {
   "country_code": "MX",
-  "artist_count": 7,
-  "track_count": 1259,
+  "artist_count": 16,
+  "track_count": 2158,
   "artists": [
     {
       "name": "Relajante",
@@ -24,12 +24,48 @@
       "track_count": 220
     },
     {
+      "name": "Cornelio Reyna",
+      "track_count": 212
+    },
+    {
+      "name": "Banda Renovacion",
+      "track_count": 211
+    },
+    {
+      "name": "Yuri",
+      "track_count": 208
+    },
+    {
+      "name": "Lila",
+      "track_count": 203
+    },
+    {
+      "name": "YURI",
+      "track_count": 28
+    },
+    {
       "name": "PEPE",
       "track_count": 15
     },
     {
+      "name": "LILA",
+      "track_count": 14
+    },
+    {
+      "name": "yuri",
+      "track_count": 11
+    },
+    {
+      "name": "lila",
+      "track_count": 11
+    },
+    {
       "name": "RoJO",
       "track_count": 2
+    },
+    {
+      "name": "YURi",
+      "track_count": 1
     }
   ]
 }

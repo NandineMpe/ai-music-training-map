@@ -1,7 +1,7 @@
 {
   "country_code": "IT",
-  "artist_count": 86,
-  "track_count": 21276,
+  "artist_count": 103,
+  "track_count": 23861,
   "artists": [
     {
       "name": "Antonio Vivaldi",
@@ -188,8 +188,60 @@
       "track_count": 216
     },
     {
+      "name": "Massimo Faraò",
+      "track_count": 211
+    },
+    {
+      "name": "Giovanni Pierluigi da Palestrina",
+      "track_count": 209
+    },
+    {
+      "name": "Beniamino Gigli",
+      "track_count": 209
+    },
+    {
+      "name": "Mirella Freni",
+      "track_count": 208
+    },
+    {
+      "name": "Emma",
+      "track_count": 207
+    },
+    {
+      "name": "Enrico Caruso",
+      "track_count": 207
+    },
+    {
+      "name": "Bobby Solo",
+      "track_count": 200
+    },
+    {
+      "name": "Enrico Pieranunzi",
+      "track_count": 198
+    },
+    {
+      "name": "Franco Corelli",
+      "track_count": 198
+    },
+    {
+      "name": "Guè",
+      "track_count": 197
+    },
+    {
+      "name": "Kamasutra",
+      "track_count": 196
+    },
+    {
+      "name": "Elisa",
+      "track_count": 196
+    },
+    {
       "name": "ZERO",
       "track_count": 130
+    },
+    {
+      "name": "ELISA",
+      "track_count": 127
     },
     {
       "name": "Music for Sleep",
@@ -236,6 +288,10 @@
       "track_count": 18
     },
     {
+      "name": "EMMA",
+      "track_count": 14
+    },
+    {
       "name": "ZeRO",
       "track_count": 11
     },
@@ -257,6 +313,10 @@
     },
     {
       "name": "SAVAGE",
+      "track_count": 6
+    },
+    {
+      "name": "eMMa",
       "track_count": 6
     },
     {
@@ -308,11 +368,19 @@
       "track_count": 1
     },
     {
+      "name": "emma",
+      "track_count": 1
+    },
+    {
       "name": "FranCo",
       "track_count": 1
     },
     {
       "name": "Massimo Faraò trio",
+      "track_count": 1
+    },
+    {
+      "name": "Giovanni Pierluigi Da Palestrina",
       "track_count": 1
     },
     {

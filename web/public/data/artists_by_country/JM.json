@@ -1,7 +1,7 @@
 {
   "country_code": "JM",
-  "artist_count": 33,
-  "track_count": 4691,
+  "artist_count": 47,
+  "track_count": 6158,
   "artists": [
     {
       "name": "Rico",
@@ -72,6 +72,34 @@
       "track_count": 216
     },
     {
+      "name": "The Uniques",
+      "track_count": 210
+    },
+    {
+      "name": "Konshens",
+      "track_count": 210
+    },
+    {
+      "name": "The Upsetters",
+      "track_count": 209
+    },
+    {
+      "name": "Anthony B",
+      "track_count": 208
+    },
+    {
+      "name": "Busy Signal",
+      "track_count": 206
+    },
+    {
+      "name": "Sugar",
+      "track_count": 206
+    },
+    {
+      "name": "Popcaan",
+      "track_count": 198
+    },
+    {
       "name": "RICO",
       "track_count": 49
     },
@@ -88,12 +116,24 @@
       "track_count": 20
     },
     {
+      "name": "BUSY SIGNAL",
+      "track_count": 7
+    },
+    {
       "name": "MAJOR",
       "track_count": 6
     },
     {
+      "name": "SUGAR",
+      "track_count": 4
+    },
+    {
       "name": "vybz kartel",
       "track_count": 4
+    },
+    {
+      "name": "KONSHENS",
+      "track_count": 3
     },
     {
       "name": "major",
@@ -108,7 +148,15 @@
       "track_count": 2
     },
     {
+      "name": "POPCAAN",
+      "track_count": 2
+    },
+    {
       "name": "SIZZLA",
+      "track_count": 2
+    },
+    {
+      "name": "konshens",
       "track_count": 2
     },
     {
@@ -124,11 +172,19 @@
       "track_count": 1
     },
     {
+      "name": "popcaan",
+      "track_count": 1
+    },
+    {
       "name": "RomeO",
       "track_count": 1
     },
     {
       "name": "rico",
+      "track_count": 1
+    },
+    {
+      "name": "ANTHONY B",
       "track_count": 1
     },
     {

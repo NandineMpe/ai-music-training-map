@@ -1,11 +1,19 @@
 {
   "country_code": "SK",
-  "artist_count": 1,
-  "track_count": 219,
+  "artist_count": 3,
+  "track_count": 625,
   "artists": [
     {
       "name": "Peter Nagy",
       "track_count": 219
+    },
+    {
+      "name": "Richard Čanaky",
+      "track_count": 205
+    },
+    {
+      "name": "Mária Podhradská",
+      "track_count": 201
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "country_code": "NO",
-  "artist_count": 5,
-  "track_count": 1820,
+  "artist_count": 12,
+  "track_count": 2782,
   "artists": [
     {
       "name": "Edvard Grieg",
@@ -16,8 +16,36 @@
       "track_count": 219
     },
     {
+      "name": "Hver gang vi møtes",
+      "track_count": 212
+    },
+    {
+      "name": "Issa",
+      "track_count": 210
+    },
+    {
+      "name": "Leif Ove Andsnes",
+      "track_count": 210
+    },
+    {
+      "name": "Alan Walker",
+      "track_count": 200
+    },
+    {
+      "name": "ISSA",
+      "track_count": 103
+    },
+    {
       "name": "Tnt",
       "track_count": 64
+    },
+    {
+      "name": "Hver Gang Vi Møtes",
+      "track_count": 22
+    },
+    {
+      "name": "issa",
+      "track_count": 5
     },
     {
       "name": "EMPEROR",

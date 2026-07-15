@@ -1,7 +1,7 @@
 {
   "country_code": "AT",
-  "artist_count": 21,
-  "track_count": 19557,
+  "artist_count": 25,
+  "track_count": 20203,
   "artists": [
     {
       "name": "Wolfgang Amadeus Mozart",
@@ -56,8 +56,24 @@
       "track_count": 215
     },
     {
+      "name": "U.D.O.",
+      "track_count": 206
+    },
+    {
+      "name": "Raf",
+      "track_count": 205
+    },
+    {
+      "name": "Wiener Symphoniker",
+      "track_count": 202
+    },
+    {
       "name": "LOLITA",
       "track_count": 105
+    },
+    {
+      "name": "RAF",
+      "track_count": 33
     },
     {
       "name": "MAINSTREET",

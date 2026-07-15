@@ -1,11 +1,19 @@
 {
   "country_code": "GR",
-  "artist_count": 1,
-  "track_count": 503,
+  "artist_count": 3,
+  "track_count": 749,
   "artists": [
     {
       "name": "Maria Callas",
       "track_count": 503
+    },
+    {
+      "name": "The Boy",
+      "track_count": 206
+    },
+    {
+      "name": "THE BOY",
+      "track_count": 40
     }
   ]
 }

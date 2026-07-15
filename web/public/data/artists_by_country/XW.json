@@ -1,7 +1,7 @@
 {
   "country_code": "XW",
-  "artist_count": 3,
-  "track_count": 1142,
+  "artist_count": 6,
+  "track_count": 1342,
   "artists": [
     {
       "name": "Relaxing Spa Music",
@@ -14,6 +14,18 @@
     {
       "name": "Spa Music",
       "track_count": 337
+    },
+    {
+      "name": "Anonymous",
+      "track_count": 198
+    },
+    {
+      "name": "ANONYMOUS",
+      "track_count": 1
+    },
+    {
+      "name": "anonymous",
+      "track_count": 1
     }
   ]
 }

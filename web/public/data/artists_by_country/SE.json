@@ -1,7 +1,7 @@
 {
   "country_code": "SE",
-  "artist_count": 13,
-  "track_count": 2262,
+  "artist_count": 16,
+  "track_count": 2689,
   "artists": [
     {
       "name": "Ghost",
@@ -36,12 +36,24 @@
       "track_count": 231
     },
     {
+      "name": "Poke",
+      "track_count": 211
+    },
+    {
+      "name": "Talisman",
+      "track_count": 199
+    },
+    {
       "name": "GHOST",
       "track_count": 31
     },
     {
       "name": "PANDORA",
       "track_count": 23
+    },
+    {
+      "name": "TALISMAN",
+      "track_count": 17
     },
     {
       "name": "SOLAR",

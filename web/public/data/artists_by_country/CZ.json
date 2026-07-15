@@ -1,7 +1,7 @@
 {
   "country_code": "CZ",
-  "artist_count": 7,
-  "track_count": 1567,
+  "artist_count": 10,
+  "track_count": 1983,
   "artists": [
     {
       "name": "Karel Gott",
@@ -26,6 +26,18 @@
     {
       "name": "Waldemar Matuška",
       "track_count": 228
+    },
+    {
+      "name": "Michal David",
+      "track_count": 196
+    },
+    {
+      "name": "Maxim",
+      "track_count": 196
+    },
+    {
+      "name": "MAXIM",
+      "track_count": 24
     },
     {
       "name": "The City Of Prague Philharmonic Orchestra",

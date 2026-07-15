@@ -1,7 +1,7 @@
 {
   "country_code": "BR",
-  "artist_count": 120,
-  "track_count": 18564,
+  "artist_count": 164,
+  "track_count": 22862,
   "artists": [
     {
       "name": "Mc Gw",
@@ -172,8 +172,88 @@
       "track_count": 214
     },
     {
+      "name": "Dj Sati Marconex",
+      "track_count": 209
+    },
+    {
+      "name": "Mousik",
+      "track_count": 209
+    },
+    {
+      "name": "Belo",
+      "track_count": 209
+    },
+    {
+      "name": "MC Guto VGS",
+      "track_count": 206
+    },
+    {
+      "name": "Zeca Pagodinho",
+      "track_count": 206
+    },
+    {
+      "name": "Dominguinhos",
+      "track_count": 206
+    },
+    {
+      "name": "DJ CLEBER",
+      "track_count": 204
+    },
+    {
       "name": "Mc Rd",
       "track_count": 204
+    },
+    {
+      "name": "Ivete Sangalo",
+      "track_count": 202
+    },
+    {
+      "name": "Wesley Safadão",
+      "track_count": 202
+    },
+    {
+      "name": "mc pl alves",
+      "track_count": 201
+    },
+    {
+      "name": "Mc Kevin",
+      "track_count": 201
+    },
+    {
+      "name": "MC Pê Original",
+      "track_count": 201
+    },
+    {
+      "name": "Milton Nascimento",
+      "track_count": 200
+    },
+    {
+      "name": "Silva",
+      "track_count": 200
+    },
+    {
+      "name": "DJ Patrick R",
+      "track_count": 199
+    },
+    {
+      "name": "Dj Freitas Oficial",
+      "track_count": 199
+    },
+    {
+      "name": "Vanilda Bordieri",
+      "track_count": 199
+    },
+    {
+      "name": "Diante do Trono",
+      "track_count": 199
+    },
+    {
+      "name": "Latino",
+      "track_count": 198
+    },
+    {
+      "name": "Laurindo Almeida",
+      "track_count": 196
     },
     {
       "name": "mc gw",
@@ -232,8 +312,20 @@
       "track_count": 44
     },
     {
+      "name": "SILVA",
+      "track_count": 41
+    },
+    {
+      "name": "Mc PL Alves",
+      "track_count": 41
+    },
+    {
       "name": "mc rd",
       "track_count": 40
+    },
+    {
+      "name": "MC PL ALVES",
+      "track_count": 38
     },
     {
       "name": "MC Vuk vuk",
@@ -246,6 +338,10 @@
     {
       "name": "Mc RD",
       "track_count": 32
+    },
+    {
+      "name": "MC PL Alves",
+      "track_count": 30
     },
     {
       "name": "mc kitinho",
@@ -288,6 +384,18 @@
       "track_count": 18
     },
     {
+      "name": "MC Kevin",
+      "track_count": 18
+    },
+    {
+      "name": "DJ Sati Marconex",
+      "track_count": 16
+    },
+    {
+      "name": "DJ Freitas Oficial",
+      "track_count": 14
+    },
+    {
       "name": "YURI REDICOPA",
       "track_count": 14
     },
@@ -301,6 +409,10 @@
     },
     {
       "name": "Heitor Villa-lobos",
+      "track_count": 12
+    },
+    {
+      "name": "Mc Pl Alves",
       "track_count": 12
     },
     {
@@ -324,6 +436,10 @@
       "track_count": 11
     },
     {
+      "name": "MOUSIK",
+      "track_count": 9
+    },
+    {
       "name": "mc pr",
       "track_count": 9
     },
@@ -337,6 +453,10 @@
     },
     {
       "name": "mc vn cria",
+      "track_count": 7
+    },
+    {
+      "name": "Mc Guto VGS",
       "track_count": 7
     },
     {
@@ -364,6 +484,10 @@
       "track_count": 5
     },
     {
+      "name": "MC Pl Alves",
+      "track_count": 5
+    },
+    {
       "name": "MC VN cria",
       "track_count": 5
     },
@@ -378,6 +502,18 @@
     {
       "name": "mc menor Mt",
       "track_count": 4
+    },
+    {
+      "name": "MC GUTO VGS",
+      "track_count": 3
+    },
+    {
+      "name": "Mc Pê Original",
+      "track_count": 3
+    },
+    {
+      "name": "DJ PATRICK R",
+      "track_count": 3
     },
     {
       "name": "Mc pr",
@@ -404,7 +540,15 @@
       "track_count": 2
     },
     {
+      "name": "DJ FREITAS OFICIAL",
+      "track_count": 2
+    },
+    {
       "name": "leonardo",
+      "track_count": 2
+    },
+    {
+      "name": "Dj Patrick R",
       "track_count": 2
     },
     {
@@ -424,7 +568,15 @@
       "track_count": 1
     },
     {
+      "name": "mc pê original",
+      "track_count": 1
+    },
+    {
       "name": "Dj Vilão DS",
+      "track_count": 1
+    },
+    {
+      "name": "DJ SATI MARCONEX",
       "track_count": 1
     },
     {
@@ -436,11 +588,23 @@
       "track_count": 1
     },
     {
+      "name": "Mc Guto Vgs",
+      "track_count": 1
+    },
+    {
+      "name": "MC PÊ ORIGINAL",
+      "track_count": 1
+    },
+    {
       "name": "DJ VIlão DS",
       "track_count": 1
     },
     {
       "name": "Mc gW",
+      "track_count": 1
+    },
+    {
+      "name": "MILTON NASCIMENTO",
       "track_count": 1
     },
     {
@@ -460,6 +624,10 @@
       "track_count": 1
     },
     {
+      "name": "MC Guto vgs",
+      "track_count": 1
+    },
+    {
       "name": "MC magrinho",
       "track_count": 1
     },
@@ -472,11 +640,19 @@
       "track_count": 1
     },
     {
+      "name": "BeLo",
+      "track_count": 1
+    },
+    {
       "name": "Mc Vuk vuk",
       "track_count": 1
     },
     {
       "name": "mc ddsv",
+      "track_count": 1
+    },
+    {
+      "name": "VANILDA BORDIERI",
       "track_count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "country_code": "CH",
-  "artist_count": 16,
-  "track_count": 2207,
+  "artist_count": 18,
+  "track_count": 2622,
   "artists": [
     {
       "name": "Frost",
@@ -30,6 +30,14 @@
     {
       "name": "Diego",
       "track_count": 232
+    },
+    {
+      "name": "Tina Turner",
+      "track_count": 211
+    },
+    {
+      "name": "Marc Reift",
+      "track_count": 204
     },
     {
       "name": "dodo",

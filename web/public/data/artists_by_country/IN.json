@@ -1,7 +1,7 @@
 {
   "country_code": "IN",
-  "artist_count": 131,
-  "track_count": 28786,
+  "artist_count": 153,
+  "track_count": 31132,
   "artists": [
     {
       "name": "Shilpi Raj",
@@ -256,6 +256,50 @@
       "track_count": 214
     },
     {
+      "name": "Vijay Yesudas",
+      "track_count": 210
+    },
+    {
+      "name": "Zubin Mehta",
+      "track_count": 209
+    },
+    {
+      "name": "Bappi Lahiri",
+      "track_count": 207
+    },
+    {
+      "name": "Ravindra Jain",
+      "track_count": 206
+    },
+    {
+      "name": "Sid Sriram",
+      "track_count": 204
+    },
+    {
+      "name": "Aadesh Shrivastava",
+      "track_count": 202
+    },
+    {
+      "name": "Armaan Malik",
+      "track_count": 202
+    },
+    {
+      "name": "Sujatha",
+      "track_count": 200
+    },
+    {
+      "name": "Uttara Kelkar",
+      "track_count": 199
+    },
+    {
+      "name": "Manmohan Waris",
+      "track_count": 198
+    },
+    {
+      "name": "Abhijeet",
+      "track_count": 197
+    },
+    {
       "name": "SONU NIGAM",
       "track_count": 163
     },
@@ -312,6 +356,10 @@
       "track_count": 39
     },
     {
+      "name": "AADESH SHRIVASTAVA",
+      "track_count": 38
+    },
+    {
       "name": "KUMAR SANU",
       "track_count": 36
     },
@@ -328,6 +376,10 @@
       "track_count": 31
     },
     {
+      "name": "ABHIJEET",
+      "track_count": 25
+    },
+    {
       "name": "Sameer",
       "track_count": 17
     },
@@ -340,6 +392,10 @@
       "track_count": 15
     },
     {
+      "name": "BAPPI LAHIRI",
+      "track_count": 15
+    },
+    {
       "name": "BABUL SUPRIYO",
       "track_count": 14
     },
@@ -349,6 +405,10 @@
     },
     {
       "name": "SHILPI RAJ",
+      "track_count": 13
+    },
+    {
+      "name": "ARMAAN MALIK",
       "track_count": 13
     },
     {
@@ -388,6 +448,14 @@
       "track_count": 7
     },
     {
+      "name": "MANMOHAN WARIS",
+      "track_count": 6
+    },
+    {
+      "name": "SUJATHA",
+      "track_count": 6
+    },
+    {
       "name": "SADHANA SARGAM",
       "track_count": 6
     },
@@ -409,6 +477,10 @@
     },
     {
       "name": "SANTHOSH NARAYANAN",
+      "track_count": 5
+    },
+    {
+      "name": "RAVINDRA JAIN",
       "track_count": 5
     },
     {
@@ -476,6 +548,10 @@
       "track_count": 1
     },
     {
+      "name": "sujatha",
+      "track_count": 1
+    },
+    {
       "name": "surinder kaur",
       "track_count": 1
     },
@@ -512,6 +588,14 @@
       "track_count": 1
     },
     {
+      "name": "VIJAY YESUDAS",
+      "track_count": 1
+    },
+    {
+      "name": "Vijay yesudas",
+      "track_count": 1
+    },
+    {
       "name": "Shivani SIngh",
       "track_count": 1
     },
@@ -525,6 +609,10 @@
     },
     {
       "name": "MAHENDRA KAPOOR",
+      "track_count": 1
+    },
+    {
+      "name": "UTTARA KELKAR",
       "track_count": 1
     }
   ]

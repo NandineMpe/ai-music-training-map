@@ -1,7 +1,7 @@
 {
   "country_code": "NL",
-  "artist_count": 26,
-  "track_count": 5212,
+  "artist_count": 38,
+  "track_count": 6865,
   "artists": [
     {
       "name": "Armin van Buuren",
@@ -68,6 +68,38 @@
       "track_count": 219
     },
     {
+      "name": "Amber",
+      "track_count": 211
+    },
+    {
+      "name": "Klaus Veen",
+      "track_count": 209
+    },
+    {
+      "name": "The Walkers",
+      "track_count": 206
+    },
+    {
+      "name": "Noisia",
+      "track_count": 200
+    },
+    {
+      "name": "Hardwell",
+      "track_count": 199
+    },
+    {
+      "name": "Allure",
+      "track_count": 199
+    },
+    {
+      "name": "Ferry Corsten",
+      "track_count": 198
+    },
+    {
+      "name": "Nicky Romero",
+      "track_count": 197
+    },
+    {
       "name": "LUKE",
       "track_count": 62
     },
@@ -82,6 +114,14 @@
     {
       "name": "LuKe",
       "track_count": 38
+    },
+    {
+      "name": "AMBER",
+      "track_count": 21
+    },
+    {
+      "name": "THE WALKERS",
+      "track_count": 10
     },
     {
       "name": "Drs",
@@ -104,7 +144,15 @@
       "track_count": 2
     },
     {
+      "name": "ALLURE",
+      "track_count": 2
+    },
+    {
       "name": "FOCUS",
+      "track_count": 1
+    },
+    {
+      "name": "amber",
       "track_count": 1
     }
   ]

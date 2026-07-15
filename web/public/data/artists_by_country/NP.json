@@ -1,0 +1,15 @@
+{
+  "country_code": "NP",
+  "artist_count": 2,
+  "track_count": 215,
+  "artists": [
+    {
+      "name": "Melina Rai",
+      "track_count": 209
+    },
+    {
+      "name": "Melina rai",
+      "track_count": 6
+    }
+  ]
+}

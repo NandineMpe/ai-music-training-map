@@ -1,7 +1,7 @@
 {
   "country_code": "PL",
-  "artist_count": 10,
-  "track_count": 1929,
+  "artist_count": 16,
+  "track_count": 2750,
   "artists": [
     {
       "name": "Chorus",
@@ -32,12 +32,36 @@
       "track_count": 213
     },
     {
+      "name": "Pezet",
+      "track_count": 210
+    },
+    {
+      "name": "Gravity",
+      "track_count": 202
+    },
+    {
+      "name": "O.S.T.R.",
+      "track_count": 202
+    },
+    {
+      "name": "Blackout",
+      "track_count": 200
+    },
+    {
       "name": "ZEUS",
       "track_count": 19
     },
     {
       "name": "CHORUS",
       "track_count": 6
+    },
+    {
+      "name": "BlackOut",
+      "track_count": 5
+    },
+    {
+      "name": "GRAVITY",
+      "track_count": 2
     },
     {
       "name": "PEJA",

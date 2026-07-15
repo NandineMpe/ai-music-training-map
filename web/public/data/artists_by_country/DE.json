@@ -1,7 +1,7 @@
 {
   "country_code": "DE",
-  "artist_count": 117,
-  "track_count": 42546,
+  "artist_count": 152,
+  "track_count": 47078,
   "artists": [
     {
       "name": "Johann Sebastian Bach",
@@ -264,6 +264,94 @@
       "track_count": 213
     },
     {
+      "name": "Marie",
+      "track_count": 212
+    },
+    {
+      "name": "Sebastian",
+      "track_count": 211
+    },
+    {
+      "name": "Vera",
+      "track_count": 211
+    },
+    {
+      "name": "Fler",
+      "track_count": 210
+    },
+    {
+      "name": "Peter Schreier",
+      "track_count": 209
+    },
+    {
+      "name": "Capital Bra",
+      "track_count": 208
+    },
+    {
+      "name": "Rita",
+      "track_count": 208
+    },
+    {
+      "name": "Christa Ludwig",
+      "track_count": 207
+    },
+    {
+      "name": "Gentleman",
+      "track_count": 206
+    },
+    {
+      "name": "RIAS Kammerchor",
+      "track_count": 205
+    },
+    {
+      "name": "Musica Antiqua Köln",
+      "track_count": 203
+    },
+    {
+      "name": "Symphonieorchester des Bayerischen Rundfunks",
+      "track_count": 203
+    },
+    {
+      "name": "Giacomo Meyerbeer",
+      "track_count": 202
+    },
+    {
+      "name": "Marlene",
+      "track_count": 201
+    },
+    {
+      "name": "Soufian",
+      "track_count": 200
+    },
+    {
+      "name": "LX",
+      "track_count": 200
+    },
+    {
+      "name": "Paul Hindemith",
+      "track_count": 198
+    },
+    {
+      "name": "Nils Frahm",
+      "track_count": 198
+    },
+    {
+      "name": "Deva",
+      "track_count": 198
+    },
+    {
+      "name": "LESKY",
+      "track_count": 196
+    },
+    {
+      "name": "Bonez MC",
+      "track_count": 196
+    },
+    {
+      "name": "SebastiAn",
+      "track_count": 124
+    },
+    {
       "name": "Anna",
       "track_count": 104
     },
@@ -300,6 +388,10 @@
       "track_count": 29
     },
     {
+      "name": "Lesky",
+      "track_count": 28
+    },
+    {
       "name": "FELIX",
       "track_count": 24
     },
@@ -308,8 +400,16 @@
       "track_count": 23
     },
     {
+      "name": "VERA",
+      "track_count": 22
+    },
+    {
       "name": "RELAX",
       "track_count": 22
+    },
+    {
+      "name": "DEVA",
+      "track_count": 21
     },
     {
       "name": "capo",
@@ -332,6 +432,10 @@
       "track_count": 17
     },
     {
+      "name": "marlene",
+      "track_count": 17
+    },
+    {
       "name": "SINCLAIR",
       "track_count": 16
     },
@@ -348,6 +452,10 @@
       "track_count": 13
     },
     {
+      "name": "MARIE",
+      "track_count": 13
+    },
+    {
       "name": "ReLaX",
       "track_count": 12
     },
@@ -357,6 +465,10 @@
     },
     {
       "name": "MarkUs",
+      "track_count": 8
+    },
+    {
+      "name": "vera",
       "track_count": 8
     },
     {
@@ -392,8 +504,24 @@
       "track_count": 4
     },
     {
+      "name": "lx",
+      "track_count": 4
+    },
+    {
+      "name": "MaRie",
+      "track_count": 4
+    },
+    {
       "name": "LAURA",
       "track_count": 4
+    },
+    {
+      "name": "Lx",
+      "track_count": 3
+    },
+    {
+      "name": "CAPITAL BRA",
+      "track_count": 3
     },
     {
       "name": "rocco",
@@ -428,6 +556,10 @@
       "track_count": 1
     },
     {
+      "name": "marie",
+      "track_count": 1
+    },
+    {
       "name": "ELement",
       "track_count": 1
     },
@@ -436,11 +568,19 @@
       "track_count": 1
     },
     {
+      "name": "RITA",
+      "track_count": 1
+    },
+    {
       "name": "GiO",
       "track_count": 1
     },
     {
       "name": "Freiburger BarockOrchester",
+      "track_count": 1
+    },
+    {
+      "name": "VerA",
       "track_count": 1
     },
     {

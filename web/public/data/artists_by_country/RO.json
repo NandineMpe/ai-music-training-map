@@ -1,7 +1,7 @@
 {
   "country_code": "RO",
-  "artist_count": 12,
-  "track_count": 2184,
+  "artist_count": 14,
+  "track_count": 2384,
   "artists": [
     {
       "name": "Nicolae Guta",
@@ -22,6 +22,10 @@
     {
       "name": "Dan Ciotoi",
       "track_count": 215
+    },
+    {
+      "name": "Carmen de la Salciua",
+      "track_count": 199
     },
     {
       "name": "IRIS",
@@ -49,6 +53,10 @@
     },
     {
       "name": "Florin salam",
+      "track_count": 1
+    },
+    {
+      "name": "Carmen De La Salciua",
       "track_count": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
   "country_code": "US",
-  "artist_count": 472,
-  "track_count": 79811,
+  "artist_count": 618,
+  "track_count": 100659,
   "artists": [
     {
       "name": "Frank Sinatra",
@@ -1052,8 +1052,412 @@
       "track_count": 213
     },
     {
+      "name": "Joshua Bell",
+      "track_count": 213
+    },
+    {
+      "name": "Bass Mekanik",
+      "track_count": 212
+    },
+    {
+      "name": "Belly",
+      "track_count": 212
+    },
+    {
+      "name": "Peppermint",
+      "track_count": 211
+    },
+    {
+      "name": "Grizzly",
+      "track_count": 211
+    },
+    {
+      "name": "Mose",
+      "track_count": 211
+    },
+    {
+      "name": "Jamal",
+      "track_count": 211
+    },
+    {
+      "name": "Berner",
+      "track_count": 211
+    },
+    {
+      "name": "Master P",
+      "track_count": 211
+    },
+    {
+      "name": "San Quinn",
+      "track_count": 211
+    },
+    {
+      "name": "Brotha Lynch Hung",
+      "track_count": 210
+    },
+    {
+      "name": "Sarah Hart",
+      "track_count": 210
+    },
+    {
+      "name": "James Carter",
+      "track_count": 210
+    },
+    {
+      "name": "Pete Seeger",
+      "track_count": 210
+    },
+    {
+      "name": "Ramesh",
+      "track_count": 210
+    },
+    {
+      "name": "Khalid",
+      "track_count": 210
+    },
+    {
+      "name": "Random",
+      "track_count": 210
+    },
+    {
+      "name": "Frederick Fennell",
+      "track_count": 209
+    },
+    {
+      "name": "Tony Moran",
+      "track_count": 209
+    },
+    {
+      "name": "The Philadelphia Orchestra",
+      "track_count": 209
+    },
+    {
+      "name": "Dakota",
+      "track_count": 209
+    },
+    {
+      "name": "Tony Bennett",
+      "track_count": 209
+    },
+    {
+      "name": "Josh",
+      "track_count": 208
+    },
+    {
+      "name": "JB",
+      "track_count": 208
+    },
+    {
+      "name": "Lil Durk",
+      "track_count": 208
+    },
+    {
+      "name": "Casual",
+      "track_count": 208
+    },
+    {
+      "name": "Lil' Flip",
+      "track_count": 208
+    },
+    {
+      "name": "Pitbull",
+      "track_count": 207
+    },
+    {
+      "name": "Yo Gotti",
+      "track_count": 206
+    },
+    {
+      "name": "Art Pepper",
+      "track_count": 206
+    },
+    {
+      "name": "Ouija Macc",
+      "track_count": 206
+    },
+    {
+      "name": "Samuel",
+      "track_count": 206
+    },
+    {
+      "name": "David Lanz",
+      "track_count": 206
+    },
+    {
+      "name": "Maverick City Music",
+      "track_count": 205
+    },
+    {
+      "name": "DJ Muggs",
+      "track_count": 205
+    },
+    {
+      "name": "Andy",
+      "track_count": 205
+    },
+    {
+      "name": "MGM Studio Orchestra",
+      "track_count": 205
+    },
+    {
+      "name": "Breezy",
+      "track_count": 205
+    },
+    {
+      "name": "Gage",
+      "track_count": 205
+    },
+    {
+      "name": "Zao",
+      "track_count": 204
+    },
+    {
+      "name": "Louie Vega",
+      "track_count": 204
+    },
+    {
+      "name": "IDK",
+      "track_count": 204
+    },
+    {
+      "name": "Natalie",
+      "track_count": 204
+    },
+    {
+      "name": "Jessita Reyes",
+      "track_count": 204
+    },
+    {
+      "name": "Goose",
+      "track_count": 204
+    },
+    {
+      "name": "Puppet",
+      "track_count": 203
+    },
+    {
       "name": "Jojo",
       "track_count": 203
+    },
+    {
+      "name": "Fatum",
+      "track_count": 203
+    },
+    {
+      "name": "Lester Young",
+      "track_count": 203
+    },
+    {
+      "name": "Moby",
+      "track_count": 203
+    },
+    {
+      "name": "Daniel Payne",
+      "track_count": 203
+    },
+    {
+      "name": "Jason Molina",
+      "track_count": 202
+    },
+    {
+      "name": "Diabolic",
+      "track_count": 202
+    },
+    {
+      "name": "Chief Keef",
+      "track_count": 202
+    },
+    {
+      "name": "Red",
+      "track_count": 202
+    },
+    {
+      "name": "Robert Johnson",
+      "track_count": 202
+    },
+    {
+      "name": "E-40",
+      "track_count": 202
+    },
+    {
+      "name": "Buddy",
+      "track_count": 202
+    },
+    {
+      "name": "Bobby Hackett",
+      "track_count": 202
+    },
+    {
+      "name": "Reo",
+      "track_count": 202
+    },
+    {
+      "name": "Waylon Jennings",
+      "track_count": 201
+    },
+    {
+      "name": "Trippie Redd",
+      "track_count": 201
+    },
+    {
+      "name": "Jerry Lee Lewis",
+      "track_count": 201
+    },
+    {
+      "name": "Surreal",
+      "track_count": 201
+    },
+    {
+      "name": "Damu The Fudgemunk",
+      "track_count": 201
+    },
+    {
+      "name": "Ron Carter",
+      "track_count": 201
+    },
+    {
+      "name": "Emmylou Harris",
+      "track_count": 201
+    },
+    {
+      "name": "Marshmello",
+      "track_count": 201
+    },
+    {
+      "name": "Steve Roach",
+      "track_count": 201
+    },
+    {
+      "name": "Denise King",
+      "track_count": 200
+    },
+    {
+      "name": "Danger",
+      "track_count": 200
+    },
+    {
+      "name": "Kenny Clarke",
+      "track_count": 200
+    },
+    {
+      "name": "Malo",
+      "track_count": 200
+    },
+    {
+      "name": "David Arkenstone",
+      "track_count": 200
+    },
+    {
+      "name": "Al Jolson",
+      "track_count": 200
+    },
+    {
+      "name": "James Horner",
+      "track_count": 200
+    },
+    {
+      "name": "Renée Fleming",
+      "track_count": 200
+    },
+    {
+      "name": "James Brown",
+      "track_count": 199
+    },
+    {
+      "name": "Samara",
+      "track_count": 199
+    },
+    {
+      "name": "Frank Foster",
+      "track_count": 199
+    },
+    {
+      "name": "New York Philharmonic",
+      "track_count": 198
+    },
+    {
+      "name": "Joanna",
+      "track_count": 198
+    },
+    {
+      "name": "Beegie Adair",
+      "track_count": 198
+    },
+    {
+      "name": "Kenny Rogers",
+      "track_count": 198
+    },
+    {
+      "name": "Ngọc Lan",
+      "track_count": 198
+    },
+    {
+      "name": "Barney Kessel",
+      "track_count": 198
+    },
+    {
+      "name": "Darin",
+      "track_count": 197
+    },
+    {
+      "name": "Flame",
+      "track_count": 197
+    },
+    {
+      "name": "Smoke DZA",
+      "track_count": 197
+    },
+    {
+      "name": "Jelly Roll",
+      "track_count": 197
+    },
+    {
+      "name": "The Donkeys",
+      "track_count": 197
+    },
+    {
+      "name": "Really Slow Motion",
+      "track_count": 196
+    },
+    {
+      "name": "Nu Breed",
+      "track_count": 196
+    },
+    {
+      "name": "Paul Wall",
+      "track_count": 196
+    },
+    {
+      "name": "Lil Baby",
+      "track_count": 196
+    },
+    {
+      "name": "Shogun",
+      "track_count": 196
+    },
+    {
+      "name": "Jewel",
+      "track_count": 196
+    },
+    {
+      "name": "Raheem DeVaughn",
+      "track_count": 196
+    },
+    {
+      "name": "Kenny Burrell",
+      "track_count": 196
+    },
+    {
+      "name": "TQ",
+      "track_count": 196
+    },
+    {
+      "name": "Scott Joplin",
+      "track_count": 196
+    },
+    {
+      "name": "Yukmouth",
+      "track_count": 196
     },
     {
       "name": "ICE",
@@ -1064,16 +1468,16 @@
       "track_count": 145
     },
     {
-      "name": "Seether",
-      "track_count": 140
-    },
-    {
       "name": "NINA",
       "track_count": 130
     },
     {
       "name": "kaze",
       "track_count": 107
+    },
+    {
+      "name": "GOOSE",
+      "track_count": 88
     },
     {
       "name": "KING",
@@ -1108,8 +1512,16 @@
       "track_count": 58
     },
     {
+      "name": "Tq",
+      "track_count": 57
+    },
+    {
       "name": "KARMA",
       "track_count": 56
+    },
+    {
+      "name": "GAGE",
+      "track_count": 54
     },
     {
       "name": "FLY",
@@ -1150,6 +1562,10 @@
     {
       "name": "JADE",
       "track_count": 37
+    },
+    {
+      "name": "MALO",
+      "track_count": 35
     },
     {
       "name": "Bones",
@@ -1208,6 +1624,10 @@
       "track_count": 23
     },
     {
+      "name": "FLAME",
+      "track_count": 22
+    },
+    {
       "name": "kAZE",
       "track_count": 22
     },
@@ -1252,6 +1672,10 @@
       "track_count": 20
     },
     {
+      "name": "RED",
+      "track_count": 20
+    },
+    {
       "name": "vincent",
       "track_count": 20
     },
@@ -1261,6 +1685,10 @@
     },
     {
       "name": "HIS ORCHESTRA",
+      "track_count": 19
+    },
+    {
+      "name": "SHOGUN",
       "track_count": 19
     },
     {
@@ -1277,6 +1705,10 @@
     },
     {
       "name": "kenny",
+      "track_count": 17
+    },
+    {
+      "name": "FATUM",
       "track_count": 17
     },
     {
@@ -1300,6 +1732,10 @@
       "track_count": 15
     },
     {
+      "name": "BELLY",
+      "track_count": 15
+    },
+    {
       "name": "frank",
       "track_count": 15
     },
@@ -1312,6 +1748,10 @@
       "track_count": 14
     },
     {
+      "name": "Smoke Dza",
+      "track_count": 14
+    },
+    {
       "name": "KiNG",
       "track_count": 14
     },
@@ -1321,6 +1761,18 @@
     },
     {
       "name": "MIles Davis",
+      "track_count": 13
+    },
+    {
+      "name": "JOSH",
+      "track_count": 13
+    },
+    {
+      "name": "Jb",
+      "track_count": 13
+    },
+    {
+      "name": "REO",
       "track_count": 13
     },
     {
@@ -1376,6 +1828,10 @@
       "track_count": 9
     },
     {
+      "name": "BARNEY KESSEL",
+      "track_count": 9
+    },
+    {
       "name": "paradigm",
       "track_count": 9
     },
@@ -1397,6 +1853,10 @@
     },
     {
       "name": "Frank sinatra",
+      "track_count": 8
+    },
+    {
+      "name": "ANDY",
       "track_count": 8
     },
     {
@@ -1440,6 +1900,10 @@
       "track_count": 6
     },
     {
+      "name": "malo",
+      "track_count": 6
+    },
+    {
       "name": "MELODY",
       "track_count": 6
     },
@@ -1480,6 +1944,10 @@
       "track_count": 5
     },
     {
+      "name": "idk",
+      "track_count": 5
+    },
+    {
       "name": "dexter",
       "track_count": 5
     },
@@ -1508,6 +1976,14 @@
       "track_count": 5
     },
     {
+      "name": "SurreaL",
+      "track_count": 4
+    },
+    {
+      "name": "MOSE",
+      "track_count": 4
+    },
+    {
       "name": "junior",
       "track_count": 4
     },
@@ -1517,6 +1993,10 @@
     },
     {
       "name": "VEGA",
+      "track_count": 4
+    },
+    {
+      "name": "JOANNA",
       "track_count": 4
     },
     {
@@ -1540,11 +2020,23 @@
       "track_count": 3
     },
     {
+      "name": "DARIN",
+      "track_count": 3
+    },
+    {
+      "name": "LESTER YOUNG",
+      "track_count": 3
+    },
+    {
       "name": "PETRA",
       "track_count": 3
     },
     {
       "name": "RANDY",
+      "track_count": 3
+    },
+    {
+      "name": "KENNY ROGERS",
       "track_count": 3
     },
     {
@@ -1600,7 +2092,19 @@
       "track_count": 2
     },
     {
+      "name": "MGm Studio Orchestra",
+      "track_count": 2
+    },
+    {
       "name": "ParaDigm",
+      "track_count": 2
+    },
+    {
+      "name": "Raheem Devaughn",
+      "track_count": 2
+    },
+    {
+      "name": "SAMARA",
       "track_count": 2
     },
     {
@@ -1608,7 +2112,19 @@
       "track_count": 2
     },
     {
+      "name": "Mgm Studio Orchestra",
+      "track_count": 2
+    },
+    {
+      "name": "SURreal",
+      "track_count": 2
+    },
+    {
       "name": "NAS",
+      "track_count": 2
+    },
+    {
+      "name": "SCOTT JOPLIN",
       "track_count": 2
     },
     {
@@ -1636,6 +2152,10 @@
       "track_count": 2
     },
     {
+      "name": "JAMAL",
+      "track_count": 2
+    },
+    {
       "name": "bt",
       "track_count": 2
     },
@@ -1653,6 +2173,10 @@
     },
     {
       "name": "Dj Drama",
+      "track_count": 2
+    },
+    {
+      "name": "JERRY LEE LEWIS",
       "track_count": 2
     },
     {
@@ -1700,6 +2224,18 @@
       "track_count": 1
     },
     {
+      "name": "SurReal",
+      "track_count": 1
+    },
+    {
+      "name": "ROBERT JOHNSON",
+      "track_count": 1
+    },
+    {
+      "name": "YO GOTTI",
+      "track_count": 1
+    },
+    {
       "name": "nancy",
       "track_count": 1
     },
@@ -1713,6 +2249,10 @@
     },
     {
       "name": "THE MOVEMENT",
+      "track_count": 1
+    },
+    {
+      "name": "reo",
       "track_count": 1
     },
     {
@@ -1788,11 +2328,19 @@
       "track_count": 1
     },
     {
+      "name": "gage",
+      "track_count": 1
+    },
+    {
       "name": "benny",
       "track_count": 1
     },
     {
       "name": "JunioR",
+      "track_count": 1
+    },
+    {
+      "name": "fAtum",
       "track_count": 1
     },
     {
@@ -1804,7 +2352,19 @@
       "track_count": 1
     },
     {
+      "name": "Lil' flip",
+      "track_count": 1
+    },
+    {
+      "name": "brotha lynch hung",
+      "track_count": 1
+    },
+    {
       "name": "nadia",
+      "track_count": 1
+    },
+    {
+      "name": "RAMESH",
       "track_count": 1
     },
     {
@@ -1824,11 +2384,19 @@
       "track_count": 1
     },
     {
+      "name": "jB",
+      "track_count": 1
+    },
+    {
       "name": "hades",
       "track_count": 1
     },
     {
       "name": "DUKE ELLINGTON",
+      "track_count": 1
+    },
+    {
+      "name": "BREEZY",
       "track_count": 1
     },
     {
@@ -1852,11 +2420,27 @@
       "track_count": 1
     },
     {
+      "name": "PUPPET",
+      "track_count": 1
+    },
+    {
+      "name": "ZAO",
+      "track_count": 1
+    },
+    {
       "name": "QuEST",
       "track_count": 1
     },
     {
       "name": "Dave east",
+      "track_count": 1
+    },
+    {
+      "name": "Lil baby",
+      "track_count": 1
+    },
+    {
+      "name": "DANGER",
       "track_count": 1
     },
     {

@@ -1,11 +1,23 @@
 {
   "country_code": "NZ",
-  "artist_count": 2,
-  "track_count": 320,
+  "artist_count": 5,
+  "track_count": 807,
   "artists": [
     {
       "name": "Finn",
       "track_count": 312
+    },
+    {
+      "name": "State of Mind",
+      "track_count": 207
+    },
+    {
+      "name": "Pitch Black",
+      "track_count": 202
+    },
+    {
+      "name": "State Of Mind",
+      "track_count": 78
     },
     {
       "name": "FINN",

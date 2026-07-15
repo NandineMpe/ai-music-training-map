@@ -1,7 +1,7 @@
 {
   "country_code": "ES",
-  "artist_count": 40,
-  "track_count": 7868,
+  "artist_count": 53,
+  "track_count": 9928,
   "artists": [
     {
       "name": "Jordi Savall",
@@ -112,6 +112,46 @@
       "track_count": 215
     },
     {
+      "name": "Rosario",
+      "track_count": 212
+    },
+    {
+      "name": "Valen",
+      "track_count": 212
+    },
+    {
+      "name": "Lorca",
+      "track_count": 212
+    },
+    {
+      "name": "Bambino",
+      "track_count": 209
+    },
+    {
+      "name": "Kaydy Cain",
+      "track_count": 204
+    },
+    {
+      "name": "Tonino",
+      "track_count": 204
+    },
+    {
+      "name": "Montserrat Caballé",
+      "track_count": 203
+    },
+    {
+      "name": "José Carreras",
+      "track_count": 201
+    },
+    {
+      "name": "Manolo Caracol",
+      "track_count": 199
+    },
+    {
+      "name": "Miguel",
+      "track_count": 197
+    },
+    {
       "name": "FRANCISCO",
       "track_count": 56
     },
@@ -134,6 +174,10 @@
     {
       "name": "potato",
       "track_count": 6
+    },
+    {
+      "name": "VALEN",
+      "track_count": 5
     },
     {
       "name": "DORIAN",
@@ -160,7 +204,15 @@
       "track_count": 1
     },
     {
+      "name": "KAYDY CAIN",
+      "track_count": 1
+    },
+    {
       "name": "REVOLVER",
+      "track_count": 1
+    },
+    {
+      "name": "Kaydy cain",
       "track_count": 1
     }
   ]

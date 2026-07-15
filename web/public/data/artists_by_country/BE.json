@@ -1,7 +1,7 @@
 {
   "country_code": "BE",
-  "artist_count": 7,
-  "track_count": 1501,
+  "artist_count": 11,
+  "track_count": 2103,
   "artists": [
     {
       "name": "Philippe Herreweghe",
@@ -24,8 +24,24 @@
       "track_count": 225
     },
     {
+      "name": "René Jacobs",
+      "track_count": 206
+    },
+    {
+      "name": "Lio",
+      "track_count": 198
+    },
+    {
+      "name": "Brussels Philharmonic",
+      "track_count": 197
+    },
+    {
       "name": "NATALIA",
       "track_count": 13
+    },
+    {
+      "name": "LIo",
+      "track_count": 1
     },
     {
       "name": "balthazar",

@@ -1,7 +1,7 @@
 {
   "country_code": "CA",
-  "artist_count": 14,
-  "track_count": 2515,
+  "artist_count": 35,
+  "track_count": 4985,
   "artists": [
     {
       "name": "Dog Music",
@@ -36,8 +36,64 @@
       "track_count": 246
     },
     {
+      "name": "deadmau5",
+      "track_count": 212
+    },
+    {
+      "name": "Glenn Gould",
+      "track_count": 211
+    },
+    {
+      "name": "Yannick Nézet-Séguin",
+      "track_count": 209
+    },
+    {
+      "name": "Madchild",
+      "track_count": 203
+    },
+    {
+      "name": "Lucy",
+      "track_count": 202
+    },
+    {
+      "name": "Morris",
+      "track_count": 202
+    },
+    {
+      "name": "Elissa",
+      "track_count": 201
+    },
+    {
+      "name": "Hawk",
+      "track_count": 200
+    },
+    {
+      "name": "Papillon",
+      "track_count": 200
+    },
+    {
+      "name": "Priyanka",
+      "track_count": 200
+    },
+    {
+      "name": "Zeds Dead",
+      "track_count": 196
+    },
+    {
+      "name": "LUCY",
+      "track_count": 130
+    },
+    {
+      "name": "HAWK",
+      "track_count": 49
+    },
+    {
       "name": "SARA",
       "track_count": 46
+    },
+    {
+      "name": "hawk",
+      "track_count": 34
     },
     {
       "name": "Tr",
@@ -52,11 +108,39 @@
       "track_count": 9
     },
     {
+      "name": "MORRIS",
+      "track_count": 6
+    },
+    {
+      "name": "Deadmau5",
+      "track_count": 4
+    },
+    {
       "name": "sara",
       "track_count": 4
     },
     {
+      "name": "LuCy",
+      "track_count": 4
+    },
+    {
+      "name": "PRIYANKA",
+      "track_count": 3
+    },
+    {
+      "name": "morris",
+      "track_count": 2
+    },
+    {
+      "name": "PAPILLON",
+      "track_count": 1
+    },
+    {
       "name": "SaRa",
+      "track_count": 1
+    },
+    {
+      "name": "elissa",
       "track_count": 1
     }
   ]

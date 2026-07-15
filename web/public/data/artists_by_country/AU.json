@@ -1,7 +1,7 @@
 {
   "country_code": "AU",
-  "artist_count": 14,
-  "track_count": 2470,
+  "artist_count": 25,
+  "track_count": 3933,
   "artists": [
     {
       "name": "Richard Bonynge",
@@ -40,12 +40,48 @@
       "track_count": 219
     },
     {
+      "name": "River",
+      "track_count": 213
+    },
+    {
+      "name": "Olivia Newton-John",
+      "track_count": 210
+    },
+    {
+      "name": "Piers Lane",
+      "track_count": 207
+    },
+    {
+      "name": "Diesel",
+      "track_count": 206
+    },
+    {
+      "name": "Sia",
+      "track_count": 202
+    },
+    {
+      "name": "Keith & Kristyn Getty",
+      "track_count": 198
+    },
+    {
+      "name": "The Seventies",
+      "track_count": 197
+    },
+    {
       "name": "midnight",
       "track_count": 20
     },
     {
       "name": "Ac",
       "track_count": 18
+    },
+    {
+      "name": "RIVER",
+      "track_count": 12
+    },
+    {
+      "name": "river",
+      "track_count": 9
     },
     {
       "name": "PAUL KELLY",
@@ -56,8 +92,16 @@
       "track_count": 7
     },
     {
+      "name": "DIESEL",
+      "track_count": 6
+    },
+    {
       "name": "MidNight",
       "track_count": 4
+    },
+    {
+      "name": "RiveR",
+      "track_count": 3
     }
   ]
 }

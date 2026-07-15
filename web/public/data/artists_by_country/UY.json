@@ -1,0 +1,15 @@
+{
+  "country_code": "UY",
+  "artist_count": 2,
+  "track_count": 404,
+  "artists": [
+    {
+      "name": "Fernando Cabrera",
+      "track_count": 207
+    },
+    {
+      "name": "Julio Sosa",
+      "track_count": 197
+    }
+  ]
+}

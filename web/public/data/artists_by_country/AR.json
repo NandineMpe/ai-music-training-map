@@ -1,7 +1,7 @@
 {
   "country_code": "AR",
-  "artist_count": 18,
-  "track_count": 3710,
+  "artist_count": 28,
+  "track_count": 4756,
   "artists": [
     {
       "name": "Daniel Barenboim",
@@ -48,6 +48,26 @@
       "track_count": 217
     },
     {
+      "name": "Kamikaze",
+      "track_count": 211
+    },
+    {
+      "name": "Athenas",
+      "track_count": 210
+    },
+    {
+      "name": "Orquesta Típica Francisco Canaro",
+      "track_count": 204
+    },
+    {
+      "name": "Cachumba",
+      "track_count": 204
+    },
+    {
+      "name": "Riff",
+      "track_count": 197
+    },
+    {
       "name": "DANIEL",
       "track_count": 74
     },
@@ -60,8 +80,28 @@
       "track_count": 23
     },
     {
+      "name": "KAMIKAZE",
+      "track_count": 12
+    },
+    {
+      "name": "KamiKaze",
+      "track_count": 4
+    },
+    {
+      "name": "RIFF",
+      "track_count": 2
+    },
+    {
       "name": "daniel",
       "track_count": 2
+    },
+    {
+      "name": "kamikaze",
+      "track_count": 1
+    },
+    {
+      "name": "RiFF",
+      "track_count": 1
     },
     {
       "name": "ARCO",

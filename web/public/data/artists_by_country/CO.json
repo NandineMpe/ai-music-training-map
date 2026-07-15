@@ -1,7 +1,7 @@
 {
   "country_code": "CO",
-  "artist_count": 14,
-  "track_count": 2593,
+  "artist_count": 16,
+  "track_count": 3007,
   "artists": [
     {
       "name": "Diomedes Díaz",
@@ -38,6 +38,14 @@
     {
       "name": "Rolando Ochoa",
       "track_count": 215
+    },
+    {
+      "name": "Los Betos",
+      "track_count": 213
+    },
+    {
+      "name": "Lisandro Meza",
+      "track_count": 201
     },
     {
       "name": "DIAZ",

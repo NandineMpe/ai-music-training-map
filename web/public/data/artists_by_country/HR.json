@@ -1,15 +1,23 @@
 {
   "country_code": "HR",
-  "artist_count": 3,
-  "track_count": 246,
+  "artist_count": 5,
+  "track_count": 445,
   "artists": [
     {
       "name": "Jinx",
       "track_count": 230
     },
     {
+      "name": "Vanna",
+      "track_count": 197
+    },
+    {
       "name": "JINX",
       "track_count": 15
+    },
+    {
+      "name": "VANNA",
+      "track_count": 2
     },
     {
       "name": "jinx",
