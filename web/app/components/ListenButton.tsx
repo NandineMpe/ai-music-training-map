@@ -80,9 +80,19 @@ export default function ListenButton() {
 
           const data: IdentifyResult = await response.json();
 
-          if (data.status?.code === 0 && data.metadata?.music?.length) {
-            setResults(data.metadata.music);
-            setState("result");
+          if (data.status?.code === 0) {
+            // ACRCloud returns matches in different fields
+            const matches = data.metadata?.music 
+              || data.metadata?.humming 
+              || data.metadata?.custom_files 
+              || [];
+            if (matches.length > 0) {
+              setResults(matches);
+              setState("result");
+            } else {
+              setError("Audio recognized but no matching tracks found.");
+              setState("error");
+            }
           } else if (data.status?.code === 1001) {
             setError("No match found. Try playing the song louder or closer to the mic.");
             setState("error");

@@ -44,8 +44,8 @@ export async function POST(request: NextRequest) {
     acrFormData.append("signature_version", signatureVersion);
     acrFormData.append(
       "sample",
-      new Blob([audioBuffer], { type: "audio/wav" }),
-      "sample.wav"
+      new Blob([audioBuffer], { type: "audio/webm" }),
+      "sample.webm"
     );
 
     const response = await fetch(`${HOST}/v1/identify`, {
@@ -55,12 +55,11 @@ export async function POST(request: NextRequest) {
 
     const result = await response.json();
 
-    // Log for debugging (visible in Vercel function logs)
-    if (result.status?.code !== 0 && result.status?.code !== 1001) {
-      console.error("ACRCloud error:", JSON.stringify(result));
-      console.error("Used access_key:", ACCESS_KEY);
-      console.error("Timestamp:", timestamp);
-      console.error("Sample bytes:", sampleBytes);
+    // Always log the response for debugging
+    console.log("ACRCloud response code:", result.status?.code, "msg:", result.status?.msg);
+    if (result.metadata) {
+      console.log("Has music:", !!(result.metadata.music?.length));
+      console.log("Has humming:", !!(result.metadata.humming?.length));
     }
 
     return NextResponse.json(result);
