@@ -1,11 +1,15 @@
 {
   "country_code": "NP",
-  "artist_count": 2,
-  "track_count": 215,
+  "artist_count": 3,
+  "track_count": 408,
   "artists": [
     {
       "name": "Melina Rai",
       "track_count": 209
+    },
+    {
+      "name": "Ayurveda",
+      "track_count": 193
     },
     {
       "name": "Melina rai",

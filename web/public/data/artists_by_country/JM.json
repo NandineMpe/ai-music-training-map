@@ -1,7 +1,7 @@
 {
   "country_code": "JM",
-  "artist_count": 47,
-  "track_count": 6158,
+  "artist_count": 49,
+  "track_count": 6543,
   "artists": [
     {
       "name": "Rico",
@@ -98,6 +98,14 @@
     {
       "name": "Popcaan",
       "track_count": 198
+    },
+    {
+      "name": "Shaggy",
+      "track_count": 194
+    },
+    {
+      "name": "Signal",
+      "track_count": 191
     },
     {
       "name": "RICO",

@@ -1,7 +1,7 @@
 {
   "country_code": "PR",
-  "artist_count": 17,
-  "track_count": 2707,
+  "artist_count": 18,
+  "track_count": 2901,
   "artists": [
     {
       "name": "Farruko",
@@ -50,6 +50,10 @@
     {
       "name": "Nicky Jam",
       "track_count": 197
+    },
+    {
+      "name": "Rauw Alejandro",
+      "track_count": 194
     },
     {
       "name": "MIGUELITO",

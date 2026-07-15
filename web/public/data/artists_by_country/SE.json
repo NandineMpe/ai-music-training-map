@@ -1,7 +1,7 @@
 {
   "country_code": "SE",
-  "artist_count": 16,
-  "track_count": 2689,
+  "artist_count": 18,
+  "track_count": 3077,
   "artists": [
     {
       "name": "Ghost",
@@ -42,6 +42,14 @@
     {
       "name": "Talisman",
       "track_count": 199
+    },
+    {
+      "name": "Galantis",
+      "track_count": 195
+    },
+    {
+      "name": "Jerry Williams",
+      "track_count": 193
     },
     {
       "name": "GHOST",

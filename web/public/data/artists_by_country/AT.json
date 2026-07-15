@@ -1,7 +1,7 @@
 {
   "country_code": "AT",
-  "artist_count": 25,
-  "track_count": 20203,
+  "artist_count": 26,
+  "track_count": 20394,
   "artists": [
     {
       "name": "Wolfgang Amadeus Mozart",
@@ -66,6 +66,10 @@
     {
       "name": "Wiener Symphoniker",
       "track_count": 202
+    },
+    {
+      "name": "Alfred Brendel",
+      "track_count": 191
     },
     {
       "name": "LOLITA",

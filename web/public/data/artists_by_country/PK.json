@@ -1,7 +1,7 @@
 {
   "country_code": "PK",
-  "artist_count": 4,
-  "track_count": 486,
+  "artist_count": 6,
+  "track_count": 682,
   "artists": [
     {
       "name": "Naseebo Lal",
@@ -12,8 +12,16 @@
       "track_count": 221
     },
     {
+      "name": "Rahat Fateh Ali Khan",
+      "track_count": 191
+    },
+    {
       "name": "SAJJAD ALI",
       "track_count": 25
+    },
+    {
+      "name": "RAHAT FATEH ALI KHAN",
+      "track_count": 5
     },
     {
       "name": "Naseebo lal",

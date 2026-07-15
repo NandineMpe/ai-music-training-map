@@ -1,7 +1,7 @@
 {
   "country_code": "DO",
-  "artist_count": 16,
-  "track_count": 1355,
+  "artist_count": 19,
+  "track_count": 1549,
   "artists": [
     {
       "name": "Yomel El Meloso",
@@ -28,6 +28,10 @@
       "track_count": 202
     },
     {
+      "name": "Tivi Gunz",
+      "track_count": 191
+    },
+    {
       "name": "Yomel el Meloso",
       "track_count": 20
     },
@@ -48,7 +52,15 @@
       "track_count": 3
     },
     {
+      "name": "tivi gunz",
+      "track_count": 2
+    },
+    {
       "name": "quimico ultra mega",
+      "track_count": 1
+    },
+    {
+      "name": "TIVI GUNZ",
       "track_count": 1
     },
     {

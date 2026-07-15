@@ -1,7 +1,7 @@
 {
   "country_code": "JP",
-  "artist_count": 53,
-  "track_count": 8161,
+  "artist_count": 57,
+  "track_count": 8554,
   "artists": [
     {
       "name": "SEGA",
@@ -100,6 +100,14 @@
       "track_count": 204
     },
     {
+      "name": "Flower",
+      "track_count": 195
+    },
+    {
+      "name": "MADE",
+      "track_count": 192
+    },
+    {
       "name": "EXILE",
       "track_count": 152
     },
@@ -180,6 +188,10 @@
       "track_count": 9
     },
     {
+      "name": "Made",
+      "track_count": 5
+    },
+    {
       "name": "SunSet",
       "track_count": 5
     },
@@ -198,6 +210,10 @@
     {
       "name": "HiRO",
       "track_count": 2
+    },
+    {
+      "name": "MAde",
+      "track_count": 1
     },
     {
       "name": "FeeL",

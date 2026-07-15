@@ -1,7 +1,7 @@
 {
   "country_code": "PL",
-  "artist_count": 16,
-  "track_count": 2750,
+  "artist_count": 25,
+  "track_count": 3862,
   "artists": [
     {
       "name": "Chorus",
@@ -48,12 +48,44 @@
       "track_count": 200
     },
     {
+      "name": "Sokół",
+      "track_count": 195
+    },
+    {
+      "name": "Coma",
+      "track_count": 194
+    },
+    {
+      "name": "Mirage",
+      "track_count": 194
+    },
+    {
+      "name": "Lanek",
+      "track_count": 191
+    },
+    {
+      "name": "The Returners",
+      "track_count": 191
+    },
+    {
+      "name": "COMA",
+      "track_count": 130
+    },
+    {
       "name": "ZEUS",
       "track_count": 19
     },
     {
+      "name": "CoMa",
+      "track_count": 11
+    },
+    {
       "name": "CHORUS",
       "track_count": 6
+    },
+    {
+      "name": "MiRage",
+      "track_count": 5
     },
     {
       "name": "BlackOut",
@@ -62,6 +94,10 @@
     {
       "name": "GRAVITY",
       "track_count": 2
+    },
+    {
+      "name": "MIRAGE",
+      "track_count": 1
     },
     {
       "name": "PEJA",

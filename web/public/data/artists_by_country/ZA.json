@@ -1,31 +1,183 @@
 {
   "country_code": "ZA",
-  "artist_count": 55,
-  "track_count": 4539,
+  "artist_count": 392,
+  "track_count": 28383,
   "artists": [
+    {
+      "name": "Adam",
+      "track_count": 362
+    },
+    {
+      "name": "Eden",
+      "track_count": 322
+    },
     {
       "name": "Kabza De Small",
       "track_count": 283
+    },
+    {
+      "name": "Jay",
+      "track_count": 241
+    },
+    {
+      "name": "Zahara",
+      "track_count": 236
     },
     {
       "name": "Zee",
       "track_count": 224
     },
     {
+      "name": "Rebecca",
+      "track_count": 204
+    },
+    {
+      "name": "Hawk",
+      "track_count": 200
+    },
+    {
       "name": "DJ Maphorisa",
       "track_count": 193
+    },
+    {
+      "name": "Black Coffee",
+      "track_count": 190
+    },
+    {
+      "name": "Monique",
+      "track_count": 186
+    },
+    {
+      "name": "Kurt Darren",
+      "track_count": 185
+    },
+    {
+      "name": "Slug",
+      "track_count": 182
+    },
+    {
+      "name": "Psalm Trees",
+      "track_count": 168
     },
     {
       "name": "Miriam Makeba",
       "track_count": 168
     },
     {
+      "name": "Soweto Gospel Choir",
+      "track_count": 166
+    },
+    {
+      "name": "Ray Dylan",
+      "track_count": 165
+    },
+    {
       "name": "Lira",
       "track_count": 163
     },
     {
+      "name": "Zola",
+      "track_count": 162
+    },
+    {
+      "name": "Steve Hofmeyr",
+      "track_count": 161
+    },
+    {
+      "name": "Stef Bos",
+      "track_count": 159
+    },
+    {
+      "name": "Theuns Jordaan",
+      "track_count": 156
+    },
+    {
       "name": "Lucky Dube",
       "track_count": 155
+    },
+    {
+      "name": "The Blue Notes",
+      "track_count": 154
+    },
+    {
+      "name": "Anton Goosen",
+      "track_count": 152
+    },
+    {
+      "name": "Joyous Celebration",
+      "track_count": 151
+    },
+    {
+      "name": "Louis Brittz",
+      "track_count": 151
+    },
+    {
+      "name": "Die Campbells",
+      "track_count": 151
+    },
+    {
+      "name": "Steve Kekana",
+      "track_count": 150
+    },
+    {
+      "name": "Carike Keuzenkamp",
+      "track_count": 150
+    },
+    {
+      "name": "Sonja Herholdt",
+      "track_count": 150
+    },
+    {
+      "name": "Bhekumuzi Luthuli",
+      "track_count": 150
+    },
+    {
+      "name": "Alan Ladd",
+      "track_count": 150
+    },
+    {
+      "name": "The Parlotones",
+      "track_count": 150
+    },
+    {
+      "name": "Bobby Angel",
+      "track_count": 149
+    },
+    {
+      "name": "Soul Brothers",
+      "track_count": 149
+    },
+    {
+      "name": "Laurika Rauch",
+      "track_count": 149
+    },
+    {
+      "name": "Splash",
+      "track_count": 149
+    },
+    {
+      "name": "Valiant Swart",
+      "track_count": 149
+    },
+    {
+      "name": "Danny Williams",
+      "track_count": 149
+    },
+    {
+      "name": "Gene Rockwell",
+      "track_count": 149
+    },
+    {
+      "name": "Wynand Strydom",
+      "track_count": 149
+    },
+    {
+      "name": "Spoek Mathambo",
+      "track_count": 149
+    },
+    {
+      "name": "Adam Tas",
+      "track_count": 148
     },
     {
       "name": "Karen Zoid",
@@ -36,88 +188,516 @@
       "track_count": 148
     },
     {
+      "name": "Trevor Rabin",
+      "track_count": 147
+    },
+    {
+      "name": "Mandoza",
+      "track_count": 147
+    },
+    {
       "name": "Black Motion",
       "track_count": 147
+    },
+    {
+      "name": "Hugo",
+      "track_count": 146
+    },
+    {
+      "name": "Jannie Du Toit",
+      "track_count": 146
+    },
+    {
+      "name": "The Movers",
+      "track_count": 145
+    },
+    {
+      "name": "Kyle Watson",
+      "track_count": 145
+    },
+    {
+      "name": "Mzwakhe Mbuli",
+      "track_count": 145
+    },
+    {
+      "name": "Robbie Wessels",
+      "track_count": 144
+    },
+    {
+      "name": "Mbongeni Ngema",
+      "track_count": 144
+    },
+    {
+      "name": "Willie Joubert",
+      "track_count": 143
+    },
+    {
+      "name": "Counterstrike",
+      "track_count": 143
     },
     {
       "name": "Brenda Fassie",
       "track_count": 143
     },
     {
+      "name": "Ringo Madlingozi",
+      "track_count": 142
+    },
+    {
+      "name": "Agro",
+      "track_count": 142
+    },
+    {
+      "name": "Protoculture",
+      "track_count": 142
+    },
+    {
+      "name": "Spoegwolf",
+      "track_count": 141
+    },
+    {
+      "name": "Gé Korsten",
+      "track_count": 141
+    },
+    {
       "name": "Abdullah Ibrahim",
       "track_count": 140
+    },
+    {
+      "name": "Gerhard Steyn",
+      "track_count": 140
+    },
+    {
+      "name": "Abstract Truth",
+      "track_count": 138
+    },
+    {
+      "name": "Stimela",
+      "track_count": 137
+    },
+    {
+      "name": "Die Heuwels Fantasties",
+      "track_count": 136
+    },
+    {
+      "name": "Koos Kombuis",
+      "track_count": 136
     },
     {
       "name": "Cassper Nyovest",
       "track_count": 135
     },
     {
+      "name": "Jimmy Dludlu",
+      "track_count": 133
+    },
+    {
+      "name": "Nicholis Louw",
+      "track_count": 132
+    },
+    {
       "name": "Nasty C",
       "track_count": 132
+    },
+    {
+      "name": "Brendan Peyper",
+      "track_count": 132
+    },
+    {
+      "name": "Zain Bhikha",
+      "track_count": 132
+    },
+    {
+      "name": "Sipho Gumede",
+      "track_count": 131
+    },
+    {
+      "name": "DJ Ossewa",
+      "track_count": 131
     },
     {
       "name": "Mafikizolo",
       "track_count": 131
     },
     {
+      "name": "Springbok Nude Girls",
+      "track_count": 130
+    },
+    {
+      "name": "Four Jacks and a Jill",
+      "track_count": 130
+    },
+    {
+      "name": "Onbeskaamd",
+      "track_count": 129
+    },
+    {
+      "name": "Jakkie Louw",
+      "track_count": 129
+    },
+    {
+      "name": "Trevor Jones",
+      "track_count": 129
+    },
+    {
+      "name": "Ricus Nel",
+      "track_count": 129
+    },
+    {
+      "name": "Juanita du Plessis",
+      "track_count": 129
+    },
+    {
+      "name": "Romanz",
+      "track_count": 129
+    },
+    {
+      "name": "Lazarusman",
+      "track_count": 129
+    },
+    {
       "name": "Prime Circle",
       "track_count": 128
+    },
+    {
+      "name": "Elvis Blue",
+      "track_count": 127
+    },
+    {
+      "name": "Snotkop",
+      "track_count": 127
+    },
+    {
+      "name": "Louise Carver",
+      "track_count": 127
+    },
+    {
+      "name": "Chris Chameleon",
+      "track_count": 126
+    },
+    {
+      "name": "Arno Carstens",
+      "track_count": 125
+    },
+    {
+      "name": "Fredi Nest",
+      "track_count": 125
     },
     {
       "name": "Die Antwoord",
       "track_count": 124
     },
     {
+      "name": "Anneli Van Rooyen",
+      "track_count": 123
+    },
+    {
       "name": "Oskido",
       "track_count": 121
+    },
+    {
+      "name": "Sorina",
+      "track_count": 119
     },
     {
       "name": "Mi Casa",
       "track_count": 118
     },
     {
+      "name": "Bles Bridges",
+      "track_count": 117
+    },
+    {
+      "name": "Letta Mbulu",
+      "track_count": 117
+    },
+    {
+      "name": "Heinz Winckler",
+      "track_count": 116
+    },
+    {
       "name": "Makhadzi",
       "track_count": 116
+    },
+    {
+      "name": "Fokofpolisiekar",
+      "track_count": 115
+    },
+    {
+      "name": "Don Laka",
+      "track_count": 114
+    },
+    {
+      "name": "ADAM",
+      "track_count": 114
+    },
+    {
+      "name": "Vigro Deep",
+      "track_count": 114
+    },
+    {
+      "name": "Jack Parow",
+      "track_count": 112
+    },
+    {
+      "name": "Wouter Kellerman",
+      "track_count": 112
+    },
+    {
+      "name": "Nduduzo Makhathini",
+      "track_count": 111
     },
     {
       "name": "A-Reece",
       "track_count": 111
     },
     {
+      "name": "Chicco",
+      "track_count": 110
+    },
+    {
+      "name": "AKA",
+      "track_count": 109
+    },
+    {
+      "name": "Lize Beekman",
+      "track_count": 108
+    },
+    {
+      "name": "Nádine",
+      "track_count": 108
+    },
+    {
+      "name": "Tommy Dell",
+      "track_count": 107
+    },
+    {
+      "name": "Jan Blohm",
+      "track_count": 106
+    },
+    {
+      "name": "Danny K",
+      "track_count": 106
+    },
+    {
+      "name": "The Flames",
+      "track_count": 105
+    },
+    {
+      "name": "Damage",
+      "track_count": 105
+    },
+    {
+      "name": "Coenie de Villiers",
+      "track_count": 104
+    },
+    {
+      "name": "Arno Jordaan",
+      "track_count": 104
+    },
+    {
+      "name": "GentleBeatz",
+      "track_count": 102
+    },
+    {
+      "name": "Kevin Leo",
+      "track_count": 101
+    },
+    {
+      "name": "Vusi Mahlasela",
+      "track_count": 100
+    },
+    {
+      "name": "Dewald Wasserfall",
+      "track_count": 99
+    },
+    {
+      "name": "Hot Water",
+      "track_count": 99
+    },
+    {
       "name": "Emtee",
       "track_count": 97
+    },
+    {
+      "name": "Riana Nel",
+      "track_count": 97
+    },
+    {
+      "name": "Big Nuz",
+      "track_count": 96
+    },
+    {
+      "name": "No Limits",
+      "track_count": 96
+    },
+    {
+      "name": "Yvonne Chaka Chaka",
+      "track_count": 95
     },
     {
       "name": "Matthew Mole",
       "track_count": 95
     },
     {
+      "name": "Tree63",
+      "track_count": 95
+    },
+    {
+      "name": "Patricia Lewis",
+      "track_count": 94
+    },
+    {
+      "name": "Pieter Koen",
+      "track_count": 93
+    },
+    {
       "name": "Sjava",
       "track_count": 93
+    },
+    {
+      "name": "Soweto String Quartet",
+      "track_count": 92
+    },
+    {
+      "name": "Watershed",
+      "track_count": 92
     },
     {
       "name": "Johnny Clegg",
       "track_count": 90
     },
     {
+      "name": "Anna Davel",
+      "track_count": 90
+    },
+    {
+      "name": "Worsie Visser",
+      "track_count": 90
+    },
+    {
+      "name": "Batuk",
+      "track_count": 89
+    },
+    {
+      "name": "Mango Groove",
+      "track_count": 89
+    },
+    {
+      "name": "Yoav",
+      "track_count": 89
+    },
+    {
       "name": "Blxckie",
       "track_count": 88
+    },
+    {
+      "name": "Lianie May",
+      "track_count": 88
+    },
+    {
+      "name": "ZIA",
+      "track_count": 87
+    },
+    {
+      "name": "Mathys Roets",
+      "track_count": 87
     },
     {
       "name": "Freshlyground",
       "track_count": 85
     },
     {
+      "name": "David Fourie",
+      "track_count": 84
+    },
+    {
+      "name": "Mfaz' Omnyama",
+      "track_count": 84
+    },
+    {
+      "name": "Klopjag",
+      "track_count": 83
+    },
+    {
+      "name": "Simphiwe Dana",
+      "track_count": 83
+    },
+    {
       "name": "Locnville",
       "track_count": 83
+    },
+    {
+      "name": "Sibongile Khumalo",
+      "track_count": 82
+    },
+    {
+      "name": "Die Lofkleuters",
+      "track_count": 82
     },
     {
       "name": "Tyler ICU",
       "track_count": 82
     },
     {
+      "name": "Bucie",
+      "track_count": 80
+    },
+    {
+      "name": "Jullian Gomes",
+      "track_count": 80
+    },
+    {
+      "name": "Msaki",
+      "track_count": 80
+    },
+    {
+      "name": "The Narrow",
+      "track_count": 80
+    },
+    {
+      "name": "Charlize Berg",
+      "track_count": 79
+    },
+    {
       "name": "Goldfish",
       "track_count": 79
+    },
+    {
+      "name": "Shift",
+      "track_count": 79
+    },
+    {
+      "name": "Felix Laband",
+      "track_count": 78
+    },
+    {
+      "name": "Tellaman",
+      "track_count": 77
+    },
+    {
+      "name": "David Kramer",
+      "track_count": 76
+    },
+    {
+      "name": "Jan De Wet",
+      "track_count": 75
+    },
+    {
+      "name": "Jan de Wet",
+      "track_count": 73
+    },
+    {
+      "name": "Demi Lee Moore",
+      "track_count": 72
+    },
+    {
+      "name": "Penny Penny",
+      "track_count": 72
+    },
+    {
+      "name": "The Big Hash",
+      "track_count": 71
     },
     {
       "name": "Master KG",
@@ -128,67 +708,687 @@
       "track_count": 71
     },
     {
+      "name": "DJ Cleo",
+      "track_count": 71
+    },
+    {
+      "name": "Elandré",
+      "track_count": 70
+    },
+    {
+      "name": "Busi Mhlongo",
+      "track_count": 68
+    },
+    {
+      "name": "DAMAGE",
+      "track_count": 67
+    },
+    {
+      "name": "Karlien Van Jaarsveld",
+      "track_count": 67
+    },
+    {
+      "name": "André Schwartz",
+      "track_count": 67
+    },
+    {
       "name": "Jeremy Loops",
       "track_count": 66
+    },
+    {
+      "name": "Bongo Maffin",
+      "track_count": 65
+    },
+    {
+      "name": "Bok van Blerk",
+      "track_count": 65
+    },
+    {
+      "name": "Johannes Kerkorrel",
+      "track_count": 65
+    },
+    {
+      "name": "Bmike",
+      "track_count": 65
+    },
+    {
+      "name": "Caitlin De Ville",
+      "track_count": 64
+    },
+    {
+      "name": "The Constructus Corporation",
+      "track_count": 63
+    },
+    {
+      "name": "Tasha Baxter",
+      "track_count": 63
+    },
+    {
+      "name": "Leon Schuster",
+      "track_count": 63
+    },
+    {
+      "name": "Jody Wayne",
+      "track_count": 63
+    },
+    {
+      "name": "Civil Twilight",
+      "track_count": 63
+    },
+    {
+      "name": "Frozen Ghost",
+      "track_count": 62
+    },
+    {
+      "name": "Anders",
+      "track_count": 62
     },
     {
       "name": "Kwesta",
       "track_count": 62
     },
     {
+      "name": "Dennis East",
+      "track_count": 61
+    },
+    {
+      "name": "Vulvodynia",
+      "track_count": 61
+    },
+    {
+      "name": "Brenda & The Big Dudes",
+      "track_count": 60
+    },
+    {
+      "name": "Jeff Maluleke",
+      "track_count": 60
+    },
+    {
+      "name": "4Werke",
+      "track_count": 59
+    },
+    {
+      "name": "Bongeziwe Mabandla",
+      "track_count": 59
+    },
+    {
+      "name": "Haezer",
+      "track_count": 59
+    },
+    {
       "name": "Moonchild Sanelly",
       "track_count": 58
+    },
+    {
+      "name": "GoodLuck",
+      "track_count": 58
+    },
+    {
+      "name": "Zoë Modiga",
+      "track_count": 58
+    },
+    {
+      "name": "Jabu Khanyile",
+      "track_count": 58
+    },
+    {
+      "name": "Zebra & Giraffe",
+      "track_count": 57
+    },
+    {
+      "name": "Zim Ngqawana",
+      "track_count": 56
+    },
+    {
+      "name": "Bheki Mseleku",
+      "track_count": 56
+    },
+    {
+      "name": "Amanda Black",
+      "track_count": 56
+    },
+    {
+      "name": "Koos Du Plessis",
+      "track_count": 55
+    },
+    {
+      "name": "Hi-5",
+      "track_count": 55
+    },
+    {
+      "name": "FETISH",
+      "track_count": 55
+    },
+    {
+      "name": "Bittereinder",
+      "track_count": 55
+    },
+    {
+      "name": "Zinkplaat",
+      "track_count": 54
     },
     {
       "name": "GoldFish",
       "track_count": 54
     },
     {
+      "name": "Lebo Mathosa",
+      "track_count": 53
+    },
+    {
+      "name": "EDEN",
+      "track_count": 53
+    },
+    {
+      "name": "Jonas Gwangwa",
+      "track_count": 53
+    },
+    {
+      "name": "Joe Niemand",
+      "track_count": 52
+    },
+    {
       "name": "Busiswa",
       "track_count": 52
+    },
+    {
+      "name": "Beatenberg",
+      "track_count": 51
+    },
+    {
+      "name": "Jo Black",
+      "track_count": 51
+    },
+    {
+      "name": "HAWK",
+      "track_count": 49
+    },
+    {
+      "name": "Mahotella Queens",
+      "track_count": 49
+    },
+    {
+      "name": "O'Yaba",
+      "track_count": 49
+    },
+    {
+      "name": "TKZee",
+      "track_count": 48
     },
     {
       "name": "Samthing Soweto",
       "track_count": 48
     },
     {
+      "name": "Francois van Coke",
+      "track_count": 48
+    },
+    {
+      "name": "Shane Cooper",
+      "track_count": 47
+    },
+    {
+      "name": "Charlie Dicks",
+      "track_count": 47
+    },
+    {
+      "name": "anders",
+      "track_count": 46
+    },
+    {
+      "name": "HUGO",
+      "track_count": 45
+    },
+    {
+      "name": "Cornelius SA",
+      "track_count": 45
+    },
+    {
+      "name": "The Plastics",
+      "track_count": 44
+    },
+    {
+      "name": "Scathanna Wept",
+      "track_count": 44
+    },
+    {
+      "name": "Sean Koch",
+      "track_count": 44
+    },
+    {
       "name": "Ami Faku",
       "track_count": 44
+    },
+    {
+      "name": "Senyaka",
+      "track_count": 43
+    },
+    {
+      "name": "Plush",
+      "track_count": 43
+    },
+    {
+      "name": "Etienne Steyn",
+      "track_count": 43
+    },
+    {
+      "name": "Clout",
+      "track_count": 42
+    },
+    {
+      "name": "Francois Van Coke",
+      "track_count": 42
+    },
+    {
+      "name": "Petite Noir",
+      "track_count": 42
+    },
+    {
+      "name": "Coenie De Villiers",
+      "track_count": 41
+    },
+    {
+      "name": "aKING",
+      "track_count": 41
+    },
+    {
+      "name": "Juanita Du Plessis",
+      "track_count": 40
+    },
+    {
+      "name": "Mahlathini and the Mahotella Queens",
+      "track_count": 40
+    },
+    {
+      "name": "Just Jinjer",
+      "track_count": 40
+    },
+    {
+      "name": "Izak Davel",
+      "track_count": 40
     },
     {
       "name": "Riky Rick",
       "track_count": 40
     },
     {
+      "name": "Jannie Moolman",
+      "track_count": 39
+    },
+    {
+      "name": "Lebo M",
+      "track_count": 39
+    },
+    {
       "name": "ZEE",
       "track_count": 39
+    },
+    {
+      "name": "Roberto",
+      "track_count": 38
+    },
+    {
+      "name": "Glenys Lynne",
+      "track_count": 38
+    },
+    {
+      "name": "Van Pletzen",
+      "track_count": 37
+    },
+    {
+      "name": "Reinhardt Buhr",
+      "track_count": 37
+    },
+    {
+      "name": "Henry Ate",
+      "track_count": 36
+    },
+    {
+      "name": "Dawnay",
+      "track_count": 35
+    },
+    {
+      "name": "Die Melktert Kommissie",
+      "track_count": 35
+    },
+    {
+      "name": "Bobby van Jaarsveld",
+      "track_count": 35
+    },
+    {
+      "name": "Mahlathini",
+      "track_count": 35
+    },
+    {
+      "name": "Vicky Sampson",
+      "track_count": 34
+    },
+    {
+      "name": "Zia",
+      "track_count": 34
+    },
+    {
+      "name": "hawk",
+      "track_count": 34
+    },
+    {
+      "name": "Dozi",
+      "track_count": 34
+    },
+    {
+      "name": "Chereé",
+      "track_count": 33
+    },
+    {
+      "name": "PENNY PENNY",
+      "track_count": 33
+    },
+    {
+      "name": "Winston Mankunku Ngozi",
+      "track_count": 32
+    },
+    {
+      "name": "Abel Selaocoe",
+      "track_count": 31
+    },
+    {
+      "name": "Prophet",
+      "track_count": 30
+    },
+    {
+      "name": "Bobby Van Jaarsveld",
+      "track_count": 29
     },
     {
       "name": "Sho Madjozi",
       "track_count": 29
     },
     {
+      "name": "Amira Willighagen",
+      "track_count": 27
+    },
+    {
+      "name": "Foto Na Dans",
+      "track_count": 27
+    },
+    {
+      "name": "The Joy",
+      "track_count": 26
+    },
+    {
+      "name": "The Staccatos",
+      "track_count": 26
+    },
+    {
+      "name": "Jurie Els",
+      "track_count": 26
+    },
+    {
+      "name": "Tyla",
+      "track_count": 25
+    },
+    {
+      "name": "JAY",
+      "track_count": 25
+    },
+    {
+      "name": "VAN PLETZEN",
+      "track_count": 24
+    },
+    {
       "name": "DJ Zinhle",
       "track_count": 24
+    },
+    {
+      "name": "People Like Us",
+      "track_count": 24
+    },
+    {
+      "name": "ANATII",
+      "track_count": 23
+    },
+    {
+      "name": "REBECCA",
+      "track_count": 23
+    },
+    {
+      "name": "monique",
+      "track_count": 23
+    },
+    {
+      "name": "Fetish",
+      "track_count": 22
+    },
+    {
+      "name": "Simon Swerwer",
+      "track_count": 21
+    },
+    {
+      "name": "Bright Blue",
+      "track_count": 20
+    },
+    {
+      "name": "Danie Botha",
+      "track_count": 20
+    },
+    {
+      "name": "Anneli van Rooyen",
+      "track_count": 19
+    },
+    {
+      "name": "Adie",
+      "track_count": 19
+    },
+    {
+      "name": "Bayete",
+      "track_count": 19
+    },
+    {
+      "name": "Goodluck",
+      "track_count": 19
+    },
+    {
+      "name": "Thys die Bosveldklong",
+      "track_count": 18
+    },
+    {
+      "name": "Four Jacks And a Jill",
+      "track_count": 17
     },
     {
       "name": "Dj Maphorisa",
       "track_count": 17
     },
     {
+      "name": "Pro Kid",
+      "track_count": 17
+    },
+    {
+      "name": "P.J. Powers",
+      "track_count": 16
+    },
+    {
+      "name": "Van Coke Kartel",
+      "track_count": 15
+    },
+    {
+      "name": "Mel Botes",
+      "track_count": 15
+    },
+    {
+      "name": "Karlien van Jaarsveld",
+      "track_count": 15
+    },
+    {
+      "name": "Bok Van Blerk",
+      "track_count": 14
+    },
+    {
+      "name": "Coleske",
+      "track_count": 14
+    },
+    {
+      "name": "Margaret Singana",
+      "track_count": 14
+    },
+    {
+      "name": "Louis Mhlanga",
+      "track_count": 14
+    },
+    {
+      "name": "Pat Shange",
+      "track_count": 14
+    },
+    {
+      "name": "Gentlebeatz",
+      "track_count": 13
+    },
+    {
+      "name": "Wrestlerish",
+      "track_count": 13
+    },
+    {
+      "name": "DJ Mujava",
+      "track_count": 13
+    },
+    {
       "name": "Uncle Waffles",
       "track_count": 13
+    },
+    {
+      "name": "aKing",
+      "track_count": 12
+    },
+    {
+      "name": "TWEAK",
+      "track_count": 12
+    },
+    {
+      "name": "Glaskas",
+      "track_count": 12
+    },
+    {
+      "name": "ROBERTO",
+      "track_count": 12
+    },
+    {
+      "name": "Mark Allnutt",
+      "track_count": 11
+    },
+    {
+      "name": "Headroom",
+      "track_count": 11
     },
     {
       "name": "a-reece",
       "track_count": 11
     },
     {
+      "name": "Jesse Clegg",
+      "track_count": 11
+    },
+    {
+      "name": "Connell Cruise",
+      "track_count": 11
+    },
+    {
+      "name": "Terminal",
+      "track_count": 10
+    },
+    {
+      "name": "Tumi",
+      "track_count": 10
+    },
+    {
+      "name": "Aka",
+      "track_count": 9
+    },
+    {
+      "name": "BCUC",
+      "track_count": 8
+    },
+    {
+      "name": "StingRay",
+      "track_count": 8
+    },
+    {
+      "name": "The Dalom Kids",
+      "track_count": 8
+    },
+    {
+      "name": "HAEZER",
+      "track_count": 7
+    },
+    {
+      "name": "jay",
+      "track_count": 7
+    },
+    {
+      "name": "Thandiswa Mazwai",
+      "track_count": 7
+    },
+    {
+      "name": "Derek Gripper",
+      "track_count": 7
+    },
+    {
+      "name": "Anatii",
+      "track_count": 6
+    },
+    {
+      "name": "Jannie du Toit",
+      "track_count": 5
+    },
+    {
+      "name": "Jason van Wyk",
+      "track_count": 5
+    },
+    {
       "name": "Sun-El Musician",
       "track_count": 5
     },
     {
+      "name": "trevor jones",
+      "track_count": 4
+    },
+    {
+      "name": "adam",
+      "track_count": 4
+    },
+    {
+      "name": "Sathima Bea Benjamin",
+      "track_count": 4
+    },
+    {
+      "name": "Aero Manyelo",
+      "track_count": 4
+    },
+    {
+      "name": "SHIFT",
+      "track_count": 4
+    },
+    {
+      "name": "TYLA",
+      "track_count": 3
+    },
+    {
       "name": "Dj Zinhle",
+      "track_count": 3
+    },
+    {
+      "name": "Sarah Theron",
+      "track_count": 3
+    },
+    {
+      "name": "Amampondo",
+      "track_count": 3
+    },
+    {
+      "name": "Aking",
+      "track_count": 3
+    },
+    {
+      "name": "Slaves",
       "track_count": 3
     },
     {
@@ -196,11 +1396,95 @@
       "track_count": 3
     },
     {
+      "name": "Nakhane",
+      "track_count": 3
+    },
+    {
       "name": "OSKIDO",
       "track_count": 3
     },
     {
+      "name": "Thys Die Bosveldklong",
+      "track_count": 2
+    },
+    {
+      "name": "Muzi",
+      "track_count": 2
+    },
+    {
+      "name": "Billy Forrest",
+      "track_count": 2
+    },
+    {
+      "name": "YOAV",
+      "track_count": 2
+    },
+    {
+      "name": "Johnny Dyani",
+      "track_count": 2
+    },
+    {
+      "name": "Velile",
+      "track_count": 2
+    },
+    {
+      "name": "gentlebeatz",
+      "track_count": 2
+    },
+    {
+      "name": "juanita du plessis",
+      "track_count": 2
+    },
+    {
+      "name": "Kwela Tebza",
+      "track_count": 2
+    },
+    {
+      "name": "Nianell",
+      "track_count": 2
+    },
+    {
+      "name": "Radio Kalahari Orkes",
+      "track_count": 2
+    },
+    {
+      "name": "Rina Hugo",
+      "track_count": 2
+    },
+    {
+      "name": "MONIQUE",
+      "track_count": 2
+    },
+    {
+      "name": "Yugen Blakrok",
+      "track_count": 1
+    },
+    {
+      "name": "Amor Vittone",
+      "track_count": 1
+    },
+    {
+      "name": "Sibot",
+      "track_count": 1
+    },
+    {
+      "name": "LETTA MBULU",
+      "track_count": 1
+    },
+    {
+      "name": "AkA",
+      "track_count": 1
+    },
+    {
+      "name": "Ken Mullan",
+      "track_count": 1
+    },
+    {
       "name": "sjava",
+      "track_count": 1
+    },
+    {
+      "name": "soweto gospel choir",
       "track_count": 1
     },
     {
@@ -208,7 +1492,55 @@
       "track_count": 1
     },
     {
+      "name": "eden",
+      "track_count": 1
+    },
+    {
+      "name": "ANDERS",
+      "track_count": 1
+    },
+    {
+      "name": "Pierre De Charmoy",
+      "track_count": 1
+    },
+    {
+      "name": "CLOUT",
+      "track_count": 1
+    },
+    {
+      "name": "Inferno",
+      "track_count": 1
+    },
+    {
+      "name": "Monelle",
+      "track_count": 1
+    },
+    {
+      "name": "The Benjamin Gate",
+      "track_count": 1
+    },
+    {
+      "name": "Tweak",
+      "track_count": 1
+    },
+    {
+      "name": "André Swiegers",
+      "track_count": 1
+    },
+    {
       "name": "MOONCHILD Sanelly",
+      "track_count": 1
+    },
+    {
+      "name": "Nelson Mandela",
+      "track_count": 1
+    },
+    {
+      "name": "Boo!",
+      "track_count": 1
+    },
+    {
+      "name": "Tony Cox",
       "track_count": 1
     },
     {
@@ -220,7 +1552,23 @@
       "track_count": 1
     },
     {
+      "name": "MZWAKHE MBULI",
+      "track_count": 1
+    },
+    {
       "name": "Master Kg",
+      "track_count": 1
+    },
+    {
+      "name": "splash",
+      "track_count": 1
+    },
+    {
+      "name": "Gian Groen",
+      "track_count": 1
+    },
+    {
+      "name": "Braw",
       "track_count": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
   "country_code": "CA",
-  "artist_count": 35,
-  "track_count": 4985,
+  "artist_count": 34,
+  "track_count": 4894,
   "artists": [
     {
       "name": "Dog Music",
@@ -64,10 +64,6 @@
       "track_count": 201
     },
     {
-      "name": "Hawk",
-      "track_count": 200
-    },
-    {
       "name": "Papillon",
       "track_count": 200
     },
@@ -80,20 +76,16 @@
       "track_count": 196
     },
     {
+      "name": "Eric Godlow",
+      "track_count": 191
+    },
+    {
       "name": "LUCY",
       "track_count": 130
     },
     {
-      "name": "HAWK",
-      "track_count": 49
-    },
-    {
       "name": "SARA",
       "track_count": 46
-    },
-    {
-      "name": "hawk",
-      "track_count": 34
     },
     {
       "name": "Tr",
@@ -133,6 +125,10 @@
     },
     {
       "name": "PAPILLON",
+      "track_count": 1
+    },
+    {
+      "name": "eric godlow",
       "track_count": 1
     },
     {

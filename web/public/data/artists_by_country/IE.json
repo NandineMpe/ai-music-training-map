@@ -1,19 +1,11 @@
 {
   "country_code": "IE",
-  "artist_count": 6,
-  "track_count": 725,
+  "artist_count": 3,
+  "track_count": 349,
   "artists": [
-    {
-      "name": "Eden",
-      "track_count": 322
-    },
     {
       "name": "Derek",
       "track_count": 288
-    },
-    {
-      "name": "EDEN",
-      "track_count": 53
     },
     {
       "name": "DEREK",
@@ -22,10 +14,6 @@
     {
       "name": "derek",
       "track_count": 19
-    },
-    {
-      "name": "eden",
-      "track_count": 1
     }
   ]
 }

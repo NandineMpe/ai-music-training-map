@@ -1,7 +1,7 @@
 {
   "country_code": "CO",
-  "artist_count": 16,
-  "track_count": 3007,
+  "artist_count": 17,
+  "track_count": 3200,
   "artists": [
     {
       "name": "Diomedes Díaz",
@@ -46,6 +46,10 @@
     {
       "name": "Lisandro Meza",
       "track_count": 201
+    },
+    {
+      "name": "J Balvin",
+      "track_count": 193
     },
     {
       "name": "DIAZ",

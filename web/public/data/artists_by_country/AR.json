@@ -1,7 +1,7 @@
 {
   "country_code": "AR",
-  "artist_count": 28,
-  "track_count": 4756,
+  "artist_count": 32,
+  "track_count": 5179,
   "artists": [
     {
       "name": "Daniel Barenboim",
@@ -68,8 +68,20 @@
       "track_count": 197
     },
     {
+      "name": "Cherry",
+      "track_count": 195
+    },
+    {
+      "name": "Armando Moreno",
+      "track_count": 191
+    },
+    {
       "name": "DANIEL",
       "track_count": 74
+    },
+    {
+      "name": "CHERRY",
+      "track_count": 36
     },
     {
       "name": "SANDRO",
@@ -97,6 +109,10 @@
     },
     {
       "name": "kamikaze",
+      "track_count": 1
+    },
+    {
+      "name": "cherry",
       "track_count": 1
     },
     {

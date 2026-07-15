@@ -1,7 +1,7 @@
 {
   "country_code": "IN",
-  "artist_count": 153,
-  "track_count": 31132,
+  "artist_count": 158,
+  "track_count": 31740,
   "artists": [
     {
       "name": "Shilpi Raj",
@@ -300,6 +300,18 @@
       "track_count": 197
     },
     {
+      "name": "Tanishk Bagchi",
+      "track_count": 192
+    },
+    {
+      "name": "Vishal Dadlani",
+      "track_count": 191
+    },
+    {
+      "name": "Amjad Nadeem",
+      "track_count": 191
+    },
+    {
       "name": "SONU NIGAM",
       "track_count": 163
     },
@@ -370,6 +382,10 @@
     {
       "name": "SHANKAR MAHADEVAN",
       "track_count": 35
+    },
+    {
+      "name": "VISHAL DADLANI",
+      "track_count": 32
     },
     {
       "name": "MOHAMMED AZIZ",
@@ -537,6 +553,10 @@
     },
     {
       "name": "KISHORE KUMAR",
+      "track_count": 2
+    },
+    {
+      "name": "TANISHK BAGCHI",
       "track_count": 2
     },
     {

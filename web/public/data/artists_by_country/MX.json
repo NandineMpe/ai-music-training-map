@@ -1,7 +1,7 @@
 {
   "country_code": "MX",
-  "artist_count": 16,
-  "track_count": 2158,
+  "artist_count": 18,
+  "track_count": 2544,
   "artists": [
     {
       "name": "Relajante",
@@ -38,6 +38,14 @@
     {
       "name": "Lila",
       "track_count": 203
+    },
+    {
+      "name": "Arianna",
+      "track_count": 193
+    },
+    {
+      "name": "Los Solitarios",
+      "track_count": 193
     },
     {
       "name": "YURI",

@@ -1,7 +1,7 @@
 {
   "country_code": "FI",
-  "artist_count": 12,
-  "track_count": 2139,
+  "artist_count": 13,
+  "track_count": 2334,
   "artists": [
     {
       "name": "Jean Sibelius",
@@ -26,6 +26,10 @@
     {
       "name": "TT",
       "track_count": 216
+    },
+    {
+      "name": "Arion",
+      "track_count": 195
     },
     {
       "name": "NEMESIS",

@@ -1,7 +1,7 @@
 {
   "country_code": "DE",
-  "artist_count": 152,
-  "track_count": 47078,
+  "artist_count": 166,
+  "track_count": 48779,
   "artists": [
     {
       "name": "Johann Sebastian Bach",
@@ -348,12 +348,48 @@
       "track_count": 196
     },
     {
+      "name": "Nimo",
+      "track_count": 194
+    },
+    {
+      "name": "Van",
+      "track_count": 194
+    },
+    {
+      "name": "Kinderliederbande",
+      "track_count": 193
+    },
+    {
+      "name": "Guru",
+      "track_count": 193
+    },
+    {
+      "name": "Moses",
+      "track_count": 192
+    },
+    {
+      "name": "C.R.O",
+      "track_count": 192
+    },
+    {
+      "name": "Pulsedriver",
+      "track_count": 191
+    },
+    {
+      "name": "Salsa Picante",
+      "track_count": 191
+    },
+    {
       "name": "SebastiAn",
       "track_count": 124
     },
     {
       "name": "Anna",
       "track_count": 104
+    },
+    {
+      "name": "VAN",
+      "track_count": 102
     },
     {
       "name": "BLANCO",
@@ -392,11 +428,19 @@
       "track_count": 28
     },
     {
+      "name": "MOSES",
+      "track_count": 25
+    },
+    {
       "name": "FELIX",
       "track_count": 24
     },
     {
       "name": "CLAUDIA",
+      "track_count": 23
+    },
+    {
+      "name": "GURU",
       "track_count": 23
     },
     {
@@ -496,6 +540,14 @@
       "track_count": 5
     },
     {
+      "name": "mOSes",
+      "track_count": 5
+    },
+    {
+      "name": "vAn",
+      "track_count": 5
+    },
+    {
       "name": "ELEMENT",
       "track_count": 4
     },
@@ -577,6 +629,10 @@
     },
     {
       "name": "Freiburger BarockOrchester",
+      "track_count": 1
+    },
+    {
+      "name": "moses",
       "track_count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "country_code": "IT",
-  "artist_count": 103,
-  "track_count": 23861,
+  "artist_count": 110,
+  "track_count": 24742,
   "artists": [
     {
       "name": "Antonio Vivaldi",
@@ -236,6 +236,22 @@
       "track_count": 196
     },
     {
+      "name": "Riccardo Chailly",
+      "track_count": 194
+    },
+    {
+      "name": "Maurizio Pollini",
+      "track_count": 194
+    },
+    {
+      "name": "Gala",
+      "track_count": 193
+    },
+    {
+      "name": "Luis",
+      "track_count": 191
+    },
+    {
       "name": "ZERO",
       "track_count": 130
     },
@@ -246,6 +262,10 @@
     {
       "name": "Music for Sleep",
       "track_count": 107
+    },
+    {
+      "name": "LUIS",
+      "track_count": 101
     },
     {
       "name": "NINO",
@@ -312,6 +332,10 @@
       "track_count": 7
     },
     {
+      "name": "GALA",
+      "track_count": 7
+    },
+    {
       "name": "SAVAGE",
       "track_count": 6
     },
@@ -369,6 +393,10 @@
     },
     {
       "name": "emma",
+      "track_count": 1
+    },
+    {
+      "name": "luis",
       "track_count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "country_code": "BR",
-  "artist_count": 164,
-  "track_count": 22862,
+  "artist_count": 171,
+  "track_count": 23639,
   "artists": [
     {
       "name": "Mc Gw",
@@ -256,6 +256,22 @@
       "track_count": 196
     },
     {
+      "name": "Ferrugem",
+      "track_count": 195
+    },
+    {
+      "name": "DJ BL",
+      "track_count": 194
+    },
+    {
+      "name": "Sorriso Maroto",
+      "track_count": 191
+    },
+    {
+      "name": "Bruno & Marrone",
+      "track_count": 191
+    },
+    {
       "name": "mc gw",
       "track_count": 159
     },
@@ -500,6 +516,10 @@
       "track_count": 4
     },
     {
+      "name": "Dj Bl",
+      "track_count": 4
+    },
+    {
       "name": "mc menor Mt",
       "track_count": 4
     },
@@ -612,11 +632,19 @@
       "track_count": 1
     },
     {
+      "name": "DJ Bl",
+      "track_count": 1
+    },
+    {
       "name": "TOQUINHO",
       "track_count": 1
     },
     {
       "name": "mc renatinho falcão",
+      "track_count": 1
+    },
+    {
+      "name": "dj bl",
       "track_count": 1
     },
     {

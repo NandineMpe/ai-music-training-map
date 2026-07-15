@@ -1,7 +1,7 @@
 {
   "country_code": "VE",
-  "artist_count": 2,
-  "track_count": 607,
+  "artist_count": 6,
+  "track_count": 818,
   "artists": [
     {
       "name": "Billo's Caracas Boys",
@@ -10,6 +10,22 @@
     {
       "name": "Gustavo Dudamel",
       "track_count": 221
+    },
+    {
+      "name": "Bravo",
+      "track_count": 193
+    },
+    {
+      "name": "BRAVO",
+      "track_count": 13
+    },
+    {
+      "name": "bravo",
+      "track_count": 4
+    },
+    {
+      "name": "BraVo",
+      "track_count": 1
     }
   ]
 }

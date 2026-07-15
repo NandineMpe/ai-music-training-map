@@ -1,7 +1,7 @@
 {
   "country_code": "ES",
-  "artist_count": 53,
-  "track_count": 9928,
+  "artist_count": 54,
+  "track_count": 9890,
   "artists": [
     {
       "name": "Jordi Savall",
@@ -62,10 +62,6 @@
     {
       "name": "Raphael",
       "track_count": 246
-    },
-    {
-      "name": "Zahara",
-      "track_count": 236
     },
     {
       "name": "Yung Beef",
@@ -152,6 +148,10 @@
       "track_count": 197
     },
     {
+      "name": "Dragonfly",
+      "track_count": 195
+    },
+    {
       "name": "FRANCISCO",
       "track_count": 56
     },
@@ -186,6 +186,10 @@
     {
       "name": "Pablo De Sarasate",
       "track_count": 4
+    },
+    {
+      "name": "DragonFly",
+      "track_count": 3
     },
     {
       "name": "RAPHAEL",

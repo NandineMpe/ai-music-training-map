@@ -1,7 +1,7 @@
 {
   "country_code": "NL",
-  "artist_count": 38,
-  "track_count": 6865,
+  "artist_count": 40,
+  "track_count": 7058,
   "artists": [
     {
       "name": "Armin van Buuren",
@@ -100,6 +100,10 @@
       "track_count": 197
     },
     {
+      "name": "Reinbert de Leeuw",
+      "track_count": 192
+    },
+    {
       "name": "LUKE",
       "track_count": 62
     },
@@ -149,6 +153,10 @@
     },
     {
       "name": "FOCUS",
+      "track_count": 1
+    },
+    {
+      "name": "Reinbert De Leeuw",
       "track_count": 1
     },
     {
