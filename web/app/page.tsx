@@ -1,5 +1,4 @@
 import WorldMap from "./components/WorldMap";
-import ListenButton from "./components/ListenButton";
 
 export default function Home() {
   return (
@@ -42,9 +41,6 @@ export default function Home() {
       <div className="flex-1">
         <WorldMap />
       </div>
-
-      {/* Listen for AI button */}
-      <ListenButton />
     </main>
   );
 }
