@@ -269,37 +269,37 @@ export default function WorldMap() {
         <div ref={tooltipRef} className="map-tooltip hidden" />
 
         {/* Legend */}
-        <div className="absolute bottom-6 left-6 bg-slate-900/90 backdrop-blur border border-slate-700 rounded-lg p-4">
-          <div className="text-xs text-slate-400 mb-2 font-medium">Tracks extracted for AI training</div>
+        <div className="absolute bottom-6 left-6 bg-[#141414]/90 backdrop-blur border border-[#2a2a2a] rounded-lg p-4">
+          <div className="text-xs text-[#6b6b6b] mb-2 font-medium">Tracks extracted for AI training</div>
           <div className="flex items-center gap-1">
-            <span className="text-xs text-slate-500">0</span>
+            <span className="text-xs text-[#6b6b6b]">0</span>
             <div className="w-32 h-3 rounded" style={{
               background: "linear-gradient(to right, #1e293b, #fca5a5, #ef4444, #991b1b)"
             }} />
-            <span className="text-xs text-slate-500">3M+</span>
+            <span className="text-xs text-[#6b6b6b]">3M+</span>
           </div>
-          <div className="text-xs text-slate-500 mt-2">
+          <div className="text-xs text-[#6b6b6b] mt-2">
             Total: {totalTracks.toLocaleString()} tracks across {stats.length} countries
           </div>
         </div>
 
         {/* Stats bar */}
-        <div className="absolute top-4 left-6 flex gap-4">
-          <div className="bg-slate-900/90 backdrop-blur border border-slate-700 rounded-lg px-4 py-2">
-            <div className="text-2xl font-bold text-orange-400">
+        <div className="absolute top-4 left-6 flex gap-3">
+          <div className="bg-[#141414]/90 backdrop-blur border border-[#2a2a2a] rounded-lg px-4 py-2">
+            <div className="text-2xl font-semibold text-white tracking-tight">
               {totalTracks.toLocaleString()}
             </div>
-            <div className="text-xs text-slate-400">Total tracks</div>
+            <div className="text-xs text-[#6b6b6b]">Total tracks</div>
           </div>
-          <div className="bg-slate-900/90 backdrop-blur border border-slate-700 rounded-lg px-4 py-2">
-            <div className="text-2xl font-bold text-orange-400">
+          <div className="bg-[#141414]/90 backdrop-blur border border-[#2a2a2a] rounded-lg px-4 py-2">
+            <div className="text-2xl font-semibold text-white tracking-tight">
               {totalArtists.toLocaleString()}
             </div>
-            <div className="text-xs text-slate-400">Artists affected</div>
+            <div className="text-xs text-[#6b6b6b]">Artists affected</div>
           </div>
-          <div className="bg-slate-900/90 backdrop-blur border border-slate-700 rounded-lg px-4 py-2">
-            <div className="text-2xl font-bold text-orange-400">{stats.length}</div>
-            <div className="text-xs text-slate-400">Countries</div>
+          <div className="bg-[#141414]/90 backdrop-blur border border-[#2a2a2a] rounded-lg px-4 py-2">
+            <div className="text-2xl font-semibold text-white tracking-tight">{stats.length}</div>
+            <div className="text-xs text-[#6b6b6b]">Countries</div>
           </div>
         </div>
       </div>
