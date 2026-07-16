@@ -71,11 +71,11 @@ export default function ListenButton() {
       if (data.status?.code === 0 && data.results?.ai_detection?.length) {
         setAiResults(data.results.ai_detection);
         setState("result");
+      } else if (data.status?.code === 2 && data.file_id) {
+        // Still processing — poll the status endpoint
+        await pollForResults(data.file_id);
       } else if (data.status?.code === 1001) {
         setError("Could not analyze this audio. Try a longer or clearer clip.");
-        setState("error");
-      } else if (data.status?.code === -1) {
-        setError("Analysis is taking longer than expected. The file may still be processing.");
         setState("error");
       } else if (data.error) {
         setError(data.error);
@@ -88,6 +88,33 @@ export default function ListenButton() {
       setError("Network error. Please try again.");
       setState("error");
     }
+  }, []);
+
+  const pollForResults = useCallback(async (fileId: string) => {
+    for (let i = 0; i < 20; i++) {
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+
+      try {
+        const r = await fetch(`/api/identify-status?file_id=${fileId}`);
+        const data = await r.json();
+
+        if (data.state === 1 && data.results?.ai_detection?.length) {
+          setAiResults(data.results.ai_detection);
+          setState("result");
+          return;
+        } else if (data.state === -1) {
+          setError("Audio could not be analyzed. Try a different file (MP3 or WAV, at least 15 seconds).");
+          setState("error");
+          return;
+        }
+        // state === 0: still processing, keep polling
+      } catch {
+        // Network error, keep trying
+      }
+    }
+
+    setError("Analysis is taking longer than expected. Please try again with a shorter clip.");
+    setState("error");
   }, []);
 
   const startListening = useCallback(async () => {

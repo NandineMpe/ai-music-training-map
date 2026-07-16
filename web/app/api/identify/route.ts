@@ -7,7 +7,7 @@ const BEARER_TOKEN = (process.env.ACR_BEARER_TOKEN || "").trim();
 
 const BASE_URL = `https://api-${REGION}.acrcloud.com/api/fs-containers/${CONTAINER_ID}`;
 
-const MAX_POLL_ATTEMPTS = 30;
+const MAX_POLL_ATTEMPTS = 4;
 const POLL_INTERVAL_MS = 2000;
 
 export async function POST(request: NextRequest) {
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Step 2: Poll for results (async processing)
+    // Step 2: Poll for results (short poll, frontend will continue polling via /api/identify-status)
     for (let attempt = 0; attempt < MAX_POLL_ATTEMPTS; attempt++) {
       await new Promise((resolve) => setTimeout(resolve, POLL_INTERVAL_MS));
 
@@ -69,13 +69,12 @@ export async function POST(request: NextRequest) {
       if (!resultRes.ok) continue;
 
       const resultData = await resultRes.json();
-      const file = resultData.data?.[0] || resultData.data;
+      const file = Array.isArray(resultData.data) ? resultData.data[0] : resultData.data;
 
       if (!file) continue;
 
       // state: 0=processing, 1=ready, -1=no results
       if (file.state === 1) {
-        // Results ready
         return NextResponse.json({
           status: { code: 0, msg: "Success" },
           file_id: fileId,
@@ -89,12 +88,11 @@ export async function POST(request: NextRequest) {
           file_id: fileId,
         });
       }
-      // state === 0: still processing, continue polling
     }
 
-    // Timeout
+    // Still processing — return file_id so frontend can poll
     return NextResponse.json({
-      status: { code: -1, msg: "Processing timeout — file may still be analyzing. Check back later." },
+      status: { code: 2, msg: "Processing" },
       file_id: fileId,
     });
 
