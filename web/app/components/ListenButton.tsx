@@ -29,6 +29,7 @@ interface AiDetection {
   stem: string;
   source_probabilities?: { source: string; probability: number }[];
   model_id?: string;
+  segments?: { start: number; end: number; prediction: string; likely_source: string; ai_probability: number }[];
 }
 
 interface IdentifyResult {
@@ -313,44 +314,82 @@ export default function ListenButton() {
                   {(() => {
                     const original = aiResults.find(r => r.stem === "original") || aiResults[0];
                     const isAI = original.prediction === "ai_generated";
+                    const isNoVocals = original.prediction === "no_vocals";
                     return (
-                      <div className={`text-center p-4 rounded-xl border ${isAI ? "bg-red-500/10 border-red-500/30" : "bg-green-500/10 border-green-500/30"}`}>
-                        <div className={`text-2xl font-bold ${isAI ? "text-red-400" : "text-green-400"}`}>
-                          {isAI ? "AI Generated" : "Human Created"}
+                      <div className={`text-center p-5 rounded-xl border ${
+                        isAI ? "bg-red-500/10 border-red-500/30" :
+                        isNoVocals ? "bg-slate-500/10 border-slate-500/30" :
+                        "bg-green-500/10 border-green-500/30"
+                      }`}>
+                        <div className={`inline-block px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wide ${
+                          isAI ? "bg-red-500/20 text-red-400" :
+                          isNoVocals ? "bg-slate-500/20 text-slate-300" :
+                          "bg-green-500/20 text-green-400"
+                        }`}>
+                          {isAI ? "AI Generated" : isNoVocals ? "No Vocals Detected" : "Human Created"}
                         </div>
-                        <div className="text-sm text-slate-300 mt-1">
-                          {isAI
-                            ? `Likely source: ${original.likely_source}`
-                            : "This audio appears to be human-created"
-                          }
+                        <div className={`text-3xl font-bold mt-3 ${
+                          isAI ? "text-red-400" : isNoVocals ? "text-slate-300" : "text-green-400"
+                        }`}>
+                          {original.ai_probability.toFixed(1)}%
                         </div>
-                        <div className="text-xs text-slate-500 mt-1">
-                          AI probability: {original.ai_probability.toFixed(1)}%
-                        </div>
+                        <div className="text-xs text-slate-500 mt-0.5">AI probability</div>
+                        {isAI && (
+                          <div className="mt-2 inline-block px-3 py-1 rounded-full bg-orange-500/15 border border-orange-500/30">
+                            <span className="text-sm text-orange-400 font-medium">
+                              Likely source: {original.likely_source}
+                            </span>
+                          </div>
+                        )}
+                        {!isAI && !isNoVocals && (
+                          <div className="text-sm text-slate-400 mt-2">
+                            This audio appears to be human-created
+                          </div>
+                        )}
                       </div>
                     );
                   })()}
 
-                  {/* Source probabilities */}
+                  {/* Duration */}
+                  {(() => {
+                    const original = aiResults.find(r => r.stem === "original") || aiResults[0];
+                    const dur = original.duration;
+                    const minutes = Math.floor(dur / 60);
+                    const seconds = Math.round(dur % 60);
+                    return (
+                      <div className="flex items-center justify-center gap-2 text-sm text-slate-400">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Analyzed clip: {minutes > 0 ? `${minutes}m ` : ""}{seconds}s</span>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Source probabilities bar chart */}
                   {(() => {
                     const original = aiResults.find(r => r.stem === "original") || aiResults[0];
                     if (!original.source_probabilities?.length) return null;
+                    const sorted = [...original.source_probabilities].sort((a, b) => b.probability - a.probability);
+                    const maxProb = sorted[0]?.probability || 100;
                     return (
                       <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
-                        <h4 className="text-xs text-slate-400 font-medium mb-3">Source Analysis</h4>
-                        <div className="space-y-2">
-                          {original.source_probabilities
-                            .sort((a, b) => b.probability - a.probability)
-                            .map((sp) => (
-                            <div key={sp.source} className="flex items-center gap-2">
-                              <span className="text-xs text-slate-300 w-20">{sp.source}</span>
-                              <div className="flex-1 h-2 bg-slate-700 rounded-full overflow-hidden">
+                        <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Source Probabilities</h4>
+                        <div className="space-y-2.5">
+                          {sorted.map((sp) => (
+                            <div key={sp.source}>
+                              <div className="flex items-center justify-between mb-1">
+                                <span className="text-xs text-slate-300 font-medium">{sp.source}</span>
+                                <span className="text-xs text-slate-400 font-mono">{sp.probability.toFixed(1)}%</span>
+                              </div>
+                              <div className="h-2.5 bg-slate-700 rounded-full overflow-hidden">
                                 <div
-                                  className="h-full bg-orange-500 rounded-full"
-                                  style={{ width: `${sp.probability}%` }}
+                                  className={`h-full rounded-full transition-all duration-500 ${
+                                    sp.probability === maxProb ? "bg-orange-500" : "bg-orange-500/50"
+                                  }`}
+                                  style={{ width: `${Math.max(sp.probability, 1)}%` }}
                                 />
                               </div>
-                              <span className="text-xs text-slate-400 w-12 text-right">{sp.probability}%</span>
                             </div>
                           ))}
                         </div>
@@ -358,28 +397,146 @@ export default function ListenButton() {
                     );
                   })()}
 
-                  {/* Stem breakdown */}
+                  {/* Stem analysis cards */}
                   {aiResults.length > 1 && (
-                    <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
-                      <h4 className="text-xs text-slate-400 font-medium mb-3">Stem Analysis</h4>
+                    <div>
+                      <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Stem Analysis</h4>
                       <div className="space-y-2">
-                        {aiResults.map((r) => (
-                          <div key={r.stem} className="flex items-center justify-between">
-                            <span className="text-xs text-slate-300 capitalize">{r.stem}</span>
-                            <div className="flex items-center gap-2">
-                              <span className={`text-xs font-medium ${r.prediction === "ai_generated" ? "text-red-400" : "text-green-400"}`}>
-                                {r.prediction === "ai_generated" ? "AI" : "Human"}
-                              </span>
-                              <span className="text-xs text-slate-500">
-                                ({r.ai_probability.toFixed(0)}%)
-                              </span>
+                        {aiResults.map((r) => {
+                          const stemIsAI = r.prediction === "ai_generated";
+                          const stemIsNoVocals = r.prediction === "no_vocals";
+                          return (
+                            <div key={r.stem} className="bg-slate-800 rounded-xl p-3 border border-slate-700">
+                              <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-2">
+                                  <div className={`w-2 h-2 rounded-full ${
+                                    stemIsAI ? "bg-red-400" : stemIsNoVocals ? "bg-slate-400" : "bg-green-400"
+                                  }`} />
+                                  <span className="text-sm text-white font-medium capitalize">{r.stem}</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                  <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${
+                                    stemIsAI ? "bg-red-500/20 text-red-400" :
+                                    stemIsNoVocals ? "bg-slate-500/20 text-slate-400" :
+                                    "bg-green-500/20 text-green-400"
+                                  }`}>
+                                    {stemIsAI ? "AI" : stemIsNoVocals ? "No Vocals" : "Human"}
+                                  </span>
+                                  <span className="text-xs text-slate-400 font-mono">
+                                    {r.ai_probability.toFixed(1)}%
+                                  </span>
+                                </div>
+                              </div>
+                              {stemIsAI && r.likely_source && (
+                                <div className="text-xs text-slate-500 mt-1.5 ml-4">
+                                  Source: {r.likely_source}
+                                </div>
+                              )}
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
                   )}
 
+                  {/* Timeline segments */}
+                  {aiResults.some(r => r.segments && r.segments.length > 0) && (
+                    <div>
+                      <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Timeline Segments</h4>
+                      <div className="space-y-3">
+                        {aiResults.filter(r => r.segments && r.segments.length > 0).map((r) => {
+                          const totalDuration = r.duration || r.end - r.start || 1;
+                          return (
+                            <div key={`timeline-${r.stem}`} className="bg-slate-800 rounded-xl p-3 border border-slate-700">
+                              <div className="text-xs text-slate-300 font-medium capitalize mb-2">{r.stem}</div>
+                              {/* Timeline bar */}
+                              <div className="relative h-6 bg-slate-700 rounded-full overflow-hidden flex">
+                                {r.segments!.map((seg, i) => {
+                                  const segDuration = seg.end - seg.start;
+                                  const widthPct = (segDuration / totalDuration) * 100;
+                                  const segIsAI = seg.prediction === "ai_generated";
+                                  const segIsNoVocals = seg.prediction === "no_vocals";
+                                  return (
+                                    <div
+                                      key={i}
+                                      className={`h-full ${
+                                        segIsAI ? "bg-red-500/70" :
+                                        segIsNoVocals ? "bg-slate-500/70" :
+                                        "bg-green-500/70"
+                                      } ${i > 0 ? "border-l border-slate-900/50" : ""}`}
+                                      style={{ width: `${widthPct}%` }}
+                                      title={`${seg.start.toFixed(1)}s - ${seg.end.toFixed(1)}s: ${seg.prediction} (${seg.ai_probability}%)`}
+                                    />
+                                  );
+                                })}
+                              </div>
+                              {/* Time markers */}
+                              <div className="flex justify-between mt-1">
+                                <span className="text-[10px] text-slate-500">0s</span>
+                                {totalDuration > 10 && (
+                                  <span className="text-[10px] text-slate-500">{Math.round(totalDuration / 2)}s</span>
+                                )}
+                                <span className="text-[10px] text-slate-500">{Math.round(totalDuration)}s</span>
+                              </div>
+                              {/* Legend */}
+                              <div className="flex items-center gap-3 mt-2">
+                                <div className="flex items-center gap-1">
+                                  <div className="w-2 h-2 rounded-full bg-red-500/70" />
+                                  <span className="text-[10px] text-slate-500">AI</span>
+                                </div>
+                                <div className="flex items-center gap-1">
+                                  <div className="w-2 h-2 rounded-full bg-green-500/70" />
+                                  <span className="text-[10px] text-slate-500">Human</span>
+                                </div>
+                                <div className="flex items-center gap-1">
+                                  <div className="w-2 h-2 rounded-full bg-slate-500/70" />
+                                  <span className="text-[10px] text-slate-500">No Vocals</span>
+                                </div>
+                              </div>
+                              {/* Segment details */}
+                              <div className="mt-2 space-y-1">
+                                {r.segments!.map((seg, i) => (
+                                  <div key={i} className="flex items-center justify-between text-[10px]">
+                                    <span className="text-slate-500">
+                                      {seg.start.toFixed(1)}s – {seg.end.toFixed(1)}s
+                                    </span>
+                                    <div className="flex items-center gap-1.5">
+                                      <span className={`${
+                                        seg.prediction === "ai_generated" ? "text-red-400" :
+                                        seg.prediction === "no_vocals" ? "text-slate-400" :
+                                        "text-green-400"
+                                      }`}>
+                                        {seg.prediction === "ai_generated" ? "AI" : seg.prediction === "no_vocals" ? "No Vocals" : "Human"}
+                                      </span>
+                                      {seg.likely_source && seg.prediction === "ai_generated" && (
+                                        <span className="text-slate-500">({seg.likely_source})</span>
+                                      )}
+                                      <span className="text-slate-500 font-mono">{seg.ai_probability}%</span>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Model version footer */}
+                  {(() => {
+                    const modelId = aiResults.find(r => r.model_id)?.model_id;
+                    if (!modelId) return null;
+                    return (
+                      <div className="text-center pt-2 border-t border-slate-700/50">
+                        <span className="text-[10px] text-slate-500">
+                          Model: {modelId}
+                        </span>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Action buttons */}
                   <div className="flex gap-2 mt-4">
                     <button
                       onClick={() => {
@@ -387,13 +544,13 @@ export default function ListenButton() {
                         setAiResults([]);
                         startListening();
                       }}
-                      className="flex-1 py-2 bg-orange-500 hover:bg-orange-600 rounded-lg text-white text-sm font-medium"
+                      className="flex-1 py-2.5 bg-orange-500 hover:bg-orange-600 rounded-lg text-white text-sm font-medium transition-colors"
                     >
                       Listen again
                     </button>
                     <button
                       onClick={() => fileInputRef.current?.click()}
-                      className="flex-1 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm font-medium"
+                      className="flex-1 py-2.5 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm font-medium transition-colors"
                     >
                       Upload file
                     </button>
