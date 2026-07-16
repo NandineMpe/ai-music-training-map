@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
 
     // Step 1: Upload file to FS container
     const uploadForm = new FormData();
-    uploadForm.append("file", new Blob([audioBuffer], { type: audioFile.type || "audio/webm" }), filename);
+    uploadForm.append("file", new Blob([new Uint8Array(audioBuffer)], { type: audioFile.type || "audio/mpeg" }), filename);
     uploadForm.append("data_type", "audio");
 
     const uploadRes = await fetch(`${BASE_URL}/files`, {
