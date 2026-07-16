@@ -134,21 +134,21 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm" onClick={onClose}>
       <div
-        className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-lg mx-4 overflow-hidden shadow-2xl max-h-[85vh] flex flex-col"
+        className="bg-[#141414] border border-[#2a2a2a] rounded-2xl w-full max-w-lg mx-4 overflow-hidden shadow-2xl max-h-[85vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-labelledby="evidence-title"
       >
         {/* Header */}
-        <div className="p-5 border-b border-slate-700 flex-shrink-0">
+        <div className="p-5 border-b border-[#2a2a2a] flex-shrink-0">
           <div className="flex items-start justify-between">
             <div>
               <h2 id="evidence-title" className="text-xl font-bold text-white">{artist.name}</h2>
-              <p className="text-sm text-slate-400 mt-0.5">Evidence Record</p>
+              <p className="text-sm text-[#a1a1a1] mt-0.5">Evidence Record</p>
             </div>
             <button
               onClick={onClose}
-              className="text-slate-400 hover:text-white p-1 -mt-1 -mr-1"
+              className="text-[#a1a1a1] hover:text-white p-1 -mt-1 -mr-1"
               aria-label="Close"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -162,7 +162,7 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
             <button
               onClick={() => setActiveTab("summary")}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                activeTab === "summary" ? "bg-orange-500/20 text-orange-400" : "text-slate-400 hover:text-white"
+                activeTab === "summary" ? "bg-white/10 text-white" : "text-[#a1a1a1] hover:text-white"
               }`}
             >
               Summary
@@ -170,7 +170,7 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
             <button
               onClick={() => setActiveTab("provenance")}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                activeTab === "provenance" ? "bg-orange-500/20 text-orange-400" : "text-slate-400 hover:text-white"
+                activeTab === "provenance" ? "bg-white/10 text-white" : "text-[#a1a1a1] hover:text-white"
               }`}
             >
               Provenance
@@ -184,51 +184,51 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
             <div className="space-y-4">
               {/* Stats grid */}
               <div className="grid grid-cols-2 gap-3">
-                <div className="bg-slate-800 rounded-lg p-3 border border-slate-700">
-                  <div className="text-lg font-bold text-orange-400">{artist.track_count.toLocaleString()}</div>
-                  <div className="text-xs text-slate-400">Tracks in dataset</div>
+                <div className="bg-[#1a1a1a] rounded-lg p-3 border border-[#2a2a2a]">
+                  <div className="text-lg font-bold text-white">{artist.track_count.toLocaleString()}</div>
+                  <div className="text-xs text-[#a1a1a1]">Tracks in dataset</div>
                 </div>
                 {pctInclusion !== null && (
-                  <div className="bg-slate-800 rounded-lg p-3 border border-slate-700">
-                    <div className="text-lg font-bold text-orange-400">{pctInclusion}%</div>
-                    <div className="text-xs text-slate-400">Catalog included</div>
+                  <div className="bg-[#1a1a1a] rounded-lg p-3 border border-[#2a2a2a]">
+                    <div className="text-lg font-bold text-white">{pctInclusion}%</div>
+                    <div className="text-xs text-[#a1a1a1]">Catalog included</div>
                   </div>
                 )}
                 {artist.total_recordings && (
-                  <div className="bg-slate-800 rounded-lg p-3 border border-slate-700">
+                  <div className="bg-[#1a1a1a] rounded-lg p-3 border border-[#2a2a2a]">
                     <div className="text-lg font-bold text-white">{artist.total_recordings.toLocaleString()}</div>
-                    <div className="text-xs text-slate-400">Total recordings (MusicBrainz)</div>
+                    <div className="text-xs text-[#a1a1a1]">Total recordings (MusicBrainz)</div>
                   </div>
                 )}
-                <div className="bg-slate-800 rounded-lg p-3 border border-slate-700">
+                <div className="bg-[#1a1a1a] rounded-lg p-3 border border-[#2a2a2a]">
                   <div className="text-lg font-bold text-white">1</div>
-                  <div className="text-xs text-slate-400">Datasets containing</div>
+                  <div className="text-xs text-[#a1a1a1]">Datasets containing</div>
                 </div>
               </div>
 
               {/* Metadata */}
-              <div className="bg-slate-800 rounded-lg p-4 border border-slate-700 space-y-2">
+              <div className="bg-[#1a1a1a] rounded-lg p-4 border border-[#2a2a2a] space-y-2">
                 <div className="flex justify-between text-sm">
-                  <span className="text-slate-400">Label</span>
+                  <span className="text-[#a1a1a1]">Label</span>
                   <span className="text-white">{artist.label || "Unknown"}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-slate-400">Type</span>
+                  <span className="text-[#a1a1a1]">Type</span>
                   <span className="text-white">{artist.type || "Unknown"}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-slate-400">Country</span>
+                  <span className="text-[#a1a1a1]">Country</span>
                   <span className="text-white">{artist.country_code}</span>
                 </div>
               </div>
 
               {/* Dataset chip */}
-              <div className="flex items-center gap-2 p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-orange-500/10 border border-orange-500/20 rounded-full">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-                  <span className="text-xs text-orange-400 font-medium">{DATASET_INFO.name}</span>
+              <div className="flex items-center gap-2 p-3 bg-[#1a1a1a]/50 rounded-lg border border-[#2a2a2a]/50">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-white/5 border border-white/20 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
+                  <span className="text-xs text-white font-medium">{DATASET_INFO.name}</span>
                 </span>
-                <span className="text-xs text-slate-500">Retrieved {new Date(DATASET_INFO.retrieved_at).toLocaleDateString()}</span>
+                <span className="text-xs text-[#6b6b6b]">Retrieved {new Date(DATASET_INFO.retrieved_at).toLocaleDateString()}</span>
               </div>
             </div>
           )}
@@ -236,36 +236,36 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
           {activeTab === "provenance" && (
             <div className="space-y-4">
               {/* Dataset source */}
-              <div className="bg-slate-800 rounded-lg p-4 border border-slate-700 space-y-3">
-                <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide">Source</h4>
+              <div className="bg-[#1a1a1a] rounded-lg p-4 border border-[#2a2a2a] space-y-3">
+                <h4 className="text-xs text-[#a1a1a1] font-medium uppercase tracking-wide">Source</h4>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Repository</span>
-                    <a href={DATASET_INFO.repo_url} target="_blank" rel="noopener noreferrer nofollow" className="text-orange-400 hover:text-orange-300 underline text-right max-w-[200px] truncate">
+                    <span className="text-[#a1a1a1]">Repository</span>
+                    <a href={DATASET_INFO.repo_url} target="_blank" rel="noopener noreferrer nofollow" className="text-white hover:text-white/80 underline text-right max-w-[200px] truncate">
                       huggingface.co/datasets/laion/LAION-DISCO-12M
                     </a>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Commit</span>
-                    <code className="text-xs text-slate-300 bg-slate-700 px-1.5 py-0.5 rounded">{DATASET_INFO.commit_sha}</code>
+                    <span className="text-[#a1a1a1]">Commit</span>
+                    <code className="text-xs text-[#d4d4d4] bg-[#2a2a2a] px-1.5 py-0.5 rounded">{DATASET_INFO.commit_sha}</code>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Retrieved</span>
-                    <span className="text-slate-300">{new Date(DATASET_INFO.retrieved_at).toUTCString()}</span>
+                    <span className="text-[#a1a1a1]">Retrieved</span>
+                    <span className="text-[#d4d4d4]">{new Date(DATASET_INFO.retrieved_at).toUTCString()}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Total tracks in dataset</span>
-                    <span className="text-slate-300">{DATASET_INFO.total_tracks.toLocaleString()}</span>
+                    <span className="text-[#a1a1a1]">Total tracks in dataset</span>
+                    <span className="text-[#d4d4d4]">{DATASET_INFO.total_tracks.toLocaleString()}</span>
                   </div>
                 </div>
               </div>
 
               {/* Integrity */}
-              <div className="bg-slate-800 rounded-lg p-4 border border-slate-700 space-y-3">
-                <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide">Integrity</h4>
-                <div className="text-sm text-slate-300">
+              <div className="bg-[#1a1a1a] rounded-lg p-4 border border-[#2a2a2a] space-y-3">
+                <h4 className="text-xs text-[#a1a1a1] font-medium uppercase tracking-wide">Integrity</h4>
+                <div className="text-sm text-[#d4d4d4]">
                   <p>Manifest indexed from Parquet metadata via Hugging Face datasets API.</p>
-                  <p className="mt-2 text-xs text-slate-500">Country attribution via MusicBrainz (musicbrainz.org), queried at ingest time.</p>
+                  <p className="mt-2 text-xs text-[#6b6b6b]">Country attribution via MusicBrainz (musicbrainz.org), queried at ingest time.</p>
                 </div>
               </div>
 
@@ -280,11 +280,11 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
         </div>
 
         {/* Action bar */}
-        <div className="p-4 border-t border-slate-700 flex-shrink-0 space-y-2">
+        <div className="p-4 border-t border-[#2a2a2a] flex-shrink-0 space-y-2">
           <div className="flex gap-2">
             <button
               onClick={downloadEvidence}
-              className="flex-1 flex items-center justify-center gap-1.5 py-2 bg-orange-500 hover:bg-orange-600 rounded-lg text-white text-sm font-medium transition-colors"
+              className="flex-1 flex items-center justify-center gap-1.5 py-2 bg-white hover:bg-white/90 rounded-lg text-black text-sm font-medium transition-colors"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -293,7 +293,7 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
             </button>
             <button
               onClick={downloadCSV}
-              className="flex-1 flex items-center justify-center gap-1.5 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm font-medium transition-colors"
+              className="flex-1 flex items-center justify-center gap-1.5 py-2 bg-[#2a2a2a] hover:bg-[#333] rounded-lg text-white text-sm font-medium transition-colors"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -303,7 +303,7 @@ export default function ArtistEvidencePopover({ artist, onClose }: ArtistEvidenc
           </div>
           <button
             onClick={copyCitation}
-            className="w-full flex items-center justify-center gap-1.5 py-2 border border-slate-600 hover:border-slate-500 rounded-lg text-slate-300 text-sm transition-colors"
+            className="w-full flex items-center justify-center gap-1.5 py-2 border border-[#333] hover:border-[#555] rounded-lg text-[#d4d4d4] text-sm transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />

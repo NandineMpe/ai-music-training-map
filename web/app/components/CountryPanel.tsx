@@ -62,31 +62,31 @@ function ArtistRow({ artist, index, maxCount, onSelect }: { artist: ArtistDetail
     : null;
 
   return (
-    <div className="rounded-lg hover:bg-slate-800 transition-colors">
+    <div className="rounded-lg hover:bg-[#1f1f1f] transition-colors">
       <button
         onClick={() => setExpanded(!expanded)}
         className="w-full flex items-center justify-between py-2 px-3 text-left"
       >
         <div className="flex items-center gap-3 min-w-0">
-          <span className="text-xs text-slate-600 w-6 text-right flex-shrink-0">
+          <span className="text-xs text-[#6b6b6b] w-6 text-right flex-shrink-0">
             {index + 1}
           </span>
           <span className="text-sm text-white truncate">{artist.name}</span>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
-          <span className="text-xs text-slate-400">
+          <span className="text-xs text-[#a1a1a1]">
             {artist.track_count.toLocaleString()} tracks
           </span>
-          <div className="w-16 h-1.5 bg-slate-700 rounded-full overflow-hidden">
+          <div className="w-16 h-1.5 bg-[#2a2a2a] rounded-full overflow-hidden">
             <div
-              className="h-full bg-orange-500 rounded-full"
+              className="h-full bg-white/60 rounded-full"
               style={{
                 width: `${Math.min(100, (artist.track_count / maxCount) * 100)}%`,
               }}
             />
           </div>
           <svg
-            className={`w-3 h-3 text-slate-500 transition-transform ${expanded ? "rotate-180" : ""}`}
+            className={`w-3 h-3 text-[#6b6b6b] transition-transform ${expanded ? "rotate-180" : ""}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -96,24 +96,24 @@ function ArtistRow({ artist, index, maxCount, onSelect }: { artist: ArtistDetail
 
       {expanded && (
         <div className="px-3 pb-3 ml-9">
-          <div className="bg-slate-800/50 rounded-lg p-3 text-xs space-y-2 border border-slate-700/50">
+          <div className="bg-[#1a1a1a]/50 rounded-lg p-3 text-xs space-y-2 border border-[#2a2a2a]/50">
             {/* Inclusion percentage */}
             {pctInclusion !== null && artist.total_recordings && (
               <div className="flex items-center justify-between">
-                <span className="text-slate-400">Catalog included in AI training</span>
-                <span className="text-orange-400 font-bold">{pctInclusion}%</span>
+                <span className="text-[#a1a1a1]">Catalog included in AI training</span>
+                <span className="text-white font-bold">{pctInclusion}%</span>
               </div>
             )}
             {artist.total_recordings && (
               <div className="flex items-center justify-between">
-                <span className="text-slate-400">Tracks in dataset / total catalog</span>
-                <span className="text-slate-300">{artist.track_count} / {artist.total_recordings}</span>
+                <span className="text-[#a1a1a1]">Tracks in dataset / total catalog</span>
+                <span className="text-[#d4d4d4]">{artist.track_count} / {artist.total_recordings}</span>
               </div>
             )}
             {pctInclusion !== null && (
-              <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
+              <div className="w-full h-2 bg-[#2a2a2a] rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-orange-500 rounded-full"
+                  className="h-full bg-white/60 rounded-full"
                   style={{ width: `${pctInclusion}%` }}
                 />
               </div>
@@ -121,8 +121,8 @@ function ArtistRow({ artist, index, maxCount, onSelect }: { artist: ArtistDetail
 
             {/* Label */}
             <div className="flex items-center justify-between pt-1">
-              <span className="text-slate-400">Label</span>
-              <span className="text-slate-300 text-right max-w-[180px] truncate">
+              <span className="text-[#a1a1a1]">Label</span>
+              <span className="text-[#d4d4d4] text-right max-w-[180px] truncate">
                 {artist.label || "Unknown"}
               </span>
             </div>
@@ -130,15 +130,15 @@ function ArtistRow({ artist, index, maxCount, onSelect }: { artist: ArtistDetail
             {/* Type */}
             {artist.type && (
               <div className="flex items-center justify-between">
-                <span className="text-slate-400">Type</span>
-                <span className="text-slate-300">{artist.type}</span>
+                <span className="text-[#a1a1a1]">Type</span>
+                <span className="text-[#d4d4d4]">{artist.type}</span>
               </div>
             )}
 
             {/* View Evidence button */}
             <button
               onClick={(e) => { e.stopPropagation(); onSelect(); }}
-              className="w-full mt-2 py-1.5 bg-orange-500/10 hover:bg-orange-500/20 border border-orange-500/30 rounded-lg text-xs text-orange-400 font-medium transition-colors"
+              className="w-full mt-2 py-1.5 bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg text-xs text-white font-medium transition-colors"
             >
               View Evidence Record →
             </button>
@@ -195,9 +195,9 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
   const visibleArtists = filteredArtists.slice(0, visibleCount);
 
   return (
-    <div className="w-96 bg-slate-900 border-l border-slate-700 flex flex-col h-[calc(100vh-80px)] overflow-hidden">
+    <div className="w-96 bg-[#141414] border-l border-[#2a2a2a] flex flex-col h-[calc(100vh-80px)] overflow-hidden">
       {/* Panel header */}
-      <div className="p-4 border-b border-slate-700 flex-shrink-0">
+      <div className="p-4 border-b border-[#2a2a2a] flex-shrink-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-2xl">{flag}</span>
@@ -205,7 +205,7 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
           </div>
           <button
             onClick={onClose}
-            className="text-slate-400 hover:text-white p-1 rounded hover:bg-slate-700 transition-colors"
+            className="text-[#a1a1a1] hover:text-white p-1 rounded hover:bg-[#2a2a2a] transition-colors"
             aria-label="Close panel"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -216,17 +216,17 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
 
         {/* Stats */}
         <div className="grid grid-cols-2 gap-3 mt-4">
-          <div className="bg-slate-800 rounded-lg p-3">
-            <div className="text-xl font-bold text-orange-400">
+          <div className="bg-[#1a1a1a] rounded-lg p-3">
+            <div className="text-xl font-bold text-white">
               {country.track_count.toLocaleString()}
             </div>
-            <div className="text-xs text-slate-400">Tracks extracted</div>
+            <div className="text-xs text-[#a1a1a1]">Tracks extracted</div>
           </div>
-          <div className="bg-slate-800 rounded-lg p-3">
-            <div className="text-xl font-bold text-orange-400">
+          <div className="bg-[#1a1a1a] rounded-lg p-3">
+            <div className="text-xl font-bold text-white">
               {country.artist_count.toLocaleString()}
             </div>
-            <div className="text-xs text-slate-400">Artists affected</div>
+            <div className="text-xs text-[#a1a1a1]">Artists affected</div>
           </div>
         </div>
 
@@ -237,9 +237,9 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
             placeholder="Search artists..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-slate-800 border border-slate-600 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+            className="w-full bg-[#1a1a1a] border border-[#333] rounded-lg px-3 py-2 text-sm text-white placeholder-[#6b6b6b] focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent"
           />
-          <svg className="absolute right-3 top-2.5 w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="absolute right-3 top-2.5 w-4 h-4 text-[#6b6b6b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
         </div>
@@ -248,10 +248,10 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
       {/* Artist list */}
       <div className="flex-1 overflow-y-auto p-4">
         {loading ? (
-          <div className="text-center text-slate-400 py-8">Loading artists...</div>
+          <div className="text-center text-[#a1a1a1] py-8">Loading artists...</div>
         ) : (
           <>
-            <div className="text-xs text-slate-500 mb-3">
+            <div className="text-xs text-[#6b6b6b] mb-3">
               {filteredArtists.length.toLocaleString()} artists
               {searchQuery && ` matching "${searchQuery}"`}
               {" · "}sorted by tracks extracted (most → least)
@@ -267,7 +267,7 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
             {visibleCount < filteredArtists.length && (
               <button
                 onClick={() => setVisibleCount((v) => v + 50)}
-                className="w-full mt-4 py-2 text-sm text-orange-400 hover:text-orange-300 border border-slate-700 rounded-lg hover:bg-slate-800 transition-colors"
+                className="w-full mt-4 py-2 text-sm text-white hover:text-white/80 border border-[#2a2a2a] rounded-lg hover:bg-[#1f1f1f] transition-colors"
               >
                 Load more ({filteredArtists.length - visibleCount} remaining)
               </button>
@@ -277,8 +277,8 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
       </div>
 
       {/* Footer */}
-      <div className="p-3 border-t border-slate-700 flex-shrink-0">
-        <p className="text-xs text-slate-500 text-center">
+      <div className="p-3 border-t border-[#2a2a2a] flex-shrink-0">
+        <p className="text-xs text-[#6b6b6b] text-center">
           Data from LAION-DISCO-12M · Country via MusicBrainz
         </p>
       </div>
