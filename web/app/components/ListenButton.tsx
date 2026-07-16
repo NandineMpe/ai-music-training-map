@@ -127,7 +127,7 @@ export default function ListenButton() {
           setState("result");
           return;
         } else if (data.state === -1) {
-          setError("Audio could not be analyzed. Try a different file (MP3 or WAV, at least 15 seconds).");
+          setError("Audio could not be analyzed. Upload the original file directly from Suno/Udio (full-length, 2+ minutes, no re-encoding).");
           setState("error");
           return;
         }

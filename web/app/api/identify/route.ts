@@ -1,14 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // ACRCloud File Scanning API (AI Music Detection)
-const CONTAINER_ID = "33436";
+const CONTAINER_ID = "33439";
 const REGION = "eu-west-1";
 const BEARER_TOKEN = (process.env.ACR_BEARER_TOKEN || "").trim();
 
 const BASE_URL = `https://api-${REGION}.acrcloud.com/api/fs-containers/${CONTAINER_ID}`;
 
-const MAX_POLL_ATTEMPTS = 4;
-const POLL_INTERVAL_MS = 2000;
+const MAX_POLL_ATTEMPTS = 8;
+const POLL_INTERVAL_MS = 3000;
 
 export async function POST(request: NextRequest) {
   try {
