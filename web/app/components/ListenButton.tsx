@@ -172,12 +172,7 @@ export default function ListenButton() {
 
       mediaRecorder.start(1000);
 
-      // Auto-stop after 12 seconds
-      timerRef.current = setTimeout(() => {
-        if (mediaRecorderRef.current?.state === "recording") {
-          mediaRecorderRef.current.stop();
-        }
-      }, 12000);
+      // No auto-stop — user controls when to stop
     } catch {
       setError("Microphone access denied. Please allow microphone access or upload a file instead.");
       setState("error");
@@ -312,12 +307,12 @@ export default function ListenButton() {
                     ))}
                   </div>
                   <p className="text-slate-300">Play a song near your microphone</p>
-                  <p className="text-slate-500 text-sm mt-1">Recording for 12 seconds...</p>
+                  <p className="text-slate-500 text-sm mt-1">Press stop when ready</p>
                   <button
                     onClick={stopListening}
-                    className="mt-4 px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-sm text-white"
+                    className="mt-4 px-4 py-2 bg-red-500 hover:bg-red-600 rounded-lg text-sm text-white font-medium"
                   >
-                    Stop early
+                    Stop recording
                   </button>
                 </div>
               )}
