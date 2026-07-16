@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import ArtistEvidencePopover from "./ArtistEvidencePopover";
 
 interface CountryStat {
   country_code: string;
@@ -54,7 +55,7 @@ interface CountryPanelProps {
   onClose: () => void;
 }
 
-function ArtistRow({ artist, index, maxCount }: { artist: ArtistDetail; index: number; maxCount: number }) {
+function ArtistRow({ artist, index, maxCount, onSelect }: { artist: ArtistDetail; index: number; maxCount: number; onSelect: () => void }) {
   const [expanded, setExpanded] = useState(false);
   const pctInclusion = artist.total_recordings
     ? Math.min(Math.round((artist.track_count / artist.total_recordings) * 100), 100)
@@ -133,6 +134,14 @@ function ArtistRow({ artist, index, maxCount }: { artist: ArtistDetail; index: n
                 <span className="text-slate-300">{artist.type}</span>
               </div>
             )}
+
+            {/* View Evidence button */}
+            <button
+              onClick={(e) => { e.stopPropagation(); onSelect(); }}
+              className="w-full mt-2 py-1.5 bg-orange-500/10 hover:bg-orange-500/20 border border-orange-500/30 rounded-lg text-xs text-orange-400 font-medium transition-colors"
+            >
+              View Evidence Record →
+            </button>
           </div>
         </div>
       )}
@@ -145,6 +154,7 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(50);
+  const [selectedArtist, setSelectedArtist] = useState<ArtistDetail | null>(null);
 
   const countryName = COUNTRY_NAMES[country.country_code] || country.country_code;
   const flag = getFlag(country.country_code);
@@ -249,7 +259,7 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
 
             <div className="space-y-1">
               {visibleArtists.map((artist, i) => (
-                <ArtistRow key={artist.name} artist={artist} index={i} maxCount={filteredArtists[0]?.track_count || 1} />
+                <ArtistRow key={artist.name} artist={artist} index={i} maxCount={filteredArtists[0]?.track_count || 1} onSelect={() => setSelectedArtist(artist)} />
               ))}
             </div>
 
@@ -272,6 +282,14 @@ export default function CountryPanel({ country, onClose }: CountryPanelProps) {
           Data from LAION-DISCO-12M · Country via MusicBrainz
         </p>
       </div>
+
+      {/* Evidence Popover */}
+      {selectedArtist && (
+        <ArtistEvidencePopover
+          artist={{ ...selectedArtist, country_code: country.country_code }}
+          onClose={() => setSelectedArtist(null)}
+        />
+      )}
     </div>
   );
 }
