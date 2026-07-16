@@ -38,9 +38,29 @@ interface IdentifyResult {
   duration?: number;
   results?: {
     ai_detection?: AiDetection[];
-    music?: { result?: MusicMatch }[];
+    music?: MusicResult[];
   };
   error?: string;
+}
+
+interface MusicResult {
+  offset?: number;
+  played_duration?: number;
+  result?: {
+    title?: string;
+    artists?: { name: string }[];
+    album?: { name: string };
+    label?: string;
+    release_date?: string;
+    genres?: { name: string }[];
+    score?: number;
+    duration_ms?: number;
+    external_ids?: { isrc?: string; upc?: string };
+    external_metadata?: {
+      spotify?: { track?: { id?: string; name?: string }; artists?: { name: string }[] };
+      youtube?: { vid?: string };
+    };
+  };
 }
 
 type ListenState = "idle" | "listening" | "processing" | "result" | "error";
@@ -48,6 +68,7 @@ type ListenState = "idle" | "listening" | "processing" | "result" | "error";
 export default function ListenButton() {
   const [state, setState] = useState<ListenState>("idle");
   const [aiResults, setAiResults] = useState<AiDetection[]>([]);
+  const [musicResults, setMusicResults] = useState<MusicResult[]>([]);
   const [error, setError] = useState("");
   const [showPanel, setShowPanel] = useState(false);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -71,6 +92,7 @@ export default function ListenButton() {
 
       if (data.status?.code === 0 && data.results?.ai_detection?.length) {
         setAiResults(data.results.ai_detection);
+        setMusicResults(data.results.music || []);
         setState("result");
       } else if (data.status?.code === 2 && data.file_id) {
         // Still processing — poll the status endpoint
@@ -101,6 +123,7 @@ export default function ListenButton() {
 
         if (data.state === 1 && data.results?.ai_detection?.length) {
           setAiResults(data.results.ai_detection);
+          setMusicResults(data.results.music || []);
           setState("result");
           return;
         } else if (data.state === -1) {
@@ -198,6 +221,7 @@ export default function ListenButton() {
     setShowPanel(false);
     setState("idle");
     setAiResults([]);
+    setMusicResults([]);
     setError("");
   }, []);
 
@@ -535,6 +559,67 @@ export default function ListenButton() {
                       </div>
                     );
                   })()}
+
+                  {/* Music identification (Shazam-like) */}
+                  {musicResults.length > 0 && (
+                    <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
+                      <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">
+                        🎵 Song Identified
+                      </h4>
+                      {musicResults.slice(0, 3).map((m, i) => {
+                        const r = m.result;
+                        if (!r) return null;
+                        return (
+                          <div key={i} className={`${i > 0 ? "mt-3 pt-3 border-t border-slate-700/50" : ""}`}>
+                            <div className="font-bold text-white text-sm">{r.title}</div>
+                            <div className="text-orange-400 text-sm">
+                              {r.artists?.map(a => a.name).join(", ")}
+                            </div>
+                            {r.album && (
+                              <div className="text-xs text-slate-400 mt-1">Album: {r.album.name}</div>
+                            )}
+                            <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2">
+                              {r.label && (
+                                <span className="text-xs text-slate-500">Label: {r.label}</span>
+                              )}
+                              {r.release_date && (
+                                <span className="text-xs text-slate-500">Released: {r.release_date}</span>
+                              )}
+                              {r.genres && r.genres.length > 0 && (
+                                <span className="text-xs text-slate-500">Genre: {r.genres.map(g => g.name).join(", ")}</span>
+                              )}
+                              {r.external_ids?.isrc && (
+                                <span className="text-xs text-slate-500 font-mono">ISRC: {r.external_ids.isrc}</span>
+                              )}
+                            </div>
+                            {/* Links */}
+                            <div className="flex gap-3 mt-2">
+                              {r.external_metadata?.spotify?.track?.id && (
+                                <a
+                                  href={`https://open.spotify.com/track/${r.external_metadata.spotify.track.id}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-xs text-green-400 hover:text-green-300 underline"
+                                >
+                                  Open in Spotify
+                                </a>
+                              )}
+                              {r.external_metadata?.youtube?.vid && (
+                                <a
+                                  href={`https://youtube.com/watch?v=${r.external_metadata.youtube.vid}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-xs text-red-400 hover:text-red-300 underline"
+                                >
+                                  YouTube
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
 
                   {/* Action buttons */}
                   <div className="flex gap-2 mt-4">
