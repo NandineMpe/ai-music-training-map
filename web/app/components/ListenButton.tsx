@@ -19,20 +19,34 @@ interface MusicMatch {
   };
 }
 
+interface AiDetection {
+  start: number;
+  end: number;
+  prediction: string;
+  likely_source: string;
+  ai_probability: number;
+  duration: number;
+  stem: string;
+  source_probabilities?: { source: string; probability: number }[];
+  model_id?: string;
+}
+
 interface IdentifyResult {
   status: { code: number; msg: string };
-  metadata?: {
-    music?: MusicMatch[];
-    humming?: MusicMatch[];
-    custom_files?: MusicMatch[];
+  file_id?: string;
+  duration?: number;
+  results?: {
+    ai_detection?: AiDetection[];
+    music?: { result?: MusicMatch }[];
   };
+  error?: string;
 }
 
 type ListenState = "idle" | "listening" | "processing" | "result" | "error";
 
 export default function ListenButton() {
   const [state, setState] = useState<ListenState>("idle");
-  const [results, setResults] = useState<MusicMatch[]>([]);
+  const [aiResults, setAiResults] = useState<AiDetection[]>([]);
   const [error, setError] = useState("");
   const [showPanel, setShowPanel] = useState(false);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -54,26 +68,20 @@ export default function ListenButton() {
 
       const data: IdentifyResult = await response.json();
 
-      if (data.status?.code === 0) {
-        const matches = data.metadata?.music
-          || data.metadata?.humming
-          || data.metadata?.custom_files
-          || [];
-        if (matches.length > 0) {
-          setResults(matches);
-          setState("result");
-        } else {
-          setError("Audio recognized but no matching original tracks found.");
-          setState("error");
-        }
+      if (data.status?.code === 0 && data.results?.ai_detection?.length) {
+        setAiResults(data.results.ai_detection);
+        setState("result");
       } else if (data.status?.code === 1001) {
-        setError("No match found. Try a different song or upload a clearer audio file.");
+        setError("Could not analyze this audio. Try a longer or clearer clip.");
         setState("error");
-      } else if (data.status?.code === 2004) {
-        setError("Could not process the audio. Try uploading an MP3 or WAV file instead.");
+      } else if (data.status?.code === -1) {
+        setError("Analysis is taking longer than expected. The file may still be processing.");
+        setState("error");
+      } else if (data.error) {
+        setError(data.error);
         setState("error");
       } else {
-        setError(`ACRCloud response: ${data.status?.msg} (code ${data.status?.code}). Try uploading an MP3 file.`);
+        setError(data.status?.msg || "Analysis failed. Please try again.");
         setState("error");
       }
     } catch {
@@ -85,7 +93,7 @@ export default function ListenButton() {
   const startListening = useCallback(async () => {
     try {
       setError("");
-      setResults([]);
+      setAiResults([]);
       setState("listening");
       setShowPanel(true);
 
@@ -140,7 +148,7 @@ export default function ListenButton() {
     if (!file) return;
 
     setError("");
-    setResults([]);
+    setAiResults([]);
     setShowPanel(true);
 
     // Check file size (ACRCloud recommends < 1MB)
@@ -161,7 +169,7 @@ export default function ListenButton() {
   const closePanel = useCallback(() => {
     setShowPanel(false);
     setState("idle");
-    setResults([]);
+    setAiResults([]);
     setError("");
   }, []);
 
@@ -272,74 +280,84 @@ export default function ListenButton() {
               )}
 
               {/* Results */}
-              {state === "result" && results.length > 0 && (
+              {state === "result" && aiResults.length > 0 && (
                 <div className="space-y-4">
-                  <p className="text-sm text-slate-400 mb-3">
-                    This audio matches the following original works:
-                  </p>
-                  {results.map((match, i) => (
-                    <div
-                      key={i}
-                      className="bg-slate-800 rounded-xl p-4 border border-slate-700"
-                    >
-                        <div className="min-w-0 flex-1">
-                          <h4 className="font-bold text-white truncate">{match.title}</h4>
-                          <p className="text-orange-400 text-sm">
-                            {match.artists?.map((a) => a.name).join(", ")}
-                          </p>
-                          {match.album && (
-                            <p className="text-slate-400 text-xs mt-1">
-                              Album: {match.album.name}
-                            </p>
-                          )}
-                          {match.release_date && (
-                            <p className="text-slate-500 text-xs">
-                              Released: {match.release_date}
-                            </p>
-                          )}
-                          {match.label && (
-                            <p className="text-slate-500 text-xs">
-                              Label: {match.label}
-                            </p>
-                          )}
+                  {/* Main verdict */}
+                  {(() => {
+                    const original = aiResults.find(r => r.stem === "original") || aiResults[0];
+                    const isAI = original.prediction === "ai_generated";
+                    return (
+                      <div className={`text-center p-4 rounded-xl border ${isAI ? "bg-red-500/10 border-red-500/30" : "bg-green-500/10 border-green-500/30"}`}>
+                        <div className={`text-2xl font-bold ${isAI ? "text-red-400" : "text-green-400"}`}>
+                          {isAI ? "AI Generated" : "Human Created"}
                         </div>
+                        <div className="text-sm text-slate-300 mt-1">
+                          {isAI
+                            ? `Likely source: ${original.likely_source}`
+                            : "This audio appears to be human-created"
+                          }
+                        </div>
+                        <div className="text-xs text-slate-500 mt-1">
+                          AI probability: {original.ai_probability.toFixed(1)}%
+                        </div>
+                      </div>
+                    );
+                  })()}
 
-                      {/* External links */}
-                      <div className="flex gap-2 mt-3 flex-wrap">
-                        {match.external_metadata?.spotify?.track?.id && (
-                          <a
-                            href={`https://open.spotify.com/track/${match.external_metadata.spotify.track.id}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-green-400 hover:text-green-300 underline"
-                          >
-                            Spotify
-                          </a>
-                        )}
-                        {match.external_metadata?.youtube?.vid && (
-                          <a
-                            href={`https://youtube.com/watch?v=${match.external_metadata.youtube.vid}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-red-400 hover:text-red-300 underline"
-                          >
-                            YouTube
-                          </a>
-                        )}
-                        {match.external_ids?.isrc && (
-                          <span className="text-xs text-slate-500">
-                            ISRC: {match.external_ids.isrc}
-                          </span>
-                        )}
+                  {/* Source probabilities */}
+                  {(() => {
+                    const original = aiResults.find(r => r.stem === "original") || aiResults[0];
+                    if (!original.source_probabilities?.length) return null;
+                    return (
+                      <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
+                        <h4 className="text-xs text-slate-400 font-medium mb-3">Source Analysis</h4>
+                        <div className="space-y-2">
+                          {original.source_probabilities
+                            .sort((a, b) => b.probability - a.probability)
+                            .map((sp) => (
+                            <div key={sp.source} className="flex items-center gap-2">
+                              <span className="text-xs text-slate-300 w-20">{sp.source}</span>
+                              <div className="flex-1 h-2 bg-slate-700 rounded-full overflow-hidden">
+                                <div
+                                  className="h-full bg-orange-500 rounded-full"
+                                  style={{ width: `${sp.probability}%` }}
+                                />
+                              </div>
+                              <span className="text-xs text-slate-400 w-12 text-right">{sp.probability}%</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Stem breakdown */}
+                  {aiResults.length > 1 && (
+                    <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
+                      <h4 className="text-xs text-slate-400 font-medium mb-3">Stem Analysis</h4>
+                      <div className="space-y-2">
+                        {aiResults.map((r) => (
+                          <div key={r.stem} className="flex items-center justify-between">
+                            <span className="text-xs text-slate-300 capitalize">{r.stem}</span>
+                            <div className="flex items-center gap-2">
+                              <span className={`text-xs font-medium ${r.prediction === "ai_generated" ? "text-red-400" : "text-green-400"}`}>
+                                {r.prediction === "ai_generated" ? "AI" : "Human"}
+                              </span>
+                              <span className="text-xs text-slate-500">
+                                ({r.ai_probability.toFixed(0)}%)
+                              </span>
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     </div>
-                  ))}
+                  )}
 
                   <div className="flex gap-2 mt-4">
                     <button
                       onClick={() => {
                         setState("idle");
-                        setResults([]);
+                        setAiResults([]);
                         startListening();
                       }}
                       className="flex-1 py-2 bg-orange-500 hover:bg-orange-600 rounded-lg text-white text-sm font-medium"
