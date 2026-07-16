@@ -1,91 +1,43 @@
 import { NextResponse } from "next/server";
-import crypto from "crypto";
 
-const ACCESS_KEY = "5aa990706d6b3744528ee64cc86ae342";
-const ACCESS_SECRET = "54VvG3x6bti00ubtWtlmQ5QZsc7qJHWICikYT1jU";
-const HOST = "https://identify-eu-west-1.acrcloud.com";
+const CONTAINER_ID = "33436";
+const REGION = "eu-west-1";
+const BASE_URL = `https://api-${REGION}.acrcloud.com/api/fs-containers/${CONTAINER_ID}`;
 
 export async function GET() {
-  // Test the credentials by sending a tiny silent audio sample
-  const httpMethod = "POST";
-  const httpUri = "/v1/identify";
-  const dataType = "audio";
-  const signatureVersion = "1";
-  const timestamp = Math.floor(Date.now() / 1000).toString();
+  const token = process.env.ACR_BEARER_TOKEN || "";
 
-  const stringToSign = httpMethod + "\n" + httpUri + "\n" + ACCESS_KEY + "\n" + dataType + "\n" + signatureVersion + "\n" + timestamp;
+  // Debug info
+  const debug = {
+    token_length: token.length,
+    token_first_20: token.substring(0, 20),
+    token_last_10: token.substring(token.length - 10),
+    has_newline: token.includes("\n") || token.includes("\r"),
+    container_id: CONTAINER_ID,
+    base_url: BASE_URL,
+  };
 
-  const signature = crypto
-    .createHmac("sha1", ACCESS_SECRET)
-    .update(Buffer.from(stringToSign, "utf-8"))
-    .digest("base64");
-
-  // Create a minimal WAV file (silent, 1 second)
-  const sampleRate = 8000;
-  const numSamples = sampleRate; // 1 second
-  const wavBuffer = createWav(numSamples, sampleRate);
-
-  const acrFormData = new FormData();
-  acrFormData.append("access_key", ACCESS_KEY);
-  acrFormData.append("sample_bytes", wavBuffer.length.toString());
-  acrFormData.append("timestamp", timestamp);
-  acrFormData.append("signature", signature);
-  acrFormData.append("data_type", dataType);
-  acrFormData.append("signature_version", signatureVersion);
-  acrFormData.append(
-    "sample",
-    new Blob([new Uint8Array(wavBuffer)], { type: "audio/wav" }),
-    "test.wav"
-  );
-
+  // Try to list files in the container
   try {
-    const response = await fetch(`${HOST}/v1/identify`, {
-      method: "POST",
-      body: acrFormData,
+    const trimmedToken = token.trim();
+    const r = await fetch(`${BASE_URL}/files?per_page=1`, {
+      headers: {
+        "Accept": "application/json",
+        "Authorization": `Bearer ${trimmedToken}`,
+      },
     });
 
-    const result = await response.json();
+    const body = await r.text();
 
     return NextResponse.json({
-      acr_response: result,
-      debug: {
-        access_key: ACCESS_KEY,
-        host: HOST,
-        timestamp,
-        sample_bytes: wavBuffer.length,
-        signature_preview: signature.substring(0, 10) + "...",
-      },
+      debug,
+      acr_status: r.status,
+      acr_response: body.substring(0, 500),
     });
   } catch (error) {
     return NextResponse.json({
+      debug,
       error: String(error),
-      debug: {
-        access_key: ACCESS_KEY,
-        host: HOST,
-        timestamp,
-      },
     });
   }
-}
-
-function createWav(numSamples: number, sampleRate: number): Buffer {
-  const buffer = Buffer.alloc(44 + numSamples * 2);
-  // RIFF header
-  buffer.write("RIFF", 0);
-  buffer.writeUInt32LE(36 + numSamples * 2, 4);
-  buffer.write("WAVE", 8);
-  // fmt chunk
-  buffer.write("fmt ", 12);
-  buffer.writeUInt32LE(16, 16);
-  buffer.writeUInt16LE(1, 20); // PCM
-  buffer.writeUInt16LE(1, 22); // mono
-  buffer.writeUInt32LE(sampleRate, 24);
-  buffer.writeUInt32LE(sampleRate * 2, 28);
-  buffer.writeUInt16LE(2, 32);
-  buffer.writeUInt16LE(16, 34);
-  // data chunk
-  buffer.write("data", 36);
-  buffer.writeUInt32LE(numSamples * 2, 40);
-  // Silence (zeros already)
-  return buffer;
 }

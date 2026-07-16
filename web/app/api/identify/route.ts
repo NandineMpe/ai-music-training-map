@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 // ACRCloud File Scanning API (AI Music Detection)
 const CONTAINER_ID = "33436";
 const REGION = "eu-west-1";
-const BEARER_TOKEN = process.env.ACR_BEARER_TOKEN || "";
+const BEARER_TOKEN = (process.env.ACR_BEARER_TOKEN || "").trim();
 
 const BASE_URL = `https://api-${REGION}.acrcloud.com/api/fs-containers/${CONTAINER_ID}`;
 
