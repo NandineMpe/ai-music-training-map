@@ -390,16 +390,18 @@ export default function ListenButton() {
                     );
                   })()}
 
-                  {/* Source probabilities bar chart */}
+                  {/* Source probabilities bar chart - collapsible */}
                   {(() => {
                     const original = aiResults.find(r => r.stem === "original") || aiResults[0];
                     if (!original.source_probabilities?.length) return null;
                     const sorted = [...original.source_probabilities].sort((a, b) => b.probability - a.probability);
                     const maxProb = sorted[0]?.probability || 100;
                     return (
-                      <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
-                        <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Source Probabilities</h4>
-                        <div className="space-y-2.5">
+                      <details className="bg-slate-800 rounded-xl border border-slate-700">
+                        <summary className="p-4 cursor-pointer text-xs text-slate-400 font-medium uppercase tracking-wide hover:text-slate-300 transition-colors">
+                          Source Probabilities
+                        </summary>
+                        <div className="px-4 pb-4 space-y-2.5">
                           {sorted.map((sp) => (
                             <div key={sp.source}>
                               <div className="flex items-center justify-between mb-1">
@@ -417,15 +419,17 @@ export default function ListenButton() {
                             </div>
                           ))}
                         </div>
-                      </div>
+                      </details>
                     );
                   })()}
 
-                  {/* Stem analysis cards */}
+                  {/* Stem analysis cards - collapsible */}
                   {aiResults.length > 1 && (
-                    <div>
-                      <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Stem Analysis</h4>
-                      <div className="space-y-2">
+                    <details className="bg-slate-800 rounded-xl border border-slate-700">
+                      <summary className="p-4 cursor-pointer text-xs text-slate-400 font-medium uppercase tracking-wide hover:text-slate-300 transition-colors">
+                        Stem Analysis
+                      </summary>
+                      <div className="px-4 pb-4 space-y-2">
                         {aiResults.map((r) => {
                           const stemIsAI = r.prediction === "ai_generated";
                           const stemIsNoVocals = r.prediction === "no_vocals";
@@ -460,14 +464,16 @@ export default function ListenButton() {
                           );
                         })}
                       </div>
-                    </div>
+                    </details>
                   )}
 
-                  {/* Timeline segments */}
+                  {/* Timeline segments - collapsible */}
                   {aiResults.some(r => r.segments && r.segments.length > 0) && (
-                    <div>
-                      <h4 className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Timeline Segments</h4>
-                      <div className="space-y-3">
+                    <details className="bg-slate-800 rounded-xl border border-slate-700">
+                      <summary className="p-4 cursor-pointer text-xs text-slate-400 font-medium uppercase tracking-wide hover:text-slate-300 transition-colors">
+                        Timeline Segments
+                      </summary>
+                      <div className="px-4 pb-4 space-y-3">
                         {aiResults.filter(r => r.segments && r.segments.length > 0).map((r) => {
                           const totalDuration = r.duration || r.end - r.start || 1;
                           return (
@@ -544,7 +550,7 @@ export default function ListenButton() {
                           );
                         })}
                       </div>
-                    </div>
+                    </details>
                   )}
 
                   {/* Model version footer */}
