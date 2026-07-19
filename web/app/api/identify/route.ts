@@ -1,14 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import crypto from "crypto";
 
-// ACRCloud File Scanning API (AI Music Detection)
-const CONTAINER_ID = "33439";
-const REGION = "eu-west-1";
-const BEARER_TOKEN = (process.env.ACR_BEARER_TOKEN || "").trim();
-
-const BASE_URL = `https://api-${REGION}.acrcloud.com/api/fs-containers/${CONTAINER_ID}`;
-
-const MAX_POLL_ATTEMPTS = 8;
-const POLL_INTERVAL_MS = 3000;
+// ACRCloud Identification API (real-time music recognition)
+const ACCESS_KEY = "5aa990706d6b3744528ee64cc86ae342";
+const ACCESS_SECRET = "54VvG3x6bti00ubtWtlmQ5QZsc7qJHWICikYT1jU";
+const HOST = "https://identify-eu-west-1.acrcloud.com";
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,87 +15,49 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No audio file provided" }, { status: 400 });
     }
 
-    const audioBuffer = Buffer.from(await audioFile.arrayBuffer());
-    const filename = audioFile.name || "upload.webm";
+    let audioBuffer = Buffer.from(await audioFile.arrayBuffer());
+    // Cap at 1MB for ACRCloud
+    if (audioBuffer.length > 1024 * 1024) {
+      audioBuffer = audioBuffer.subarray(0, 1024 * 1024);
+    }
 
-    // Step 1: Upload file to FS container
-    const uploadForm = new FormData();
-    uploadForm.append("file", new Blob([new Uint8Array(audioBuffer)], { type: audioFile.type || "audio/mpeg" }), filename);
-    uploadForm.append("data_type", "audio");
+    const httpMethod = "POST";
+    const httpUri = "/v1/identify";
+    const dataType = "audio";
+    const signatureVersion = "1";
+    const timestamp = Math.floor(Date.now() / 1000).toString();
 
-    const uploadRes = await fetch(`${BASE_URL}/files`, {
+    const stringToSign = httpMethod + "\n" + httpUri + "\n" + ACCESS_KEY + "\n" + dataType + "\n" + signatureVersion + "\n" + timestamp;
+
+    const signature = crypto
+      .createHmac("sha1", ACCESS_SECRET)
+      .update(Buffer.from(stringToSign, "utf-8"))
+      .digest("base64");
+
+    const acrFormData = new FormData();
+    acrFormData.append("access_key", ACCESS_KEY);
+    acrFormData.append("sample_bytes", audioBuffer.length.toString());
+    acrFormData.append("timestamp", timestamp);
+    acrFormData.append("signature", signature);
+    acrFormData.append("data_type", dataType);
+    acrFormData.append("signature_version", signatureVersion);
+    acrFormData.append(
+      "sample",
+      new Blob([new Uint8Array(audioBuffer)], { type: audioFile.type || "audio/webm" }),
+      audioFile.name || "sample.webm"
+    );
+
+    const response = await fetch(`${HOST}/v1/identify`, {
       method: "POST",
-      headers: {
-        "Accept": "application/json",
-        "Authorization": `Bearer ${BEARER_TOKEN}`,
-      },
-      body: uploadForm,
+      body: acrFormData,
     });
 
-    if (!uploadRes.ok) {
-      const errText = await uploadRes.text();
-      console.error("Upload failed:", uploadRes.status, errText);
-      return NextResponse.json(
-        { error: "Failed to upload audio for analysis", details: errText },
-        { status: 500 }
-      );
-    }
-
-    const uploadData = await uploadRes.json();
-    const fileId = uploadData.data?.id;
-
-    if (!fileId) {
-      return NextResponse.json(
-        { error: "Upload succeeded but no file ID returned", details: JSON.stringify(uploadData) },
-        { status: 500 }
-      );
-    }
-
-    // Step 2: Poll for results (short poll, frontend will continue polling via /api/identify-status)
-    for (let attempt = 0; attempt < MAX_POLL_ATTEMPTS; attempt++) {
-      await new Promise((resolve) => setTimeout(resolve, POLL_INTERVAL_MS));
-
-      const resultRes = await fetch(`${BASE_URL}/files/${fileId}`, {
-        headers: {
-          "Accept": "application/json",
-          "Authorization": `Bearer ${BEARER_TOKEN}`,
-        },
-      });
-
-      if (!resultRes.ok) continue;
-
-      const resultData = await resultRes.json();
-      const file = Array.isArray(resultData.data) ? resultData.data[0] : resultData.data;
-
-      if (!file) continue;
-
-      // state: 0=processing, 1=ready, -1=no results
-      if (file.state === 1) {
-        return NextResponse.json({
-          status: { code: 0, msg: "Success" },
-          file_id: fileId,
-          name: file.name,
-          duration: file.duration,
-          results: file.results || {},
-        });
-      } else if (file.state === -1) {
-        return NextResponse.json({
-          status: { code: 1001, msg: "No results" },
-          file_id: fileId,
-        });
-      }
-    }
-
-    // Still processing — return file_id so frontend can poll
-    return NextResponse.json({
-      status: { code: 2, msg: "Processing" },
-      file_id: fileId,
-    });
-
+    const result = await response.json();
+    return NextResponse.json(result);
   } catch (error) {
-    console.error("AI Detection error:", error);
+    console.error("Identification error:", error);
     return NextResponse.json(
-      { error: "Failed to analyze audio", details: String(error) },
+      { error: "Failed to identify audio", details: String(error) },
       { status: 500 }
     );
   }
